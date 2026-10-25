@@ -1,0 +1,2257 @@
+{
+  "code_manifest_sha256": "ef4b93930f1b65352a5619f248291f5cf68144afcda34826d8aff534db419f4f",
+  "complete": true,
+  "missing": [],
+  "per_seed": [
+    {
+      "seed": "s18",
+      "arm": "A",
+      "budget": 10000000,
+      "metrics": {
+        "icl/acc": 0.5385818181818182,
+        "icl/ce": 4.992353074251869,
+        "iwl_copy_avail/acc": 0.8447636363636364,
+        "iwl_copy_avail/ce": 1.0905386630283425,
+        "train_eval/acc": 0.9671454545454544,
+        "train_eval/ce": 0.195561510422049
+      }
+    },
+    {
+      "seed": "s18",
+      "arm": "A",
+      "budget": 20000000,
+      "metrics": {
+        "icl/acc": 0.4795636363636364,
+        "icl/ce": 6.6701574149937475,
+        "iwl_copy_avail/acc": 0.9715818181818182,
+        "iwl_copy_avail/ce": 0.15328093234191129,
+        "train_eval/acc": 0.9886,
+        "train_eval/ce": 0.05391198586253609
+      }
+    },
+    {
+      "seed": "s18",
+      "arm": "A",
+      "budget": 30000000,
+      "metrics": {
+        "icl/acc": 0.4714,
+        "icl/ce": 6.887476712069098,
+        "iwl_copy_avail/acc": 0.9862545454545454,
+        "iwl_copy_avail/ce": 0.058266111334028724,
+        "train_eval/acc": 0.9917272727272728,
+        "train_eval/ce": 0.032785869566014036
+      }
+    },
+    {
+      "seed": "s18",
+      "arm": "A",
+      "budget": 40000000,
+      "metrics": {
+        "icl/acc": 0.4858363636363636,
+        "icl/ce": 6.328434979836739,
+        "iwl_copy_avail/acc": 0.9904545454545456,
+        "iwl_copy_avail/ce": 0.03613368286019065,
+        "train_eval/acc": 0.9928545454545454,
+        "train_eval/ce": 0.025397828861657368
+      }
+    },
+    {
+      "seed": "s18",
+      "arm": "P25",
+      "budget": 10000000,
+      "metrics": {
+        "icl/acc": 0.8994181818181818,
+        "icl/ce": 0.3770851462642874,
+        "iwl_copy_avail/acc": 0.8510545454545456,
+        "iwl_copy_avail/ce": 1.0184341168287676,
+        "train_eval/acc": 0.9666545454545454,
+        "train_eval/ce": 0.19829289677695966
+      }
+    },
+    {
+      "seed": "s18",
+      "arm": "P25",
+      "budget": 20000000,
+      "metrics": {
+        "icl/acc": 0.9060909090909091,
+        "icl/ce": 0.2510606660787625,
+        "iwl_copy_avail/acc": 0.9730909090909092,
+        "iwl_copy_avail/ce": 0.14672940286527605,
+        "train_eval/acc": 0.9882909090909092,
+        "train_eval/ce": 0.05465517313228246
+      }
+    },
+    {
+      "seed": "s18",
+      "arm": "P25",
+      "budget": 30000000,
+      "metrics": {
+        "icl/acc": 0.9067636363636364,
+        "icl/ce": 0.24192315780182674,
+        "iwl_copy_avail/acc": 0.9864,
+        "iwl_copy_avail/ce": 0.06104192423206656,
+        "train_eval/acc": 0.992018181818182,
+        "train_eval/ce": 0.033880236451866885
+      }
+    },
+    {
+      "seed": "s18",
+      "arm": "P25",
+      "budget": 40000000,
+      "metrics": {
+        "icl/acc": 0.907,
+        "icl/ce": 0.23867539282592853,
+        "iwl_copy_avail/acc": 0.9904909090909092,
+        "iwl_copy_avail/ce": 0.03991885867391102,
+        "train_eval/acc": 0.9931090909090908,
+        "train_eval/ce": 0.025683175779625093
+      }
+    },
+    {
+      "seed": "s19",
+      "arm": "A",
+      "budget": 10000000,
+      "metrics": {
+        "icl/acc": 0.8631454545454544,
+        "icl/ce": 1.0260606909834442,
+        "iwl_copy_avail/acc": 0.6871818181818181,
+        "iwl_copy_avail/ce": 2.347983759787921,
+        "train_eval/acc": 0.9614727272727273,
+        "train_eval/ce": 0.2157720958831212
+      }
+    },
+    {
+      "seed": "s19",
+      "arm": "A",
+      "budget": 20000000,
+      "metrics": {
+        "icl/acc": 0.6604181818181818,
+        "icl/ce": 2.373585501059347,
+        "iwl_copy_avail/acc": 0.9062363636363636,
+        "iwl_copy_avail/ce": 0.5637815885668772,
+        "train_eval/acc": 0.9868727272727273,
+        "train_eval/ce": 0.056631424088919906
+      }
+    },
+    {
+      "seed": "s19",
+      "arm": "A",
+      "budget": 30000000,
+      "metrics": {
+        "icl/acc": 0.6154181818181818,
+        "icl/ce": 3.5053679067355805,
+        "iwl_copy_avail/acc": 0.9586909090909088,
+        "iwl_copy_avail/ce": 0.1990520339419294,
+        "train_eval/acc": 0.9913272727272728,
+        "train_eval/ce": 0.03557165520557478
+      }
+    },
+    {
+      "seed": "s19",
+      "arm": "A",
+      "budget": 40000000,
+      "metrics": {
+        "icl/acc": 0.595709090909091,
+        "icl/ce": 3.9087207376388915,
+        "iwl_copy_avail/acc": 0.9787272727272728,
+        "iwl_copy_avail/ce": 0.10682373407448263,
+        "train_eval/acc": 0.9931454545454544,
+        "train_eval/ce": 0.02719697529691938
+      }
+    },
+    {
+      "seed": "s19",
+      "arm": "P25",
+      "budget": 10000000,
+      "metrics": {
+        "icl/acc": 0.9396,
+        "icl/ce": 0.22450353133829568,
+        "iwl_copy_avail/acc": 0.6869636363636364,
+        "iwl_copy_avail/ce": 2.339351328881791,
+        "train_eval/acc": 0.9613454545454544,
+        "train_eval/ce": 0.21548547937527024
+      }
+    },
+    {
+      "seed": "s19",
+      "arm": "P25",
+      "budget": 20000000,
+      "metrics": {
+        "icl/acc": 0.9451818181818182,
+        "icl/ce": 0.1542518162982422,
+        "iwl_copy_avail/acc": 0.9065454545454544,
+        "iwl_copy_avail/ce": 0.5619674006024635,
+        "train_eval/acc": 0.9870363636363636,
+        "train_eval/ce": 0.05654935048237212
+      }
+    },
+    {
+      "seed": "s19",
+      "arm": "P25",
+      "budget": 30000000,
+      "metrics": {
+        "icl/acc": 0.9409818181818184,
+        "icl/ce": 0.16325589510386607,
+        "iwl_copy_avail/acc": 0.9581818181818182,
+        "iwl_copy_avail/ce": 0.20177054444525003,
+        "train_eval/acc": 0.9913090909090908,
+        "train_eval/ce": 0.03520374164052297
+      }
+    },
+    {
+      "seed": "s19",
+      "arm": "P25",
+      "budget": 40000000,
+      "metrics": {
+        "icl/acc": 0.94,
+        "icl/ce": 0.16563094034151846,
+        "iwl_copy_avail/acc": 0.9782363636363636,
+        "iwl_copy_avail/ce": 0.10855331238626968,
+        "train_eval/acc": 0.9936181818181818,
+        "train_eval/ce": 0.026648557123584226
+      }
+    },
+    {
+      "seed": "s20",
+      "arm": "A",
+      "budget": 10000000,
+      "metrics": {
+        "icl/acc": 0.4862727272727272,
+        "icl/ce": 1.6348953611066395,
+        "iwl_copy_avail/acc": 0.7783454545454546,
+        "iwl_copy_avail/ce": 0.866540599876202,
+        "train_eval/acc": 0.7858363636363636,
+        "train_eval/ce": 0.8477299033346503
+      }
+    },
+    {
+      "seed": "s20",
+      "arm": "A",
+      "budget": 20000000,
+      "metrics": {
+        "icl/acc": 0.6404181818181818,
+        "icl/ce": 1.7461880136924817,
+        "iwl_copy_avail/acc": 0.8076181818181818,
+        "iwl_copy_avail/ce": 0.8136313284595791,
+        "train_eval/acc": 0.9753090909090908,
+        "train_eval/ce": 0.09483110120612383
+      }
+    },
+    {
+      "seed": "s20",
+      "arm": "A",
+      "budget": 30000000,
+      "metrics": {
+        "icl/acc": 0.5543818181818182,
+        "icl/ce": 3.150420202670536,
+        "iwl_copy_avail/acc": 0.9412181818181818,
+        "iwl_copy_avail/ce": 0.2310620302104471,
+        "train_eval/acc": 0.9901636363636364,
+        "train_eval/ce": 0.03481167675559257
+      }
+    },
+    {
+      "seed": "s20",
+      "arm": "A",
+      "budget": 40000000,
+      "metrics": {
+        "icl/acc": 0.5117818181818182,
+        "icl/ce": 4.845864064685642,
+        "iwl_copy_avail/acc": 0.9804,
+        "iwl_copy_avail/ce": 0.07378882816431796,
+        "train_eval/acc": 0.9942181818181818,
+        "train_eval/ce": 0.021149111179898147
+      }
+    },
+    {
+      "seed": "s20",
+      "arm": "P25",
+      "budget": 10000000,
+      "metrics": {
+        "icl/acc": 0.5014,
+        "icl/ce": 0.9901244577617808,
+        "iwl_copy_avail/acc": 0.7784181818181818,
+        "iwl_copy_avail/ce": 0.8654239298863844,
+        "train_eval/acc": 0.7858363636363636,
+        "train_eval/ce": 0.8462077099105852
+      }
+    },
+    {
+      "seed": "s20",
+      "arm": "P25",
+      "budget": 20000000,
+      "metrics": {
+        "icl/acc": 0.8055636363636364,
+        "icl/ce": 0.4458814938857029,
+        "iwl_copy_avail/acc": 0.8104727272727273,
+        "iwl_copy_avail/ce": 0.8022957792056367,
+        "train_eval/acc": 0.9752545454545456,
+        "train_eval/ce": 0.09388204630061515
+      }
+    },
+    {
+      "seed": "s20",
+      "arm": "P25",
+      "budget": 30000000,
+      "metrics": {
+        "icl/acc": 0.9024181818181818,
+        "icl/ce": 0.25541508807202046,
+        "iwl_copy_avail/acc": 0.9449272727272726,
+        "iwl_copy_avail/ce": 0.2151796631490496,
+        "train_eval/acc": 0.989781818181818,
+        "train_eval/ce": 0.03513668770963381
+      }
+    },
+    {
+      "seed": "s20",
+      "arm": "P25",
+      "budget": 40000000,
+      "metrics": {
+        "icl/acc": 0.9062363636363636,
+        "icl/ce": 0.23397940210778034,
+        "iwl_copy_avail/acc": 0.9802545454545456,
+        "iwl_copy_avail/ce": 0.07275295359609169,
+        "train_eval/acc": 0.9940363636363636,
+        "train_eval/ce": 0.021364743653466384
+      }
+    },
+    {
+      "seed": "s21",
+      "arm": "A",
+      "budget": 10000000,
+      "metrics": {
+        "icl/acc": 0.6269454545454546,
+        "icl/ce": 2.4820306331549262,
+        "iwl_copy_avail/acc": 0.8377090909090908,
+        "iwl_copy_avail/ce": 1.1364169076435573,
+        "train_eval/acc": 0.9639818181818182,
+        "train_eval/ce": 0.21263482945924944
+      }
+    },
+    {
+      "seed": "s21",
+      "arm": "P25",
+      "budget": 10000000,
+      "metrics": {
+        "icl/acc": 0.785490909090909,
+        "icl/ce": 0.5106323038205589,
+        "iwl_copy_avail/acc": 0.8488363636363638,
+        "iwl_copy_avail/ce": 1.0274456412627944,
+        "train_eval/acc": 0.9627636363636364,
+        "train_eval/ce": 0.2188800080303632
+      }
+    },
+    {
+      "seed": "s22",
+      "arm": "A",
+      "budget": 10000000,
+      "metrics": {
+        "icl/acc": 0.7576727272727272,
+        "icl/ce": 1.1611243559467563,
+        "iwl_copy_avail/acc": 0.6303818181818182,
+        "iwl_copy_avail/ce": 2.4135682002709875,
+        "train_eval/acc": 0.9418727272727272,
+        "train_eval/ce": 0.2872011246323364
+      }
+    },
+    {
+      "seed": "s22",
+      "arm": "P25",
+      "budget": 10000000,
+      "metrics": {
+        "icl/acc": 0.9059454545454546,
+        "icl/ce": 0.26322358670982066,
+        "iwl_copy_avail/acc": 0.6280909090909091,
+        "iwl_copy_avail/ce": 2.4486047319403808,
+        "train_eval/acc": 0.9425636363636364,
+        "train_eval/ce": 0.28263486187628534
+      }
+    }
+  ],
+  "budgets": {
+    "10000000": {
+      "seeds": [
+        "s18",
+        "s19",
+        "s20",
+        "s21",
+        "s22"
+      ],
+      "metrics": {
+        "icl/acc": {
+          "A": {
+            "n": 5,
+            "expected_n": 5,
+            "complete": true,
+            "values": [
+              0.5385818181818182,
+              0.8631454545454544,
+              0.4862727272727272,
+              0.6269454545454546,
+              0.7576727272727272
+            ],
+            "mean": 0.6545236363636363,
+            "p_greater": 0.0003548130657798909,
+            "sd": 0.1554623971435531,
+            "se": 0.06952489759161076,
+            "df": 4,
+            "lower95": 0.461491574756031,
+            "upper95": 0.8475556979712416,
+            "lower_one_sided95": 0.5063072068632717,
+            "upper_one_sided95": 0.8027400658640009,
+            "threshold": 0.0,
+            "positive_seeds": 5,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "P25": {
+            "n": 5,
+            "expected_n": 5,
+            "complete": true,
+            "values": [
+              0.8994181818181818,
+              0.9396,
+              0.5014,
+              0.785490909090909,
+              0.9059454545454546
+            ],
+            "mean": 0.806370909090909,
+            "p_greater": 0.00027982882899491024,
+            "sd": 0.18011531411894244,
+            "se": 0.08055001723173658,
+            "df": 4,
+            "lower95": 0.5827282080242563,
+            "upper95": 1.0300136101575617,
+            "lower_one_sided95": 0.6346506137168754,
+            "upper_one_sided95": 0.9780912044649427,
+            "threshold": 0.0,
+            "positive_seeds": 5,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "difference": {
+            "n": 5,
+            "expected_n": 5,
+            "complete": true,
+            "values": [
+              0.3608363636363636,
+              0.07645454545454546,
+              0.015127272727272729,
+              0.15854545454545454,
+              0.14827272727272728
+            ],
+            "mean": 0.15184727272727272,
+            "p_greater": 0.07793949116713383,
+            "sd": 0.13048994679620354,
+            "se": 0.0583568782833284,
+            "df": 4,
+            "lower95": -0.010177396337097688,
+            "upper95": 0.3138719417916431,
+            "lower_one_sided95": 0.02743934929890378,
+            "upper_one_sided95": 0.27625519615564165,
+            "threshold": 0.05,
+            "positive_seeds": 5,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          }
+        },
+        "icl/ce": {
+          "A": {
+            "n": 5,
+            "expected_n": 5,
+            "complete": true,
+            "values": [
+              4.992353074251869,
+              1.0260606909834442,
+              1.6348953611066395,
+              2.4820306331549262,
+              1.1611243559467563
+            ],
+            "mean": 2.2592928230887273,
+            "p_greater": 0.018143430813589045,
+            "sd": 1.6306393020018701,
+            "se": 0.7292440652117981,
+            "df": 4,
+            "lower95": 0.23458670773689194,
+            "upper95": 4.283998938440563,
+            "lower_one_sided95": 0.7046562062191759,
+            "upper_one_sided95": 3.8139294399582786,
+            "threshold": 0.0,
+            "positive_seeds": 5,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "P25": {
+            "n": 5,
+            "expected_n": 5,
+            "complete": true,
+            "values": [
+              0.3770851462642874,
+              0.22450353133829568,
+              0.9901244577617808,
+              0.5106323038205589,
+              0.26322358670982066
+            ],
+            "mean": 0.4731138051789487,
+            "p_greater": 0.013447544829874425,
+            "sd": 0.309753986263913,
+            "se": 0.1385261939175291,
+            "df": 4,
+            "lower95": 0.08850343213494505,
+            "upper95": 0.8577241782229523,
+            "lower_one_sided95": 0.1777971838538024,
+            "upper_one_sided95": 0.768430426504095,
+            "threshold": 0.0,
+            "positive_seeds": 5,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "difference": {
+            "n": 5,
+            "expected_n": 5,
+            "complete": true,
+            "values": [
+              -4.615267927987582,
+              -0.8015571596451485,
+              -0.6447709033448588,
+              -1.9713983293343673,
+              -0.8979007692369356
+            ],
+            "mean": -1.7861790179097785,
+            "p_greater": 0.9627280136892985,
+            "sd": 1.6657866902219387,
+            "se": 0.7449624550701278,
+            "df": 4,
+            "lower95": -3.854526379845364,
+            "upper95": 0.28216834402580715,
+            "lower_one_sided95": -3.3743248336850398,
+            "upper_one_sided95": -0.19803320213451747,
+            "threshold": 0.0,
+            "positive_seeds": 0,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          }
+        },
+        "iwl_copy_avail/acc": {
+          "A": {
+            "n": 5,
+            "expected_n": 5,
+            "complete": true,
+            "values": [
+              0.8447636363636364,
+              0.6871818181818181,
+              0.7783454545454546,
+              0.8377090909090908,
+              0.6303818181818182
+            ],
+            "mean": 0.7556763636363636,
+            "p_greater": 2.8505085052921153e-05,
+            "sd": 0.09430008492323286,
+            "se": 0.04217228003447034,
+            "df": 4,
+            "lower95": 0.6385873431596278,
+            "upper95": 0.8727653841130993,
+            "lower_one_sided95": 0.6657715239728106,
+            "upper_one_sided95": 0.8455812032999166,
+            "threshold": 0.0,
+            "positive_seeds": 5,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "P25": {
+            "n": 5,
+            "expected_n": 5,
+            "complete": true,
+            "values": [
+              0.8510545454545456,
+              0.6869636363636364,
+              0.7784181818181818,
+              0.8488363636363638,
+              0.6280909090909091
+            ],
+            "mean": 0.7586727272727274,
+            "p_greater": 3.409272493526405e-05,
+            "sd": 0.0990549968285004,
+            "se": 0.04429874128391059,
+            "df": 4,
+            "lower95": 0.6356797038685905,
+            "upper95": 0.8816657506768643,
+            "lower_one_sided95": 0.6642345980283071,
+            "upper_one_sided95": 0.8531108565171477,
+            "threshold": 0.0,
+            "positive_seeds": 5,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "difference": {
+            "n": 5,
+            "expected_n": 5,
+            "complete": true,
+            "values": [
+              0.006290909090909091,
+              -0.000218181818181818,
+              7.272727272727289e-05,
+              0.011127272727272729,
+              -0.002290909090909091
+            ],
+            "mean": 0.002996363636363637,
+            "p_greater": 0.14742454956526263,
+            "sd": 0.005563315498768965,
+            "se": 0.00248799032710511,
+            "df": 4,
+            "lower95": -0.003911404929106797,
+            "upper95": 0.00990413220183407,
+            "lower_one_sided95": -0.0023076505468871754,
+            "upper_one_sided95": 0.008300377819614449,
+            "threshold": 0.0,
+            "positive_seeds": 3,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          }
+        },
+        "iwl_copy_avail/ce": {
+          "A": {
+            "n": 5,
+            "expected_n": 5,
+            "complete": true,
+            "values": [
+              1.0905386630283425,
+              2.347983759787921,
+              0.866540599876202,
+              1.1364169076435573,
+              2.4135682002709875
+            ],
+            "mean": 1.5710096261214022,
+            "p_greater": 0.004636188935624008,
+            "sd": 0.7465911768712875,
+            "se": 0.3338857245771535,
+            "df": 4,
+            "lower95": 0.6439942404237466,
+            "upper95": 2.498025011819058,
+            "lower_one_sided95": 0.8592164171812536,
+            "upper_one_sided95": 2.282802835061551,
+            "threshold": 0.0,
+            "positive_seeds": 5,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "P25": {
+            "n": 5,
+            "expected_n": 5,
+            "complete": true,
+            "values": [
+              1.0184341168287676,
+              2.339351328881791,
+              0.8654239298863844,
+              1.0274456412627944,
+              2.4486047319403808
+            ],
+            "mean": 1.5398519497600236,
+            "p_greater": 0.005865185891369751,
+            "sd": 0.7833136044736159,
+            "se": 0.35030849346067766,
+            "df": 4,
+            "lower95": 0.5672396477819128,
+            "upper95": 2.5124642517381344,
+            "lower_one_sided95": 0.7930479137529488,
+            "upper_one_sided95": 2.2866559857670983,
+            "threshold": 0.0,
+            "positive_seeds": 5,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "difference": {
+            "n": 5,
+            "expected_n": 5,
+            "complete": true,
+            "values": [
+              -0.07210454619957493,
+              -0.00863243090613025,
+              -0.0011166699898175231,
+              -0.10897126638076311,
+              0.03503653166939304
+            ],
+            "mean": -0.031157676361378558,
+            "p_greater": 0.8515169421331923,
+            "sd": 0.058144481390557355,
+            "se": 0.026003002581151548,
+            "df": 4,
+            "lower95": -0.1033535855982623,
+            "upper95": 0.041038232875505176,
+            "lower_one_sided95": -0.08659209384884999,
+            "upper_one_sided95": 0.024276741126092873,
+            "threshold": 0.0,
+            "positive_seeds": 1,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          }
+        },
+        "train_eval/acc": {
+          "A": {
+            "n": 5,
+            "expected_n": 5,
+            "complete": true,
+            "values": [
+              0.9671454545454544,
+              0.9614727272727273,
+              0.7858363636363636,
+              0.9639818181818182,
+              0.9418727272727272
+            ],
+            "mean": 0.9240618181818181,
+            "p_greater": 6.003383375308147e-06,
+            "sd": 0.07789879172404485,
+            "se": 0.03483739873201246,
+            "df": 4,
+            "lower95": 0.8273376929944983,
+            "upper95": 1.0207859433691377,
+            "lower_one_sided95": 0.8497938216509974,
+            "upper_one_sided95": 0.9983298147126388,
+            "threshold": 0.0,
+            "positive_seeds": 5,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "P25": {
+            "n": 5,
+            "expected_n": 5,
+            "complete": true,
+            "values": [
+              0.9666545454545454,
+              0.9613454545454544,
+              0.7858363636363636,
+              0.9627636363636364,
+              0.9425636363636364
+            ],
+            "mean": 0.9238327272727272,
+            "p_greater": 5.949085652545705e-06,
+            "sd": 0.07770194951658349,
+            "se": 0.03474936822066752,
+            "df": 4,
+            "lower95": 0.8273530139677392,
+            "upper95": 1.0203124405777153,
+            "lower_one_sided95": 0.8497523983046159,
+            "upper_one_sided95": 0.9979130562408386,
+            "threshold": 0.0,
+            "positive_seeds": 5,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "difference": {
+            "n": 5,
+            "expected_n": 5,
+            "complete": true,
+            "values": [
+              -0.000490909090909091,
+              -0.00012727272727272728,
+              -8.881784197001253e-20,
+              -0.001218181818181818,
+              0.000690909090909091
+            ],
+            "mean": -0.00022909090909090907,
+            "p_greater": 0.7477725568543566,
+            "sd": 0.0006993030769190349,
+            "se": 0.00031273784337314524,
+            "df": 4,
+            "lower95": -0.0010973903635343916,
+            "upper95": 0.0006392085453525734,
+            "lower_one_sided95": -0.000895800075448675,
+            "upper_one_sided95": 0.0004376182572668569,
+            "threshold": 0.0,
+            "positive_seeds": 1,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          }
+        },
+        "train_eval/ce": {
+          "A": {
+            "n": 5,
+            "expected_n": 5,
+            "complete": true,
+            "values": [
+              0.195561510422049,
+              0.2157720958831212,
+              0.8477299033346503,
+              0.21263482945924944,
+              0.2872011246323364
+            ],
+            "mean": 0.35177989274628124,
+            "p_greater": 0.024043547304341994,
+            "sd": 0.27946398816056817,
+            "se": 0.12498009495804537,
+            "df": 4,
+            "lower95": 0.004779519852861125,
+            "upper95": 0.6987802656397013,
+            "lower_one_sided95": 0.08534147895517308,
+            "upper_one_sided95": 0.6182183065373894,
+            "threshold": 0.0,
+            "positive_seeds": 5,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "P25": {
+            "n": 5,
+            "expected_n": 5,
+            "complete": true,
+            "values": [
+              0.19829289677695966,
+              0.21548547937527024,
+              0.8462077099105852,
+              0.2188800080303632,
+              0.28263486187628534
+            ],
+            "mean": 0.3523001911938927,
+            "p_greater": 0.023572969798539622,
+            "sd": 0.2779547411597961,
+            "se": 0.12430513918033256,
+            "df": 4,
+            "lower95": 0.007173795965728258,
+            "upper95": 0.6974265864220572,
+            "lower_one_sided95": 0.08730067970841421,
+            "upper_one_sided95": 0.6172997026793712,
+            "threshold": 0.0,
+            "positive_seeds": 5,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "difference": {
+            "n": 5,
+            "expected_n": 5,
+            "complete": true,
+            "values": [
+              0.0027313863549106323,
+              -0.00028661650785096696,
+              -0.001522193424065004,
+              0.006245178571113767,
+              -0.004566262756050986
+            ],
+            "mean": 0.0005202984476114884,
+            "p_greater": 0.3961699842330637,
+            "sd": 0.004133979675569709,
+            "se": 0.0018487719144352792,
+            "df": 4,
+            "lower95": -0.004612715284849491,
+            "upper95": 0.005653312180072468,
+            "lower_one_sided95": -0.003421000016828324,
+            "upper_one_sided95": 0.004461596912051301,
+            "threshold": 0.0,
+            "positive_seeds": 2,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          }
+        }
+      },
+      "noninferiority": {
+        "iwl_copy_avail/acc": true,
+        "iwl_copy_avail/ce": true,
+        "train_eval/acc": true,
+        "train_eval/ce": true
+      },
+      "all_noninferiority_passed": true
+    },
+    "20000000": {
+      "seeds": [
+        "s18",
+        "s19",
+        "s20"
+      ],
+      "metrics": {
+        "icl/acc": {
+          "A": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              0.4795636363636364,
+              0.6604181818181818,
+              0.6404181818181818
+            ],
+            "mean": 0.5934666666666667,
+            "p_greater": 0.004587949428910276,
+            "sd": 0.09914850091736016,
+            "se": 0.05724341369438575,
+            "df": 2,
+            "lower95": 0.34716813647434047,
+            "upper95": 0.839765196858993,
+            "lower_one_sided95": 0.4263167241088376,
+            "upper_one_sided95": 0.7606166092244958,
+            "threshold": 0.0,
+            "positive_seeds": 3,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "P25": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              0.9060909090909091,
+              0.9451818181818182,
+              0.8055636363636364
+            ],
+            "mean": 0.8856121212121212,
+            "p_greater": 0.001098791220408346,
+            "sd": 0.07202669462284114,
+            "se": 0.04158463152933631,
+            "df": 2,
+            "lower95": 0.706687892846797,
+            "upper95": 1.0645363495774454,
+            "lower_one_sided95": 0.7641855967821365,
+            "upper_one_sided95": 1.0070386456421059,
+            "threshold": 0.0,
+            "positive_seeds": 3,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "difference": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              0.4265272727272728,
+              0.2847636363636364,
+              0.16514545454545454
+            ],
+            "mean": 0.2921454545454546,
+            "p_greater": 0.042546255607035954,
+            "sd": 0.13084717096200568,
+            "se": 0.07554464937761497,
+            "df": 2,
+            "lower95": -0.03289693731710597,
+            "upper95": 0.6171878464080152,
+            "lower_one_sided95": 0.07155616768994122,
+            "upper_one_sided95": 0.512734741400968,
+            "threshold": 0.05,
+            "positive_seeds": 3,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          }
+        },
+        "icl/ce": {
+          "A": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              6.6701574149937475,
+              2.373585501059347,
+              1.7461880136924817
+            ],
+            "mean": 3.5966436432485254,
+            "p_greater": 0.07285232517919737,
+            "sd": 2.680162696669592,
+            "se": 1.5473926543941823,
+            "df": 2,
+            "lower95": -3.0612495851748593,
+            "upper95": 10.25453687167191,
+            "lower_one_sided95": -0.9217205947277542,
+            "upper_one_sided95": 8.115007881224805,
+            "threshold": 0.0,
+            "positive_seeds": 3,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "P25": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              0.2510606660787625,
+              0.1542518162982422,
+              0.4458814938857029
+            ],
+            "mean": 0.2837313254209025,
+            "p_greater": 0.040239228546358086,
+            "sd": 0.1485344949795474,
+            "se": 0.08575643066038681,
+            "df": 2,
+            "lower95": -0.08524881505358073,
+            "upper95": 0.6527114658953858,
+            "lower_one_sided95": 0.033323784469969364,
+            "upper_one_sided95": 0.5341388663718356,
+            "threshold": 0.0,
+            "positive_seeds": 3,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "difference": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              -6.419096748914986,
+              -2.2193336847611045,
+              -1.3003065198067787
+            ],
+            "mean": -3.3129123178276227,
+            "p_greater": 0.914888173484814,
+            "sd": 2.7289996376746073,
+            "se": 1.5755886754298258,
+            "df": 2,
+            "lower95": -10.092123233128092,
+            "upper95": 3.4662985974728464,
+            "lower_one_sided95": -7.913608530651332,
+            "upper_one_sided95": 1.2877838949960863,
+            "threshold": 0.0,
+            "positive_seeds": 0,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          }
+        },
+        "iwl_copy_avail/acc": {
+          "A": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              0.9715818181818182,
+              0.9062363636363636,
+              0.8076181818181818
+            ],
+            "mean": 0.8951454545454546,
+            "p_greater": 0.0014111585778835423,
+            "sd": 0.0825425630250467,
+            "se": 0.04765597098211236,
+            "df": 2,
+            "lower95": 0.690098360910408,
+            "upper95": 1.1001925481805013,
+            "lower_one_sided95": 0.7559907064599312,
+            "upper_one_sided95": 1.034300202630978,
+            "threshold": 0.0,
+            "positive_seeds": 3,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "P25": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              0.9730909090909092,
+              0.9065454545454544,
+              0.8104727272727273
+            ],
+            "mean": 0.8967030303030303,
+            "p_greater": 0.001379672411685684,
+            "sd": 0.08175465277700535,
+            "se": 0.04720107078830842,
+            "df": 2,
+            "lower95": 0.6936132142286178,
+            "upper95": 1.099792846377443,
+            "lower_one_sided95": 0.7588765842239145,
+            "upper_one_sided95": 1.0345294763821462,
+            "threshold": 0.0,
+            "positive_seeds": 3,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "difference": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              0.001509090909090909,
+              0.000309090909090909,
+              0.0028545454545454547
+            ],
+            "mean": 0.0015575757575757576,
+            "p_greater": 0.08414239482200647,
+            "sd": 0.0012734197250487567,
+            "se": 0.000735209221048279,
+            "df": 2,
+            "lower95": -0.001605774204304591,
+            "upper95": 0.004720925719456107,
+            "lower_one_sided95": -0.0005892245664283081,
+            "upper_one_sided95": 0.0037043760815798233,
+            "threshold": 0.0,
+            "positive_seeds": 3,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          }
+        },
+        "iwl_copy_avail/ce": {
+          "A": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              0.15328093234191129,
+              0.5637815885668772,
+              0.8136313284595791
+            ],
+            "mean": 0.5102312831227892,
+            "p_greater": 0.058862977597413324,
+            "sd": 0.3334162380914531,
+            "se": 0.19249795481429283,
+            "df": 2,
+            "lower95": -0.3180205676301152,
+            "upper95": 1.3384831338756937,
+            "lower_one_sided95": -0.05185996918252789,
+            "upper_one_sided95": 1.0723225354281063,
+            "threshold": 0.0,
+            "positive_seeds": 3,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "P25": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              0.14672940286527605,
+              0.5619674006024635,
+              0.8022957792056367
+            ],
+            "mean": 0.5036641942244587,
+            "p_greater": 0.059613701883620696,
+            "sd": 0.3316493123051441,
+            "se": 0.19147781973592923,
+            "df": 2,
+            "lower95": -0.3201983695488113,
+            "upper95": 1.3275267579977288,
+            "lower_one_sided95": -0.055448278362023595,
+            "upper_one_sided95": 1.062776666810941,
+            "threshold": 0.0,
+            "positive_seeds": 3,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "difference": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              -0.006551529476635255,
+              -0.001814187964413776,
+              -0.01133554925394254
+            ],
+            "mean": -0.006567088898330523,
+            "p_greater": 0.9302754008035169,
+            "sd": 0.004760699714657166,
+            "se": 0.0027485912617882897,
+            "df": 2,
+            "lower95": -0.01839332259382941,
+            "upper95": 0.005259144797168363,
+            "lower_one_sided95": -0.014592935749038567,
+            "upper_one_sided95": 0.0014587579523775204,
+            "threshold": 0.0,
+            "positive_seeds": 0,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          }
+        },
+        "train_eval/acc": {
+          "A": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              0.9886,
+              0.9868727272727273,
+              0.9753090909090908
+            ],
+            "mean": 0.9835939393939394,
+            "p_greater": 8.996694771390423e-06,
+            "sd": 0.007226679983316585,
+            "se": 0.004172325633715111,
+            "df": 2,
+            "lower95": 0.9656418711166314,
+            "upper95": 1.0015460076712472,
+            "lower_one_sided95": 0.9714108087069511,
+            "upper_one_sided95": 0.9957770700809276,
+            "threshold": 0.0,
+            "positive_seeds": 3,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "P25": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              0.9882909090909092,
+              0.9870363636363636,
+              0.9752545454545456
+            ],
+            "mean": 0.9835272727272728,
+            "p_greater": 8.911267814548651e-06,
+            "sd": 0.00719179973797058,
+            "se": 0.004152187514675195,
+            "df": 2,
+            "lower95": 0.9656618517828239,
+            "upper95": 1.0013926936717217,
+            "lower_one_sided95": 0.9714029450574965,
+            "upper_one_sided95": 0.9956516003970491,
+            "threshold": 0.0,
+            "positive_seeds": 3,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "difference": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              -0.00030909090909090914,
+              0.0001636363636363636,
+              -5.454545454545445e-05
+            ],
+            "mean": -6.666666666666667e-05,
+            "p_greater": 0.6631107021116631,
+            "sd": 0.0002365966217690077,
+            "se": 0.00013659912326769268,
+            "df": 2,
+            "lower95": -0.000654405257275787,
+            "upper95": 0.0005210719239424536,
+            "lower_one_sided95": -0.0004655341368972897,
+            "upper_one_sided95": 0.0003322008035639563,
+            "threshold": 0.0,
+            "positive_seeds": 1,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          }
+        },
+        "train_eval/ce": {
+          "A": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              0.05391198586253609,
+              0.056631424088919906,
+              0.09483110120612383
+            ],
+            "mean": 0.06845817038585994,
+            "p_greater": 0.017637923550816725,
+            "sd": 0.022880066566874274,
+            "se": 0.01320981259146142,
+            "df": 2,
+            "lower95": 0.01162093417972973,
+            "upper95": 0.12529540659199015,
+            "lower_one_sided95": 0.02988570809961759,
+            "upper_one_sided95": 0.10703063267210229,
+            "threshold": 0.0,
+            "positive_seeds": 3,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "P25": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              0.05465517313228246,
+              0.05654935048237212,
+              0.09388204630061515
+            ],
+            "mean": 0.06836218997175658,
+            "p_greater": 0.016587878153167868,
+            "sd": 0.022121127395378963,
+            "se": 0.01277163885650005,
+            "df": 2,
+            "lower95": 0.013410263182462426,
+            "upper95": 0.12331411676105074,
+            "lower_one_sided95": 0.031069188673291157,
+            "upper_one_sided95": 0.10565519127022201,
+            "threshold": 0.0,
+            "positive_seeds": 3,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "difference": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              0.0007431872697463735,
+              -8.207360654778308e-05,
+              -0.0009490549055086877
+            ],
+            "mean": -9.598041410336576e-05,
+            "p_greater": 0.5687972756994473,
+            "sd": 0.0008462067976566286,
+            "se": 0.0004885577224171458,
+            "df": 2,
+            "lower95": -0.0021980746321016748,
+            "upper95": 0.0020061138038949436,
+            "lower_one_sided95": -0.001522561918731887,
+            "upper_one_sided95": 0.0013306010905251553,
+            "threshold": 0.0,
+            "positive_seeds": 1,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          }
+        }
+      },
+      "noninferiority": {
+        "iwl_copy_avail/acc": true,
+        "iwl_copy_avail/ce": true,
+        "train_eval/acc": true,
+        "train_eval/ce": true
+      },
+      "all_noninferiority_passed": true
+    },
+    "30000000": {
+      "seeds": [
+        "s18",
+        "s19",
+        "s20"
+      ],
+      "metrics": {
+        "icl/acc": {
+          "A": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              0.4714,
+              0.6154181818181818,
+              0.5543818181818182
+            ],
+            "mean": 0.5470666666666666,
+            "p_greater": 0.002884828758168645,
+            "sd": 0.07228722400826396,
+            "se": 0.04173504824014197,
+            "df": 2,
+            "lower95": 0.3674952474299945,
+            "upper95": 0.7266380859033387,
+            "lower_one_sided95": 0.4252009276100851,
+            "upper_one_sided95": 0.6689324057232481,
+            "threshold": 0.0,
+            "positive_seeds": 3,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "P25": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              0.9067636363636364,
+              0.9409818181818184,
+              0.9024181818181818
+            ],
+            "mean": 0.9167212121212122,
+            "p_greater": 8.845924478351197e-05,
+            "sd": 0.021122345954523936,
+            "se": 0.012194992122760798,
+            "df": 2,
+            "lower95": 0.8642503959749424,
+            "upper95": 0.969192028267482,
+            "lower_one_sided95": 0.8811120109702234,
+            "upper_one_sided95": 0.9523304132722009,
+            "threshold": 0.0,
+            "positive_seeds": 3,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "difference": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              0.4353636363636364,
+              0.32556363636363633,
+              0.34803636363636364
+            ],
+            "mean": 0.36965454545454546,
+            "p_greater": 0.005399217253767574,
+            "sd": 0.05800447688621094,
+            "se": 0.03348890034445731,
+            "df": 2,
+            "lower95": 0.22556343697115872,
+            "upper95": 0.5137456539379321,
+            "lower_one_sided95": 0.2718674393468274,
+            "upper_one_sided95": 0.4674416515622635,
+            "threshold": 0.05,
+            "positive_seeds": 3,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          }
+        },
+        "icl/ce": {
+          "A": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              6.887476712069098,
+              3.5053679067355805,
+              3.150420202670536
+            ],
+            "mean": 4.514421607158405,
+            "p_greater": 0.031540645382582944,
+            "sd": 2.0627747977814463,
+            "se": 1.190943584776694,
+            "df": 2,
+            "lower95": -0.6097950588586398,
+            "upper95": 9.638638273175449,
+            "lower_one_sided95": 1.03688351259569,
+            "upper_one_sided95": 7.99195970172112,
+            "threshold": 0.0,
+            "positive_seeds": 3,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "P25": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              0.24192315780182674,
+              0.16325589510386607,
+              0.25541508807202046
+            ],
+            "mean": 0.2201980469925711,
+            "p_greater": 0.008303821288173863,
+            "sd": 0.04977262844065207,
+            "se": 0.028736240428485698,
+            "df": 2,
+            "lower95": 0.09655598367021043,
+            "upper95": 0.3438401103149318,
+            "lower_one_sided95": 0.13628863930781523,
+            "upper_one_sided95": 0.3041074546773269,
+            "threshold": 0.0,
+            "positive_seeds": 3,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "difference": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              -6.645553554267271,
+              -3.342112011631715,
+              -2.895005114598516
+            ],
+            "mean": -4.294223560165834,
+            "p_greater": 0.9659049637365006,
+            "sd": 2.048545996606974,
+            "se": 1.1827285825883667,
+            "df": 2,
+            "lower95": -9.383093924592375,
+            "upper95": 0.7946468042607062,
+            "lower_one_sided95": -7.747773966796059,
+            "upper_one_sided95": -0.8406731535356093,
+            "threshold": 0.0,
+            "positive_seeds": 0,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          }
+        },
+        "iwl_copy_avail/acc": {
+          "A": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              0.9862545454545454,
+              0.9586909090909088,
+              0.9412181818181818
+            ],
+            "mean": 0.9620545454545454,
+            "p_greater": 9.281167797647871e-05,
+            "sd": 0.02270581532530324,
+            "se": 0.013109208590233757,
+            "df": 2,
+            "lower95": 0.9056501733289211,
+            "upper95": 1.0184589175801697,
+            "lower_one_sided95": 0.9237758454012137,
+            "upper_one_sided95": 1.000333245507877,
+            "threshold": 0.0,
+            "positive_seeds": 3,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "P25": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              0.9864,
+              0.9581818181818182,
+              0.9449272727272726
+            ],
+            "mean": 0.963169696969697,
+            "p_greater": 8.058451294035152e-05,
+            "sd": 0.021181500842986443,
+            "se": 0.012229145213538508,
+            "df": 2,
+            "lower95": 0.9105519319341631,
+            "upper95": 1.015787462005231,
+            "lower_one_sided95": 0.9274607692861129,
+            "upper_one_sided95": 0.9988786246532811,
+            "threshold": 0.0,
+            "positive_seeds": 3,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "difference": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              0.0001454545454545454,
+              -0.0005090909090909091,
+              0.0037090909090909093
+            ],
+            "mean": 0.0011151515151515152,
+            "p_greater": 0.24223927216141838,
+            "sd": 0.002270131851366685,
+            "se": 0.001310661235482499,
+            "df": 2,
+            "lower95": -0.004524168627474053,
+            "upper95": 0.006754471657777083,
+            "lower_one_sided95": -0.0027119603931859736,
+            "upper_one_sided95": 0.004942263423489004,
+            "threshold": 0.0,
+            "positive_seeds": 2,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          }
+        },
+        "iwl_copy_avail/ce": {
+          "A": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              0.058266111334028724,
+              0.1990520339419294,
+              0.2310620302104471
+            ],
+            "mean": 0.16279339182880176,
+            "p_greater": 0.045938515235399824,
+            "sd": 0.0919272769149742,
+            "se": 0.053074238072729624,
+            "df": 2,
+            "lower95": -0.06556662349420084,
+            "upper95": 0.39115340715180436,
+            "lower_one_sided95": 0.007817381968170833,
+            "upper_one_sided95": 0.3177694016894327,
+            "threshold": 0.0,
+            "positive_seeds": 3,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "P25": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              0.06104192423206656,
+              0.20177054444525003,
+              0.2151796631490496
+            ],
+            "mean": 0.15933071060878873,
+            "p_greater": 0.04193055892990083,
+            "sd": 0.08538422138580314,
+            "se": 0.049296603201640046,
+            "df": 2,
+            "lower95": -0.05277545372412357,
+            "upper95": 0.371436874941701,
+            "lower_one_sided95": 0.015385340099580758,
+            "upper_one_sided95": 0.3032760811179967,
+            "threshold": 0.0,
+            "positive_seeds": 3,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "difference": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              0.00277581289803784,
+              0.0027185105033206277,
+              -0.015882367061397555
+            ],
+            "mean": -0.003462681220013029,
+            "p_greater": 0.6834032780973164,
+            "sd": 0.010755801606115906,
+            "se": 0.006209864952641228,
+            "df": 2,
+            "lower95": -0.030181573609870282,
+            "upper95": 0.023256211169844228,
+            "lower_one_sided95": -0.021595397337669353,
+            "upper_one_sided95": 0.014670034897643293,
+            "threshold": 0.0,
+            "positive_seeds": 2,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          }
+        },
+        "train_eval/acc": {
+          "A": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              0.9917272727272728,
+              0.9913272727272728,
+              0.9901636363636364
+            ],
+            "mean": 0.9910727272727273,
+            "p_greater": 1.1196253202339079e-07,
+            "sd": 0.0008123021055887253,
+            "se": 0.00046898283932495037,
+            "df": 2,
+            "lower95": 0.9890548569789002,
+            "upper95": 0.9930905975665545,
+            "lower_one_sided95": 0.9897033041444652,
+            "upper_one_sided95": 0.9924421504009895,
+            "threshold": 0.0,
+            "positive_seeds": 3,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "P25": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              0.992018181818182,
+              0.9913090909090908,
+              0.989781818181818
+            ],
+            "mean": 0.9910363636363636,
+            "p_greater": 2.216414237699027e-07,
+            "sd": 0.0011428541912596537,
+            "se": 0.0006598271749682532,
+            "df": 2,
+            "lower95": 0.9881973564408236,
+            "upper95": 0.9938753708319036,
+            "lower_one_sided95": 0.9891096777999308,
+            "upper_one_sided95": 0.9929630494727965,
+            "threshold": 0.0,
+            "positive_seeds": 3,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "difference": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              0.0002909090909090909,
+              -1.818181818181819e-05,
+              -0.00038181818181818184
+            ],
+            "mean": -3.636363636363637e-05,
+            "p_greater": 0.5655590899062896,
+            "sd": 0.00033673198504458426,
+            "se": 0.00019441230221024777,
+            "df": 2,
+            "lower95": -0.0008728522591654351,
+            "upper95": 0.0008001249864381624,
+            "lower_one_sided95": -0.0006040447554609296,
+            "upper_one_sided95": 0.0005313174827336569,
+            "threshold": 0.0,
+            "positive_seeds": 1,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          }
+        },
+        "train_eval/ce": {
+          "A": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              0.032785869566014036,
+              0.03557165520557478,
+              0.03481167675559257
+            ],
+            "mean": 0.03438973384239379,
+            "p_greater": 0.0002919790855808735,
+            "sd": 0.0014400268309634773,
+            "se": 0.0008313998784970474,
+            "df": 2,
+            "lower95": 0.030812508885665106,
+            "upper95": 0.03796695879912248,
+            "lower_one_sided95": 0.03196205818567458,
+            "upper_one_sided95": 0.036817409499113,
+            "threshold": 0.0,
+            "positive_seeds": 3,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "P25": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              0.033880236451866885,
+              0.03520374164052297,
+              0.03513668770963381
+            ],
+            "mean": 0.03474022193400789,
+            "p_greater": 7.673726045387408e-05,
+            "sd": 0.0007455235271484684,
+            "se": 0.00043042820908636753,
+            "df": 2,
+            "lower95": 0.03288823882522126,
+            "upper95": 0.036592205042794514,
+            "lower_one_sided95": 0.033483377770098216,
+            "upper_one_sided95": 0.03599706609791756,
+            "threshold": 0.0,
+            "positive_seeds": 3,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "difference": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              0.001094366885852849,
+              -0.0003679135650518055,
+              0.00032501095404124307
+            ],
+            "mean": 0.0003504880916140955,
+            "p_greater": 0.2469367204179258,
+            "sd": 0.0007314730635359443,
+            "se": 0.00042231617013743767,
+            "df": 2,
+            "lower95": -0.0014665917306450863,
+            "upper95": 0.0021675679138732774,
+            "lower_one_sided95": -0.0008826690355374308,
+            "upper_one_sided95": 0.001583645218765622,
+            "threshold": 0.0,
+            "positive_seeds": 2,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          }
+        }
+      },
+      "noninferiority": {
+        "iwl_copy_avail/acc": true,
+        "iwl_copy_avail/ce": true,
+        "train_eval/acc": true,
+        "train_eval/ce": true
+      },
+      "all_noninferiority_passed": true
+    },
+    "40000000": {
+      "seeds": [
+        "s18",
+        "s19",
+        "s20"
+      ],
+      "metrics": {
+        "icl/acc": {
+          "A": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              0.4858363636363636,
+              0.595709090909091,
+              0.5117818181818182
+            ],
+            "mean": 0.531109090909091,
+            "p_greater": 0.0019374177139157567,
+            "sd": 0.05742962347858956,
+            "se": 0.03315700857482254,
+            "df": 2,
+            "lower95": 0.38844599745430464,
+            "upper95": 0.6737721843638773,
+            "lower_one_sided95": 0.4342911039829445,
+            "upper_one_sided95": 0.6279270778352375,
+            "threshold": 0.0,
+            "positive_seeds": 3,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "P25": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              0.907,
+              0.94,
+              0.9062363636363636
+            ],
+            "mean": 0.9177454545454545,
+            "p_greater": 7.351527945687053e-05,
+            "sd": 0.019276783449665248,
+            "se": 0.011129456113774354,
+            "df": 2,
+            "lower95": 0.8698592698168965,
+            "upper95": 0.9656316392740125,
+            "lower_one_sided95": 0.8852476031760539,
+            "upper_one_sided95": 0.9502433059148552,
+            "threshold": 0.0,
+            "positive_seeds": 3,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "difference": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              0.4211636363636363,
+              0.3442909090909091,
+              0.3944545454545454
+            ],
+            "mean": 0.3866363636363636,
+            "p_greater": 0.0022252356302916443,
+            "sd": 0.03902815682034427,
+            "se": 0.022532916846200696,
+            "df": 2,
+            "lower95": 0.2896850474588407,
+            "upper95": 0.4835876798138865,
+            "lower_one_sided95": 0.32084057136214816,
+            "upper_one_sided95": 0.45243215591057906,
+            "threshold": 0.05,
+            "positive_seeds": 3,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          }
+        },
+        "icl/ce": {
+          "A": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              6.328434979836739,
+              3.9087207376388915,
+              4.845864064685642
+            ],
+            "mean": 5.027673260720425,
+            "p_greater": 0.00953484822354933,
+            "sd": 1.2200595031783845,
+            "se": 0.7044016825874014,
+            "df": 2,
+            "lower95": 1.9968774382956322,
+            "upper95": 8.058469083145217,
+            "lower_one_sided95": 2.9708305047883146,
+            "upper_one_sided95": 7.084516016652535,
+            "threshold": 0.0,
+            "positive_seeds": 3,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "P25": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              0.23867539282592853,
+              0.16563094034151846,
+              0.23397940210778034
+            ],
+            "mean": 0.2127619117584091,
+            "p_greater": 0.0060428347090109025,
+            "sd": 0.04088409754698098,
+            "se": 0.02360444472432439,
+            "df": 2,
+            "lower95": 0.11120018323107464,
+            "upper95": 0.31432364028574356,
+            "lower_one_sided95": 0.14383727353112546,
+            "upper_one_sided95": 0.28168654998569276,
+            "threshold": 0.0,
+            "positive_seeds": 3,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "difference": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              -6.089759587010811,
+              -3.7430897972973733,
+              -4.611884662577863
+            ],
+            "mean": -4.814911348962016,
+            "p_greater": 0.9901776710090836,
+            "sd": 1.186435692326611,
+            "se": 0.684988966340949,
+            "df": 2,
+            "lower95": -7.762180994837158,
+            "upper95": -1.867641703086874,
+            "lower_one_sided95": -6.8150692533789865,
+            "upper_one_sided95": -2.8147534445450453,
+            "threshold": 0.0,
+            "positive_seeds": 0,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          }
+        },
+        "iwl_copy_avail/acc": {
+          "A": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              0.9904545454545456,
+              0.9787272727272728,
+              0.9804
+            ],
+            "mean": 0.9831939393939395,
+            "p_greater": 6.937209456880922e-06,
+            "sd": 0.006343248726615889,
+            "se": 0.003662276359848435,
+            "df": 2,
+            "lower95": 0.9674364360171407,
+            "upper95": 0.9989514427707383,
+            "lower_one_sided95": 0.9725001452319118,
+            "upper_one_sided95": 0.9938877335559673,
+            "threshold": 0.0,
+            "positive_seeds": 3,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "P25": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              0.9904909090909092,
+              0.9782363636363636,
+              0.9802545454545456
+            ],
+            "mean": 0.9829939393939394,
+            "p_greater": 7.446227850538278e-06,
+            "sd": 0.006570515995016835,
+            "se": 0.003793489178437712,
+            "df": 2,
+            "lower95": 0.9666718728250594,
+            "upper95": 0.9993160059628194,
+            "lower_one_sided95": 0.9719170056936735,
+            "upper_one_sided95": 0.9940708730942054,
+            "threshold": 0.0,
+            "positive_seeds": 3,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "difference": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              3.636363636363624e-05,
+              -0.0004909090909090909,
+              -0.0001454545454545454
+            ],
+            "mean": -0.0002,
+            "p_greater": 0.8374381303949167,
+            "sd": 0.00026783490659374967,
+            "se": 0.00015463455542027966,
+            "df": 2,
+            "lower95": -0.0008653387919926597,
+            "upper95": 0.00046533879199265975,
+            "lower_one_sided95": -0.0006515306720516248,
+            "upper_one_sided95": 0.00025153067205162477,
+            "threshold": 0.0,
+            "positive_seeds": 1,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          }
+        },
+        "iwl_copy_avail/ce": {
+          "A": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              0.03613368286019065,
+              0.10682373407448263,
+              0.07378882816431796
+            ],
+            "mean": 0.07224874836633041,
+            "p_greater": 0.035717643248193265,
+            "sd": 0.03537018121960832,
+            "se": 0.02042098364842671,
+            "df": 2,
+            "lower95": -0.015615652672741759,
+            "upper95": 0.16011314940540258,
+            "lower_one_sided95": 0.01261977057628532,
+            "upper_one_sided95": 0.1318777261563755,
+            "threshold": 0.0,
+            "positive_seeds": 3,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "P25": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              0.03991885867391102,
+              0.10855331238626968,
+              0.07275295359609169
+            ],
+            "mean": 0.07374170821875746,
+            "p_greater": 0.0326224603262828,
+            "sd": 0.0343279082653802,
+            "se": 0.01981922707773404,
+            "df": 2,
+            "lower95": -0.011533543268779228,
+            "upper95": 0.15901695970629415,
+            "lower_one_sided95": 0.015869850938018064,
+            "upper_one_sided95": 0.13161356549949685,
+            "threshold": 0.0,
+            "positive_seeds": 3,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "difference": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              0.003785175813720376,
+              0.0017295783117870598,
+              -0.0010358745682262705
+            ],
+            "mean": 0.001492959852427055,
+            "p_greater": 0.19851626307672454,
+            "sd": 0.002419219485247133,
+            "se": 0.0013967370210362202,
+            "df": 2,
+            "lower95": -0.00451671450387656,
+            "upper95": 0.007502634208730671,
+            "lower_one_sided95": -0.002585492108544919,
+            "upper_one_sided95": 0.005571411813399029,
+            "threshold": 0.0,
+            "positive_seeds": 2,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          }
+        },
+        "train_eval/acc": {
+          "A": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              0.9928545454545454,
+              0.9931454545454544,
+              0.9942181818181818
+            ],
+            "mean": 0.9934060606060605,
+            "p_greater": 8.711381493942127e-08,
+            "sd": 0.0007182009970588418,
+            "se": 0.00041465353898418,
+            "df": 2,
+            "lower95": 0.99162195042465,
+            "upper95": 0.9951901707874711,
+            "lower_one_sided95": 0.9921952782513841,
+            "upper_one_sided95": 0.9946168429607369,
+            "threshold": 0.0,
+            "positive_seeds": 3,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "P25": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              0.9931090909090908,
+              0.9936181818181818,
+              0.9940363636363636
+            ],
+            "mean": 0.9935878787878788,
+            "p_greater": 3.6406616943374104e-08,
+            "sd": 0.0004643784910179793,
+            "se": 0.00026810904679510256,
+            "df": 2,
+            "lower95": 0.9924342986658153,
+            "upper95": 0.9947414589099423,
+            "lower_one_sided95": 0.9928050042372747,
+            "upper_one_sided95": 0.9943707533384829,
+            "threshold": 0.0,
+            "positive_seeds": 3,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "difference": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              0.00025454545454545456,
+              0.00047272727272727283,
+              -0.0001818181818181819
+            ],
+            "mean": 0.00018181818181818183,
+            "p_greater": 0.22222222222222243,
+            "sd": 0.0003332782323604248,
+            "se": 0.0001924182771683339,
+            "df": 2,
+            "lower95": -0.0006460908436938374,
+            "upper95": 0.0010097272073302012,
+            "lower_one_sided95": -0.00038004041290985865,
+            "upper_one_sided95": 0.0007436767765462224,
+            "threshold": 0.0,
+            "positive_seeds": 2,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          }
+        },
+        "train_eval/ce": {
+          "A": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              0.025397828861657368,
+              0.02719697529691938,
+              0.021149111179898147
+            ],
+            "mean": 0.024581305112824966,
+            "p_greater": 0.002639100579360454,
+            "sd": 0.0031055109674244827,
+            "se": 0.0017929675930138604,
+            "df": 2,
+            "lower95": 0.016866788204391567,
+            "upper95": 0.032295822021258365,
+            "lower_one_sided95": 0.019345865595182976,
+            "upper_one_sided95": 0.029816744630466956,
+            "threshold": 0.0,
+            "positive_seeds": 3,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "P25": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              0.025683175779625093,
+              0.026648557123584226,
+              0.021364743653466384
+            ],
+            "mean": 0.024565492185558566,
+            "p_greater": 0.0021721924867852405,
+            "sd": 0.002813642418482453,
+            "se": 0.001624457207714194,
+            "df": 2,
+            "lower95": 0.01757601694642591,
+            "upper95": 0.03155496742469122,
+            "lower_one_sided95": 0.019822100563131453,
+            "upper_one_sided95": 0.02930888380798568,
+            "threshold": 0.0,
+            "positive_seeds": 3,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          },
+          "difference": {
+            "n": 3,
+            "expected_n": 3,
+            "complete": true,
+            "values": [
+              0.00028534691796773,
+              -0.0005484181733351512,
+              0.000215632473568241
+            ],
+            "mean": -1.5812927266393403e-05,
+            "p_greater": 0.5209158209871788,
+            "sd": 0.0004625649003593484,
+            "se": 0.0002670619697401422,
+            "df": 2,
+            "lower95": -0.001164887840381083,
+            "upper95": 0.001133261985848296,
+            "lower_one_sided95": -0.0007956300279684702,
+            "upper_one_sided95": 0.0007640041734356834,
+            "threshold": 0.0,
+            "positive_seeds": 2,
+            "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+          }
+        }
+      },
+      "noninferiority": {
+        "iwl_copy_avail/acc": true,
+        "iwl_copy_avail/ce": true,
+        "train_eval/acc": true,
+        "train_eval/ce": true
+      },
+      "all_noninferiority_passed": true
+    }
+  },
+  "primary": {
+    "10000000": {
+      "p_holm": 0.07793949116713383,
+      "threshold": 0.05,
+      "passed": false
+    },
+    "40000000": {
+      "p_holm": 0.004450471260583289,
+      "threshold": 0.05,
+      "passed": true
+    }
+  },
+  "P25_40M_minus_10M": {
+    "icl/acc": {
+      "n": 3,
+      "expected_n": 3,
+      "complete": true,
+      "values": [
+        0.007581818181818183,
+        0.00040000000000000034,
+        0.4048363636363636
+      ],
+      "mean": 0.1376060606060606,
+      "p_greater": 0.20568505391398273,
+      "sd": 0.23145608821404948,
+      "se": 0.13363123483595923,
+      "df": 2,
+      "lower95": -0.43736273674066994,
+      "upper95": 0.7125748579527912,
+      "lower_one_sided95": -0.25259521819980213,
+      "upper_one_sided95": 0.5278073394119233,
+      "threshold": 0.0,
+      "positive_seeds": 3,
+      "inference": "paired training-seed Student t; conditional on fixed evaluation pool",
+      "noninferiority_passed": false
+    },
+    "icl/ce": {
+      "n": 3,
+      "expected_n": 3,
+      "complete": true,
+      "values": [
+        -0.1384097534383589,
+        -0.058872590996777184,
+        -0.7561450556540004
+      ],
+      "mean": -0.3178091333630455,
+      "p_greater": 0.8569977082156238,
+      "sd": 0.38168747114663215,
+      "se": 0.2203673642128156,
+      "df": 2,
+      "lower95": -1.2659733745410091,
+      "upper95": 0.6303551078149181,
+      "lower_one_sided95": -0.9612786592450235,
+      "upper_one_sided95": 0.32566039251893253,
+      "threshold": 0.0,
+      "positive_seeds": 0,
+      "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+    },
+    "iwl_copy_avail/acc": {
+      "n": 3,
+      "expected_n": 3,
+      "complete": true,
+      "values": [
+        0.13943636363636364,
+        0.29127272727272724,
+        0.20183636363636365
+      ],
+      "mean": 0.21084848484848484,
+      "p_greater": 0.020501957943597326,
+      "sd": 0.07631830761445764,
+      "se": 0.044062395445303784,
+      "df": 2,
+      "lower95": 0.021263298806448533,
+      "upper95": 0.4004336708905212,
+      "lower_one_sided95": 0.08218692551235435,
+      "upper_one_sided95": 0.33951004418461533,
+      "threshold": 0.0,
+      "positive_seeds": 3,
+      "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+    },
+    "iwl_copy_avail/ce": {
+      "n": 3,
+      "expected_n": 3,
+      "complete": true,
+      "values": [
+        -0.9785152581548565,
+        -2.230798016495521,
+        -0.7926709762902928
+      ],
+      "mean": -1.3339947503135567,
+      "p_greater": 0.9509801232164928,
+      "sd": 0.7821934530225999,
+      "se": 0.451599600660961,
+      "df": 2,
+      "lower95": -3.2770710048512046,
+      "upper95": 0.6090815042240911,
+      "lower_one_sided95": -2.6526590723370616,
+      "upper_one_sided95": -0.015330428290052156,
+      "threshold": 0.0,
+      "positive_seeds": 0,
+      "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+    },
+    "train_eval/acc": {
+      "n": 3,
+      "expected_n": 3,
+      "complete": true,
+      "values": [
+        0.026454545454545456,
+        0.03227272727272727,
+        0.2082
+      ],
+      "mean": 0.08897575757575757,
+      "p_greater": 0.1371151030594887,
+      "sd": 0.10329219620156815,
+      "se": 0.059635777282163016,
+      "df": 2,
+      "lower95": -0.16761628233807171,
+      "upper95": 0.3455677974895869,
+      "lower_one_sided95": -0.08515985216134442,
+      "upper_one_sided95": 0.26311136731285956,
+      "threshold": 0.0,
+      "positive_seeds": 3,
+      "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+    },
+    "train_eval/ce": {
+      "n": 3,
+      "expected_n": 3,
+      "complete": true,
+      "values": [
+        -0.17260972099733454,
+        -0.18883692225168602,
+        -0.8248429662571187
+      ],
+      "mean": -0.39542986983537975,
+      "p_greater": 0.896536583368662,
+      "sd": 0.3719711494847639,
+      "se": 0.21475764328580296,
+      "df": 2,
+      "lower95": -1.3194574299535997,
+      "upper95": 0.5285976902828402,
+      "lower_one_sided95": -1.0225190915006723,
+      "upper_one_sided95": 0.23165935182991282,
+      "threshold": 0.0,
+      "positive_seeds": 0,
+      "inference": "paired training-seed Student t; conditional on fixed evaluation pool"
+    }
+  },
+  "persistent_benefit_supported": false,
+  "interval_scope": "training-seed variability conditional on the fixed evaluation pool; shared-pool sampling is not integrated",
+  "scientific_scope": "A versus P25 only; no new random-path or task-protection superiority claim"
+}

@@ -1,0 +1,5 @@
+# Saved-result review only; does not install model/training dependencies.
+numpy>=1.26,<3
+reportlab>=4,<5
+# Tested locally: Python 3.12, NumPy 2.3.5, ReportLab 4.4.9.
+# Original training/encoding pins remain in the experiment source records.

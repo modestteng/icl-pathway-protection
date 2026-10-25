@@ -1,0 +1,62 @@
+[
+  {
+    "local": "experiments/exp_042_seed_and_horizon/final_results/cloud4090_20261021/outputs/s18/A/checkpoints/00010000000.eqx",
+    "relative": "models/s18/A.eqx",
+    "sha256": "15bd62fee78388da39803f1c771086ef04dd600d7b9fece30a065910264fc1e2",
+    "bytes": 20641192
+  },
+  {
+    "local": "experiments/exp_042_seed_and_horizon/final_results/cloud4090_20261021/outputs/s18/P25/checkpoints/00010000000.eqx",
+    "relative": "models/s18/P25.eqx",
+    "sha256": "a8eccea9f6a372a3725907b64083d4d0e4eec56eb58e51ff78a25a3b171afd9e",
+    "bytes": 20641192
+  },
+  {
+    "local": "experiments/exp_042_seed_and_horizon/final_results/cloud4090_20261021/outputs/s19/A/checkpoints/00010000000.eqx",
+    "relative": "models/s19/A.eqx",
+    "sha256": "7399d650d47082223b4be6aca52635d32ed6d489f9f881017023474eaeea2bb0",
+    "bytes": 20641192
+  },
+  {
+    "local": "experiments/exp_042_seed_and_horizon/final_results/cloud4090_20261021/outputs/s19/P25/checkpoints/00010000000.eqx",
+    "relative": "models/s19/P25.eqx",
+    "sha256": "a923db73a9baa33b9e2535ec2a5e45cb0986db247ee1a6e1c6026c19f84228be",
+    "bytes": 20641192
+  },
+  {
+    "local": "experiments/exp_042_seed_and_horizon/final_results/cloud4090_20261021/outputs/s20/A/checkpoints/00010000000.eqx",
+    "relative": "models/s20/A.eqx",
+    "sha256": "c5b8c7deaff2d6c9658f0d095876cb26ddce5a0ea435c4bf9b59d6622d0bd8b9",
+    "bytes": 20641192
+  },
+  {
+    "local": "experiments/exp_042_seed_and_horizon/final_results/cloud4090_20261021/outputs/s20/P25/checkpoints/00010000000.eqx",
+    "relative": "models/s20/P25.eqx",
+    "sha256": "e28e581576a999ac9afc102c387a18d90cc3356b99c5b37cbd981f72f8a00728",
+    "bytes": 20641192
+  },
+  {
+    "local": "experiments/exp_042_seed_and_horizon/final_results/cloud4090_20261021/outputs/s21/A/checkpoints/00010000000.eqx",
+    "relative": "models/s21/A.eqx",
+    "sha256": "a57674449714e8fcc06931cdf84228dd2612ccd9d7da64dc52090a7ff311ae5d",
+    "bytes": 20641192
+  },
+  {
+    "local": "experiments/exp_042_seed_and_horizon/final_results/cloud4090_20261021/outputs/s21/P25/checkpoints/00010000000.eqx",
+    "relative": "models/s21/P25.eqx",
+    "sha256": "61bf66dab78a102ca77f6cf6465624ddad7a6d55b2a4a757e3341cf1d42450e3",
+    "bytes": 20641192
+  },
+  {
+    "local": "experiments/exp_042_seed_and_horizon/final_results/cloud4090_20261021/outputs/s22/A/checkpoints/00010000000.eqx",
+    "relative": "models/s22/A.eqx",
+    "sha256": "04e1c392cdb605fb283b736b01a12566ec25aa169b64b4178d0adf2d673f1e98",
+    "bytes": 20641192
+  },
+  {
+    "local": "experiments/exp_042_seed_and_horizon/final_results/cloud4090_20261021/outputs/s22/P25/checkpoints/00010000000.eqx",
+    "relative": "models/s22/P25.eqx",
+    "sha256": "dee7843cff34c0fc6e8f2fa39f1f1b43014f0c3657d20a87801f697fbc01f05c",
+    "bytes": 20641192
+  }
+]

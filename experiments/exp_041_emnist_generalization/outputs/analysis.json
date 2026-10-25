@@ -1,0 +1,105 @@
+{
+  "experiment": "exp_041_emnist_generalization",
+  "stage": 10000000,
+  "models": {
+    "A": {
+      "acc": {
+        "mean": 0.4072340425531915,
+        "se": 0.014036104257421822,
+        "lower95": 0.3789808301183315,
+        "upper95": 0.4354872549880515,
+        "clusters": 47,
+        "df": 46,
+        "status": "t_query_class"
+      },
+      "ce": {
+        "mean": 7.180812964660135,
+        "se": 0.20705475215124322,
+        "lower95": 6.764033366070085,
+        "upper95": 7.597592563250186,
+        "clusters": 47,
+        "df": 46,
+        "status": "t_query_class"
+      },
+      "pair_acc": {
+        "mean": 0.5174468085106384,
+        "se": 0.008722614526198748,
+        "lower95": 0.49988909615140037,
+        "upper95": 0.5350045208698765,
+        "clusters": 47,
+        "df": 46,
+        "status": "t_query_class"
+      }
+    },
+    "P25": {
+      "acc": {
+        "mean": 0.6531914893617021,
+        "se": 0.022111286905134604,
+        "lower95": 0.6086837773440618,
+        "upper95": 0.6976992013793425,
+        "clusters": 47,
+        "df": 46,
+        "status": "t_query_class"
+      },
+      "ce": {
+        "mean": 1.4967378251446766,
+        "se": 0.08530677487872179,
+        "lower95": 1.3250241937425105,
+        "upper95": 1.6684514565468427,
+        "clusters": 47,
+        "df": 46,
+        "status": "t_query_class"
+      },
+      "pair_acc": {
+        "mean": 0.694468085106383,
+        "se": 0.01914646915961631,
+        "lower95": 0.6559282416695477,
+        "upper95": 0.7330079285432184,
+        "clusters": 47,
+        "df": 46,
+        "status": "t_query_class"
+      }
+    }
+  },
+  "P25_minus_A": {
+    "acc": {
+      "mean": 0.2459574468085107,
+      "se": 0.02571396704606062,
+      "lower95": 0.19419791580394508,
+      "upper95": 0.2977169778130763,
+      "clusters": 47,
+      "df": 46,
+      "status": "t_query_class"
+    },
+    "ce": {
+      "mean": -5.684075139515458,
+      "se": 0.18842017833793565,
+      "lower95": -6.063345286556509,
+      "upper95": -5.3048049924744065,
+      "clusters": 47,
+      "df": 46,
+      "status": "t_query_class"
+    },
+    "pair_acc": {
+      "mean": 0.17702127659574468,
+      "se": 0.01934141112802802,
+      "lower95": 0.13808903532935535,
+      "upper95": 0.21595351786213401,
+      "clusters": 47,
+      "df": 46,
+      "status": "t_query_class"
+    }
+  },
+  "paired_full_accuracy_counts": {
+    "A_wrong_P25_correct": 850,
+    "A_correct_P25_wrong": 272,
+    "both_correct": 685,
+    "both_wrong": 543
+  },
+  "primary_standing": "positive_difference",
+  "n_queries": 2350,
+  "n_classes": 47,
+  "training_trajectories": 1,
+  "interval_scope": "Paired query-class means, 47 clusters, two-sided Student t df=46; conditional on frozen pools/contexts and one training trajectory",
+  "limitation": "Fixed support pools and contexts; cross-class distractor/support dependence is not fully modeled by one-way query-class clustering. External source is unseen to these Transformer training runs, but semantic character identities may overlap Omniglot."
+}

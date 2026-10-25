@@ -1,0 +1,66 @@
+{
+  "schema": "external_upstream_source_v1",
+  "repository": "https://github.com/aadityasingh/icl-dynamics",
+  "commit": "85b895c720844e795734b9391b32d2619065f9a1",
+  "raw_base_url": "https://raw.githubusercontent.com/aadityasingh/icl-dynamics/85b895c720844e795734b9391b32d2619065f9a1",
+  "license_present_when_checked": false,
+  "source_redistributed": false,
+  "files": [
+    {
+      "upstream_path": "main.py",
+      "sha256": "85814cae9c85cadd498d7cb1376708c9f9f2bcac237127943ff4697268754815",
+      "destinations": [
+        "main.py",
+        "experiments/reproduction_support/source/main.py"
+      ]
+    },
+    {
+      "upstream_path": "main_utils.py",
+      "sha256": "07bfe1c34366643bc89d8b9a4194c195846e462be31ddf432734b0a817b8727d",
+      "destinations": [
+        "main_utils.py",
+        "experiments/reproduction_support/source/main_utils.py"
+      ]
+    },
+    {
+      "upstream_path": "models.py",
+      "sha256": "2509f2a436dd16336f496769bb3d43df89e579cefd178b394d409b46c8892f99",
+      "destinations": [
+        "models.py",
+        "experiments/reproduction_support/source/models.py"
+      ]
+    },
+    {
+      "upstream_path": "omni_features_extract.py",
+      "sha256": "44c2cbfdb0fa8442efbcae2b02bf5a1253960c0c13656b147db015c5f52e0073",
+      "destinations": [
+        "omni_features_extract.py",
+        "experiments/reproduction_support/source/omni_features_extract.py"
+      ]
+    },
+    {
+      "upstream_path": "omniglot_dataset.py",
+      "sha256": "da47f3a0fb47d268376b946e13706ef9be368dfe1f6b7eff1eae4225892a30c9",
+      "destinations": [
+        "omniglot_dataset.py",
+        "experiments/reproduction_support/source/omniglot_dataset.py"
+      ]
+    },
+    {
+      "upstream_path": "opto.py",
+      "sha256": "46cbdcc2ef3c7a8688dfb365dcdc7fac753c05e96e8fee47373e2b1a2ad5d1b3",
+      "destinations": [
+        "opto.py",
+        "experiments/reproduction_support/source/opto.py"
+      ]
+    },
+    {
+      "upstream_path": "samplers.py",
+      "sha256": "d285d7d6796996162c0e445bd4d93cdd54c8e9d400bb69e81d054e1bc7a841da",
+      "destinations": [
+        "samplers.py",
+        "experiments/reproduction_support/source/samplers.py"
+      ]
+    }
+  ]
+}

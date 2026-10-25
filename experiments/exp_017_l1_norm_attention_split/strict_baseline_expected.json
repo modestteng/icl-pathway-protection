@@ -1,0 +1,8 @@
+{
+  "relative_hdf": "exp_015_layer_strategy_reversal/outputs/per_sequence.h5",
+  "sha256": "44c8afe48edd3d0d72404bca9f1a0d2c32c3b9fbf71b68d0307e2c1ddaf64b4b",
+  "native_model_digests": {
+    "E": "10fba966387f5c8358a1416311087d2fb250c343bcbd265b888986c07e11900f",
+    "L": "1a4a1b425dce9c4b518951e05e267a463311dee2fa1752fd0469203a3db2c7d8"
+  }
+}

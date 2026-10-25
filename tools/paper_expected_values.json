@@ -1,0 +1,4584 @@
+{
+  "schema": "manuscript_result_display_binding_v1",
+  "source_file": "正式文稿.tex",
+  "source_sha256": "a035ed34064311d00fc174fbd1d067249d64128a809587fe733cda7d1ed7e8a1",
+  "checks": [
+    {
+      "metric_key": "scale.primary.base.H1.mean",
+      "expected": 24.5,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-primary",
+      "source_line": 1051
+    },
+    {
+      "metric_key": "scale.primary.base.H1.ci95.lower",
+      "expected": 12.87,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-primary",
+      "source_line": 1051
+    },
+    {
+      "metric_key": "scale.primary.base.H1.ci95.upper",
+      "expected": 36.13,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-primary",
+      "source_line": 1051
+    },
+    {
+      "metric_key": "scale.primary.base.H1.p_holm",
+      "expected": 0.01064,
+      "decimals": 5,
+      "scale": 1,
+      "table": "tab:scale-primary",
+      "source_line": 1051
+    },
+    {
+      "metric_key": "scale.primary.base.H2.mean",
+      "expected": 42.26,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-primary",
+      "source_line": 1052
+    },
+    {
+      "metric_key": "scale.primary.base.H2.ci95.lower",
+      "expected": 32.57,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-primary",
+      "source_line": 1052
+    },
+    {
+      "metric_key": "scale.primary.base.H2.ci95.upper",
+      "expected": 51.95,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-primary",
+      "source_line": 1052
+    },
+    {
+      "metric_key": "scale.primary.base.H2.p_holm",
+      "expected": 0.00107,
+      "decimals": 5,
+      "scale": 1,
+      "table": "tab:scale-primary",
+      "source_line": 1052
+    },
+    {
+      "metric_key": "scale.primary.base.H3.mean",
+      "expected": 2.01,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-primary",
+      "source_line": 1053
+    },
+    {
+      "metric_key": "scale.primary.base.H3.ci95.lower",
+      "expected": 0.71,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-primary",
+      "source_line": 1053
+    },
+    {
+      "metric_key": "scale.primary.base.H3.ci95.upper",
+      "expected": 3.31,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-primary",
+      "source_line": 1053
+    },
+    {
+      "metric_key": "scale.primary.base.H3.p_holm",
+      "expected": 0.01283,
+      "decimals": 5,
+      "scale": 1,
+      "table": "tab:scale-primary",
+      "source_line": 1053
+    },
+    {
+      "metric_key": "scale.primary.width.H1.mean",
+      "expected": 19.17,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-primary",
+      "source_line": 1054
+    },
+    {
+      "metric_key": "scale.primary.width.H1.ci95.lower",
+      "expected": 9.99,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-primary",
+      "source_line": 1054
+    },
+    {
+      "metric_key": "scale.primary.width.H1.ci95.upper",
+      "expected": 28.35,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-primary",
+      "source_line": 1054
+    },
+    {
+      "metric_key": "scale.primary.width.H1.p_holm",
+      "expected": 0.01064,
+      "decimals": 5,
+      "scale": 1,
+      "table": "tab:scale-primary",
+      "source_line": 1054
+    },
+    {
+      "metric_key": "scale.primary.width.H2.mean",
+      "expected": 52.37,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-primary",
+      "source_line": 1055
+    },
+    {
+      "metric_key": "scale.primary.width.H2.ci95.lower",
+      "expected": 44.33,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-primary",
+      "source_line": 1055
+    },
+    {
+      "metric_key": "scale.primary.width.H2.ci95.upper",
+      "expected": 60.41,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-primary",
+      "source_line": 1055
+    },
+    {
+      "metric_key": "scale.primary.width.H2.p_holm",
+      "expected": 0.00025,
+      "decimals": 5,
+      "scale": 1,
+      "table": "tab:scale-primary",
+      "source_line": 1055
+    },
+    {
+      "metric_key": "scale.primary.width.H3.mean",
+      "expected": 2.32,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-primary",
+      "source_line": 1056
+    },
+    {
+      "metric_key": "scale.primary.width.H3.ci95.lower",
+      "expected": 1.49,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-primary",
+      "source_line": 1056
+    },
+    {
+      "metric_key": "scale.primary.width.H3.ci95.upper",
+      "expected": 3.15,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-primary",
+      "source_line": 1056
+    },
+    {
+      "metric_key": "scale.primary.width.H3.p_holm",
+      "expected": 0.0052,
+      "decimals": 5,
+      "scale": 1,
+      "table": "tab:scale-primary",
+      "source_line": 1056
+    },
+    {
+      "metric_key": "scale.primary.depth.H1.mean",
+      "expected": 9.51,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-primary",
+      "source_line": 1057
+    },
+    {
+      "metric_key": "scale.primary.depth.H1.ci95.lower",
+      "expected": -24.51,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-primary",
+      "source_line": 1057
+    },
+    {
+      "metric_key": "scale.primary.depth.H1.ci95.upper",
+      "expected": 43.53,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-primary",
+      "source_line": 1057
+    },
+    {
+      "metric_key": "scale.primary.depth.H1.p_holm",
+      "expected": 0.24055,
+      "decimals": 5,
+      "scale": 1,
+      "table": "tab:scale-primary",
+      "source_line": 1057
+    },
+    {
+      "metric_key": "scale.primary.depth.H2.mean",
+      "expected": 40.15,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-primary",
+      "source_line": 1058
+    },
+    {
+      "metric_key": "scale.primary.depth.H2.ci95.lower",
+      "expected": 19.72,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-primary",
+      "source_line": 1058
+    },
+    {
+      "metric_key": "scale.primary.depth.H2.ci95.upper",
+      "expected": 60.58,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-primary",
+      "source_line": 1058
+    },
+    {
+      "metric_key": "scale.primary.depth.H2.p_holm",
+      "expected": 0.01064,
+      "decimals": 5,
+      "scale": 1,
+      "table": "tab:scale-primary",
+      "source_line": 1058
+    },
+    {
+      "metric_key": "scale.primary.depth.H3.mean",
+      "expected": 2.37,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-primary",
+      "source_line": 1059
+    },
+    {
+      "metric_key": "scale.primary.depth.H3.ci95.lower",
+      "expected": 1.35,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-primary",
+      "source_line": 1059
+    },
+    {
+      "metric_key": "scale.primary.depth.H3.ci95.upper",
+      "expected": 3.39,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-primary",
+      "source_line": 1059
+    },
+    {
+      "metric_key": "scale.primary.depth.H3.p_holm",
+      "expected": 0.00897,
+      "decimals": 5,
+      "scale": 1,
+      "table": "tab:scale-primary",
+      "source_line": 1059
+    },
+    {
+      "metric_key": "scale.seed.base.s13.A",
+      "expected": 63.89,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 881
+    },
+    {
+      "metric_key": "scale.seed.base.s13.P25",
+      "expected": 92.21,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 881
+    },
+    {
+      "metric_key": "scale.seed.base.s13.difference",
+      "expected": 28.33,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 881
+    },
+    {
+      "metric_key": "scale.seed.base.s13.correction",
+      "expected": 0.575,
+      "decimals": 3,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 881
+    },
+    {
+      "metric_key": "scale.seed.base.s14.A",
+      "expected": 79.02,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 882
+    },
+    {
+      "metric_key": "scale.seed.base.s14.P25",
+      "expected": 94.2,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 882
+    },
+    {
+      "metric_key": "scale.seed.base.s14.difference",
+      "expected": 15.18,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 882
+    },
+    {
+      "metric_key": "scale.seed.base.s14.correction",
+      "expected": 0.513,
+      "decimals": 3,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 882
+    },
+    {
+      "metric_key": "scale.seed.base.s15.A",
+      "expected": 54.69,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 883
+    },
+    {
+      "metric_key": "scale.seed.base.s15.P25",
+      "expected": 85.51,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 883
+    },
+    {
+      "metric_key": "scale.seed.base.s15.difference",
+      "expected": 30.82,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 883
+    },
+    {
+      "metric_key": "scale.seed.base.s15.correction",
+      "expected": 0.557,
+      "decimals": 3,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 883
+    },
+    {
+      "metric_key": "scale.seed.base.s16.A",
+      "expected": 57.52,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 884
+    },
+    {
+      "metric_key": "scale.seed.base.s16.P25",
+      "expected": 91.83,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 884
+    },
+    {
+      "metric_key": "scale.seed.base.s16.difference",
+      "expected": 34.31,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 884
+    },
+    {
+      "metric_key": "scale.seed.base.s16.correction",
+      "expected": 0.514,
+      "decimals": 3,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 884
+    },
+    {
+      "metric_key": "scale.seed.base.s17.A",
+      "expected": 80.52,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 885
+    },
+    {
+      "metric_key": "scale.seed.base.s17.P25",
+      "expected": 94.39,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 885
+    },
+    {
+      "metric_key": "scale.seed.base.s17.difference",
+      "expected": 13.87,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 885
+    },
+    {
+      "metric_key": "scale.seed.base.s17.correction",
+      "expected": 0.586,
+      "decimals": 3,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 885
+    },
+    {
+      "metric_key": "scale.seed.width.s13.A",
+      "expected": 66.62,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 887
+    },
+    {
+      "metric_key": "scale.seed.width.s13.P25",
+      "expected": 95.14,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 887
+    },
+    {
+      "metric_key": "scale.seed.width.s13.difference",
+      "expected": 28.52,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 887
+    },
+    {
+      "metric_key": "scale.seed.width.s13.correction",
+      "expected": 0.645,
+      "decimals": 3,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 887
+    },
+    {
+      "metric_key": "scale.seed.width.s14.A",
+      "expected": 78.9,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 888
+    },
+    {
+      "metric_key": "scale.seed.width.s14.P25",
+      "expected": 95.07,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 888
+    },
+    {
+      "metric_key": "scale.seed.width.s14.difference",
+      "expected": 16.17,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 888
+    },
+    {
+      "metric_key": "scale.seed.width.s14.correction",
+      "expected": 0.563,
+      "decimals": 3,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 888
+    },
+    {
+      "metric_key": "scale.seed.width.s15.A",
+      "expected": 78.24,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 889
+    },
+    {
+      "metric_key": "scale.seed.width.s15.P25",
+      "expected": 93.66,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 889
+    },
+    {
+      "metric_key": "scale.seed.width.s15.difference",
+      "expected": 15.42,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 889
+    },
+    {
+      "metric_key": "scale.seed.width.s15.correction",
+      "expected": 0.609,
+      "decimals": 3,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 889
+    },
+    {
+      "metric_key": "scale.seed.width.s16.A",
+      "expected": 85.99,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 890
+    },
+    {
+      "metric_key": "scale.seed.width.s16.P25",
+      "expected": 96.62,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 890
+    },
+    {
+      "metric_key": "scale.seed.width.s16.difference",
+      "expected": 10.63,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 890
+    },
+    {
+      "metric_key": "scale.seed.width.s16.correction",
+      "expected": 0.504,
+      "decimals": 3,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 890
+    },
+    {
+      "metric_key": "scale.seed.width.s17.A",
+      "expected": 70.19,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 891
+    },
+    {
+      "metric_key": "scale.seed.width.s17.P25",
+      "expected": 95.29,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 891
+    },
+    {
+      "metric_key": "scale.seed.width.s17.difference",
+      "expected": 25.1,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 891
+    },
+    {
+      "metric_key": "scale.seed.width.s17.correction",
+      "expected": 0.628,
+      "decimals": 3,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 891
+    },
+    {
+      "metric_key": "scale.seed.depth.s13.A",
+      "expected": 63.49,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 893
+    },
+    {
+      "metric_key": "scale.seed.depth.s13.P25",
+      "expected": 91.49,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 893
+    },
+    {
+      "metric_key": "scale.seed.depth.s13.difference",
+      "expected": 28.0,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 893
+    },
+    {
+      "metric_key": "scale.seed.depth.s13.correction",
+      "expected": 0.631,
+      "decimals": 3,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 893
+    },
+    {
+      "metric_key": "scale.seed.depth.s14.A",
+      "expected": 83.43,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 894
+    },
+    {
+      "metric_key": "scale.seed.depth.s14.P25",
+      "expected": 53.49,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 894
+    },
+    {
+      "metric_key": "scale.seed.depth.s14.difference",
+      "expected": -29.95,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 894
+    },
+    {
+      "metric_key": "scale.seed.depth.s14.correction",
+      "expected": 0.729,
+      "decimals": 3,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 894
+    },
+    {
+      "metric_key": "scale.seed.depth.s15.A",
+      "expected": 62.85,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 895
+    },
+    {
+      "metric_key": "scale.seed.depth.s15.P25",
+      "expected": 91.34,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 895
+    },
+    {
+      "metric_key": "scale.seed.depth.s15.difference",
+      "expected": 28.49,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 895
+    },
+    {
+      "metric_key": "scale.seed.depth.s15.correction",
+      "expected": 0.582,
+      "decimals": 3,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 895
+    },
+    {
+      "metric_key": "scale.seed.depth.s16.A",
+      "expected": 71.94,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 896
+    },
+    {
+      "metric_key": "scale.seed.depth.s16.P25",
+      "expected": 63.18,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 896
+    },
+    {
+      "metric_key": "scale.seed.depth.s16.difference",
+      "expected": -8.77,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 896
+    },
+    {
+      "metric_key": "scale.seed.depth.s16.correction",
+      "expected": 0.721,
+      "decimals": 3,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 896
+    },
+    {
+      "metric_key": "scale.seed.depth.s17.A",
+      "expected": 60.69,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 897
+    },
+    {
+      "metric_key": "scale.seed.depth.s17.P25",
+      "expected": 90.44,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 897
+    },
+    {
+      "metric_key": "scale.seed.depth.s17.difference",
+      "expected": 29.75,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 897
+    },
+    {
+      "metric_key": "scale.seed.depth.s17.correction",
+      "expected": 0.612,
+      "decimals": 3,
+      "scale": 100,
+      "table": "tab:scale-seeds",
+      "source_line": 897
+    },
+    {
+      "metric_key": "scale.arm.base.A.icl.acc.mean",
+      "expected": 67.13,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 447
+    },
+    {
+      "metric_key": "scale.arm.base.A.icl.acc.sd",
+      "expected": 12.02,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 447
+    },
+    {
+      "metric_key": "scale.arm.base.A.icl.loss.mean",
+      "expected": 2.518,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:scale-summary",
+      "source_line": 447
+    },
+    {
+      "metric_key": "scale.arm.base.A.iwl_copy_avail.acc.mean",
+      "expected": 79.41,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 447
+    },
+    {
+      "metric_key": "scale.arm.base.A.iwl_copy_avail.acc.sd",
+      "expected": 8.48,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 447
+    },
+    {
+      "metric_key": "scale.arm.base.A.iwl_copy_avail.loss.mean",
+      "expected": 1.379,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:scale-summary",
+      "source_line": 447
+    },
+    {
+      "metric_key": "scale.arm.base.A.train_eval.acc.mean",
+      "expected": 96.71,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 447
+    },
+    {
+      "metric_key": "scale.arm.base.A.train_eval.acc.sd",
+      "expected": 0.76,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 447
+    },
+    {
+      "metric_key": "scale.arm.base.A.train_eval.loss.mean",
+      "expected": 0.163,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:scale-summary",
+      "source_line": 447
+    },
+    {
+      "metric_key": "scale.arm.base.C25.icl.acc.mean",
+      "expected": 92.72,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 448
+    },
+    {
+      "metric_key": "scale.arm.base.C25.icl.acc.sd",
+      "expected": 2.85,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 448
+    },
+    {
+      "metric_key": "scale.arm.base.C25.icl.loss.mean",
+      "expected": 0.258,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:scale-summary",
+      "source_line": 448
+    },
+    {
+      "metric_key": "scale.arm.base.C25.iwl_copy_avail.acc.mean",
+      "expected": 77.41,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 448
+    },
+    {
+      "metric_key": "scale.arm.base.C25.iwl_copy_avail.acc.sd",
+      "expected": 7.82,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 448
+    },
+    {
+      "metric_key": "scale.arm.base.C25.iwl_copy_avail.loss.mean",
+      "expected": 1.546,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:scale-summary",
+      "source_line": 448
+    },
+    {
+      "metric_key": "scale.arm.base.C25.train_eval.acc.mean",
+      "expected": 96.66,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 448
+    },
+    {
+      "metric_key": "scale.arm.base.C25.train_eval.acc.sd",
+      "expected": 0.79,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 448
+    },
+    {
+      "metric_key": "scale.arm.base.C25.train_eval.loss.mean",
+      "expected": 0.166,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:scale-summary",
+      "source_line": 448
+    },
+    {
+      "metric_key": "scale.arm.base.PR25.icl.acc.mean",
+      "expected": 49.37,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 449
+    },
+    {
+      "metric_key": "scale.arm.base.PR25.icl.acc.sd",
+      "expected": 6.08,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 449
+    },
+    {
+      "metric_key": "scale.arm.base.PR25.icl.loss.mean",
+      "expected": 0.924,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:scale-summary",
+      "source_line": 449
+    },
+    {
+      "metric_key": "scale.arm.base.PR25.iwl_copy_avail.acc.mean",
+      "expected": 81.74,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 449
+    },
+    {
+      "metric_key": "scale.arm.base.PR25.iwl_copy_avail.acc.sd",
+      "expected": 8.45,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 449
+    },
+    {
+      "metric_key": "scale.arm.base.PR25.iwl_copy_avail.loss.mean",
+      "expected": 1.174,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:scale-summary",
+      "source_line": 449
+    },
+    {
+      "metric_key": "scale.arm.base.PR25.train_eval.acc.mean",
+      "expected": 96.71,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 449
+    },
+    {
+      "metric_key": "scale.arm.base.PR25.train_eval.acc.sd",
+      "expected": 0.73,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 449
+    },
+    {
+      "metric_key": "scale.arm.base.PR25.train_eval.loss.mean",
+      "expected": 0.163,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:scale-summary",
+      "source_line": 449
+    },
+    {
+      "metric_key": "scale.arm.base.P25.icl.acc.mean",
+      "expected": 91.63,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 450
+    },
+    {
+      "metric_key": "scale.arm.base.P25.icl.acc.sd",
+      "expected": 3.61,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 450
+    },
+    {
+      "metric_key": "scale.arm.base.P25.icl.loss.mean",
+      "expected": 0.29,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:scale-summary",
+      "source_line": 450
+    },
+    {
+      "metric_key": "scale.arm.base.P25.iwl_copy_avail.acc.mean",
+      "expected": 79.42,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 450
+    },
+    {
+      "metric_key": "scale.arm.base.P25.iwl_copy_avail.acc.sd",
+      "expected": 8.47,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 450
+    },
+    {
+      "metric_key": "scale.arm.base.P25.iwl_copy_avail.loss.mean",
+      "expected": 1.381,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:scale-summary",
+      "source_line": 450
+    },
+    {
+      "metric_key": "scale.arm.base.P25.train_eval.acc.mean",
+      "expected": 96.73,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 450
+    },
+    {
+      "metric_key": "scale.arm.base.P25.train_eval.acc.sd",
+      "expected": 0.74,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 450
+    },
+    {
+      "metric_key": "scale.arm.base.P25.train_eval.loss.mean",
+      "expected": 0.163,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:scale-summary",
+      "source_line": 450
+    },
+    {
+      "metric_key": "scale.arm.width.A.icl.acc.mean",
+      "expected": 75.99,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 453
+    },
+    {
+      "metric_key": "scale.arm.width.A.icl.acc.sd",
+      "expected": 7.66,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 453
+    },
+    {
+      "metric_key": "scale.arm.width.A.icl.loss.mean",
+      "expected": 1.762,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:scale-summary",
+      "source_line": 453
+    },
+    {
+      "metric_key": "scale.arm.width.A.iwl_copy_avail.acc.mean",
+      "expected": 87.23,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 453
+    },
+    {
+      "metric_key": "scale.arm.width.A.iwl_copy_avail.acc.sd",
+      "expected": 4.06,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 453
+    },
+    {
+      "metric_key": "scale.arm.width.A.iwl_copy_avail.loss.mean",
+      "expected": 0.606,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:scale-summary",
+      "source_line": 453
+    },
+    {
+      "metric_key": "scale.arm.width.A.train_eval.acc.mean",
+      "expected": 98.67,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 453
+    },
+    {
+      "metric_key": "scale.arm.width.A.train_eval.acc.sd",
+      "expected": 0.25,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 453
+    },
+    {
+      "metric_key": "scale.arm.width.A.train_eval.loss.mean",
+      "expected": 0.049,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:scale-summary",
+      "source_line": 453
+    },
+    {
+      "metric_key": "scale.arm.width.C25.icl.acc.mean",
+      "expected": 95.98,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 454
+    },
+    {
+      "metric_key": "scale.arm.width.C25.icl.acc.sd",
+      "expected": 0.57,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 454
+    },
+    {
+      "metric_key": "scale.arm.width.C25.icl.loss.mean",
+      "expected": 0.131,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:scale-summary",
+      "source_line": 454
+    },
+    {
+      "metric_key": "scale.arm.width.C25.iwl_copy_avail.acc.mean",
+      "expected": 84.82,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 454
+    },
+    {
+      "metric_key": "scale.arm.width.C25.iwl_copy_avail.acc.sd",
+      "expected": 3.45,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 454
+    },
+    {
+      "metric_key": "scale.arm.width.C25.iwl_copy_avail.loss.mean",
+      "expected": 0.746,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:scale-summary",
+      "source_line": 454
+    },
+    {
+      "metric_key": "scale.arm.width.C25.train_eval.acc.mean",
+      "expected": 98.66,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 454
+    },
+    {
+      "metric_key": "scale.arm.width.C25.train_eval.acc.sd",
+      "expected": 0.24,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 454
+    },
+    {
+      "metric_key": "scale.arm.width.C25.train_eval.loss.mean",
+      "expected": 0.05,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:scale-summary",
+      "source_line": 454
+    },
+    {
+      "metric_key": "scale.arm.width.PR25.icl.acc.mean",
+      "expected": 42.79,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 455
+    },
+    {
+      "metric_key": "scale.arm.width.PR25.icl.acc.sd",
+      "expected": 6.01,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 455
+    },
+    {
+      "metric_key": "scale.arm.width.PR25.icl.loss.mean",
+      "expected": 0.991,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:scale-summary",
+      "source_line": 455
+    },
+    {
+      "metric_key": "scale.arm.width.PR25.iwl_copy_avail.acc.mean",
+      "expected": 89.99,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 455
+    },
+    {
+      "metric_key": "scale.arm.width.PR25.iwl_copy_avail.acc.sd",
+      "expected": 3.95,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 455
+    },
+    {
+      "metric_key": "scale.arm.width.PR25.iwl_copy_avail.loss.mean",
+      "expected": 0.449,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:scale-summary",
+      "source_line": 455
+    },
+    {
+      "metric_key": "scale.arm.width.PR25.train_eval.acc.mean",
+      "expected": 98.68,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 455
+    },
+    {
+      "metric_key": "scale.arm.width.PR25.train_eval.acc.sd",
+      "expected": 0.25,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 455
+    },
+    {
+      "metric_key": "scale.arm.width.PR25.train_eval.loss.mean",
+      "expected": 0.049,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:scale-summary",
+      "source_line": 455
+    },
+    {
+      "metric_key": "scale.arm.width.P25.icl.acc.mean",
+      "expected": 95.16,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 456
+    },
+    {
+      "metric_key": "scale.arm.width.P25.icl.acc.sd",
+      "expected": 1.05,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 456
+    },
+    {
+      "metric_key": "scale.arm.width.P25.icl.loss.mean",
+      "expected": 0.148,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:scale-summary",
+      "source_line": 456
+    },
+    {
+      "metric_key": "scale.arm.width.P25.iwl_copy_avail.acc.mean",
+      "expected": 87.14,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 456
+    },
+    {
+      "metric_key": "scale.arm.width.P25.iwl_copy_avail.acc.sd",
+      "expected": 4.07,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 456
+    },
+    {
+      "metric_key": "scale.arm.width.P25.iwl_copy_avail.loss.mean",
+      "expected": 0.614,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:scale-summary",
+      "source_line": 456
+    },
+    {
+      "metric_key": "scale.arm.width.P25.train_eval.acc.mean",
+      "expected": 98.67,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 456
+    },
+    {
+      "metric_key": "scale.arm.width.P25.train_eval.acc.sd",
+      "expected": 0.24,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 456
+    },
+    {
+      "metric_key": "scale.arm.width.P25.train_eval.loss.mean",
+      "expected": 0.049,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:scale-summary",
+      "source_line": 456
+    },
+    {
+      "metric_key": "scale.comparison.base.C25.icl.acc.mean",
+      "expected": 25.59,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 466
+    },
+    {
+      "metric_key": "scale.comparison.base.C25.icl.acc.ci95.lower",
+      "expected": 13.34,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 466
+    },
+    {
+      "metric_key": "scale.comparison.base.C25.icl.acc.ci95.upper",
+      "expected": 37.84,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 466
+    },
+    {
+      "metric_key": "scale.comparison.base.C25.iwl_copy_avail.acc.mean",
+      "expected": -2.0,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 466
+    },
+    {
+      "metric_key": "scale.correction.base.C25.mean",
+      "expected": 1.034,
+      "decimals": 3,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 466
+    },
+    {
+      "metric_key": "scale.comparison.base.PR25.icl.acc.mean",
+      "expected": -17.76,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 467
+    },
+    {
+      "metric_key": "scale.comparison.base.PR25.icl.acc.ci95.lower",
+      "expected": -38.19,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 467
+    },
+    {
+      "metric_key": "scale.comparison.base.PR25.icl.acc.ci95.upper",
+      "expected": 2.67,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 467
+    },
+    {
+      "metric_key": "scale.comparison.base.PR25.iwl_copy_avail.acc.mean",
+      "expected": 2.33,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 467
+    },
+    {
+      "metric_key": "scale.correction.base.PR25.mean",
+      "expected": 0.624,
+      "decimals": 3,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 467
+    },
+    {
+      "metric_key": "scale.comparison.base.P25.icl.acc.mean",
+      "expected": 24.5,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 468
+    },
+    {
+      "metric_key": "scale.comparison.base.P25.icl.acc.ci95.lower",
+      "expected": 12.87,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 468
+    },
+    {
+      "metric_key": "scale.comparison.base.P25.icl.acc.ci95.upper",
+      "expected": 36.13,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 468
+    },
+    {
+      "metric_key": "scale.comparison.base.P25.iwl_copy_avail.acc.mean",
+      "expected": 0.0,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 468
+    },
+    {
+      "metric_key": "scale.correction.base.P25.mean",
+      "expected": 0.549,
+      "decimals": 3,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 468
+    },
+    {
+      "metric_key": "scale.comparison.width.C25.icl.acc.mean",
+      "expected": 19.99,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 471
+    },
+    {
+      "metric_key": "scale.comparison.width.C25.icl.acc.ci95.lower",
+      "expected": 10.96,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 471
+    },
+    {
+      "metric_key": "scale.comparison.width.C25.icl.acc.ci95.upper",
+      "expected": 29.02,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 471
+    },
+    {
+      "metric_key": "scale.comparison.width.C25.iwl_copy_avail.acc.mean",
+      "expected": -2.42,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 471
+    },
+    {
+      "metric_key": "scale.correction.width.C25.mean",
+      "expected": 1.17,
+      "decimals": 3,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 471
+    },
+    {
+      "metric_key": "scale.comparison.width.PR25.icl.acc.mean",
+      "expected": -33.2,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 472
+    },
+    {
+      "metric_key": "scale.comparison.width.PR25.icl.acc.ci95.lower",
+      "expected": -44.91,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 472
+    },
+    {
+      "metric_key": "scale.comparison.width.PR25.icl.acc.ci95.upper",
+      "expected": -21.49,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 472
+    },
+    {
+      "metric_key": "scale.comparison.width.PR25.iwl_copy_avail.acc.mean",
+      "expected": 2.75,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 472
+    },
+    {
+      "metric_key": "scale.correction.width.PR25.mean",
+      "expected": 0.672,
+      "decimals": 3,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 472
+    },
+    {
+      "metric_key": "scale.comparison.width.P25.icl.acc.mean",
+      "expected": 19.17,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 473
+    },
+    {
+      "metric_key": "scale.comparison.width.P25.icl.acc.ci95.lower",
+      "expected": 9.99,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 473
+    },
+    {
+      "metric_key": "scale.comparison.width.P25.icl.acc.ci95.upper",
+      "expected": 28.35,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 473
+    },
+    {
+      "metric_key": "scale.comparison.width.P25.iwl_copy_avail.acc.mean",
+      "expected": -0.1,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 473
+    },
+    {
+      "metric_key": "scale.correction.width.P25.mean",
+      "expected": 0.59,
+      "decimals": 3,
+      "scale": 100,
+      "table": "tab:scale-summary",
+      "source_line": 473
+    },
+    {
+      "metric_key": "horizon.original.10000000.A.icl.acc.n",
+      "expected": 5.0,
+      "decimals": 0,
+      "scale": 1,
+      "table": "tab:horizon-summary",
+      "source_line": 649
+    },
+    {
+      "metric_key": "horizon.original.10000000.A.icl.acc.mean",
+      "expected": 65.45,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-summary",
+      "source_line": 649
+    },
+    {
+      "metric_key": "horizon.original.10000000.P25.icl.acc.mean",
+      "expected": 80.64,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-summary",
+      "source_line": 649
+    },
+    {
+      "metric_key": "horizon.original.10000000.difference.icl.acc.mean",
+      "expected": 15.18,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-summary",
+      "source_line": 649
+    },
+    {
+      "metric_key": "horizon.original.10000000.difference.icl.acc.ci95.lower",
+      "expected": -1.02,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-summary",
+      "source_line": 649
+    },
+    {
+      "metric_key": "horizon.original.10000000.difference.icl.acc.ci95.upper",
+      "expected": 31.39,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-summary",
+      "source_line": 649
+    },
+    {
+      "metric_key": "horizon.original.40000000.A.icl.acc.n",
+      "expected": 3.0,
+      "decimals": 0,
+      "scale": 1,
+      "table": "tab:horizon-summary",
+      "source_line": 650
+    },
+    {
+      "metric_key": "horizon.original.40000000.A.icl.acc.mean",
+      "expected": 53.11,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-summary",
+      "source_line": 650
+    },
+    {
+      "metric_key": "horizon.original.40000000.P25.icl.acc.mean",
+      "expected": 91.77,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-summary",
+      "source_line": 650
+    },
+    {
+      "metric_key": "horizon.original.40000000.difference.icl.acc.mean",
+      "expected": 38.66,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-summary",
+      "source_line": 650
+    },
+    {
+      "metric_key": "horizon.original.40000000.difference.icl.acc.ci95.lower",
+      "expected": 28.97,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-summary",
+      "source_line": 650
+    },
+    {
+      "metric_key": "horizon.original.40000000.difference.icl.acc.ci95.upper",
+      "expected": 48.36,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-summary",
+      "source_line": 650
+    },
+    {
+      "metric_key": "horizon.supplement.40000000.A.icl.acc.n",
+      "expected": 5.0,
+      "decimals": 0,
+      "scale": 1,
+      "table": "tab:horizon-summary",
+      "source_line": 651
+    },
+    {
+      "metric_key": "horizon.supplement.40000000.A.icl.acc.mean",
+      "expected": 52.9,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-summary",
+      "source_line": 651
+    },
+    {
+      "metric_key": "horizon.supplement.40000000.P25.icl.acc.mean",
+      "expected": 89.1,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-summary",
+      "source_line": 651
+    },
+    {
+      "metric_key": "horizon.supplement.40000000.difference.icl.acc.mean",
+      "expected": 36.21,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-summary",
+      "source_line": 651
+    },
+    {
+      "metric_key": "horizon.supplement.40000000.difference.icl.acc.ci95.lower",
+      "expected": 29.25,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-summary",
+      "source_line": 651
+    },
+    {
+      "metric_key": "horizon.supplement.40000000.difference.icl.acc.ci95.upper",
+      "expected": 43.16,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-summary",
+      "source_line": 651
+    },
+    {
+      "metric_key": "horizon.original.10000000.A.icl.acc.mean",
+      "expected": 65.45,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1089
+    },
+    {
+      "metric_key": "horizon.original.10000000.A.icl.ce.mean",
+      "expected": 2.259,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1089
+    },
+    {
+      "metric_key": "horizon.original.10000000.A.iwl_copy_avail.acc.mean",
+      "expected": 75.57,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1089
+    },
+    {
+      "metric_key": "horizon.original.10000000.A.iwl_copy_avail.ce.mean",
+      "expected": 1.571,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1089
+    },
+    {
+      "metric_key": "horizon.original.10000000.A.train_eval.acc.mean",
+      "expected": 92.41,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1089
+    },
+    {
+      "metric_key": "horizon.original.10000000.A.train_eval.ce.mean",
+      "expected": 0.352,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1089
+    },
+    {
+      "metric_key": "horizon.original.10000000.P25.icl.acc.mean",
+      "expected": 80.64,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1090
+    },
+    {
+      "metric_key": "horizon.original.10000000.P25.icl.ce.mean",
+      "expected": 0.473,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1090
+    },
+    {
+      "metric_key": "horizon.original.10000000.P25.iwl_copy_avail.acc.mean",
+      "expected": 75.87,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1090
+    },
+    {
+      "metric_key": "horizon.original.10000000.P25.iwl_copy_avail.ce.mean",
+      "expected": 1.54,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1090
+    },
+    {
+      "metric_key": "horizon.original.10000000.P25.train_eval.acc.mean",
+      "expected": 92.38,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1090
+    },
+    {
+      "metric_key": "horizon.original.10000000.P25.train_eval.ce.mean",
+      "expected": 0.352,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1090
+    },
+    {
+      "metric_key": "horizon.original.20000000.A.icl.acc.mean",
+      "expected": 59.35,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1091
+    },
+    {
+      "metric_key": "horizon.original.20000000.A.icl.ce.mean",
+      "expected": 3.597,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1091
+    },
+    {
+      "metric_key": "horizon.original.20000000.A.iwl_copy_avail.acc.mean",
+      "expected": 89.51,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1091
+    },
+    {
+      "metric_key": "horizon.original.20000000.A.iwl_copy_avail.ce.mean",
+      "expected": 0.51,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1091
+    },
+    {
+      "metric_key": "horizon.original.20000000.A.train_eval.acc.mean",
+      "expected": 98.36,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1091
+    },
+    {
+      "metric_key": "horizon.original.20000000.A.train_eval.ce.mean",
+      "expected": 0.068,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1091
+    },
+    {
+      "metric_key": "horizon.original.20000000.P25.icl.acc.mean",
+      "expected": 88.56,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1092
+    },
+    {
+      "metric_key": "horizon.original.20000000.P25.icl.ce.mean",
+      "expected": 0.284,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1092
+    },
+    {
+      "metric_key": "horizon.original.20000000.P25.iwl_copy_avail.acc.mean",
+      "expected": 89.67,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1092
+    },
+    {
+      "metric_key": "horizon.original.20000000.P25.iwl_copy_avail.ce.mean",
+      "expected": 0.504,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1092
+    },
+    {
+      "metric_key": "horizon.original.20000000.P25.train_eval.acc.mean",
+      "expected": 98.35,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1092
+    },
+    {
+      "metric_key": "horizon.original.20000000.P25.train_eval.ce.mean",
+      "expected": 0.068,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1092
+    },
+    {
+      "metric_key": "horizon.original.30000000.A.icl.acc.mean",
+      "expected": 54.71,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1093
+    },
+    {
+      "metric_key": "horizon.original.30000000.A.icl.ce.mean",
+      "expected": 4.514,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1093
+    },
+    {
+      "metric_key": "horizon.original.30000000.A.iwl_copy_avail.acc.mean",
+      "expected": 96.21,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1093
+    },
+    {
+      "metric_key": "horizon.original.30000000.A.iwl_copy_avail.ce.mean",
+      "expected": 0.163,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1093
+    },
+    {
+      "metric_key": "horizon.original.30000000.A.train_eval.acc.mean",
+      "expected": 99.11,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1093
+    },
+    {
+      "metric_key": "horizon.original.30000000.A.train_eval.ce.mean",
+      "expected": 0.034,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1093
+    },
+    {
+      "metric_key": "horizon.original.30000000.P25.icl.acc.mean",
+      "expected": 91.67,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1094
+    },
+    {
+      "metric_key": "horizon.original.30000000.P25.icl.ce.mean",
+      "expected": 0.22,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1094
+    },
+    {
+      "metric_key": "horizon.original.30000000.P25.iwl_copy_avail.acc.mean",
+      "expected": 96.32,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1094
+    },
+    {
+      "metric_key": "horizon.original.30000000.P25.iwl_copy_avail.ce.mean",
+      "expected": 0.159,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1094
+    },
+    {
+      "metric_key": "horizon.original.30000000.P25.train_eval.acc.mean",
+      "expected": 99.1,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1094
+    },
+    {
+      "metric_key": "horizon.original.30000000.P25.train_eval.ce.mean",
+      "expected": 0.035,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1094
+    },
+    {
+      "metric_key": "horizon.original.40000000.A.icl.acc.mean",
+      "expected": 53.11,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1095
+    },
+    {
+      "metric_key": "horizon.original.40000000.A.icl.ce.mean",
+      "expected": 5.028,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1095
+    },
+    {
+      "metric_key": "horizon.original.40000000.A.iwl_copy_avail.acc.mean",
+      "expected": 98.32,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1095
+    },
+    {
+      "metric_key": "horizon.original.40000000.A.iwl_copy_avail.ce.mean",
+      "expected": 0.072,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1095
+    },
+    {
+      "metric_key": "horizon.original.40000000.A.train_eval.acc.mean",
+      "expected": 99.34,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1095
+    },
+    {
+      "metric_key": "horizon.original.40000000.A.train_eval.ce.mean",
+      "expected": 0.025,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1095
+    },
+    {
+      "metric_key": "horizon.original.40000000.P25.icl.acc.mean",
+      "expected": 91.77,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1096
+    },
+    {
+      "metric_key": "horizon.original.40000000.P25.icl.ce.mean",
+      "expected": 0.213,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1096
+    },
+    {
+      "metric_key": "horizon.original.40000000.P25.iwl_copy_avail.acc.mean",
+      "expected": 98.3,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1096
+    },
+    {
+      "metric_key": "horizon.original.40000000.P25.iwl_copy_avail.ce.mean",
+      "expected": 0.074,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1096
+    },
+    {
+      "metric_key": "horizon.original.40000000.P25.train_eval.acc.mean",
+      "expected": 99.36,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1096
+    },
+    {
+      "metric_key": "horizon.original.40000000.P25.train_eval.ce.mean",
+      "expected": 0.025,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1096
+    },
+    {
+      "metric_key": "horizon.supplement.20000000.A.icl.acc.mean",
+      "expected": 57.37,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1099
+    },
+    {
+      "metric_key": "horizon.supplement.20000000.A.icl.ce.mean",
+      "expected": 3.708,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1099
+    },
+    {
+      "metric_key": "horizon.supplement.20000000.A.iwl_copy_avail.acc.mean",
+      "expected": 90.88,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1099
+    },
+    {
+      "metric_key": "horizon.supplement.20000000.A.iwl_copy_avail.ce.mean",
+      "expected": 0.455,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1099
+    },
+    {
+      "metric_key": "horizon.supplement.20000000.A.train_eval.acc.mean",
+      "expected": 98.46,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1099
+    },
+    {
+      "metric_key": "horizon.supplement.20000000.A.train_eval.ce.mean",
+      "expected": 0.064,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1099
+    },
+    {
+      "metric_key": "horizon.supplement.20000000.P25.icl.acc.mean",
+      "expected": 86.99,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1100
+    },
+    {
+      "metric_key": "horizon.supplement.20000000.P25.icl.ce.mean",
+      "expected": 0.307,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1100
+    },
+    {
+      "metric_key": "horizon.supplement.20000000.P25.iwl_copy_avail.acc.mean",
+      "expected": 90.99,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1100
+    },
+    {
+      "metric_key": "horizon.supplement.20000000.P25.iwl_copy_avail.ce.mean",
+      "expected": 0.45,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1100
+    },
+    {
+      "metric_key": "horizon.supplement.20000000.P25.train_eval.acc.mean",
+      "expected": 98.44,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1100
+    },
+    {
+      "metric_key": "horizon.supplement.20000000.P25.train_eval.ce.mean",
+      "expected": 0.064,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1100
+    },
+    {
+      "metric_key": "horizon.supplement.30000000.A.icl.acc.mean",
+      "expected": 54.08,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1101
+    },
+    {
+      "metric_key": "horizon.supplement.30000000.A.icl.ce.mean",
+      "expected": 4.44,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1101
+    },
+    {
+      "metric_key": "horizon.supplement.30000000.A.iwl_copy_avail.acc.mean",
+      "expected": 96.63,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1101
+    },
+    {
+      "metric_key": "horizon.supplement.30000000.A.iwl_copy_avail.ce.mean",
+      "expected": 0.149,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1101
+    },
+    {
+      "metric_key": "horizon.supplement.30000000.A.train_eval.acc.mean",
+      "expected": 99.13,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1101
+    },
+    {
+      "metric_key": "horizon.supplement.30000000.A.train_eval.ce.mean",
+      "expected": 0.034,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1101
+    },
+    {
+      "metric_key": "horizon.supplement.30000000.P25.icl.acc.mean",
+      "expected": 88.87,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1102
+    },
+    {
+      "metric_key": "horizon.supplement.30000000.P25.icl.ce.mean",
+      "expected": 0.266,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1102
+    },
+    {
+      "metric_key": "horizon.supplement.30000000.P25.iwl_copy_avail.acc.mean",
+      "expected": 96.67,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1102
+    },
+    {
+      "metric_key": "horizon.supplement.30000000.P25.iwl_copy_avail.ce.mean",
+      "expected": 0.15,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1102
+    },
+    {
+      "metric_key": "horizon.supplement.30000000.P25.train_eval.acc.mean",
+      "expected": 99.13,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1102
+    },
+    {
+      "metric_key": "horizon.supplement.30000000.P25.train_eval.ce.mean",
+      "expected": 0.035,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1102
+    },
+    {
+      "metric_key": "horizon.supplement.40000000.A.icl.acc.mean",
+      "expected": 52.9,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1103
+    },
+    {
+      "metric_key": "horizon.supplement.40000000.A.icl.ce.mean",
+      "expected": 4.777,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1103
+    },
+    {
+      "metric_key": "horizon.supplement.40000000.A.iwl_copy_avail.acc.mean",
+      "expected": 98.36,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1103
+    },
+    {
+      "metric_key": "horizon.supplement.40000000.A.iwl_copy_avail.ce.mean",
+      "expected": 0.072,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1103
+    },
+    {
+      "metric_key": "horizon.supplement.40000000.A.train_eval.acc.mean",
+      "expected": 99.36,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1103
+    },
+    {
+      "metric_key": "horizon.supplement.40000000.A.train_eval.ce.mean",
+      "expected": 0.025,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1103
+    },
+    {
+      "metric_key": "horizon.supplement.40000000.P25.icl.acc.mean",
+      "expected": 89.1,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1104
+    },
+    {
+      "metric_key": "horizon.supplement.40000000.P25.icl.ce.mean",
+      "expected": 0.26,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1104
+    },
+    {
+      "metric_key": "horizon.supplement.40000000.P25.iwl_copy_avail.acc.mean",
+      "expected": 98.3,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1104
+    },
+    {
+      "metric_key": "horizon.supplement.40000000.P25.iwl_copy_avail.ce.mean",
+      "expected": 0.075,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1104
+    },
+    {
+      "metric_key": "horizon.supplement.40000000.P25.train_eval.acc.mean",
+      "expected": 99.36,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1104
+    },
+    {
+      "metric_key": "horizon.supplement.40000000.P25.train_eval.ce.mean",
+      "expected": 0.025,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:horizon-all-budgets",
+      "source_line": 1104
+    },
+    {
+      "metric_key": "horizon.seed.original.10000000.s18.A",
+      "expected": 53.86,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-seeds",
+      "source_line": 1130
+    },
+    {
+      "metric_key": "horizon.seed.original.10000000.s18.P25",
+      "expected": 89.94,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-seeds",
+      "source_line": 1130
+    },
+    {
+      "metric_key": "horizon.seed.original.10000000.s18.difference",
+      "expected": 36.08,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-seeds",
+      "source_line": 1130
+    },
+    {
+      "metric_key": "horizon.seed.original.10000000.s19.A",
+      "expected": 86.31,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-seeds",
+      "source_line": 1131
+    },
+    {
+      "metric_key": "horizon.seed.original.10000000.s19.P25",
+      "expected": 93.96,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-seeds",
+      "source_line": 1131
+    },
+    {
+      "metric_key": "horizon.seed.original.10000000.s19.difference",
+      "expected": 7.65,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-seeds",
+      "source_line": 1131
+    },
+    {
+      "metric_key": "horizon.seed.original.10000000.s20.A",
+      "expected": 48.63,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-seeds",
+      "source_line": 1132
+    },
+    {
+      "metric_key": "horizon.seed.original.10000000.s20.P25",
+      "expected": 50.14,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-seeds",
+      "source_line": 1132
+    },
+    {
+      "metric_key": "horizon.seed.original.10000000.s20.difference",
+      "expected": 1.51,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-seeds",
+      "source_line": 1132
+    },
+    {
+      "metric_key": "horizon.seed.original.10000000.s21.A",
+      "expected": 62.69,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-seeds",
+      "source_line": 1133
+    },
+    {
+      "metric_key": "horizon.seed.original.10000000.s21.P25",
+      "expected": 78.55,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-seeds",
+      "source_line": 1133
+    },
+    {
+      "metric_key": "horizon.seed.original.10000000.s21.difference",
+      "expected": 15.85,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-seeds",
+      "source_line": 1133
+    },
+    {
+      "metric_key": "horizon.seed.original.10000000.s22.A",
+      "expected": 75.77,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-seeds",
+      "source_line": 1134
+    },
+    {
+      "metric_key": "horizon.seed.original.10000000.s22.P25",
+      "expected": 90.59,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-seeds",
+      "source_line": 1134
+    },
+    {
+      "metric_key": "horizon.seed.original.10000000.s22.difference",
+      "expected": 14.83,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-seeds",
+      "source_line": 1134
+    },
+    {
+      "metric_key": "horizon.seed.original.40000000.s18.A",
+      "expected": 48.58,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-seeds",
+      "source_line": 1135
+    },
+    {
+      "metric_key": "horizon.seed.original.40000000.s18.P25",
+      "expected": 90.7,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-seeds",
+      "source_line": 1135
+    },
+    {
+      "metric_key": "horizon.seed.original.40000000.s18.difference",
+      "expected": 42.12,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-seeds",
+      "source_line": 1135
+    },
+    {
+      "metric_key": "horizon.seed.original.40000000.s19.A",
+      "expected": 59.57,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-seeds",
+      "source_line": 1136
+    },
+    {
+      "metric_key": "horizon.seed.original.40000000.s19.P25",
+      "expected": 94.0,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-seeds",
+      "source_line": 1136
+    },
+    {
+      "metric_key": "horizon.seed.original.40000000.s19.difference",
+      "expected": 34.43,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-seeds",
+      "source_line": 1136
+    },
+    {
+      "metric_key": "horizon.seed.original.40000000.s20.A",
+      "expected": 51.18,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-seeds",
+      "source_line": 1137
+    },
+    {
+      "metric_key": "horizon.seed.original.40000000.s20.P25",
+      "expected": 90.62,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-seeds",
+      "source_line": 1137
+    },
+    {
+      "metric_key": "horizon.seed.original.40000000.s20.difference",
+      "expected": 39.45,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-seeds",
+      "source_line": 1137
+    },
+    {
+      "metric_key": "horizon.seed.supplement.40000000.s21.A",
+      "expected": 47.83,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-seeds",
+      "source_line": 1138
+    },
+    {
+      "metric_key": "horizon.seed.supplement.40000000.s21.P25",
+      "expected": 75.36,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-seeds",
+      "source_line": 1138
+    },
+    {
+      "metric_key": "horizon.seed.supplement.40000000.s21.difference",
+      "expected": 27.53,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-seeds",
+      "source_line": 1138
+    },
+    {
+      "metric_key": "horizon.seed.supplement.40000000.s22.A",
+      "expected": 57.33,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-seeds",
+      "source_line": 1139
+    },
+    {
+      "metric_key": "horizon.seed.supplement.40000000.s22.P25",
+      "expected": 94.84,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-seeds",
+      "source_line": 1139
+    },
+    {
+      "metric_key": "horizon.seed.supplement.40000000.s22.difference",
+      "expected": 37.51,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-seeds",
+      "source_line": 1139
+    },
+    {
+      "metric_key": "horizon.original.10000000.difference.iwl_copy_avail.acc.lower_one_sided95",
+      "expected": -0.23,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-capability-bounds",
+      "source_line": 1160
+    },
+    {
+      "metric_key": "horizon.original.10000000.difference.iwl_copy_avail.ce.upper_one_sided95",
+      "expected": 0.0243,
+      "decimals": 4,
+      "scale": 1,
+      "table": "tab:horizon-capability-bounds",
+      "source_line": 1160
+    },
+    {
+      "metric_key": "horizon.original.10000000.difference.train_eval.acc.lower_one_sided95",
+      "expected": -0.09,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-capability-bounds",
+      "source_line": 1160
+    },
+    {
+      "metric_key": "horizon.original.10000000.difference.train_eval.ce.upper_one_sided95",
+      "expected": 0.0045,
+      "decimals": 4,
+      "scale": 1,
+      "table": "tab:horizon-capability-bounds",
+      "source_line": 1160
+    },
+    {
+      "metric_key": "horizon.original.20000000.difference.iwl_copy_avail.acc.lower_one_sided95",
+      "expected": -0.06,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-capability-bounds",
+      "source_line": 1161
+    },
+    {
+      "metric_key": "horizon.original.20000000.difference.iwl_copy_avail.ce.upper_one_sided95",
+      "expected": 0.0015,
+      "decimals": 4,
+      "scale": 1,
+      "table": "tab:horizon-capability-bounds",
+      "source_line": 1161
+    },
+    {
+      "metric_key": "horizon.original.20000000.difference.train_eval.acc.lower_one_sided95",
+      "expected": -0.05,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-capability-bounds",
+      "source_line": 1161
+    },
+    {
+      "metric_key": "horizon.original.20000000.difference.train_eval.ce.upper_one_sided95",
+      "expected": 0.0013,
+      "decimals": 4,
+      "scale": 1,
+      "table": "tab:horizon-capability-bounds",
+      "source_line": 1161
+    },
+    {
+      "metric_key": "horizon.original.30000000.difference.iwl_copy_avail.acc.lower_one_sided95",
+      "expected": -0.27,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-capability-bounds",
+      "source_line": 1162
+    },
+    {
+      "metric_key": "horizon.original.30000000.difference.iwl_copy_avail.ce.upper_one_sided95",
+      "expected": 0.0147,
+      "decimals": 4,
+      "scale": 1,
+      "table": "tab:horizon-capability-bounds",
+      "source_line": 1162
+    },
+    {
+      "metric_key": "horizon.original.30000000.difference.train_eval.acc.lower_one_sided95",
+      "expected": -0.06,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-capability-bounds",
+      "source_line": 1162
+    },
+    {
+      "metric_key": "horizon.original.30000000.difference.train_eval.ce.upper_one_sided95",
+      "expected": 0.0016,
+      "decimals": 4,
+      "scale": 1,
+      "table": "tab:horizon-capability-bounds",
+      "source_line": 1162
+    },
+    {
+      "metric_key": "horizon.original.40000000.difference.iwl_copy_avail.acc.lower_one_sided95",
+      "expected": -0.07,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-capability-bounds",
+      "source_line": 1163
+    },
+    {
+      "metric_key": "horizon.original.40000000.difference.iwl_copy_avail.ce.upper_one_sided95",
+      "expected": 0.0056,
+      "decimals": 4,
+      "scale": 1,
+      "table": "tab:horizon-capability-bounds",
+      "source_line": 1163
+    },
+    {
+      "metric_key": "horizon.original.40000000.difference.train_eval.acc.lower_one_sided95",
+      "expected": -0.04,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:horizon-capability-bounds",
+      "source_line": 1163
+    },
+    {
+      "metric_key": "horizon.original.40000000.difference.train_eval.ce.upper_one_sided95",
+      "expected": 0.0008,
+      "decimals": 4,
+      "scale": 1,
+      "table": "tab:horizon-capability-bounds",
+      "source_line": 1163
+    },
+    {
+      "metric_key": "external.k49.A.acc.mean",
+      "expected": 46.82,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:external-five-seed",
+      "source_line": 725
+    },
+    {
+      "metric_key": "external.k49.A.acc.sd",
+      "expected": 4.67,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:external-five-seed",
+      "source_line": 725
+    },
+    {
+      "metric_key": "external.k49.P25.acc.mean",
+      "expected": 56.25,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:external-five-seed",
+      "source_line": 725
+    },
+    {
+      "metric_key": "external.k49.P25.acc.sd",
+      "expected": 5.23,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:external-five-seed",
+      "source_line": 725
+    },
+    {
+      "metric_key": "external.k49.difference.acc.mean",
+      "expected": 9.43,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:external-five-seed",
+      "source_line": 725
+    },
+    {
+      "metric_key": "external.k49.difference.acc.ci95.lower",
+      "expected": 0.53,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:external-five-seed",
+      "source_line": 725
+    },
+    {
+      "metric_key": "external.k49.difference.acc.ci95.upper",
+      "expected": 18.33,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:external-five-seed",
+      "source_line": 725
+    },
+    {
+      "metric_key": "external.cifar100.A.acc.mean",
+      "expected": 26.89,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:external-five-seed",
+      "source_line": 726
+    },
+    {
+      "metric_key": "external.cifar100.A.acc.sd",
+      "expected": 11.05,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:external-five-seed",
+      "source_line": 726
+    },
+    {
+      "metric_key": "external.cifar100.P25.acc.mean",
+      "expected": 33.82,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:external-five-seed",
+      "source_line": 726
+    },
+    {
+      "metric_key": "external.cifar100.P25.acc.sd",
+      "expected": 15.49,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:external-five-seed",
+      "source_line": 726
+    },
+    {
+      "metric_key": "external.cifar100.difference.acc.mean",
+      "expected": 6.93,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:external-five-seed",
+      "source_line": 726
+    },
+    {
+      "metric_key": "external.cifar100.difference.acc.ci95.lower",
+      "expected": -0.79,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:external-five-seed",
+      "source_line": 726
+    },
+    {
+      "metric_key": "external.cifar100.difference.acc.ci95.upper",
+      "expected": 14.64,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:external-five-seed",
+      "source_line": 726
+    },
+    {
+      "metric_key": "external.seed.k49.s18.A",
+      "expected": 48.41,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:external-individual-seeds",
+      "source_line": 1231
+    },
+    {
+      "metric_key": "external.seed.k49.s18.P25",
+      "expected": 55.76,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:external-individual-seeds",
+      "source_line": 1231
+    },
+    {
+      "metric_key": "external.seed.k49.s18.difference",
+      "expected": 7.35,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:external-individual-seeds",
+      "source_line": 1231
+    },
+    {
+      "metric_key": "external.seed.cifar100.s18.A",
+      "expected": 30.46,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:external-individual-seeds",
+      "source_line": 1231
+    },
+    {
+      "metric_key": "external.seed.cifar100.s18.P25",
+      "expected": 30.12,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:external-individual-seeds",
+      "source_line": 1231
+    },
+    {
+      "metric_key": "external.seed.cifar100.s18.difference",
+      "expected": -0.33,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:external-individual-seeds",
+      "source_line": 1231
+    },
+    {
+      "metric_key": "external.seed.k49.s19.A",
+      "expected": 43.27,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:external-individual-seeds",
+      "source_line": 1232
+    },
+    {
+      "metric_key": "external.seed.k49.s19.P25",
+      "expected": 63.14,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:external-individual-seeds",
+      "source_line": 1232
+    },
+    {
+      "metric_key": "external.seed.k49.s19.difference",
+      "expected": 19.88,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:external-individual-seeds",
+      "source_line": 1232
+    },
+    {
+      "metric_key": "external.seed.cifar100.s19.A",
+      "expected": 34.87,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:external-individual-seeds",
+      "source_line": 1232
+    },
+    {
+      "metric_key": "external.seed.cifar100.s19.P25",
+      "expected": 48.96,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:external-individual-seeds",
+      "source_line": 1232
+    },
+    {
+      "metric_key": "external.seed.cifar100.s19.difference",
+      "expected": 14.08,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:external-individual-seeds",
+      "source_line": 1232
+    },
+    {
+      "metric_key": "external.seed.k49.s20.A",
+      "expected": 49.06,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:external-individual-seeds",
+      "source_line": 1233
+    },
+    {
+      "metric_key": "external.seed.k49.s20.P25",
+      "expected": 49.71,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:external-individual-seeds",
+      "source_line": 1233
+    },
+    {
+      "metric_key": "external.seed.k49.s20.difference",
+      "expected": 0.65,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:external-individual-seeds",
+      "source_line": 1233
+    },
+    {
+      "metric_key": "external.seed.cifar100.s20.A",
+      "expected": 34.08,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:external-individual-seeds",
+      "source_line": 1233
+    },
+    {
+      "metric_key": "external.seed.cifar100.s20.P25",
+      "expected": 46.29,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:external-individual-seeds",
+      "source_line": 1233
+    },
+    {
+      "metric_key": "external.seed.cifar100.s20.difference",
+      "expected": 12.21,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:external-individual-seeds",
+      "source_line": 1233
+    },
+    {
+      "metric_key": "external.seed.k49.s21.A",
+      "expected": 40.9,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:external-individual-seeds",
+      "source_line": 1234
+    },
+    {
+      "metric_key": "external.seed.k49.s21.P25",
+      "expected": 53.27,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:external-individual-seeds",
+      "source_line": 1234
+    },
+    {
+      "metric_key": "external.seed.k49.s21.difference",
+      "expected": 12.37,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:external-individual-seeds",
+      "source_line": 1234
+    },
+    {
+      "metric_key": "external.seed.cifar100.s21.A",
+      "expected": 7.92,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:external-individual-seeds",
+      "source_line": 1234
+    },
+    {
+      "metric_key": "external.seed.cifar100.s21.P25",
+      "expected": 10.12,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:external-individual-seeds",
+      "source_line": 1234
+    },
+    {
+      "metric_key": "external.seed.cifar100.s21.difference",
+      "expected": 2.21,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:external-individual-seeds",
+      "source_line": 1234
+    },
+    {
+      "metric_key": "external.seed.k49.s22.A",
+      "expected": 52.49,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:external-individual-seeds",
+      "source_line": 1235
+    },
+    {
+      "metric_key": "external.seed.k49.s22.P25",
+      "expected": 59.39,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:external-individual-seeds",
+      "source_line": 1235
+    },
+    {
+      "metric_key": "external.seed.k49.s22.difference",
+      "expected": 6.9,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:external-individual-seeds",
+      "source_line": 1235
+    },
+    {
+      "metric_key": "external.seed.cifar100.s22.A",
+      "expected": 27.13,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:external-individual-seeds",
+      "source_line": 1235
+    },
+    {
+      "metric_key": "external.seed.cifar100.s22.P25",
+      "expected": 33.58,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:external-individual-seeds",
+      "source_line": 1235
+    },
+    {
+      "metric_key": "external.seed.cifar100.s22.difference",
+      "expected": 6.46,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:external-individual-seeds",
+      "source_line": 1235
+    },
+    {
+      "metric_key": "emnist.A.acc.mean",
+      "expected": 40.72,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:emnist",
+      "source_line": 697
+    },
+    {
+      "metric_key": "emnist.P25.acc.mean",
+      "expected": 65.32,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:emnist",
+      "source_line": 697
+    },
+    {
+      "metric_key": "emnist.difference.acc.mean",
+      "expected": 24.6,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:emnist",
+      "source_line": 697
+    },
+    {
+      "metric_key": "emnist.A.ce.mean",
+      "expected": 7.1808,
+      "decimals": 4,
+      "scale": 1,
+      "table": "tab:emnist",
+      "source_line": 698
+    },
+    {
+      "metric_key": "emnist.P25.ce.mean",
+      "expected": 1.4967,
+      "decimals": 4,
+      "scale": 1,
+      "table": "tab:emnist",
+      "source_line": 698
+    },
+    {
+      "metric_key": "emnist.difference.ce.mean",
+      "expected": -5.6841,
+      "decimals": 4,
+      "scale": 1,
+      "table": "tab:emnist",
+      "source_line": 698
+    },
+    {
+      "metric_key": "emnist.A.pair_acc.mean",
+      "expected": 51.74,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:emnist",
+      "source_line": 699
+    },
+    {
+      "metric_key": "emnist.P25.pair_acc.mean",
+      "expected": 69.45,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:emnist",
+      "source_line": 699
+    },
+    {
+      "metric_key": "emnist.difference.pair_acc.mean",
+      "expected": 17.7,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:emnist",
+      "source_line": 699
+    },
+    {
+      "metric_key": "cost.round.1.A",
+      "expected": 5.984,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:compute-cost-repeats",
+      "source_line": 1293
+    },
+    {
+      "metric_key": "cost.round.1.C25",
+      "expected": 22.98,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:compute-cost-repeats",
+      "source_line": 1293
+    },
+    {
+      "metric_key": "cost.round.1.PR25",
+      "expected": 12.978,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:compute-cost-repeats",
+      "source_line": 1293
+    },
+    {
+      "metric_key": "cost.round.1.P25",
+      "expected": 14.904,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:compute-cost-repeats",
+      "source_line": 1293
+    },
+    {
+      "metric_key": "cost.round.2.A",
+      "expected": 5.864,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:compute-cost-repeats",
+      "source_line": 1294
+    },
+    {
+      "metric_key": "cost.round.2.C25",
+      "expected": 22.792,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:compute-cost-repeats",
+      "source_line": 1294
+    },
+    {
+      "metric_key": "cost.round.2.PR25",
+      "expected": 14.516,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:compute-cost-repeats",
+      "source_line": 1294
+    },
+    {
+      "metric_key": "cost.round.2.P25",
+      "expected": 14.41,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:compute-cost-repeats",
+      "source_line": 1294
+    },
+    {
+      "metric_key": "cost.round.3.A",
+      "expected": 5.725,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:compute-cost-repeats",
+      "source_line": 1295
+    },
+    {
+      "metric_key": "cost.round.3.C25",
+      "expected": 22.171,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:compute-cost-repeats",
+      "source_line": 1295
+    },
+    {
+      "metric_key": "cost.round.3.PR25",
+      "expected": 13.883,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:compute-cost-repeats",
+      "source_line": 1295
+    },
+    {
+      "metric_key": "cost.round.3.P25",
+      "expected": 14.455,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:compute-cost-repeats",
+      "source_line": 1295
+    },
+    {
+      "metric_key": "cost.round.4.A",
+      "expected": 5.833,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:compute-cost-repeats",
+      "source_line": 1296
+    },
+    {
+      "metric_key": "cost.round.4.C25",
+      "expected": 22.732,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:compute-cost-repeats",
+      "source_line": 1296
+    },
+    {
+      "metric_key": "cost.round.4.PR25",
+      "expected": 13.354,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:compute-cost-repeats",
+      "source_line": 1296
+    },
+    {
+      "metric_key": "cost.round.4.P25",
+      "expected": 14.023,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:compute-cost-repeats",
+      "source_line": 1296
+    },
+    {
+      "metric_key": "cost.A.mean",
+      "expected": 5.85,
+      "decimals": 2,
+      "scale": 1,
+      "table": "tab:compute-cost",
+      "source_line": 771
+    },
+    {
+      "metric_key": "cost.A.sd",
+      "expected": 0.11,
+      "decimals": 2,
+      "scale": 1,
+      "table": "tab:compute-cost",
+      "source_line": 771
+    },
+    {
+      "metric_key": "cost.A.relative_A",
+      "expected": 1.0,
+      "decimals": 2,
+      "scale": 1,
+      "table": "tab:compute-cost",
+      "source_line": 771
+    },
+    {
+      "metric_key": "cost.A.memory_saved_peak",
+      "expected": 1275.0,
+      "decimals": 0,
+      "scale": 1,
+      "table": "tab:compute-cost",
+      "source_line": 771
+    },
+    {
+      "metric_key": "cost.C25.mean",
+      "expected": 22.67,
+      "decimals": 2,
+      "scale": 1,
+      "table": "tab:compute-cost",
+      "source_line": 772
+    },
+    {
+      "metric_key": "cost.C25.sd",
+      "expected": 0.35,
+      "decimals": 2,
+      "scale": 1,
+      "table": "tab:compute-cost",
+      "source_line": 772
+    },
+    {
+      "metric_key": "cost.C25.relative_A",
+      "expected": 3.87,
+      "decimals": 2,
+      "scale": 1,
+      "table": "tab:compute-cost",
+      "source_line": 772
+    },
+    {
+      "metric_key": "cost.C25.memory_saved_peak",
+      "expected": 1497.0,
+      "decimals": 0,
+      "scale": 1,
+      "table": "tab:compute-cost",
+      "source_line": 772
+    },
+    {
+      "metric_key": "cost.PR25.mean",
+      "expected": 13.68,
+      "decimals": 2,
+      "scale": 1,
+      "table": "tab:compute-cost",
+      "source_line": 773
+    },
+    {
+      "metric_key": "cost.PR25.sd",
+      "expected": 0.67,
+      "decimals": 2,
+      "scale": 1,
+      "table": "tab:compute-cost",
+      "source_line": 773
+    },
+    {
+      "metric_key": "cost.PR25.relative_A",
+      "expected": 2.34,
+      "decimals": 2,
+      "scale": 1,
+      "table": "tab:compute-cost",
+      "source_line": 773
+    },
+    {
+      "metric_key": "cost.PR25.memory_saved_peak",
+      "expected": 1345.0,
+      "decimals": 0,
+      "scale": 1,
+      "table": "tab:compute-cost",
+      "source_line": 773
+    },
+    {
+      "metric_key": "cost.P25.mean",
+      "expected": 14.45,
+      "decimals": 2,
+      "scale": 1,
+      "table": "tab:compute-cost",
+      "source_line": 774
+    },
+    {
+      "metric_key": "cost.P25.sd",
+      "expected": 0.36,
+      "decimals": 2,
+      "scale": 1,
+      "table": "tab:compute-cost",
+      "source_line": 774
+    },
+    {
+      "metric_key": "cost.P25.relative_A",
+      "expected": 2.47,
+      "decimals": 2,
+      "scale": 1,
+      "table": "tab:compute-cost",
+      "source_line": 774
+    },
+    {
+      "metric_key": "cost.P25.memory_saved_peak",
+      "expected": 1345.0,
+      "decimals": 0,
+      "scale": 1,
+      "table": "tab:compute-cost",
+      "source_line": 774
+    },
+    {
+      "metric_key": "strength.A.icl.acc",
+      "expected": 51.19,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:strength-results",
+      "source_line": 954
+    },
+    {
+      "metric_key": "strength.A.icl.loss",
+      "expected": 6.342,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:strength-results",
+      "source_line": 954
+    },
+    {
+      "metric_key": "strength.A.iwl_copy_avail.acc",
+      "expected": 88.83,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:strength-results",
+      "source_line": 954
+    },
+    {
+      "metric_key": "strength.A.iwl_copy_avail.loss",
+      "expected": 0.727,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:strength-results",
+      "source_line": 954
+    },
+    {
+      "metric_key": "strength.A.train_eval.acc",
+      "expected": 96.36,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:strength-results",
+      "source_line": 954
+    },
+    {
+      "metric_key": "strength.A.train_eval.loss",
+      "expected": 0.21,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:strength-results",
+      "source_line": 954
+    },
+    {
+      "metric_key": "strength.C10.icl.acc",
+      "expected": 90.94,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:strength-results",
+      "source_line": 956
+    },
+    {
+      "metric_key": "strength.C10.icl.loss",
+      "expected": 0.335,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:strength-results",
+      "source_line": 956
+    },
+    {
+      "metric_key": "strength.C10.iwl_copy_avail.acc",
+      "expected": 85.09,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:strength-results",
+      "source_line": 956
+    },
+    {
+      "metric_key": "strength.C10.iwl_copy_avail.loss",
+      "expected": 0.999,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:strength-results",
+      "source_line": 956
+    },
+    {
+      "metric_key": "strength.C10.train_eval.acc",
+      "expected": 96.52,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:strength-results",
+      "source_line": 956
+    },
+    {
+      "metric_key": "strength.C10.train_eval.loss",
+      "expected": 0.206,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:strength-results",
+      "source_line": 956
+    },
+    {
+      "metric_key": "strength.P10.icl.acc",
+      "expected": 87.79,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:strength-results",
+      "source_line": 957
+    },
+    {
+      "metric_key": "strength.P10.icl.loss",
+      "expected": 0.396,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:strength-results",
+      "source_line": 957
+    },
+    {
+      "metric_key": "strength.P10.iwl_copy_avail.acc",
+      "expected": 88.58,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:strength-results",
+      "source_line": 957
+    },
+    {
+      "metric_key": "strength.P10.iwl_copy_avail.loss",
+      "expected": 0.737,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:strength-results",
+      "source_line": 957
+    },
+    {
+      "metric_key": "strength.P10.train_eval.acc",
+      "expected": 96.46,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:strength-results",
+      "source_line": 957
+    },
+    {
+      "metric_key": "strength.P10.train_eval.loss",
+      "expected": 0.208,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:strength-results",
+      "source_line": 957
+    },
+    {
+      "metric_key": "strength.D10.icl.acc",
+      "expected": 90.75,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:strength-results",
+      "source_line": 958
+    },
+    {
+      "metric_key": "strength.D10.icl.loss",
+      "expected": 0.245,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:strength-results",
+      "source_line": 958
+    },
+    {
+      "metric_key": "strength.D10.iwl_copy_avail.acc",
+      "expected": 84.67,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:strength-results",
+      "source_line": 958
+    },
+    {
+      "metric_key": "strength.D10.iwl_copy_avail.loss",
+      "expected": 1.035,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:strength-results",
+      "source_line": 958
+    },
+    {
+      "metric_key": "strength.D10.train_eval.acc",
+      "expected": 96.53,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:strength-results",
+      "source_line": 958
+    },
+    {
+      "metric_key": "strength.D10.train_eval.loss",
+      "expected": 0.204,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:strength-results",
+      "source_line": 958
+    },
+    {
+      "metric_key": "strength.C25.icl.acc",
+      "expected": 90.65,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:strength-results",
+      "source_line": 960
+    },
+    {
+      "metric_key": "strength.C25.icl.loss",
+      "expected": 0.373,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:strength-results",
+      "source_line": 960
+    },
+    {
+      "metric_key": "strength.C25.iwl_copy_avail.acc",
+      "expected": 85.74,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:strength-results",
+      "source_line": 960
+    },
+    {
+      "metric_key": "strength.C25.iwl_copy_avail.loss",
+      "expected": 0.949,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:strength-results",
+      "source_line": 960
+    },
+    {
+      "metric_key": "strength.C25.train_eval.acc",
+      "expected": 96.52,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:strength-results",
+      "source_line": 960
+    },
+    {
+      "metric_key": "strength.C25.train_eval.loss",
+      "expected": 0.206,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:strength-results",
+      "source_line": 960
+    },
+    {
+      "metric_key": "strength.P25.icl.acc",
+      "expected": 87.57,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:strength-results",
+      "source_line": 961
+    },
+    {
+      "metric_key": "strength.P25.icl.loss",
+      "expected": 0.431,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:strength-results",
+      "source_line": 961
+    },
+    {
+      "metric_key": "strength.P25.iwl_copy_avail.acc",
+      "expected": 88.62,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:strength-results",
+      "source_line": 961
+    },
+    {
+      "metric_key": "strength.P25.iwl_copy_avail.loss",
+      "expected": 0.736,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:strength-results",
+      "source_line": 961
+    },
+    {
+      "metric_key": "strength.P25.train_eval.acc",
+      "expected": 96.43,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:strength-results",
+      "source_line": 961
+    },
+    {
+      "metric_key": "strength.P25.train_eval.loss",
+      "expected": 0.208,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:strength-results",
+      "source_line": 961
+    },
+    {
+      "metric_key": "strength.D25.icl.acc",
+      "expected": 90.44,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:strength-results",
+      "source_line": 962
+    },
+    {
+      "metric_key": "strength.D25.icl.loss",
+      "expected": 0.262,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:strength-results",
+      "source_line": 962
+    },
+    {
+      "metric_key": "strength.D25.iwl_copy_avail.acc",
+      "expected": 85.37,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:strength-results",
+      "source_line": 962
+    },
+    {
+      "metric_key": "strength.D25.iwl_copy_avail.loss",
+      "expected": 0.976,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:strength-results",
+      "source_line": 962
+    },
+    {
+      "metric_key": "strength.D25.train_eval.acc",
+      "expected": 96.54,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:strength-results",
+      "source_line": 962
+    },
+    {
+      "metric_key": "strength.D25.train_eval.loss",
+      "expected": 0.204,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:strength-results",
+      "source_line": 962
+    },
+    {
+      "metric_key": "strength.C50.icl.acc",
+      "expected": 89.74,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:strength-results",
+      "source_line": 964
+    },
+    {
+      "metric_key": "strength.C50.icl.loss",
+      "expected": 0.479,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:strength-results",
+      "source_line": 964
+    },
+    {
+      "metric_key": "strength.C50.iwl_copy_avail.acc",
+      "expected": 86.72,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:strength-results",
+      "source_line": 964
+    },
+    {
+      "metric_key": "strength.C50.iwl_copy_avail.loss",
+      "expected": 0.87,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:strength-results",
+      "source_line": 964
+    },
+    {
+      "metric_key": "strength.C50.train_eval.acc",
+      "expected": 96.46,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:strength-results",
+      "source_line": 964
+    },
+    {
+      "metric_key": "strength.C50.train_eval.loss",
+      "expected": 0.207,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:strength-results",
+      "source_line": 964
+    },
+    {
+      "metric_key": "strength.P50.icl.acc",
+      "expected": 86.96,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:strength-results",
+      "source_line": 965
+    },
+    {
+      "metric_key": "strength.P50.icl.loss",
+      "expected": 0.533,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:strength-results",
+      "source_line": 965
+    },
+    {
+      "metric_key": "strength.P50.iwl_copy_avail.acc",
+      "expected": 88.66,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:strength-results",
+      "source_line": 965
+    },
+    {
+      "metric_key": "strength.P50.iwl_copy_avail.loss",
+      "expected": 0.736,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:strength-results",
+      "source_line": 965
+    },
+    {
+      "metric_key": "strength.P50.train_eval.acc",
+      "expected": 96.39,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:strength-results",
+      "source_line": 965
+    },
+    {
+      "metric_key": "strength.P50.train_eval.loss",
+      "expected": 0.209,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:strength-results",
+      "source_line": 965
+    },
+    {
+      "metric_key": "strength.D50.icl.acc",
+      "expected": 89.82,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:strength-results",
+      "source_line": 966
+    },
+    {
+      "metric_key": "strength.D50.icl.loss",
+      "expected": 0.309,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:strength-results",
+      "source_line": 966
+    },
+    {
+      "metric_key": "strength.D50.iwl_copy_avail.acc",
+      "expected": 86.51,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:strength-results",
+      "source_line": 966
+    },
+    {
+      "metric_key": "strength.D50.iwl_copy_avail.loss",
+      "expected": 0.883,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:strength-results",
+      "source_line": 966
+    },
+    {
+      "metric_key": "strength.D50.train_eval.acc",
+      "expected": 96.55,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:strength-results",
+      "source_line": 966
+    },
+    {
+      "metric_key": "strength.D50.train_eval.loss",
+      "expected": 0.205,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:strength-results",
+      "source_line": 966
+    },
+    {
+      "metric_key": "strength.C75.icl.acc",
+      "expected": 87.1,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:strength-results",
+      "source_line": 968
+    },
+    {
+      "metric_key": "strength.C75.icl.loss",
+      "expected": 0.739,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:strength-results",
+      "source_line": 968
+    },
+    {
+      "metric_key": "strength.C75.iwl_copy_avail.acc",
+      "expected": 87.77,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:strength-results",
+      "source_line": 968
+    },
+    {
+      "metric_key": "strength.C75.iwl_copy_avail.loss",
+      "expected": 0.798,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:strength-results",
+      "source_line": 968
+    },
+    {
+      "metric_key": "strength.C75.train_eval.acc",
+      "expected": 96.42,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:strength-results",
+      "source_line": 968
+    },
+    {
+      "metric_key": "strength.C75.train_eval.loss",
+      "expected": 0.208,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:strength-results",
+      "source_line": 968
+    },
+    {
+      "metric_key": "strength.P75.icl.acc",
+      "expected": 84.74,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:strength-results",
+      "source_line": 969
+    },
+    {
+      "metric_key": "strength.P75.icl.loss",
+      "expected": 0.803,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:strength-results",
+      "source_line": 969
+    },
+    {
+      "metric_key": "strength.P75.iwl_copy_avail.acc",
+      "expected": 88.67,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:strength-results",
+      "source_line": 969
+    },
+    {
+      "metric_key": "strength.P75.iwl_copy_avail.loss",
+      "expected": 0.735,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:strength-results",
+      "source_line": 969
+    },
+    {
+      "metric_key": "strength.P75.train_eval.acc",
+      "expected": 96.38,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:strength-results",
+      "source_line": 969
+    },
+    {
+      "metric_key": "strength.P75.train_eval.loss",
+      "expected": 0.21,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:strength-results",
+      "source_line": 969
+    },
+    {
+      "metric_key": "strength.D75.icl.acc",
+      "expected": 88.68,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:strength-results",
+      "source_line": 970
+    },
+    {
+      "metric_key": "strength.D75.icl.loss",
+      "expected": 0.459,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:strength-results",
+      "source_line": 970
+    },
+    {
+      "metric_key": "strength.D75.iwl_copy_avail.acc",
+      "expected": 87.65,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:strength-results",
+      "source_line": 970
+    },
+    {
+      "metric_key": "strength.D75.iwl_copy_avail.loss",
+      "expected": 0.802,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:strength-results",
+      "source_line": 970
+    },
+    {
+      "metric_key": "strength.D75.train_eval.acc",
+      "expected": 96.43,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:strength-results",
+      "source_line": 970
+    },
+    {
+      "metric_key": "strength.D75.train_eval.loss",
+      "expected": 0.207,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:strength-results",
+      "source_line": 970
+    },
+    {
+      "metric_key": "main.A.icl.acc",
+      "expected": 51.19,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:protection-results",
+      "source_line": 533
+    },
+    {
+      "metric_key": "main.A.icl.loss",
+      "expected": 6.342,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:protection-results",
+      "source_line": 533
+    },
+    {
+      "metric_key": "main.A.iwl_copy_avail.acc",
+      "expected": 88.83,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:protection-results",
+      "source_line": 533
+    },
+    {
+      "metric_key": "main.A.iwl_copy_avail.loss",
+      "expected": 0.727,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:protection-results",
+      "source_line": 533
+    },
+    {
+      "metric_key": "main.A.train_eval.acc",
+      "expected": 96.36,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:protection-results",
+      "source_line": 533
+    },
+    {
+      "metric_key": "main.A.train_eval.loss",
+      "expected": 0.21,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:protection-results",
+      "source_line": 533
+    },
+    {
+      "metric_key": "main.B.icl.acc",
+      "expected": 79.07,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:protection-results",
+      "source_line": 534
+    },
+    {
+      "metric_key": "main.B.iwl_copy_avail.acc",
+      "expected": 58.55,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:protection-results",
+      "source_line": 534
+    },
+    {
+      "metric_key": "main.B.train_eval.acc",
+      "expected": 89.01,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:protection-results",
+      "source_line": 534
+    },
+    {
+      "metric_key": "main_difference.B.icl.acc",
+      "expected": 27.88,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:protection-results",
+      "source_line": 534
+    },
+    {
+      "metric_key": "main_difference.B.iwl_copy_avail.acc",
+      "expected": -30.28,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:protection-results",
+      "source_line": 534
+    },
+    {
+      "metric_key": "main_replay.REPLAY.icl.acc",
+      "expected": 94.22,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:protection-results",
+      "source_line": 535
+    },
+    {
+      "metric_key": "main_replay.REPLAY.iwl_copy_avail.acc",
+      "expected": 60.99,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:protection-results",
+      "source_line": 535
+    },
+    {
+      "metric_key": "main_replay.REPLAY.train_eval.acc",
+      "expected": 94.02,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:protection-results",
+      "source_line": 535
+    },
+    {
+      "metric_key": "main_difference.REPLAY.icl.acc",
+      "expected": 43.03,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:protection-results",
+      "source_line": 535
+    },
+    {
+      "metric_key": "main_difference.REPLAY.iwl_copy_avail.acc",
+      "expected": -27.84,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:protection-results",
+      "source_line": 535
+    },
+    {
+      "metric_key": "main_replay.L2.icl.acc",
+      "expected": 51.54,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:protection-results",
+      "source_line": 536
+    },
+    {
+      "metric_key": "main_replay.L2.iwl_copy_avail.acc",
+      "expected": 87.69,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:protection-results",
+      "source_line": 536
+    },
+    {
+      "metric_key": "main_replay.L2.train_eval.acc",
+      "expected": 96.35,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:protection-results",
+      "source_line": 536
+    },
+    {
+      "metric_key": "main_difference.L2.icl.acc",
+      "expected": 0.35,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:protection-results",
+      "source_line": 536
+    },
+    {
+      "metric_key": "main_difference.L2.iwl_copy_avail.acc",
+      "expected": -1.14,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:protection-results",
+      "source_line": 536
+    },
+    {
+      "metric_key": "main.C25.icl.acc",
+      "expected": 90.65,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:protection-results",
+      "source_line": 537
+    },
+    {
+      "metric_key": "main.C25.icl.loss",
+      "expected": 0.373,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:protection-results",
+      "source_line": 537
+    },
+    {
+      "metric_key": "main.C25.iwl_copy_avail.acc",
+      "expected": 85.74,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:protection-results",
+      "source_line": 537
+    },
+    {
+      "metric_key": "main.C25.iwl_copy_avail.loss",
+      "expected": 0.949,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:protection-results",
+      "source_line": 537
+    },
+    {
+      "metric_key": "main.C25.train_eval.acc",
+      "expected": 96.52,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:protection-results",
+      "source_line": 537
+    },
+    {
+      "metric_key": "main.C25.train_eval.loss",
+      "expected": 0.206,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:protection-results",
+      "source_line": 537
+    },
+    {
+      "metric_key": "main_difference.C25.icl.acc",
+      "expected": 39.46,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:protection-results",
+      "source_line": 537
+    },
+    {
+      "metric_key": "main_difference.C25.iwl_copy_avail.acc",
+      "expected": -3.09,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:protection-results",
+      "source_line": 537
+    },
+    {
+      "metric_key": "main_mean.MEAN25.icl.acc",
+      "expected": 89.78,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:protection-results",
+      "source_line": 538
+    },
+    {
+      "metric_key": "main_mean.MEAN25.icl.loss",
+      "expected": 0.508,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:protection-results",
+      "source_line": 538
+    },
+    {
+      "metric_key": "main_mean.MEAN25.iwl_copy_avail.acc",
+      "expected": 86.19,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:protection-results",
+      "source_line": 538
+    },
+    {
+      "metric_key": "main_mean.MEAN25.iwl_copy_avail.loss",
+      "expected": 0.913,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:protection-results",
+      "source_line": 538
+    },
+    {
+      "metric_key": "main_mean.MEAN25.train_eval.acc",
+      "expected": 96.47,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:protection-results",
+      "source_line": 538
+    },
+    {
+      "metric_key": "main_mean.MEAN25.train_eval.loss",
+      "expected": 0.207,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:protection-results",
+      "source_line": 538
+    },
+    {
+      "metric_key": "main_difference.MEAN25.icl.acc",
+      "expected": 38.59,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:protection-results",
+      "source_line": 538
+    },
+    {
+      "metric_key": "main_difference.MEAN25.iwl_copy_avail.acc",
+      "expected": -2.65,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:protection-results",
+      "source_line": 538
+    },
+    {
+      "metric_key": "main_random.PR25.icl.acc",
+      "expected": 47.6,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:protection-results",
+      "source_line": 539
+    },
+    {
+      "metric_key": "main_random.PR25.iwl_copy_avail.acc",
+      "expected": 90.62,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:protection-results",
+      "source_line": 539
+    },
+    {
+      "metric_key": "main_random.PR25.train_eval.acc",
+      "expected": 96.25,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:protection-results",
+      "source_line": 539
+    },
+    {
+      "metric_key": "main_difference.PR25.icl.acc",
+      "expected": -3.59,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:protection-results",
+      "source_line": 539
+    },
+    {
+      "metric_key": "main_difference.PR25.iwl_copy_avail.acc",
+      "expected": 1.79,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:protection-results",
+      "source_line": 539
+    },
+    {
+      "metric_key": "main.P25.icl.acc",
+      "expected": 87.57,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:protection-results",
+      "source_line": 540
+    },
+    {
+      "metric_key": "main.P25.icl.loss",
+      "expected": 0.431,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:protection-results",
+      "source_line": 540
+    },
+    {
+      "metric_key": "main.P25.iwl_copy_avail.acc",
+      "expected": 88.62,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:protection-results",
+      "source_line": 540
+    },
+    {
+      "metric_key": "main.P25.iwl_copy_avail.loss",
+      "expected": 0.736,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:protection-results",
+      "source_line": 540
+    },
+    {
+      "metric_key": "main.P25.train_eval.acc",
+      "expected": 96.43,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:protection-results",
+      "source_line": 540
+    },
+    {
+      "metric_key": "main.P25.train_eval.loss",
+      "expected": 0.208,
+      "decimals": 3,
+      "scale": 1,
+      "table": "tab:protection-results",
+      "source_line": 540
+    },
+    {
+      "metric_key": "main_difference.P25.icl.acc",
+      "expected": 36.38,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:protection-results",
+      "source_line": 540
+    },
+    {
+      "metric_key": "main_difference.P25.iwl_copy_avail.acc",
+      "expected": -0.21,
+      "decimals": 2,
+      "scale": 100,
+      "table": "tab:protection-results",
+      "source_line": 540
+    },
+    {
+      "metric_key": "s7.A.icl.acc",
+      "expected": 78.96,
+      "decimals": 2,
+      "scale": 100,
+      "table": "narrative:s7",
+      "source_line": 490
+    },
+    {
+      "metric_key": "s7.P25.icl.acc",
+      "expected": 92.06,
+      "decimals": 2,
+      "scale": 100,
+      "table": "narrative:s7",
+      "source_line": 490
+    },
+    {
+      "metric_key": "s7.A.iwl_copy_avail.acc",
+      "expected": 74.77,
+      "decimals": 2,
+      "scale": 100,
+      "table": "narrative:s7",
+      "source_line": 490
+    },
+    {
+      "metric_key": "s7.P25.iwl_copy_avail.acc",
+      "expected": 74.68,
+      "decimals": 2,
+      "scale": 100,
+      "table": "narrative:s7",
+      "source_line": 490
+    },
+    {
+      "metric_key": "s7.PR25.icl.acc",
+      "expected": 50.15,
+      "decimals": 2,
+      "scale": 100,
+      "table": "narrative:s7",
+      "source_line": 588
+    },
+    {
+      "metric_key": "external.k49.difference.acc.bonferroni.lower",
+      "expected": -1.78,
+      "decimals": 2,
+      "scale": 100,
+      "table": "caption:external-five-seed",
+      "source_line": 709
+    },
+    {
+      "metric_key": "external.k49.difference.acc.bonferroni.upper",
+      "expected": 20.63,
+      "decimals": 2,
+      "scale": 100,
+      "table": "caption:external-five-seed",
+      "source_line": 709
+    },
+    {
+      "metric_key": "external.cifar100.difference.acc.bonferroni.lower",
+      "expected": -2.78,
+      "decimals": 2,
+      "scale": 100,
+      "table": "caption:external-five-seed",
+      "source_line": 709
+    },
+    {
+      "metric_key": "external.cifar100.difference.acc.bonferroni.upper",
+      "expected": 16.63,
+      "decimals": 2,
+      "scale": 100,
+      "table": "caption:external-five-seed",
+      "source_line": 709
+    },
+    {
+      "metric_key": "horizon.primary.10000000.p_holm",
+      "expected": 0.07794,
+      "decimals": 5,
+      "scale": 1,
+      "table": "narrative:horizon-primary",
+      "source_line": 627
+    },
+    {
+      "metric_key": "horizon.primary.40000000.p_holm",
+      "expected": 0.00445,
+      "decimals": 5,
+      "scale": 1,
+      "table": "narrative:horizon-primary",
+      "source_line": 629
+    },
+    {
+      "metric_key": "horizon.within_arm_persistence.mean",
+      "expected": 13.76,
+      "decimals": 2,
+      "scale": 100,
+      "table": "narrative:persistence",
+      "source_line": 631
+    },
+    {
+      "metric_key": "horizon.within_arm_persistence.lower_one_sided95",
+      "expected": -25.26,
+      "decimals": 2,
+      "scale": 100,
+      "table": "narrative:persistence",
+      "source_line": 1171
+    }
+  ],
+  "limit": "Explicit listed cells and narrative only; manuscript changes require new binding."
+}

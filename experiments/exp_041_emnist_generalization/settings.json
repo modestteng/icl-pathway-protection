@@ -1,0 +1,58 @@
+{
+  "experiment_id": "exp_041_emnist_generalization",
+  "version": "v1",
+  "remote_root": "experiments/exp_041_emnist_generalization",
+  "python": "python3",
+  "assets": "experiments/exp_030_functional_update_constraints/assets",
+  "original_encoder_provenance": "experiments/exp_002_main_reproduction/features/encoding_provenance.json",
+  "stage": 10000000,
+  "models": {
+    "A": {
+      "path": "experiments/exp_037_protection_ablations/outputs/s5/checkpoints/A_00010000000.eqx",
+      "sha256": "d8e7c173734b38c91bba7df34f7475d3ff886574ca84a5226e1f4e0d732ab706"
+    },
+    "P25": {
+      "path": "experiments/exp_031_path_only_protection/outputs/s5/checkpoints/P25_00010000000.eqx",
+      "sha256": "586a74eea932eb592480f4bb8d9711ed9ffd8ed9f1664464bd440b9ec5e1481b"
+    }
+  },
+  "hf_repository": "Royc30ne/emnist-balanced",
+  "hf_revision": "e6fd3608dc5d46960a89a423472f67c9c0f9ec31",
+  "downloads": {
+    "emnist-balanced-train-images-idx3-ubyte.gz": "74295e75e4e9fa2c102147460ee7eb763653d5132d883a84fb88932bfb8d2db4",
+    "emnist-balanced-train-labels-idx1-ubyte.gz": "b46d41e5156a0a8aaaa4d18979fdd1588850fa8571018acffd5d93b325a7d6ed",
+    "emnist-balanced-test-images-idx3-ubyte.gz": "117fc12b015e37ea98bfb2cbba3f77c3782c056cdbd219b87abfc8661d7135db",
+    "emnist-balanced-test-labels-idx1-ubyte.gz": "a67cac948379b67270b9a4d0a01c8ec661598accf2f2b1964340b7c83cb175cd"
+  },
+  "classes": 47,
+  "support_per_class": 50,
+  "query_per_class": 50,
+  "support_seed": 2026104101,
+  "query_seed": 2026104102,
+  "episode_seed": 2026104103,
+  "forward_seed": 0,
+  "encoder_batch_size": 64,
+  "encoder_workers": 2,
+  "eval_batch_size": 128,
+  "encoder": "ResNet18_Weights.IMAGENET1K_V1",
+  "image_adapter": "transpose raw IDX image; invert 255-pixels to match Omniglot dark ink on white; no augmentation",
+  "transform": "Resize(224), CenterCrop(224), Grayscale(3), ToTensor, Normalize(ImageNet mean/std); identical to exp002 after image-format adapter",
+  "source_file_sha256": {
+    "main.py": "85814cae9c85cadd498d7cb1376708c9f9f2bcac237127943ff4697268754815",
+    "main_utils.py": "07bfe1c34366643bc89d8b9a4194c195846e462be31ddf432734b0a817b8727d",
+    "models.py": "2509f2a436dd16336f496769bb3d43df89e579cefd178b394d409b46c8892f99",
+    "samplers.py": "d285d7d6796996162c0e445bd4d93cdd54c8e9d400bb69e81d054e1bc7a841da",
+    "opto.py": "46cbdcc2ef3c7a8688dfb365dcdc7fac753c05e96e8fee47373e2b1a2ad5d1b3"
+  },
+  "config_sha256": "5c6cadc87ba1f0796681116f8c222e742200be51658481c579776e5e8b585223",
+  "limits": {
+    "min_available_mib": 768,
+    "max_child_rss_mib": 5632,
+    "poll_seconds": 2,
+    "phase_timeout_seconds": 900,
+    "total_timeout_seconds": 3600
+  },
+  "primary": "P25 minus A full-12800-label accuracy on the same 2350 fixed queries",
+  "secondary": "Full-label cross entropy and two-candidate accuracy; descriptive, no extra success threshold",
+  "confidence_interval": "Paired query-class means, 47 clusters, two-sided Student t df=46; conditional on frozen pools/contexts and one training trajectory"
+}

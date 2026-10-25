@@ -1,0 +1,5 @@
+# Verification scope
+
+`tools/verify_package.py` checks the exact allowed file tree, per-file hashes, Python syntax, experimental scope, private-path patterns, and archive/metadata exclusions. `tools/reproduce_paper_results.py` independently reaggregates retained per-seed, per-query, and timing-window inputs where available, and distinguishes those calculations from saved-summary readback. It also checks selected displayed manuscript cells against the saved expected-value binding.
+
+These checks cover a compact release. They do not establish independent model execution, complete recovery of every confidence interval, or full training reproducibility. Main-trajectory summaries without their complete query-level inputs support readback only. The s7 and external-image arrays support reaggregation of their saved scores. Timing repeats support timing arithmetic, with the original hardware and measurement limits retained. Figure files are the eight current manuscript SVGs; no removed appendix plot is included.

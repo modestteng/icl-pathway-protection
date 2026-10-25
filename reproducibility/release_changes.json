@@ -1,0 +1,854 @@
+{
+  "schema": "release_projection_and_path_adaptations_v1",
+  "policy": "Only manuscript experiments and required scientific dependencies. Retained result values are selected without alteration; original private records are outside the release.",
+  "changes": [
+    {
+      "path": ".gitignore",
+      "source_sha256": "8a63dd27cd0f762dd709341415f9d3319df12cbb721c44ec85aa229470449d37",
+      "released_sha256": "b73028d6e77a540f26ce6db9dbb81ecb96f83ce81406f290629ad425f9623196",
+      "change": "Added the reported MEAN25 condition or release verification/documentation."
+    },
+    {
+      "path": "PAPER_SCOPE.md",
+      "source_sha256": null,
+      "released_sha256": "39a61818a959117b3d1105402f40c9dbdf506b40f147b955190a3f4f98f55af0",
+      "change": "Added the reported MEAN25 condition or release verification/documentation."
+    },
+    {
+      "path": "README.md",
+      "source_sha256": "d25ef90ce86f58f41e5f2c6b61d87dc508945dc45ff8e06d5dcba679222d5cac",
+      "released_sha256": "ecc538c1b1a0981a0f36caeecebf9ce7623ef640d91625ce42c3a4f950c3a866",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "RESULT_RECHECK.md",
+      "source_sha256": "481ceb85281a909b31d0d8ecbe8e210d88bbfe1f56ebc10f1d0f92e1100df275",
+      "released_sha256": "11acb69df5f00dcec6bedafcee307da8ea98f4aaf2cac0b5bfafa80788e01a9a",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "REVIEW_GUIDE.md",
+      "source_sha256": "8101590431f045e7211bbe3c2556094be6975e077d5e6b50a68b19e699004646",
+      "released_sha256": "6ff91ccde503abe64f5273c5acabd6eb6f7f2e22668f67bd587c88dfae32df4e",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.txt",
+      "source_sha256": "157d4a5eec23a1421a65df376fa23c8d281a37bed49438ac22c36dfbd5dcef40",
+      "released_sha256": "9f418b95aa379654731a9040df2737a02599e184dc9781f0f30a306ba6bfd890",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_002_main_reproduction/final_00020000000/original_config.json",
+      "source_sha256": "5c6cadc87ba1f0796681116f8c222e742200be51658481c579776e5e8b585223",
+      "released_sha256": "087d75600c800335ce31c49cf951e05608ca186204811a519bc37cf3ee622a1b",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_002_main_reproduction/protocol.md",
+      "source_sha256": "4e27558178b7aece6c1c05772e795bbda4d47ae2d89d7e2bb3b96d4c2ae98e13",
+      "released_sha256": "a8ab963b688774f439c0d7913bb6dd4606db1ac966c1cf60a1e282ff89fe1a20",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_014_icl_ciwl_pair_patch/conditions.json",
+      "source_sha256": "2a73c12f9c374d5b97e20124777ed266a9238af667fb6d77843c97a263b70f1b",
+      "released_sha256": "9af05f7be1bf0106d45f9bc78a6dcba24cd8efc9a631845fa74172f8ade82df4",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_014_icl_ciwl_pair_patch/expected_inputs.json",
+      "source_sha256": "7e11518a6300412ba1c9f1655ae2b81a2c9eed3a189be3357e1005ed821e9e31",
+      "released_sha256": "389a1dc5246d372343c5a706e4516f9143d1c01079ce7c0aa4e09606f6cd5585",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_014_icl_ciwl_pair_patch/outputs/summary.json",
+      "source_sha256": "4b63e4a4013f8d2c6603cb797f44a86bd1230976f6cf3ae2cac83a9ec58f2a37",
+      "released_sha256": "e116a3a8e5f79c4620f5f17db86b56c43ae7ed2220524ed5d3d52ef262ab51f5",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_014_icl_ciwl_pair_patch/outputs/summary.tsv",
+      "source_sha256": "d90edc24e23c30b40779ce227f8375d638cf38f03de5d00332bf03e76ebeeee4",
+      "released_sha256": "c6c73c9badaf3f794360d27ebf1539b8667e4b4d30de9499ae82bba83213ed0c",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_014_icl_ciwl_pair_patch/protocol.md",
+      "source_sha256": "5178bfe1787707ca5598dfb3e747387b0f2ea3a18ed3776af9a1c237ca2f78be",
+      "released_sha256": "7510db963a9fc8e32b1d14db6fe260ed8a149a4784ec603d59a42bcb75743ca8",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_014_icl_ciwl_pair_patch/run_eval.py",
+      "source_sha256": "384db00b96ee562b84e75019f1832aae0344edb59e8a61fe014314856bb53488",
+      "released_sha256": "163c99393e6629a7f181d9475768cfd1679e40075a0b336ccccccf9e7eeca6fc",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_016_embedding_layer1_refinement/expected_inputs.json",
+      "source_sha256": "9ed43f615220e5233fd74bfd1a593da856a97d197430dbb5efd8bc321108871a",
+      "released_sha256": "f6df6291c5e253b8ef61770b1c56879095b77a74e2e54b9919609e687822fd01",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_016_embedding_layer1_refinement/outputs/summary.tsv",
+      "source_sha256": "7989657f15734d6052756c1b4546501df5223490700931de2fed4ef77ce6352f",
+      "released_sha256": "78f6a88920022559e890210f30de928449dcb81066ab0589acdfe9a0a0173c17",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_016_embedding_layer1_refinement/protocol.md",
+      "source_sha256": "3e786eb52b706e59c21be143f23da3ef416f5f4532c2e3a357afb2a9ad2d9d1a",
+      "released_sha256": "70ace709a793d35d66b036f73038d2fc58dec8a883942e7136c31888d9aaf28a",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_016_embedding_layer1_refinement/run_eval.py",
+      "source_sha256": "917e680aff7ebc803a01a32c87bb45388aa5ba4e7ae61b5f7dfdeef78ca9a794",
+      "released_sha256": "87d39dd0304e6eff4b43a2b159538b533d5ffbf4119509d51869ceca5fb2e822",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_017_l1_norm_attention_split/expected_inputs.json",
+      "source_sha256": "9ed43f615220e5233fd74bfd1a593da856a97d197430dbb5efd8bc321108871a",
+      "released_sha256": "f6df6291c5e253b8ef61770b1c56879095b77a74e2e54b9919609e687822fd01",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_017_l1_norm_attention_split/outputs/summary.tsv",
+      "source_sha256": "6d94e7fd22821981b4e7319af8c355df76dff15d2713298f541c85afa8467fbd",
+      "released_sha256": "2e08ae2cc71372c88bd6778ceeae2a44700820b1174cb02cba8fe4d18d7f35e9",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_017_l1_norm_attention_split/protocol.md",
+      "source_sha256": "11e28f97439c6ee874106b4491fd9fb8f53d30061c7636889666df6801fd8a2d",
+      "released_sha256": "577bf9ec43eaae04848b30a977b4c1b02cd3b5bb9e052cb29299de69f902d65b",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_017_l1_norm_attention_split/run_eval.py",
+      "source_sha256": "6d4543de2e7464076f23011766f3a55bea550c7c83b3c73428b0527e3a883a4c",
+      "released_sha256": "c1c3e0052c852c8ed3a489856561dfefb034b3dd9a0e5aab2250bcac523d21ee",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_023_ciwl_divot_window/common.py",
+      "source_sha256": "4ae33feb32e418059a6b59c727e771323dc7ec066f66b8fc126f998cc7318885",
+      "released_sha256": "581522de6998c2d6397b434b730236fb4b81bfec96afd3a1ee61a03e813e3b7d",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_023_ciwl_divot_window/outputs/time_selection.json",
+      "source_sha256": "1e9b5c6c76c297105e8f946c2b1213dc1c15d116f6e24fd68f092c4314d0c3fa",
+      "released_sha256": "69aaf3f9ac6d7cda366ced25549118133838d6ceb1d8945bd8350ddffb9ffdf0",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_023_ciwl_divot_window/protocol.md",
+      "source_sha256": "ef2be52f5580770c3a19a5f38068ce5944c8810192610278afcfee6ba9f04d02",
+      "released_sha256": "1309dc5c7630d3c76ca55d679fbe7a748f029d4340e18c2f2df8608eae25e763",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_023_ciwl_divot_window/settings.json",
+      "source_sha256": "2f6699708d4cc8297eba975720b0404b8ea93928be4b723fa94917380b3a0e99",
+      "released_sha256": "6f2967f5b5e19baaf1145765dc23cd4a535a282ecfbbef9346ebeb922d34fc5e",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_024_l2_label_k_path/outputs/analysis.json",
+      "source_sha256": "0108f561d5694f0f01564d1de20df5ced61ce35b8c27de8f2dde9ffd94eb2468",
+      "released_sha256": "b2cca6fca5a985ec9af560b8b09684a8ed51339dfabe50cdf6aa58c32b9557c8",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_024_l2_label_k_path/outputs/summary.tsv",
+      "source_sha256": "665a9a8fb53efba1b875d6091882f1bc5b8b77c9461482cb20c85742100aaa47",
+      "released_sha256": "9f874d790c56da085419a5b897ad22bec21c90393710e6bf3e50f4b16b5d9c4e",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_024_l2_label_k_path/protocol.md",
+      "source_sha256": "0d9023a6a3191067b904e887f829c2b7aabbbdb444b99542a18165de07d75fb0",
+      "released_sha256": "2e8bd5f2b2a5f559d85adb62ea5541f6d91e5dae00d691378c5dc9e30a6f5893",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_030_functional_update_constraints/input_spec.json",
+      "source_sha256": "36a972a1bc516d2775579dfe971e4bfc47bebcacf7560d95b993ea19f2498dc7",
+      "released_sha256": "3ccacd94aa850a94e7702cde86cdccc3cea6bc2afeda053be14d9252433b2d9a",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_030_functional_update_constraints/outputs/analysis.json",
+      "source_sha256": "69a74342635ae4d149c906579d9fc687830e5c93baf074fa37c9ae577d3ec6fe",
+      "released_sha256": "8f5fe188118ee49524ba4dc119a193f97cbd2aa9e34c5b80b505ace5286d39dd",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_030_functional_update_constraints/prepare_assets.py",
+      "source_sha256": "66513c3205de4d0459448a5002510ce9b4d22c20379a2e916a11c5f476904102",
+      "released_sha256": "2e91adf232e4818ee5b6a2e51e0f3df7a5f00e9d4d106dbf4e7ed3b083c16ad6",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_030_functional_update_constraints/protocol.md",
+      "source_sha256": "263cb5d5c9209132b684d523e34d4aed6f9d815561a34b35f4fac85f4e58b099",
+      "released_sha256": "b0388b02824db05edb22816d379afacd288e28672f6be9d3a33e00ef2efbfe57",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_030_functional_update_constraints/settings.json",
+      "source_sha256": "3e00c9b5970f4ec20bb47457cc95cc5603bf4dafa678fcdcea4d6f7f1ab99767",
+      "released_sha256": "288783cf4a9f1c8ecd9cb1565fb08c65a0358304f2f12720a69ffe51c74af161",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_030_functional_update_constraints/verify_results.py",
+      "source_sha256": "55ad75a4e15e8eb56dbd58448eca9b56f75a245dab4bd8666ee23fa6a522b87f",
+      "released_sha256": "072e23b507033c9ba3e1a6cfeb021d3fd6058e39fbf8ec95a921d0cf60ef1eb3",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_031_path_only_protection/input_spec.json",
+      "source_sha256": "36a972a1bc516d2775579dfe971e4bfc47bebcacf7560d95b993ea19f2498dc7",
+      "released_sha256": "3ccacd94aa850a94e7702cde86cdccc3cea6bc2afeda053be14d9252433b2d9a",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_031_path_only_protection/outputs/analysis.json",
+      "source_sha256": "9cc9c51fce2cdaaa3f7f5b4baa5a940484223d9f5387db0004c7f8d2a78ddb39",
+      "released_sha256": "0062e5a20912c91e3aa2abb0209dcb10579e57a4a834cb3ad415362a1c4e155c",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_031_path_only_protection/protocol.md",
+      "source_sha256": "0ee702e295d62d3259c578112917e8a94289fe9b3c6b4d864924d7e251ca016f",
+      "released_sha256": "fd5e0c76b0d8271f23a0c4204d0fc3a79f69411a66ebfb576b0b081d3e6b0180",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_031_path_only_protection/reference_analysis.py",
+      "source_sha256": "e0fd70f5e6258d03d29e84bff78565a5934110fe386121196a6e555aff1a48af",
+      "released_sha256": "eb22360c3a202579ea0d7dfc7354335e8afacfc977bba726ab2a7f108ce5dea6",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_031_path_only_protection/reference_reader.py",
+      "source_sha256": "42218fffdf73302931f6cd8cdc6b8757def27c7b3cc2fff61a77c848d74b6206",
+      "released_sha256": "f4d6bf37ef5882043d00faf520276c660e56c4f47b472aa575193b85dfdfd36a",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_031_path_only_protection/references/settings.json",
+      "source_sha256": "3e00c9b5970f4ec20bb47457cc95cc5603bf4dafa678fcdcea4d6f7f1ab99767",
+      "released_sha256": "288783cf4a9f1c8ecd9cb1565fb08c65a0358304f2f12720a69ffe51c74af161",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_031_path_only_protection/settings.json",
+      "source_sha256": "02b46874fa34f700497adddf89db6089726efee57630cfea6229c11c0c4b4b8c",
+      "released_sha256": "4a536285f975b489f83ea2087b470a3a11f574f2aca10b2e066abd05714158d0",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_033_random_path_only_protection/input_spec.json",
+      "source_sha256": "36a972a1bc516d2775579dfe971e4bfc47bebcacf7560d95b993ea19f2498dc7",
+      "released_sha256": "3ccacd94aa850a94e7702cde86cdccc3cea6bc2afeda053be14d9252433b2d9a",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_033_random_path_only_protection/outputs/analysis.json",
+      "source_sha256": "5920934a5643a8096bd28f1b92b859a30e8d3ef3963a3779ff517bc5956fe8d7",
+      "released_sha256": "a9c74412901238d268be4a5b7b9a9cdf9213733550fb6949f00d90377d012842",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_033_random_path_only_protection/protocol.md",
+      "source_sha256": "2963837edc82f60c6422a103e25123a043f651e12ff9e71575e718a75aed0b22",
+      "released_sha256": "804fefdedc8942f9a7250d788d31444b631a401859342e8054dcb83d846c2a2f",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_033_random_path_only_protection/reference_analysis.py",
+      "source_sha256": "e0fd70f5e6258d03d29e84bff78565a5934110fe386121196a6e555aff1a48af",
+      "released_sha256": "eb22360c3a202579ea0d7dfc7354335e8afacfc977bba726ab2a7f108ce5dea6",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_033_random_path_only_protection/reference_reader.py",
+      "source_sha256": "42218fffdf73302931f6cd8cdc6b8757def27c7b3cc2fff61a77c848d74b6206",
+      "released_sha256": "f4d6bf37ef5882043d00faf520276c660e56c4f47b472aa575193b85dfdfd36a",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_033_random_path_only_protection/references/exp031/settings.json",
+      "source_sha256": "02b46874fa34f700497adddf89db6089726efee57630cfea6229c11c0c4b4b8c",
+      "released_sha256": "4a536285f975b489f83ea2087b470a3a11f574f2aca10b2e066abd05714158d0",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_033_random_path_only_protection/references/settings.json",
+      "source_sha256": "3e00c9b5970f4ec20bb47457cc95cc5603bf4dafa678fcdcea4d6f7f1ab99767",
+      "released_sha256": "288783cf4a9f1c8ecd9cb1565fb08c65a0358304f2f12720a69ffe51c74af161",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_033_random_path_only_protection/settings.json",
+      "source_sha256": "18b6537461d1b5dd1cbd823fdf5b0733482bca4c1e2a55bed5f1edeb3e1744ec",
+      "released_sha256": "0996b476160b0dab97592f46d367798dfc2c3cbca6c2e97c5cca2764bad405ab",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_034_icl_replay/input_spec.json",
+      "source_sha256": "36a972a1bc516d2775579dfe971e4bfc47bebcacf7560d95b993ea19f2498dc7",
+      "released_sha256": "3ccacd94aa850a94e7702cde86cdccc3cea6bc2afeda053be14d9252433b2d9a",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_034_icl_replay/protocol.md",
+      "source_sha256": "03129c5c9352d408c68388bc4eb5d21ac2c33d174d7f19a98ca912851400d10f",
+      "released_sha256": "44297bfbb09c941de5a68e55c0d9698aa85638f6212f5168ae178cb681441286",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_034_icl_replay/settings.json",
+      "source_sha256": "ea551d964dbbd2b2dbba4a8b071597c301a67e5951ebcafa05b947f5fa575496",
+      "released_sha256": "2a6d4aa8ba3547c262c0a0690176bc147535662c1a6a0c10ebeaf507b65269b9",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_035_l2_regularization/protocol.md",
+      "source_sha256": "3cd5e17654f27a674cc704c1ceeca36113a73fb136422ded3537e95bf69692a4",
+      "released_sha256": "d0d4bc47cfc7965fccdbb62006e19e9d11decc07f813eca2b840ce108fdfd88a",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_036_multiseed_path_protection/README.md",
+      "source_sha256": "a36ae67ee72e64681bd54b0fd05919cda8c61ba1fa88fc1450cf08d66e526ba3",
+      "released_sha256": "dff6ac454b9613417a51f933444290e9919eacdfff0187962d531d77de71b1d3",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_036_multiseed_path_protection/input_spec.json",
+      "source_sha256": "36a972a1bc516d2775579dfe971e4bfc47bebcacf7560d95b993ea19f2498dc7",
+      "released_sha256": "3ccacd94aa850a94e7702cde86cdccc3cea6bc2afeda053be14d9252433b2d9a",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_036_multiseed_path_protection/protocol.md",
+      "source_sha256": "b8416c9f8d25ff3aad9a1215fbcb031f90bf41d5a9dad64bf7f17add35d55bd1",
+      "released_sha256": "dff6ac454b9613417a51f933444290e9919eacdfff0187962d531d77de71b1d3",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_036_multiseed_path_protection/references/exp033_protocol.md",
+      "source_sha256": "2963837edc82f60c6422a103e25123a043f651e12ff9e71575e718a75aed0b22",
+      "released_sha256": "dff6ac454b9613417a51f933444290e9919eacdfff0187962d531d77de71b1d3",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_036_multiseed_path_protection/references/exp033_settings.json",
+      "source_sha256": "18b6537461d1b5dd1cbd823fdf5b0733482bca4c1e2a55bed5f1edeb3e1744ec",
+      "released_sha256": "e259fa19fc1f454489b84ad4bc5c334cbd1d278a37a71fc0f3617025357e2780",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_036_multiseed_path_protection/settings.json",
+      "source_sha256": "9dd0ecdb461f6f1e23c0bd923718a4cd07dae22186af284474a849cf76dcca46",
+      "released_sha256": "4464cbd127d64717a59db25752147a404395ae469f4b2f46aba11595f2d51080",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_038_protection_strength/README.md",
+      "source_sha256": "82194d04ac9a12ab025dd26417f576d00a5b823a3261ccb6f2b2fed827b819e2",
+      "released_sha256": "345fdec4e7b073836b2b39ec1441b1f576a6cc71a1fe5ed7a15f0c91ac3453bd",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_038_protection_strength/input_spec.json",
+      "source_sha256": "36a972a1bc516d2775579dfe971e4bfc47bebcacf7560d95b993ea19f2498dc7",
+      "released_sha256": "3ccacd94aa850a94e7702cde86cdccc3cea6bc2afeda053be14d9252433b2d9a",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_038_protection_strength/outputs/analysis.json",
+      "source_sha256": "40d54d232383f4292beb1a1bc2cf479ced09509590c566b6c3850aba8fda01c1",
+      "released_sha256": "b088c09e5c1516bbaf50c186f21017a48cf8defd76a6993cad2c6b3f3d5203be",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_038_protection_strength/protocol.md",
+      "source_sha256": "aabc6dc39a78356572536c72ddf454d3cfd1735ecfca579288ab6fa275494dc4",
+      "released_sha256": "345fdec4e7b073836b2b39ec1441b1f576a6cc71a1fe5ed7a15f0c91ac3453bd",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_038_protection_strength/reference_analysis.py",
+      "source_sha256": "e0fd70f5e6258d03d29e84bff78565a5934110fe386121196a6e555aff1a48af",
+      "released_sha256": "eb22360c3a202579ea0d7dfc7354335e8afacfc977bba726ab2a7f108ce5dea6",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_038_protection_strength/reference_reader.py",
+      "source_sha256": "42218fffdf73302931f6cd8cdc6b8757def27c7b3cc2fff61a77c848d74b6206",
+      "released_sha256": "f4d6bf37ef5882043d00faf520276c660e56c4f47b472aa575193b85dfdfd36a",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_038_protection_strength/references/exp030/settings.json",
+      "source_sha256": "3e00c9b5970f4ec20bb47457cc95cc5603bf4dafa678fcdcea4d6f7f1ab99767",
+      "released_sha256": "288783cf4a9f1c8ecd9cb1565fb08c65a0358304f2f12720a69ffe51c74af161",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_038_protection_strength/references/exp031/settings.json",
+      "source_sha256": "02b46874fa34f700497adddf89db6089726efee57630cfea6229c11c0c4b4b8c",
+      "released_sha256": "4a536285f975b489f83ea2087b470a3a11f574f2aca10b2e066abd05714158d0",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_038_protection_strength/settings.json",
+      "source_sha256": "1acc9089f7da059315375f353f1b7ebbef8301846b3dc7f7bdab567df6c59545",
+      "released_sha256": "53d865e3ef21b907e897724ea91c5ed554a8d8a880d2c8b11c74d497d35ce6c9",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_040_scale_generalization_v2/README.md",
+      "source_sha256": "76db67e237a20b7ace88941d5eb5a6abafab7ca8fc59656056cf88a2b2870c46",
+      "released_sha256": "7a4b7d7bce4d95aa2325b5a51a95040b81eced13fc2cff1da2a02270e5d57e20",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_040_scale_generalization_v2/input_spec.json",
+      "source_sha256": "f16743d05a11759bd95e57b3165fdd5bd05243c94efc41dcc833287f514af752",
+      "released_sha256": "24ca7b2cce10f49ddd38d51d906ba82fd32eadb56e73cbf2eb05be2b34b636fd",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_040_scale_generalization_v2/protocol.md",
+      "source_sha256": "9100c963bd213b97d4ca543ec9dfc553353d07da35416c560b28d2a43fd165c2",
+      "released_sha256": "7a4b7d7bce4d95aa2325b5a51a95040b81eced13fc2cff1da2a02270e5d57e20",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_040_scale_generalization_v2/settings.json",
+      "source_sha256": "a3edf053648cd16ce1c8377b6365d330b4b6c2048471976ef2e8ad1dcb07cfb8",
+      "released_sha256": "2ff3d1c00456d2b4a70e4cc56e8bda4c8c4fb25fdb9c99be4b235d05d43c9ef9",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_041_emnist_generalization/protocol.md",
+      "source_sha256": "1315679edd8c390beb2d9fb699cd98995fed4dd9cc46046fe0a69e9412975a5c",
+      "released_sha256": "46237e128d2368c4c2b6766b62fd2127ca4d8e9aeefd1f7df59f08a9593991e0",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_041_emnist_generalization/settings.json",
+      "source_sha256": "c1db8e9962c27605859325dd3a1608a740858d97150c3b5a2404b496f387bdbd",
+      "released_sha256": "fa5726be1c03584daa86562d8690843770ff501d12eb13e26dec3bfe2aa7a2aa",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_042_seed_and_horizon/README.md",
+      "source_sha256": "003dc9efa8dd8107bd211331539e8dc1b0f553b1af4b805789b5baf846aac806",
+      "released_sha256": "5941cb9d53a816f01a7f3c23ecb3af7328fefcdcba47e17274d4f7b9141a61b7",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_042_seed_and_horizon/protocol.md",
+      "source_sha256": "d178b7db2acdfd672e5f222d243b5832f7dcc385239282a9f932b6b75d8512b7",
+      "released_sha256": "5941cb9d53a816f01a7f3c23ecb3af7328fefcdcba47e17274d4f7b9141a61b7",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_042_seed_and_horizon/settings.json",
+      "source_sha256": "1ab46b9a690a54f20f79627fa616404dffc0d9c134da69ff5b5fb7ea31c98116",
+      "released_sha256": "c64815ebf2eb7fa2bdf936f2f44668636a7cc80a45c91837cf894c46574c9682",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_042_seed_and_horizon/source_inheritance.json",
+      "source_sha256": "4d2e54aad8a7d12809c83140f3e3812ffd25554dd51b1ae581c376ace38ffc54",
+      "released_sha256": "b7961ae38a0285f3e3107258a89d15c06cb46f1b7cbd164d20f3ff5d3e5fa32a",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_042_seed_and_horizon/supplement_s21_s22_40M/protocol.md",
+      "source_sha256": "1cc7fc19b728e25525bb86fd8c216157261c067a6820f9cb91885b798b96aba5",
+      "released_sha256": "5941cb9d53a816f01a7f3c23ecb3af7328fefcdcba47e17274d4f7b9141a61b7",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_042_seed_and_horizon/supplement_s21_s22_40M/supplement.json",
+      "source_sha256": "1209c0e42a8a41b752e9e172d4bdcb6a72f4a1268b7c8b78a95b340e7b81702a",
+      "released_sha256": "576478108080a7638fdd393f3548c2303c17d7d9d9794b4a6f1b389e6eff652b",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_043_kuzushiji49_generalization/multiseed_10M_20261022/model_inputs.json",
+      "source_sha256": "5f78243c6420e4e2d6e997f51c73b575065e42918d7c38d413dc6288dcb4f3bf",
+      "released_sha256": "2a9b086b63af8958b7c437afb1ffd781d927ce4d4cc140dc24583a561a5af625",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_043_kuzushiji49_generalization/multiseed_10M_20261022/protocol.md",
+      "source_sha256": "5b2e25dfe843393d8099b63295605286a1f093e52144ea8fe481d9c7e3d99971",
+      "released_sha256": "3a9f6e8e653d32ec04edfb50bd3d860b9605c87e6bde92daebe561b7d37b95b9",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_043_kuzushiji49_generalization/multiseed_10M_20261022/s18/protocol.md",
+      "source_sha256": "5b2e25dfe843393d8099b63295605286a1f093e52144ea8fe481d9c7e3d99971",
+      "released_sha256": "3a9f6e8e653d32ec04edfb50bd3d860b9605c87e6bde92daebe561b7d37b95b9",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_043_kuzushiji49_generalization/multiseed_10M_20261022/s18/settings.json",
+      "source_sha256": "c2db9a9814700530cdfeac8c7b0252fc9e397b19029c81c168c665821a96bebb",
+      "released_sha256": "b8f571a35c724324034ab76ebee084ed3f57b590ef2d097f362d3beea4f4febf",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_043_kuzushiji49_generalization/multiseed_10M_20261022/s19/protocol.md",
+      "source_sha256": "5b2e25dfe843393d8099b63295605286a1f093e52144ea8fe481d9c7e3d99971",
+      "released_sha256": "3a9f6e8e653d32ec04edfb50bd3d860b9605c87e6bde92daebe561b7d37b95b9",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_043_kuzushiji49_generalization/multiseed_10M_20261022/s19/settings.json",
+      "source_sha256": "45b945f6c5a06421ed85b682d202a611988b771e8b35b5b93e4a9b2122e74cee",
+      "released_sha256": "9a383de580a4a8e38f7c100fa4a2d7ea9694ed962b04fe85a183273b2f56ff03",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_043_kuzushiji49_generalization/multiseed_10M_20261022/s20/protocol.md",
+      "source_sha256": "5b2e25dfe843393d8099b63295605286a1f093e52144ea8fe481d9c7e3d99971",
+      "released_sha256": "3a9f6e8e653d32ec04edfb50bd3d860b9605c87e6bde92daebe561b7d37b95b9",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_043_kuzushiji49_generalization/multiseed_10M_20261022/s20/settings.json",
+      "source_sha256": "8b0f801e1a090aa5cb219a25b845eedbcacfd2c91e26eb1e0f5fe34d1639bb99",
+      "released_sha256": "c093d585c3d9b4771d57f367fc76771b20de37d9043465dc9eb97e541d5036ea",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_043_kuzushiji49_generalization/multiseed_10M_20261022/s21/protocol.md",
+      "source_sha256": "5b2e25dfe843393d8099b63295605286a1f093e52144ea8fe481d9c7e3d99971",
+      "released_sha256": "3a9f6e8e653d32ec04edfb50bd3d860b9605c87e6bde92daebe561b7d37b95b9",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_043_kuzushiji49_generalization/multiseed_10M_20261022/s21/settings.json",
+      "source_sha256": "073e2e0707ef43ac95f2163c4398cd389de7f7e4d39dca855754e011f732cb35",
+      "released_sha256": "d9da970728025a665a3d8fcf37ef7491c4d4671e29628c487ae401bca20fd16d",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_043_kuzushiji49_generalization/multiseed_10M_20261022/s22/protocol.md",
+      "source_sha256": "5b2e25dfe843393d8099b63295605286a1f093e52144ea8fe481d9c7e3d99971",
+      "released_sha256": "3a9f6e8e653d32ec04edfb50bd3d860b9605c87e6bde92daebe561b7d37b95b9",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_043_kuzushiji49_generalization/multiseed_10M_20261022/s22/settings.json",
+      "source_sha256": "2a3b3f212a05e141a05c85515ac758e08051383d5954253a7d3bcc37d01f6a9b",
+      "released_sha256": "1c68875135919819c7c5e37f2445465d5d1201b9330b7ed020bc7829df47422f",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_043_kuzushiji49_generalization/multiseed_10M_20261022/summary/combined_analysis.json",
+      "source_sha256": "350df47f9f912ee217c8551b3ab808f67874ebf41bcc620d19864446dc93e2a3",
+      "released_sha256": "356f83ca28eacdfbc2d711fe4086c895d9a3fce78f42b32a23b02a0464b17399",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_044_cifar100_generalization/multiseed_10M_20261022/protocol.md",
+      "source_sha256": "5b2e25dfe843393d8099b63295605286a1f093e52144ea8fe481d9c7e3d99971",
+      "released_sha256": "08c700291dc3639b390a9feb7385755acfa35d54069c2e2de9a8115bbcac7e2f",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_044_cifar100_generalization/multiseed_10M_20261022/s18/protocol.md",
+      "source_sha256": "5b2e25dfe843393d8099b63295605286a1f093e52144ea8fe481d9c7e3d99971",
+      "released_sha256": "08c700291dc3639b390a9feb7385755acfa35d54069c2e2de9a8115bbcac7e2f",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_044_cifar100_generalization/multiseed_10M_20261022/s18/settings.json",
+      "source_sha256": "c71d18ab7e98832989187e51266484e292e50230c4c9e49f02c5afcb08019e8c",
+      "released_sha256": "4162a96694bf0762712f346f8be2a491e96b8ebe6e2a94d9e45322c311ab6f1d",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_044_cifar100_generalization/multiseed_10M_20261022/s19/protocol.md",
+      "source_sha256": "5b2e25dfe843393d8099b63295605286a1f093e52144ea8fe481d9c7e3d99971",
+      "released_sha256": "08c700291dc3639b390a9feb7385755acfa35d54069c2e2de9a8115bbcac7e2f",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_044_cifar100_generalization/multiseed_10M_20261022/s19/settings.json",
+      "source_sha256": "03b0cf2946a1b6dfc7ac0dd647b4f944a9a22dfb3d1e671faed60cd2d8dfc252",
+      "released_sha256": "1931ef743a07384f6efc9f9f169ebc0cfb9efce959618cb09781be56dd06ea37",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_044_cifar100_generalization/multiseed_10M_20261022/s20/protocol.md",
+      "source_sha256": "5b2e25dfe843393d8099b63295605286a1f093e52144ea8fe481d9c7e3d99971",
+      "released_sha256": "08c700291dc3639b390a9feb7385755acfa35d54069c2e2de9a8115bbcac7e2f",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_044_cifar100_generalization/multiseed_10M_20261022/s20/settings.json",
+      "source_sha256": "eb01d2e440a0804ed43d898cd58ced080f9687cdcec3509923bfc879fbbf1b11",
+      "released_sha256": "e9c7fd58a65a2c3625a3b55b179a1e307bb7b55d781d6fab6f240ad7e98c1c5d",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_044_cifar100_generalization/multiseed_10M_20261022/s21/protocol.md",
+      "source_sha256": "5b2e25dfe843393d8099b63295605286a1f093e52144ea8fe481d9c7e3d99971",
+      "released_sha256": "08c700291dc3639b390a9feb7385755acfa35d54069c2e2de9a8115bbcac7e2f",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_044_cifar100_generalization/multiseed_10M_20261022/s21/settings.json",
+      "source_sha256": "730f3541b5a07f742435be3e85619efec5ac1c3a306e56aa352e5fcc0e0db942",
+      "released_sha256": "ed98c6daa726cee00a060e763a8c2b803d7dbc17d1bf292746b408d5e57cb5b2",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_044_cifar100_generalization/multiseed_10M_20261022/s22/protocol.md",
+      "source_sha256": "5b2e25dfe843393d8099b63295605286a1f093e52144ea8fe481d9c7e3d99971",
+      "released_sha256": "08c700291dc3639b390a9feb7385755acfa35d54069c2e2de9a8115bbcac7e2f",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_044_cifar100_generalization/multiseed_10M_20261022/s22/settings.json",
+      "source_sha256": "f635455f4c912e273df9e573dfe650c1127b52ea5ffdc0e50e903cdff26e1d7e",
+      "released_sha256": "83b30a934e5d5e26552d0fd45c26ffb9be1c357a00c907b9193d629aae9fbdaa",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_045_training_cost/extended_20261022/analysis.json",
+      "source_sha256": "e248d012faeb070ee1b659353112ba9b12ffb26c15c619442b446e711eb0dde1",
+      "released_sha256": "d650eefd6c859a4395abecc37aa576d94f733aff4cf0647e5bba442de6fc20e2",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_045_training_cost/extended_20261022/benchmark.py",
+      "source_sha256": "a529ac394f687b579882d394dbab04a5e1937e5e8973d302f28f70b4ac1f37a9",
+      "released_sha256": "eafc823af4b43192333bd38253d803c108d26f61fbaf22558b6dd5129e3fef18",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_045_training_cost/extended_20261022/protocol.md",
+      "source_sha256": "91cbd81f3a5829579904b90bc9dd8761bfd26dd30ea7a8350b873216ceabb15d",
+      "released_sha256": "1e9cf6e6e283b7bd0be058f8c4d95f48f5708c066891c416e8831eb0a890ea4d",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_045_training_cost/extended_20261022/settings.json",
+      "source_sha256": "619035df5356bbf72bf2c31f9d43723c0d477b9b41c7fbce558a7527bb7a74d9",
+      "released_sha256": "ea1c3e453c4249a11d3b7911c56d5ba028c2b1c71f2d7fd9d4f6ef0b9b6b3988",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_045_training_cost/extended_20261022/verify_checkpoints.py",
+      "source_sha256": "109dd565e99c1d4567a7dbf9a6654a8df1773332300af359a87967a4ff8e707a",
+      "released_sha256": "226b39d5762380d8b92eca87c6d7b6c9d4617c06756f7b714132a0c9182d7467",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "experiments/exp_046_single_constraint_task_loss/mean_task_execution.py",
+      "source_sha256": "0f1c7043985c6a232b3a99cc36a65138b5bc3269e1e6de3a8766ffacab49fe4e",
+      "released_sha256": "e7d65435e4a92de19f958d4b0c709b8b6f8cd649ee54d33ab528c6a9373ed570",
+      "change": "Added the reported MEAN25 condition or release verification/documentation."
+    },
+    {
+      "path": "experiments/exp_046_single_constraint_task_loss/outputs/analysis.json",
+      "source_sha256": "7a1364541f14d815d137e491523c4849f4b538a41b2969968f4e6c0f4bb4a50e",
+      "released_sha256": "3dc0a3f9384471b3f7af870bac0339e8a832cb2bbcf13b967611e5e1180fae0a",
+      "change": "Added the reported MEAN25 condition or release verification/documentation."
+    },
+    {
+      "path": "experiments/exp_046_single_constraint_task_loss/outputs/s5/paired_window_metrics.npz",
+      "source_sha256": "c57138f03e575d45eb7dc207dcc308f8eb0553e7c7c3185575d9a63d35971449",
+      "released_sha256": "c57138f03e575d45eb7dc207dcc308f8eb0553e7c7c3185575d9a63d35971449",
+      "change": "Added the reported MEAN25 condition or release verification/documentation."
+    },
+    {
+      "path": "experiments/exp_046_single_constraint_task_loss/reference_manifest.json",
+      "source_sha256": "5dcd40f9d68c7907c2bcf8e67f49636fc2094f23915bef2254394a0ea00e01a4",
+      "released_sha256": "1fdbd003d4c2cdb20e28a1b8e8d058632b93ca298477f7293a3a5b99779b65d5",
+      "change": "Added the reported MEAN25 condition or release verification/documentation."
+    },
+    {
+      "path": "experiments/exp_046_single_constraint_task_loss/run_control.py",
+      "source_sha256": "b48c007350a87a239c3ddd7282422edf3ee93e41f193d111b011349cc0bbe677",
+      "released_sha256": "899409cd00418ac2ee5269115fcdf3e02c63600bc62455deb55d4431982780bf",
+      "change": "Added the reported MEAN25 condition or release verification/documentation."
+    },
+    {
+      "path": "experiments/exp_046_single_constraint_task_loss/run_control_fast.py",
+      "source_sha256": "31803d4edd66781eea3682c3f4553cf67c2d063d1938a9058eeccce771dfc10f",
+      "released_sha256": "9e96ebab75bec81b0243868953166b47de5f0d3ebdad5359beed36d1cc2e5232",
+      "change": "Added the reported MEAN25 condition or release verification/documentation."
+    },
+    {
+      "path": "experiments/exp_046_single_constraint_task_loss/settings.json",
+      "source_sha256": "dc2b8a1ef6c9746d5a976542692cf4a110b33f6248d9587c052f2f3f88cffd42",
+      "released_sha256": "b3a1936c93f4c31a907028cae99b0805d56608010b10784cda0101b0694c32dc",
+      "change": "Added the reported MEAN25 condition or release verification/documentation."
+    },
+    {
+      "path": "experiments/exp_046_single_constraint_task_loss/speed_adoption.json",
+      "source_sha256": "08996897c95bb4473bc541a122bd826461bc05717ddca6454bb8ac4c00dd6de0",
+      "released_sha256": "63947a8ab1da6fa7926ab1dc1de7b7e434eab35d6c88365433a6d246a70ec1b7",
+      "change": "Added the reported MEAN25 condition or release verification/documentation."
+    },
+    {
+      "path": "experiments/reproduction_support/README.md",
+      "source_sha256": "486b7e01251fa7998f63586f92fee4e2f0433fe1636801c6297a850003165012",
+      "released_sha256": "f7bbebfea851252608278ea9fbe69994fe593cbe13a3f03c579793e57f9a73fa",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "figures/paper_figures/minimal_revision_20261023/data_frozen.json",
+      "source_sha256": "1fd6ba10759cde8c151f41bd06bea499251da8d58dd3de6af5175a8ec6a60b81",
+      "released_sha256": "f372ff66e168f7ee13077d9b0daab6f15fe827234e527087155269fa8edbbb9d",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "paper_figures/svg/Figure_1.svg",
+      "source_sha256": "f32fcd64445c85c10caf492802bdb92074431f8caf7ada12c69e188cfeec6829",
+      "released_sha256": "b8f8bef526de9774fc58ab32fc17405a04ab5732c1331af528edb3b6101cae79",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "paper_figures/svg/Figure_3.svg",
+      "source_sha256": "f227d1d3060639c371e86dbb2264b861a05c4e1f759d38b21e0ee6d101cd0eca",
+      "released_sha256": "758733591bf0e5f553c62c8fdb7da4dfefe953473860a6e1b3ff101cf0385380",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "paper_figures/svg/Figure_8.svg",
+      "source_sha256": "22087fe5fb8a0d4ce205a3b2593f2539d477580f20804f304798a9bc006b187d",
+      "released_sha256": "ee7bde581f76e31b47c3bf9490ec7667795c5a5cf8df69dbf6d679a85de3002c",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "reproducibility/ENVIRONMENT_GUIDE.txt",
+      "source_sha256": "80a3073595ead760ba468c5a955d8d733d50813fd31d9a98b21e1f1ea2f6fbcd",
+      "released_sha256": "203a3cab209f534abb0002678d08cd6d027871dc47c6747c1dac3acf2632d552",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "reproducibility/manuscript_binding.json",
+      "source_sha256": "4194048e08624712be0dce5045b5a3ec253f6aed20209b3f5051bdc23cf5cc4b",
+      "released_sha256": "a84e8b162922bf0f705bbf2b92b6df2e13bce1cd7f5611e431a8899026d1943f",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "reproducibility/paper_artifact_map.csv",
+      "source_sha256": "93d0051875f4a2f97c50775f823c276380a0c07062510978f70cbbff046e518e",
+      "released_sha256": "391c0ad5a7c7482c495e3a186adb685668fe6603c843d7afa4753ba993910d55",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "reproducibility/paper_inventory.json",
+      "source_sha256": "a2ec3d576e61c2b8ea861c66df28ee88a2ee662a00932923b1986145cfdbebad",
+      "released_sha256": "f82333191228d7f7e73f64034d970987ac92b9a33850973cfd3e9f0b26291adf",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "tools/paper_expected_values.json",
+      "source_sha256": "cc14fc937fa61449c48a9f53b2eb8d4335a3644ed177fb023991b952b40fa870",
+      "released_sha256": "b31931ffb6b433537a453f52db664e6f941f2b19b8c2851f7bc40e4c8dd77be7",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "tools/reproduce_paper_results.py",
+      "source_sha256": "2f004590d95762373a5b7fc01c8437f891b28e362dcc64f9e2a0d62d49e73f3c",
+      "released_sha256": "14f8ecf9ef3b67d18f68428a6841fa7a04ba3dd5118540d975c173180c423de9",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    },
+    {
+      "path": "tools/verify_package.py",
+      "source_sha256": "f9fe489ef929f0c11f6d6440337bd399df4ad9f589a9e707af2f000144ce907c",
+      "released_sha256": "a3df30e3fbaebfadc06d615a9fbe1c19a3ed2b0082efa6cacab7e5685b3d6162",
+      "change": "Manuscript scope, portable paths, privacy metadata, documentation, or explicit release verification. Retained scientific result values are unchanged."
+    }
+  ],
+  "public_release_layout": {
+    "upstream_source_external": [
+      "main.py",
+      "experiments/reproduction_support/source/main.py",
+      "main_utils.py",
+      "experiments/reproduction_support/source/main_utils.py",
+      "models.py",
+      "experiments/reproduction_support/source/models.py",
+      "omni_features_extract.py",
+      "experiments/reproduction_support/source/omni_features_extract.py",
+      "omniglot_dataset.py",
+      "experiments/reproduction_support/source/omniglot_dataset.py",
+      "opto.py",
+      "experiments/reproduction_support/source/opto.py",
+      "samplers.py",
+      "experiments/reproduction_support/source/samplers.py"
+    ],
+    "upstream_commit": "85b895c720844e795734b9391b32d2619065f9a1",
+    "modified_or_added_release_support": [
+      {
+        "path": ".gitignore",
+        "delivery_sha256": "8b9af968bb8e7e4693094ca13fdc2e375ec5abea9ad5a56d9ac07d80fc948501",
+        "public_sha256": "b73028d6e77a540f26ce6db9dbb81ecb96f83ce81406f290629ad425f9623196"
+      },
+      {
+        "path": "README.md",
+        "delivery_sha256": "26cee9f89287ee769cb969483e972dca5f51e88cb96feb75f4d964282cd52ddf",
+        "public_sha256": "ecc538c1b1a0981a0f36caeecebf9ce7623ef640d91625ce42c3a4f950c3a866"
+      },
+      {
+        "path": "THIRD_PARTY_NOTICES.txt",
+        "delivery_sha256": "792aa6eeb7acb442da6e2d9747ebabdffaa2cbea5c5874de538c6832c8768e24",
+        "public_sha256": "9f418b95aa379654731a9040df2737a02599e184dc9781f0f30a306ba6bfd890"
+      },
+      {
+        "path": "UPSTREAM_SETUP.md",
+        "delivery_sha256": null,
+        "public_sha256": "16b3dd217ac955f296362313866361553fca2e4cc50aae74f41208b531226061"
+      },
+      {
+        "path": "experiments/reproduction_support/README.md",
+        "delivery_sha256": "4823b7c735b6041e3937e8d1e3d8b5274be6142e7459f5956100a24e48109254",
+        "public_sha256": "f7bbebfea851252608278ea9fbe69994fe593cbe13a3f03c579793e57f9a73fa"
+      },
+      {
+        "path": "reproducibility/ENVIRONMENT_GUIDE.txt",
+        "delivery_sha256": "5601e0165b4085407f47d84adc4859c51f10e40e0d3ded36efcdfce8977de879",
+        "public_sha256": "203a3cab209f534abb0002678d08cd6d027871dc47c6747c1dac3acf2632d552"
+      },
+      {
+        "path": "reproducibility/upstream_dependency.json",
+        "delivery_sha256": null,
+        "public_sha256": "9c748414e22959eee98c4cb076a906e44a0ab968a12166e6a04bd67f2953ca12"
+      },
+      {
+        "path": "tools/prepare_upstream.py",
+        "delivery_sha256": null,
+        "public_sha256": "53aa89a6f21ca68c595fc4843ed04cb8b98ab27010a81b0f0afbda6a2a470da5"
+      },
+      {
+        "path": "tools/verify_package.py",
+        "delivery_sha256": "ea22618d6395496d409a6a60db8286ad4084d148d41ca604672b6f18ad3ee7e2",
+        "public_sha256": "a3df30e3fbaebfadc06d615a9fbe1c19a3ed2b0082efa6cacab7e5685b3d6162"
+      }
+    ],
+    "experimental_scripts_and_saved_arrays_unchanged": true,
+    "earlier_private_git_history_included": false
+  }
+}

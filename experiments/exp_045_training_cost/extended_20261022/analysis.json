@@ -1,0 +1,1517 @@
+{
+  "rounds": 4,
+  "timed_steps_per_arm": 40000,
+  "total_measured_seconds": 2266.0467736150003,
+  "rows": [
+    {
+      "arm": "A",
+      "ms_per_step_mean": 5.8512691791499964,
+      "ms_per_step_sd": 0.1065094134730731,
+      "ms_per_step_range": [
+        5.724588966399961,
+        5.983548126600005
+      ],
+      "sampled_device_peak_MiB": 1275.0,
+      "jax_allocator_peak_MiB": 1066.49560546875,
+      "repeated_final_states_byte_identical": true,
+      "runs": [
+        {
+          "tag": "r01_A",
+          "round": 0,
+          "ms_per_step": 5.983548126600005,
+          "measured_seconds": 59.835481266000045,
+          "steps": 10000,
+          "windows": [
+            {
+              "window": 0,
+              "steps": 1000,
+              "seconds": 6.591174980000005,
+              "ms_per_step": 6.591174980000005
+            },
+            {
+              "window": 1,
+              "steps": 1000,
+              "seconds": 5.763736588,
+              "ms_per_step": 5.763736588
+            },
+            {
+              "window": 2,
+              "steps": 1000,
+              "seconds": 5.98744605600001,
+              "ms_per_step": 5.987446056000009
+            },
+            {
+              "window": 3,
+              "steps": 1000,
+              "seconds": 6.490960755000003,
+              "ms_per_step": 6.490960755000004
+            },
+            {
+              "window": 4,
+              "steps": 1000,
+              "seconds": 6.940981902000004,
+              "ms_per_step": 6.940981902000004
+            },
+            {
+              "window": 5,
+              "steps": 1000,
+              "seconds": 5.873147165000006,
+              "ms_per_step": 5.873147165000006
+            },
+            {
+              "window": 6,
+              "steps": 1000,
+              "seconds": 6.192249040000007,
+              "ms_per_step": 6.192249040000007
+            },
+            {
+              "window": 7,
+              "steps": 1000,
+              "seconds": 5.308412400999998,
+              "ms_per_step": 5.308412400999997
+            },
+            {
+              "window": 8,
+              "steps": 1000,
+              "seconds": 5.411637315999997,
+              "ms_per_step": 5.411637315999997
+            },
+            {
+              "window": 9,
+              "steps": 1000,
+              "seconds": 5.275735063000013,
+              "ms_per_step": 5.275735063000012
+            }
+          ],
+          "sampled_device_peak_MiB": 1275.0,
+          "temperature_range_C": [
+            47.0,
+            49.0
+          ],
+          "jax_allocator_peak_MiB": 1066.49560546875,
+          "final_checkpoint_sha256": "9ac06f0f4dc67919cd98baf6656c3c4c42d48043fa60bad0e05cf114b21cd298",
+          "final_prng": {
+            "eval_model_seed": [
+              696308388,
+              313858239
+            ],
+            "train_data_seed": [
+              4037411077,
+              1034489067
+            ],
+            "train_model_seed": [
+              1800670764,
+              2737071413
+            ]
+          }
+        },
+        {
+          "tag": "r02_A",
+          "round": 1,
+          "ms_per_step": 5.863823904399987,
+          "measured_seconds": 58.638239043999874,
+          "steps": 10000,
+          "windows": [
+            {
+              "window": 0,
+              "steps": 1000,
+              "seconds": 5.393610849999959,
+              "ms_per_step": 5.393610849999959
+            },
+            {
+              "window": 1,
+              "steps": 1000,
+              "seconds": 5.838758741999982,
+              "ms_per_step": 5.838758741999982
+            },
+            {
+              "window": 2,
+              "steps": 1000,
+              "seconds": 5.058427832000007,
+              "ms_per_step": 5.058427832000007
+            },
+            {
+              "window": 3,
+              "steps": 1000,
+              "seconds": 5.3981597439999405,
+              "ms_per_step": 5.3981597439999405
+            },
+            {
+              "window": 4,
+              "steps": 1000,
+              "seconds": 5.871654509999871,
+              "ms_per_step": 5.871654509999871
+            },
+            {
+              "window": 5,
+              "steps": 1000,
+              "seconds": 6.099650237000105,
+              "ms_per_step": 6.099650237000105
+            },
+            {
+              "window": 6,
+              "steps": 1000,
+              "seconds": 5.834262181000213,
+              "ms_per_step": 5.834262181000213
+            },
+            {
+              "window": 7,
+              "steps": 1000,
+              "seconds": 6.04275921999988,
+              "ms_per_step": 6.04275921999988
+            },
+            {
+              "window": 8,
+              "steps": 1000,
+              "seconds": 6.550762008999982,
+              "ms_per_step": 6.550762008999982
+            },
+            {
+              "window": 9,
+              "steps": 1000,
+              "seconds": 6.550193718999935,
+              "ms_per_step": 6.550193718999935
+            }
+          ],
+          "sampled_device_peak_MiB": 1275.0,
+          "temperature_range_C": [
+            46.0,
+            49.0
+          ],
+          "jax_allocator_peak_MiB": 1066.49560546875,
+          "final_checkpoint_sha256": "9ac06f0f4dc67919cd98baf6656c3c4c42d48043fa60bad0e05cf114b21cd298",
+          "final_prng": {
+            "eval_model_seed": [
+              696308388,
+              313858239
+            ],
+            "train_data_seed": [
+              4037411077,
+              1034489067
+            ],
+            "train_model_seed": [
+              1800670764,
+              2737071413
+            ]
+          }
+        },
+        {
+          "tag": "r03_A",
+          "round": 2,
+          "ms_per_step": 5.724588966399961,
+          "measured_seconds": 57.245889663999606,
+          "steps": 10000,
+          "windows": [
+            {
+              "window": 0,
+              "steps": 1000,
+              "seconds": 5.581951192999895,
+              "ms_per_step": 5.581951192999895
+            },
+            {
+              "window": 1,
+              "steps": 1000,
+              "seconds": 5.784206941999855,
+              "ms_per_step": 5.784206941999855
+            },
+            {
+              "window": 2,
+              "steps": 1000,
+              "seconds": 6.1044895159998305,
+              "ms_per_step": 6.1044895159998305
+            },
+            {
+              "window": 3,
+              "steps": 1000,
+              "seconds": 5.499379433000286,
+              "ms_per_step": 5.499379433000286
+            },
+            {
+              "window": 4,
+              "steps": 1000,
+              "seconds": 5.899904408999646,
+              "ms_per_step": 5.899904408999646
+            },
+            {
+              "window": 5,
+              "steps": 1000,
+              "seconds": 5.9089877170004,
+              "ms_per_step": 5.9089877170004
+            },
+            {
+              "window": 6,
+              "steps": 1000,
+              "seconds": 5.317897319999702,
+              "ms_per_step": 5.317897319999702
+            },
+            {
+              "window": 7,
+              "steps": 1000,
+              "seconds": 5.907119684999998,
+              "ms_per_step": 5.907119684999998
+            },
+            {
+              "window": 8,
+              "steps": 1000,
+              "seconds": 5.7076779399999396,
+              "ms_per_step": 5.7076779399999396
+            },
+            {
+              "window": 9,
+              "steps": 1000,
+              "seconds": 5.534275509000054,
+              "ms_per_step": 5.534275509000054
+            }
+          ],
+          "sampled_device_peak_MiB": 1275.0,
+          "temperature_range_C": [
+            44.0,
+            46.0
+          ],
+          "jax_allocator_peak_MiB": 1066.49560546875,
+          "final_checkpoint_sha256": "9ac06f0f4dc67919cd98baf6656c3c4c42d48043fa60bad0e05cf114b21cd298",
+          "final_prng": {
+            "eval_model_seed": [
+              696308388,
+              313858239
+            ],
+            "train_data_seed": [
+              4037411077,
+              1034489067
+            ],
+            "train_model_seed": [
+              1800670764,
+              2737071413
+            ]
+          }
+        },
+        {
+          "tag": "r04_A",
+          "round": 3,
+          "ms_per_step": 5.833115719200032,
+          "measured_seconds": 58.33115719200032,
+          "steps": 10000,
+          "windows": [
+            {
+              "window": 0,
+              "steps": 1000,
+              "seconds": 6.747711099999833,
+              "ms_per_step": 6.747711099999833
+            },
+            {
+              "window": 1,
+              "steps": 1000,
+              "seconds": 5.927073570000175,
+              "ms_per_step": 5.927073570000175
+            },
+            {
+              "window": 2,
+              "steps": 1000,
+              "seconds": 5.590529736999997,
+              "ms_per_step": 5.590529736999997
+            },
+            {
+              "window": 3,
+              "steps": 1000,
+              "seconds": 5.972855031000108,
+              "ms_per_step": 5.972855031000108
+            },
+            {
+              "window": 4,
+              "steps": 1000,
+              "seconds": 5.856457862000298,
+              "ms_per_step": 5.856457862000298
+            },
+            {
+              "window": 5,
+              "steps": 1000,
+              "seconds": 5.447523516999809,
+              "ms_per_step": 5.447523516999809
+            },
+            {
+              "window": 6,
+              "steps": 1000,
+              "seconds": 6.13147988899982,
+              "ms_per_step": 6.13147988899982
+            },
+            {
+              "window": 7,
+              "steps": 1000,
+              "seconds": 5.658617350999975,
+              "ms_per_step": 5.658617350999975
+            },
+            {
+              "window": 8,
+              "steps": 1000,
+              "seconds": 5.4506461150003815,
+              "ms_per_step": 5.4506461150003815
+            },
+            {
+              "window": 9,
+              "steps": 1000,
+              "seconds": 5.548263019999922,
+              "ms_per_step": 5.548263019999922
+            }
+          ],
+          "sampled_device_peak_MiB": 1275.0,
+          "temperature_range_C": [
+            45.0,
+            47.0
+          ],
+          "jax_allocator_peak_MiB": 1066.49560546875,
+          "final_checkpoint_sha256": "9ac06f0f4dc67919cd98baf6656c3c4c42d48043fa60bad0e05cf114b21cd298",
+          "final_prng": {
+            "eval_model_seed": [
+              696308388,
+              313858239
+            ],
+            "train_data_seed": [
+              4037411077,
+              1034489067
+            ],
+            "train_model_seed": [
+              1800670764,
+              2737071413
+            ]
+          }
+        }
+      ],
+      "relative_step_time": 1.0
+    },
+    {
+      "arm": "C25",
+      "ms_per_step_mean": 22.668819813400024,
+      "ms_per_step_sd": 0.34808622573666376,
+      "ms_per_step_range": [
+        22.17134578100004,
+        22.980088449100002
+      ],
+      "sampled_device_peak_MiB": 1497.0,
+      "jax_allocator_peak_MiB": 1066.49560546875,
+      "repeated_final_states_byte_identical": false,
+      "runs": [
+        {
+          "tag": "r01_C25",
+          "round": 0,
+          "ms_per_step": 22.980088449100002,
+          "measured_seconds": 229.80088449100003,
+          "steps": 10000,
+          "windows": [
+            {
+              "window": 0,
+              "steps": 1000,
+              "seconds": 22.347147613000004,
+              "ms_per_step": 22.347147613000004
+            },
+            {
+              "window": 1,
+              "steps": 1000,
+              "seconds": 20.536200322000013,
+              "ms_per_step": 20.53620032200001
+            },
+            {
+              "window": 2,
+              "steps": 1000,
+              "seconds": 21.15130521399999,
+              "ms_per_step": 21.15130521399999
+            },
+            {
+              "window": 3,
+              "steps": 1000,
+              "seconds": 21.180351090999977,
+              "ms_per_step": 21.180351090999977
+            },
+            {
+              "window": 4,
+              "steps": 1000,
+              "seconds": 22.244504062000033,
+              "ms_per_step": 22.244504062000033
+            },
+            {
+              "window": 5,
+              "steps": 1000,
+              "seconds": 22.781437417000006,
+              "ms_per_step": 22.78143741700001
+            },
+            {
+              "window": 6,
+              "steps": 1000,
+              "seconds": 24.720925383999997,
+              "ms_per_step": 24.720925383999997
+            },
+            {
+              "window": 7,
+              "steps": 1000,
+              "seconds": 23.911363988000005,
+              "ms_per_step": 23.911363988000005
+            },
+            {
+              "window": 8,
+              "steps": 1000,
+              "seconds": 23.200758770999983,
+              "ms_per_step": 23.200758770999983
+            },
+            {
+              "window": 9,
+              "steps": 1000,
+              "seconds": 27.726890629000025,
+              "ms_per_step": 27.726890629000025
+            }
+          ],
+          "sampled_device_peak_MiB": 1345.0,
+          "temperature_range_C": [
+            44.0,
+            49.0
+          ],
+          "jax_allocator_peak_MiB": 1066.49560546875,
+          "final_checkpoint_sha256": "0e614da7afc2f753497924bf356ed095191c2e0cb6bdc77c988c35860c168a61",
+          "final_prng": {
+            "eval_model_seed": [
+              696308388,
+              313858239
+            ],
+            "train_data_seed": [
+              4037411077,
+              1034489067
+            ],
+            "train_model_seed": [
+              1800670764,
+              2737071413
+            ]
+          }
+        },
+        {
+          "tag": "r02_C25",
+          "round": 1,
+          "ms_per_step": 22.79181615890002,
+          "measured_seconds": 227.9181615890002,
+          "steps": 10000,
+          "windows": [
+            {
+              "window": 0,
+              "steps": 1000,
+              "seconds": 22.28969843599998,
+              "ms_per_step": 22.28969843599998
+            },
+            {
+              "window": 1,
+              "steps": 1000,
+              "seconds": 22.566619360999994,
+              "ms_per_step": 22.566619360999994
+            },
+            {
+              "window": 2,
+              "steps": 1000,
+              "seconds": 24.146757944,
+              "ms_per_step": 24.146757944
+            },
+            {
+              "window": 3,
+              "steps": 1000,
+              "seconds": 21.932961548000094,
+              "ms_per_step": 21.932961548000094
+            },
+            {
+              "window": 4,
+              "steps": 1000,
+              "seconds": 22.94486177700003,
+              "ms_per_step": 22.94486177700003
+            },
+            {
+              "window": 5,
+              "steps": 1000,
+              "seconds": 22.487858673000005,
+              "ms_per_step": 22.487858673000005
+            },
+            {
+              "window": 6,
+              "steps": 1000,
+              "seconds": 22.572740352999972,
+              "ms_per_step": 22.572740352999972
+            },
+            {
+              "window": 7,
+              "steps": 1000,
+              "seconds": 24.04926616800003,
+              "ms_per_step": 24.04926616800003
+            },
+            {
+              "window": 8,
+              "steps": 1000,
+              "seconds": 23.72355952199996,
+              "ms_per_step": 23.72355952199996
+            },
+            {
+              "window": 9,
+              "steps": 1000,
+              "seconds": 21.203837807000127,
+              "ms_per_step": 21.203837807000127
+            }
+          ],
+          "sampled_device_peak_MiB": 1345.0,
+          "temperature_range_C": [
+            44.0,
+            48.0
+          ],
+          "jax_allocator_peak_MiB": 1066.49560546875,
+          "final_checkpoint_sha256": "285f5d346a22f6ae66ae5950f5c5172db12aa6787edcb99b217fbcd0a69e885e",
+          "final_prng": {
+            "eval_model_seed": [
+              696308388,
+              313858239
+            ],
+            "train_data_seed": [
+              4037411077,
+              1034489067
+            ],
+            "train_model_seed": [
+              1800670764,
+              2737071413
+            ]
+          }
+        },
+        {
+          "tag": "r03_C25",
+          "round": 2,
+          "ms_per_step": 22.17134578100004,
+          "measured_seconds": 221.71345781000036,
+          "steps": 10000,
+          "windows": [
+            {
+              "window": 0,
+              "steps": 1000,
+              "seconds": 22.414909312999953,
+              "ms_per_step": 22.414909312999953
+            },
+            {
+              "window": 1,
+              "steps": 1000,
+              "seconds": 20.188736326000026,
+              "ms_per_step": 20.18873632600003
+            },
+            {
+              "window": 2,
+              "steps": 1000,
+              "seconds": 20.649621348999972,
+              "ms_per_step": 20.649621348999972
+            },
+            {
+              "window": 3,
+              "steps": 1000,
+              "seconds": 22.180324566999843,
+              "ms_per_step": 22.180324566999843
+            },
+            {
+              "window": 4,
+              "steps": 1000,
+              "seconds": 22.47647471800019,
+              "ms_per_step": 22.47647471800019
+            },
+            {
+              "window": 5,
+              "steps": 1000,
+              "seconds": 22.048594374000004,
+              "ms_per_step": 22.048594374000004
+            },
+            {
+              "window": 6,
+              "steps": 1000,
+              "seconds": 21.61474656700011,
+              "ms_per_step": 21.61474656700011
+            },
+            {
+              "window": 7,
+              "steps": 1000,
+              "seconds": 22.188157272000126,
+              "ms_per_step": 22.18815727200013
+            },
+            {
+              "window": 8,
+              "steps": 1000,
+              "seconds": 24.08326996300002,
+              "ms_per_step": 24.08326996300002
+            },
+            {
+              "window": 9,
+              "steps": 1000,
+              "seconds": 23.868623361000118,
+              "ms_per_step": 23.868623361000118
+            }
+          ],
+          "sampled_device_peak_MiB": 1345.0,
+          "temperature_range_C": [
+            44.0,
+            47.0
+          ],
+          "jax_allocator_peak_MiB": 1066.49560546875,
+          "final_checkpoint_sha256": "141f1ec8c28f73cd102db841abb9d4ce7dd20c7d9d507845090f1fb029a8d662",
+          "final_prng": {
+            "eval_model_seed": [
+              696308388,
+              313858239
+            ],
+            "train_data_seed": [
+              4037411077,
+              1034489067
+            ],
+            "train_model_seed": [
+              1800670764,
+              2737071413
+            ]
+          }
+        },
+        {
+          "tag": "r04_C25",
+          "round": 3,
+          "ms_per_step": 22.732028864600032,
+          "measured_seconds": 227.32028864600034,
+          "steps": 10000,
+          "windows": [
+            {
+              "window": 0,
+              "steps": 1000,
+              "seconds": 20.03677634700034,
+              "ms_per_step": 20.03677634700034
+            },
+            {
+              "window": 1,
+              "steps": 1000,
+              "seconds": 20.992364039000222,
+              "ms_per_step": 20.992364039000222
+            },
+            {
+              "window": 2,
+              "steps": 1000,
+              "seconds": 21.994038192000062,
+              "ms_per_step": 21.994038192000062
+            },
+            {
+              "window": 3,
+              "steps": 1000,
+              "seconds": 21.681341242000144,
+              "ms_per_step": 21.681341242000144
+            },
+            {
+              "window": 4,
+              "steps": 1000,
+              "seconds": 27.425268462000076,
+              "ms_per_step": 27.425268462000076
+            },
+            {
+              "window": 5,
+              "steps": 1000,
+              "seconds": 25.23347456500005,
+              "ms_per_step": 25.23347456500005
+            },
+            {
+              "window": 6,
+              "steps": 1000,
+              "seconds": 22.254372617999707,
+              "ms_per_step": 22.254372617999707
+            },
+            {
+              "window": 7,
+              "steps": 1000,
+              "seconds": 23.719132716999866,
+              "ms_per_step": 23.719132716999866
+            },
+            {
+              "window": 8,
+              "steps": 1000,
+              "seconds": 22.359002738000072,
+              "ms_per_step": 22.359002738000072
+            },
+            {
+              "window": 9,
+              "steps": 1000,
+              "seconds": 21.624517725999794,
+              "ms_per_step": 21.624517725999794
+            }
+          ],
+          "sampled_device_peak_MiB": 1497.0,
+          "temperature_range_C": [
+            44.0,
+            49.0
+          ],
+          "jax_allocator_peak_MiB": 1066.49560546875,
+          "final_checkpoint_sha256": "285f5d346a22f6ae66ae5950f5c5172db12aa6787edcb99b217fbcd0a69e885e",
+          "final_prng": {
+            "eval_model_seed": [
+              696308388,
+              313858239
+            ],
+            "train_data_seed": [
+              4037411077,
+              1034489067
+            ],
+            "train_model_seed": [
+              1800670764,
+              2737071413
+            ]
+          }
+        }
+      ],
+      "relative_step_time": 3.8741714180876365
+    },
+    {
+      "arm": "PR25",
+      "ms_per_step_mean": 13.682825009049992,
+      "ms_per_step_sd": 0.6680643076693055,
+      "ms_per_step_range": [
+        12.978016405900007,
+        14.516019916200003
+      ],
+      "sampled_device_peak_MiB": 1345.0,
+      "jax_allocator_peak_MiB": 1066.49560546875,
+      "repeated_final_states_byte_identical": false,
+      "runs": [
+        {
+          "tag": "r01_PR25",
+          "round": 0,
+          "ms_per_step": 12.978016405900007,
+          "measured_seconds": 129.78016405900007,
+          "steps": 10000,
+          "windows": [
+            {
+              "window": 0,
+              "steps": 1000,
+              "seconds": 13.894914883999945,
+              "ms_per_step": 13.894914883999945
+            },
+            {
+              "window": 1,
+              "steps": 1000,
+              "seconds": 14.128847544999985,
+              "ms_per_step": 14.128847544999987
+            },
+            {
+              "window": 2,
+              "steps": 1000,
+              "seconds": 13.437598674000014,
+              "ms_per_step": 13.437598674000016
+            },
+            {
+              "window": 3,
+              "steps": 1000,
+              "seconds": 12.330231467999965,
+              "ms_per_step": 12.330231467999965
+            },
+            {
+              "window": 4,
+              "steps": 1000,
+              "seconds": 12.214649394000048,
+              "ms_per_step": 12.214649394000046
+            },
+            {
+              "window": 5,
+              "steps": 1000,
+              "seconds": 12.250214567000057,
+              "ms_per_step": 12.250214567000057
+            },
+            {
+              "window": 6,
+              "steps": 1000,
+              "seconds": 12.493884735000051,
+              "ms_per_step": 12.49388473500005
+            },
+            {
+              "window": 7,
+              "steps": 1000,
+              "seconds": 12.668401751000033,
+              "ms_per_step": 12.668401751000035
+            },
+            {
+              "window": 8,
+              "steps": 1000,
+              "seconds": 13.018702293000047,
+              "ms_per_step": 13.018702293000045
+            },
+            {
+              "window": 9,
+              "steps": 1000,
+              "seconds": 13.342718747999925,
+              "ms_per_step": 13.342718747999925
+            }
+          ],
+          "sampled_device_peak_MiB": 1345.0,
+          "temperature_range_C": [
+            46.0,
+            49.0
+          ],
+          "jax_allocator_peak_MiB": 1066.49560546875,
+          "final_checkpoint_sha256": "62426a575523d4094d40fc9e91b5f9c461826adeb6ecef8adfa007b3274f4c35",
+          "final_prng": {
+            "eval_model_seed": [
+              696308388,
+              313858239
+            ],
+            "train_data_seed": [
+              4037411077,
+              1034489067
+            ],
+            "train_model_seed": [
+              1800670764,
+              2737071413
+            ]
+          }
+        },
+        {
+          "tag": "r02_PR25",
+          "round": 1,
+          "ms_per_step": 14.516019916200003,
+          "measured_seconds": 145.16019916200003,
+          "steps": 10000,
+          "windows": [
+            {
+              "window": 0,
+              "steps": 1000,
+              "seconds": 15.371417049999991,
+              "ms_per_step": 15.371417049999991
+            },
+            {
+              "window": 1,
+              "steps": 1000,
+              "seconds": 15.116724819999945,
+              "ms_per_step": 15.116724819999945
+            },
+            {
+              "window": 2,
+              "steps": 1000,
+              "seconds": 16.04253942100013,
+              "ms_per_step": 16.04253942100013
+            },
+            {
+              "window": 3,
+              "steps": 1000,
+              "seconds": 15.90904875199999,
+              "ms_per_step": 15.90904875199999
+            },
+            {
+              "window": 4,
+              "steps": 1000,
+              "seconds": 14.331294120999928,
+              "ms_per_step": 14.331294120999928
+            },
+            {
+              "window": 5,
+              "steps": 1000,
+              "seconds": 13.598203716000171,
+              "ms_per_step": 13.598203716000171
+            },
+            {
+              "window": 6,
+              "steps": 1000,
+              "seconds": 14.022828048999827,
+              "ms_per_step": 14.022828048999827
+            },
+            {
+              "window": 7,
+              "steps": 1000,
+              "seconds": 13.229980518000048,
+              "ms_per_step": 13.229980518000048
+            },
+            {
+              "window": 8,
+              "steps": 1000,
+              "seconds": 13.61445341700005,
+              "ms_per_step": 13.61445341700005
+            },
+            {
+              "window": 9,
+              "steps": 1000,
+              "seconds": 13.923709297999949,
+              "ms_per_step": 13.923709297999949
+            }
+          ],
+          "sampled_device_peak_MiB": 1345.0,
+          "temperature_range_C": [
+            43.0,
+            49.0
+          ],
+          "jax_allocator_peak_MiB": 1066.49560546875,
+          "final_checkpoint_sha256": "62426a575523d4094d40fc9e91b5f9c461826adeb6ecef8adfa007b3274f4c35",
+          "final_prng": {
+            "eval_model_seed": [
+              696308388,
+              313858239
+            ],
+            "train_data_seed": [
+              4037411077,
+              1034489067
+            ],
+            "train_model_seed": [
+              1800670764,
+              2737071413
+            ]
+          }
+        },
+        {
+          "tag": "r03_PR25",
+          "round": 2,
+          "ms_per_step": 13.88294163329999,
+          "measured_seconds": 138.82941633299993,
+          "steps": 10000,
+          "windows": [
+            {
+              "window": 0,
+              "steps": 1000,
+              "seconds": 12.567470290999836,
+              "ms_per_step": 12.567470290999836
+            },
+            {
+              "window": 1,
+              "steps": 1000,
+              "seconds": 12.570512223999913,
+              "ms_per_step": 12.570512223999913
+            },
+            {
+              "window": 2,
+              "steps": 1000,
+              "seconds": 13.656972493000012,
+              "ms_per_step": 13.656972493000012
+            },
+            {
+              "window": 3,
+              "steps": 1000,
+              "seconds": 14.466741305000141,
+              "ms_per_step": 14.466741305000141
+            },
+            {
+              "window": 4,
+              "steps": 1000,
+              "seconds": 14.832488657000113,
+              "ms_per_step": 14.832488657000113
+            },
+            {
+              "window": 5,
+              "steps": 1000,
+              "seconds": 14.317708389000018,
+              "ms_per_step": 14.317708389000018
+            },
+            {
+              "window": 6,
+              "steps": 1000,
+              "seconds": 14.772493183000051,
+              "ms_per_step": 14.772493183000051
+            },
+            {
+              "window": 7,
+              "steps": 1000,
+              "seconds": 14.214561892999882,
+              "ms_per_step": 14.214561892999882
+            },
+            {
+              "window": 8,
+              "steps": 1000,
+              "seconds": 14.299732339000002,
+              "ms_per_step": 14.299732339000002
+            },
+            {
+              "window": 9,
+              "steps": 1000,
+              "seconds": 13.130735558999959,
+              "ms_per_step": 13.130735558999959
+            }
+          ],
+          "sampled_device_peak_MiB": 1345.0,
+          "temperature_range_C": [
+            45.0,
+            47.0
+          ],
+          "jax_allocator_peak_MiB": 1066.49560546875,
+          "final_checkpoint_sha256": "a2425e5da80202200e2e071b2fdf150a37c5b63cf3a2ef23db55f262e6456cc5",
+          "final_prng": {
+            "eval_model_seed": [
+              696308388,
+              313858239
+            ],
+            "train_data_seed": [
+              4037411077,
+              1034489067
+            ],
+            "train_model_seed": [
+              1800670764,
+              2737071413
+            ]
+          }
+        },
+        {
+          "tag": "r04_PR25",
+          "round": 3,
+          "ms_per_step": 13.354322080799966,
+          "measured_seconds": 133.54322080799966,
+          "steps": 10000,
+          "windows": [
+            {
+              "window": 0,
+              "steps": 1000,
+              "seconds": 12.943052938000164,
+              "ms_per_step": 12.943052938000164
+            },
+            {
+              "window": 1,
+              "steps": 1000,
+              "seconds": 12.647321710000142,
+              "ms_per_step": 12.647321710000142
+            },
+            {
+              "window": 2,
+              "steps": 1000,
+              "seconds": 12.11581008300027,
+              "ms_per_step": 12.11581008300027
+            },
+            {
+              "window": 3,
+              "steps": 1000,
+              "seconds": 12.838282954000078,
+              "ms_per_step": 12.838282954000078
+            },
+            {
+              "window": 4,
+              "steps": 1000,
+              "seconds": 12.792705776000275,
+              "ms_per_step": 12.792705776000275
+            },
+            {
+              "window": 5,
+              "steps": 1000,
+              "seconds": 13.526523465000082,
+              "ms_per_step": 13.526523465000082
+            },
+            {
+              "window": 6,
+              "steps": 1000,
+              "seconds": 13.576576632999604,
+              "ms_per_step": 13.576576632999604
+            },
+            {
+              "window": 7,
+              "steps": 1000,
+              "seconds": 13.52922153199961,
+              "ms_per_step": 13.52922153199961
+            },
+            {
+              "window": 8,
+              "steps": 1000,
+              "seconds": 14.8015497829997,
+              "ms_per_step": 14.8015497829997
+            },
+            {
+              "window": 9,
+              "steps": 1000,
+              "seconds": 14.772175933999733,
+              "ms_per_step": 14.772175933999733
+            }
+          ],
+          "sampled_device_peak_MiB": 1345.0,
+          "temperature_range_C": [
+            44.0,
+            47.0
+          ],
+          "jax_allocator_peak_MiB": 1066.49560546875,
+          "final_checkpoint_sha256": "62426a575523d4094d40fc9e91b5f9c461826adeb6ecef8adfa007b3274f4c35",
+          "final_prng": {
+            "eval_model_seed": [
+              696308388,
+              313858239
+            ],
+            "train_data_seed": [
+              4037411077,
+              1034489067
+            ],
+            "train_model_seed": [
+              1800670764,
+              2737071413
+            ]
+          }
+        }
+      ],
+      "relative_step_time": 2.3384371134054835
+    },
+    {
+      "arm": "P25",
+      "ms_per_step_mean": 14.448255338774997,
+      "ms_per_step_sd": 0.3606268789136596,
+      "ms_per_step_range": [
+        14.02333685880003,
+        14.904466192999998
+      ],
+      "sampled_device_peak_MiB": 1345.0,
+      "jax_allocator_peak_MiB": 1066.49560546875,
+      "repeated_final_states_byte_identical": true,
+      "runs": [
+        {
+          "tag": "r01_P25",
+          "round": 0,
+          "ms_per_step": 14.904466192999998,
+          "measured_seconds": 149.04466192999996,
+          "steps": 10000,
+          "windows": [
+            {
+              "window": 0,
+              "steps": 1000,
+              "seconds": 15.289990138999997,
+              "ms_per_step": 15.289990138999999
+            },
+            {
+              "window": 1,
+              "steps": 1000,
+              "seconds": 15.09921026699999,
+              "ms_per_step": 15.09921026699999
+            },
+            {
+              "window": 2,
+              "steps": 1000,
+              "seconds": 14.061846333000062,
+              "ms_per_step": 14.061846333000064
+            },
+            {
+              "window": 3,
+              "steps": 1000,
+              "seconds": 14.167156908000038,
+              "ms_per_step": 14.167156908000036
+            },
+            {
+              "window": 4,
+              "steps": 1000,
+              "seconds": 15.70488452099994,
+              "ms_per_step": 15.70488452099994
+            },
+            {
+              "window": 5,
+              "steps": 1000,
+              "seconds": 14.894925399000044,
+              "ms_per_step": 14.894925399000043
+            },
+            {
+              "window": 6,
+              "steps": 1000,
+              "seconds": 14.079987298999981,
+              "ms_per_step": 14.079987298999983
+            },
+            {
+              "window": 7,
+              "steps": 1000,
+              "seconds": 15.394506306999915,
+              "ms_per_step": 15.394506306999917
+            },
+            {
+              "window": 8,
+              "steps": 1000,
+              "seconds": 15.29153656799997,
+              "ms_per_step": 15.291536567999971
+            },
+            {
+              "window": 9,
+              "steps": 1000,
+              "seconds": 15.060618189000024,
+              "ms_per_step": 15.060618189000024
+            }
+          ],
+          "sampled_device_peak_MiB": 1345.0,
+          "temperature_range_C": [
+            44.0,
+            48.0
+          ],
+          "jax_allocator_peak_MiB": 1066.49560546875,
+          "final_checkpoint_sha256": "e7264823661ae2fbbb30bd414f43d3b5c13e2e6e936301a8aed4b82e6586f72a",
+          "final_prng": {
+            "eval_model_seed": [
+              696308388,
+              313858239
+            ],
+            "train_data_seed": [
+              4037411077,
+              1034489067
+            ],
+            "train_model_seed": [
+              1800670764,
+              2737071413
+            ]
+          }
+        },
+        {
+          "tag": "r02_P25",
+          "round": 1,
+          "ms_per_step": 14.410455450999985,
+          "measured_seconds": 144.10455450999984,
+          "steps": 10000,
+          "windows": [
+            {
+              "window": 0,
+              "steps": 1000,
+              "seconds": 15.775873546000184,
+              "ms_per_step": 15.775873546000184
+            },
+            {
+              "window": 1,
+              "steps": 1000,
+              "seconds": 16.265646609999976,
+              "ms_per_step": 16.265646609999976
+            },
+            {
+              "window": 2,
+              "steps": 1000,
+              "seconds": 14.54097115899981,
+              "ms_per_step": 14.54097115899981
+            },
+            {
+              "window": 3,
+              "steps": 1000,
+              "seconds": 14.411092892999932,
+              "ms_per_step": 14.411092892999932
+            },
+            {
+              "window": 4,
+              "steps": 1000,
+              "seconds": 14.465809602000036,
+              "ms_per_step": 14.465809602000036
+            },
+            {
+              "window": 5,
+              "steps": 1000,
+              "seconds": 14.111721749000026,
+              "ms_per_step": 14.111721749000026
+            },
+            {
+              "window": 6,
+              "steps": 1000,
+              "seconds": 14.527125490999879,
+              "ms_per_step": 14.527125490999879
+            },
+            {
+              "window": 7,
+              "steps": 1000,
+              "seconds": 13.958313331999989,
+              "ms_per_step": 13.958313331999989
+            },
+            {
+              "window": 8,
+              "steps": 1000,
+              "seconds": 12.793521617999886,
+              "ms_per_step": 12.793521617999886
+            },
+            {
+              "window": 9,
+              "steps": 1000,
+              "seconds": 13.254478510000126,
+              "ms_per_step": 13.254478510000126
+            }
+          ],
+          "sampled_device_peak_MiB": 1345.0,
+          "temperature_range_C": [
+            45.0,
+            47.0
+          ],
+          "jax_allocator_peak_MiB": 1066.49560546875,
+          "final_checkpoint_sha256": "e7264823661ae2fbbb30bd414f43d3b5c13e2e6e936301a8aed4b82e6586f72a",
+          "final_prng": {
+            "eval_model_seed": [
+              696308388,
+              313858239
+            ],
+            "train_data_seed": [
+              4037411077,
+              1034489067
+            ],
+            "train_model_seed": [
+              1800670764,
+              2737071413
+            ]
+          }
+        },
+        {
+          "tag": "r03_P25",
+          "round": 2,
+          "ms_per_step": 14.454762852299973,
+          "measured_seconds": 144.54762852299973,
+          "steps": 10000,
+          "windows": [
+            {
+              "window": 0,
+              "steps": 1000,
+              "seconds": 15.688474364000058,
+              "ms_per_step": 15.688474364000058
+            },
+            {
+              "window": 1,
+              "steps": 1000,
+              "seconds": 15.313941844000055,
+              "ms_per_step": 15.313941844000055
+            },
+            {
+              "window": 2,
+              "steps": 1000,
+              "seconds": 14.350206790999891,
+              "ms_per_step": 14.350206790999891
+            },
+            {
+              "window": 3,
+              "steps": 1000,
+              "seconds": 14.285249005999958,
+              "ms_per_step": 14.285249005999958
+            },
+            {
+              "window": 4,
+              "steps": 1000,
+              "seconds": 13.68527919600001,
+              "ms_per_step": 13.68527919600001
+            },
+            {
+              "window": 5,
+              "steps": 1000,
+              "seconds": 13.52272112799983,
+              "ms_per_step": 13.52272112799983
+            },
+            {
+              "window": 6,
+              "steps": 1000,
+              "seconds": 13.05407153200008,
+              "ms_per_step": 13.05407153200008
+            },
+            {
+              "window": 7,
+              "steps": 1000,
+              "seconds": 13.395970296000087,
+              "ms_per_step": 13.395970296000087
+            },
+            {
+              "window": 8,
+              "steps": 1000,
+              "seconds": 15.361359985999798,
+              "ms_per_step": 15.361359985999798
+            },
+            {
+              "window": 9,
+              "steps": 1000,
+              "seconds": 15.890354379999962,
+              "ms_per_step": 15.890354379999962
+            }
+          ],
+          "sampled_device_peak_MiB": 1345.0,
+          "temperature_range_C": [
+            44.0,
+            49.0
+          ],
+          "jax_allocator_peak_MiB": 1066.49560546875,
+          "final_checkpoint_sha256": "e7264823661ae2fbbb30bd414f43d3b5c13e2e6e936301a8aed4b82e6586f72a",
+          "final_prng": {
+            "eval_model_seed": [
+              696308388,
+              313858239
+            ],
+            "train_data_seed": [
+              4037411077,
+              1034489067
+            ],
+            "train_model_seed": [
+              1800670764,
+              2737071413
+            ]
+          }
+        },
+        {
+          "tag": "r04_P25",
+          "round": 3,
+          "ms_per_step": 14.02333685880003,
+          "measured_seconds": 140.2333685880003,
+          "steps": 10000,
+          "windows": [
+            {
+              "window": 0,
+              "steps": 1000,
+              "seconds": 14.884022972999901,
+              "ms_per_step": 14.884022972999901
+            },
+            {
+              "window": 1,
+              "steps": 1000,
+              "seconds": 13.664962367000044,
+              "ms_per_step": 13.664962367000044
+            },
+            {
+              "window": 2,
+              "steps": 1000,
+              "seconds": 13.035458269000173,
+              "ms_per_step": 13.035458269000173
+            },
+            {
+              "window": 3,
+              "steps": 1000,
+              "seconds": 13.117853574000037,
+              "ms_per_step": 13.117853574000037
+            },
+            {
+              "window": 4,
+              "steps": 1000,
+              "seconds": 13.109689467999942,
+              "ms_per_step": 13.109689467999942
+            },
+            {
+              "window": 5,
+              "steps": 1000,
+              "seconds": 13.125728823999907,
+              "ms_per_step": 13.125728823999907
+            },
+            {
+              "window": 6,
+              "steps": 1000,
+              "seconds": 13.40513260600028,
+              "ms_per_step": 13.40513260600028
+            },
+            {
+              "window": 7,
+              "steps": 1000,
+              "seconds": 13.757933685999888,
+              "ms_per_step": 13.757933685999888
+            },
+            {
+              "window": 8,
+              "steps": 1000,
+              "seconds": 16.156855473000178,
+              "ms_per_step": 16.156855473000178
+            },
+            {
+              "window": 9,
+              "steps": 1000,
+              "seconds": 15.975731347999954,
+              "ms_per_step": 15.975731347999954
+            }
+          ],
+          "sampled_device_peak_MiB": 1345.0,
+          "temperature_range_C": [
+            45.0,
+            49.0
+          ],
+          "jax_allocator_peak_MiB": 1066.49560546875,
+          "final_checkpoint_sha256": "e7264823661ae2fbbb30bd414f43d3b5c13e2e6e936301a8aed4b82e6586f72a",
+          "final_prng": {
+            "eval_model_seed": [
+              696308388,
+              313858239
+            ],
+            "train_data_seed": [
+              4037411077,
+              1034489067
+            ],
+            "train_model_seed": [
+              1800670764,
+              2737071413
+            ]
+          }
+        }
+      ],
+      "relative_step_time": 2.469251524140933
+    }
+  ],
+  "P25_step_time_reduction_vs_C25_pct": 36.26375145372885,
+  "P25_relative_step_time_vs_PR25": 1.0559409573109895,
+  "limits": [
+    "one checkpoint, one training seed, one GPU",
+    "repeated timings are not independent training seeds",
+    "cost excludes setup/JIT, evaluation, saving, localization and confirmation",
+    "device memory is sampled occupancy including allocator, driver and display",
+    "allocator peak includes setup/warmup; baseline carries no unused protection cache",
+    "historical accuracy is not evaluated from the timing continuations"
+  ]
+}

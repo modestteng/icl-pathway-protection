@@ -1,0 +1,3055 @@
+{
+  "embedding": {
+    "experiment": "exp016",
+    "task": "icl",
+    "seed": {
+      "init_seed": 5,
+      "train_seed": 2,
+      "n_training_seeds": 1
+    },
+    "evaluation_seed": 1,
+    "n_per_condition": 5000,
+    "parameter_checkpoints": {
+      "E": 4400000,
+      "L": 20000000
+    },
+    "code_parts": [
+      "example_embed",
+      "label_embed",
+      "pos_embed",
+      "layer1"
+    ],
+    "code_order": [
+      "EEEE",
+      "EEEL",
+      "EELE",
+      "EELL",
+      "ELEE",
+      "ELEL",
+      "ELLE",
+      "ELLL",
+      "LEEE",
+      "LEEL",
+      "LELE",
+      "LELL",
+      "LLEE",
+      "LLEL",
+      "LLLE",
+      "LLLL"
+    ],
+    "fixed_downstream": "20M layer2/final norm/unembed",
+    "interval_note": "No absolute-condition accuracy interval is stored in the selected summary; stored paired-contrast intervals are not substituted.",
+    "conditions": [
+      {
+        "code": "EEEE",
+        "parameter_sources": {
+          "example_embed": "E",
+          "label_embed": "E",
+          "pos_embed": "E",
+          "layer1": "E"
+        },
+        "n": 5000,
+        "pair_acc": {
+          "mean": 0.7452,
+          "unit": "proportion",
+          "ci95_lower": null,
+          "ci95_upper": null,
+          "interval_type": null,
+          "missing_interval_reason": "No absolute-condition accuracy interval is stored in the selected summary; stored paired-contrast intervals are not substituted."
+        },
+        "full_acc": {
+          "mean": 0.4738,
+          "unit": "proportion",
+          "ci95_lower": null,
+          "ci95_upper": null,
+          "interval_type": null,
+          "missing_interval_reason": "No absolute-condition accuracy interval is stored in the selected summary; stored paired-contrast intervals are not substituted."
+        },
+        "provenance": {
+          "source_id": "exp016_summary",
+          "source_file": "experiments/exp_016_embedding_layer1_refinement/outputs/summary.tsv",
+          "sha256": "d1ace0c8a58a25ddc8578c6d3f507a5340f0defcc36f463ff671a8c56d8ee2f3",
+          "line_number": 3,
+          "row_selection": {
+            "code": "EEEE",
+            "evaluator": "icl"
+          },
+          "fields": [
+            "pair_acc",
+            "full_acc",
+            "count"
+          ]
+        }
+      },
+      {
+        "code": "EEEL",
+        "parameter_sources": {
+          "example_embed": "E",
+          "label_embed": "E",
+          "pos_embed": "E",
+          "layer1": "L"
+        },
+        "n": 5000,
+        "pair_acc": {
+          "mean": 0.6348,
+          "unit": "proportion",
+          "ci95_lower": null,
+          "ci95_upper": null,
+          "interval_type": null,
+          "missing_interval_reason": "No absolute-condition accuracy interval is stored in the selected summary; stored paired-contrast intervals are not substituted."
+        },
+        "full_acc": {
+          "mean": 0.336,
+          "unit": "proportion",
+          "ci95_lower": null,
+          "ci95_upper": null,
+          "interval_type": null,
+          "missing_interval_reason": "No absolute-condition accuracy interval is stored in the selected summary; stored paired-contrast intervals are not substituted."
+        },
+        "provenance": {
+          "source_id": "exp016_summary",
+          "source_file": "experiments/exp_016_embedding_layer1_refinement/outputs/summary.tsv",
+          "sha256": "d1ace0c8a58a25ddc8578c6d3f507a5340f0defcc36f463ff671a8c56d8ee2f3",
+          "line_number": 11,
+          "row_selection": {
+            "code": "EEEL",
+            "evaluator": "icl"
+          },
+          "fields": [
+            "pair_acc",
+            "full_acc",
+            "count"
+          ]
+        }
+      },
+      {
+        "code": "EELE",
+        "parameter_sources": {
+          "example_embed": "E",
+          "label_embed": "E",
+          "pos_embed": "L",
+          "layer1": "E"
+        },
+        "n": 5000,
+        "pair_acc": {
+          "mean": 0.7482,
+          "unit": "proportion",
+          "ci95_lower": null,
+          "ci95_upper": null,
+          "interval_type": null,
+          "missing_interval_reason": "No absolute-condition accuracy interval is stored in the selected summary; stored paired-contrast intervals are not substituted."
+        },
+        "full_acc": {
+          "mean": 0.441,
+          "unit": "proportion",
+          "ci95_lower": null,
+          "ci95_upper": null,
+          "interval_type": null,
+          "missing_interval_reason": "No absolute-condition accuracy interval is stored in the selected summary; stored paired-contrast intervals are not substituted."
+        },
+        "provenance": {
+          "source_id": "exp016_summary",
+          "source_file": "experiments/exp_016_embedding_layer1_refinement/outputs/summary.tsv",
+          "sha256": "d1ace0c8a58a25ddc8578c6d3f507a5340f0defcc36f463ff671a8c56d8ee2f3",
+          "line_number": 15,
+          "row_selection": {
+            "code": "EELE",
+            "evaluator": "icl"
+          },
+          "fields": [
+            "pair_acc",
+            "full_acc",
+            "count"
+          ]
+        }
+      },
+      {
+        "code": "EELL",
+        "parameter_sources": {
+          "example_embed": "E",
+          "label_embed": "E",
+          "pos_embed": "L",
+          "layer1": "L"
+        },
+        "n": 5000,
+        "pair_acc": {
+          "mean": 0.6364,
+          "unit": "proportion",
+          "ci95_lower": null,
+          "ci95_upper": null,
+          "interval_type": null,
+          "missing_interval_reason": "No absolute-condition accuracy interval is stored in the selected summary; stored paired-contrast intervals are not substituted."
+        },
+        "full_acc": {
+          "mean": 0.3016,
+          "unit": "proportion",
+          "ci95_lower": null,
+          "ci95_upper": null,
+          "interval_type": null,
+          "missing_interval_reason": "No absolute-condition accuracy interval is stored in the selected summary; stored paired-contrast intervals are not substituted."
+        },
+        "provenance": {
+          "source_id": "exp016_summary",
+          "source_file": "experiments/exp_016_embedding_layer1_refinement/outputs/summary.tsv",
+          "sha256": "d1ace0c8a58a25ddc8578c6d3f507a5340f0defcc36f463ff671a8c56d8ee2f3",
+          "line_number": 19,
+          "row_selection": {
+            "code": "EELL",
+            "evaluator": "icl"
+          },
+          "fields": [
+            "pair_acc",
+            "full_acc",
+            "count"
+          ]
+        }
+      },
+      {
+        "code": "ELEE",
+        "parameter_sources": {
+          "example_embed": "E",
+          "label_embed": "L",
+          "pos_embed": "E",
+          "layer1": "E"
+        },
+        "n": 5000,
+        "pair_acc": {
+          "mean": 0.5886,
+          "unit": "proportion",
+          "ci95_lower": null,
+          "ci95_upper": null,
+          "interval_type": null,
+          "missing_interval_reason": "No absolute-condition accuracy interval is stored in the selected summary; stored paired-contrast intervals are not substituted."
+        },
+        "full_acc": {
+          "mean": 0.325,
+          "unit": "proportion",
+          "ci95_lower": null,
+          "ci95_upper": null,
+          "interval_type": null,
+          "missing_interval_reason": "No absolute-condition accuracy interval is stored in the selected summary; stored paired-contrast intervals are not substituted."
+        },
+        "provenance": {
+          "source_id": "exp016_summary",
+          "source_file": "experiments/exp_016_embedding_layer1_refinement/outputs/summary.tsv",
+          "sha256": "d1ace0c8a58a25ddc8578c6d3f507a5340f0defcc36f463ff671a8c56d8ee2f3",
+          "line_number": 23,
+          "row_selection": {
+            "code": "ELEE",
+            "evaluator": "icl"
+          },
+          "fields": [
+            "pair_acc",
+            "full_acc",
+            "count"
+          ]
+        }
+      },
+      {
+        "code": "ELEL",
+        "parameter_sources": {
+          "example_embed": "E",
+          "label_embed": "L",
+          "pos_embed": "E",
+          "layer1": "L"
+        },
+        "n": 5000,
+        "pair_acc": {
+          "mean": 0.5276,
+          "unit": "proportion",
+          "ci95_lower": null,
+          "ci95_upper": null,
+          "interval_type": null,
+          "missing_interval_reason": "No absolute-condition accuracy interval is stored in the selected summary; stored paired-contrast intervals are not substituted."
+        },
+        "full_acc": {
+          "mean": 0.4012,
+          "unit": "proportion",
+          "ci95_lower": null,
+          "ci95_upper": null,
+          "interval_type": null,
+          "missing_interval_reason": "No absolute-condition accuracy interval is stored in the selected summary; stored paired-contrast intervals are not substituted."
+        },
+        "provenance": {
+          "source_id": "exp016_summary",
+          "source_file": "experiments/exp_016_embedding_layer1_refinement/outputs/summary.tsv",
+          "sha256": "d1ace0c8a58a25ddc8578c6d3f507a5340f0defcc36f463ff671a8c56d8ee2f3",
+          "line_number": 27,
+          "row_selection": {
+            "code": "ELEL",
+            "evaluator": "icl"
+          },
+          "fields": [
+            "pair_acc",
+            "full_acc",
+            "count"
+          ]
+        }
+      },
+      {
+        "code": "ELLE",
+        "parameter_sources": {
+          "example_embed": "E",
+          "label_embed": "L",
+          "pos_embed": "L",
+          "layer1": "E"
+        },
+        "n": 5000,
+        "pair_acc": {
+          "mean": 0.594,
+          "unit": "proportion",
+          "ci95_lower": null,
+          "ci95_upper": null,
+          "interval_type": null,
+          "missing_interval_reason": "No absolute-condition accuracy interval is stored in the selected summary; stored paired-contrast intervals are not substituted."
+        },
+        "full_acc": {
+          "mean": 0.3146,
+          "unit": "proportion",
+          "ci95_lower": null,
+          "ci95_upper": null,
+          "interval_type": null,
+          "missing_interval_reason": "No absolute-condition accuracy interval is stored in the selected summary; stored paired-contrast intervals are not substituted."
+        },
+        "provenance": {
+          "source_id": "exp016_summary",
+          "source_file": "experiments/exp_016_embedding_layer1_refinement/outputs/summary.tsv",
+          "sha256": "d1ace0c8a58a25ddc8578c6d3f507a5340f0defcc36f463ff671a8c56d8ee2f3",
+          "line_number": 31,
+          "row_selection": {
+            "code": "ELLE",
+            "evaluator": "icl"
+          },
+          "fields": [
+            "pair_acc",
+            "full_acc",
+            "count"
+          ]
+        }
+      },
+      {
+        "code": "ELLL",
+        "parameter_sources": {
+          "example_embed": "E",
+          "label_embed": "L",
+          "pos_embed": "L",
+          "layer1": "L"
+        },
+        "n": 5000,
+        "pair_acc": {
+          "mean": 0.5304,
+          "unit": "proportion",
+          "ci95_lower": null,
+          "ci95_upper": null,
+          "interval_type": null,
+          "missing_interval_reason": "No absolute-condition accuracy interval is stored in the selected summary; stored paired-contrast intervals are not substituted."
+        },
+        "full_acc": {
+          "mean": 0.3832,
+          "unit": "proportion",
+          "ci95_lower": null,
+          "ci95_upper": null,
+          "interval_type": null,
+          "missing_interval_reason": "No absolute-condition accuracy interval is stored in the selected summary; stored paired-contrast intervals are not substituted."
+        },
+        "provenance": {
+          "source_id": "exp016_summary",
+          "source_file": "experiments/exp_016_embedding_layer1_refinement/outputs/summary.tsv",
+          "sha256": "d1ace0c8a58a25ddc8578c6d3f507a5340f0defcc36f463ff671a8c56d8ee2f3",
+          "line_number": 35,
+          "row_selection": {
+            "code": "ELLL",
+            "evaluator": "icl"
+          },
+          "fields": [
+            "pair_acc",
+            "full_acc",
+            "count"
+          ]
+        }
+      },
+      {
+        "code": "LEEE",
+        "parameter_sources": {
+          "example_embed": "L",
+          "label_embed": "E",
+          "pos_embed": "E",
+          "layer1": "E"
+        },
+        "n": 5000,
+        "pair_acc": {
+          "mean": 0.6574,
+          "unit": "proportion",
+          "ci95_lower": null,
+          "ci95_upper": null,
+          "interval_type": null,
+          "missing_interval_reason": "No absolute-condition accuracy interval is stored in the selected summary; stored paired-contrast intervals are not substituted."
+        },
+        "full_acc": {
+          "mean": 0.2984,
+          "unit": "proportion",
+          "ci95_lower": null,
+          "ci95_upper": null,
+          "interval_type": null,
+          "missing_interval_reason": "No absolute-condition accuracy interval is stored in the selected summary; stored paired-contrast intervals are not substituted."
+        },
+        "provenance": {
+          "source_id": "exp016_summary",
+          "source_file": "experiments/exp_016_embedding_layer1_refinement/outputs/summary.tsv",
+          "sha256": "d1ace0c8a58a25ddc8578c6d3f507a5340f0defcc36f463ff671a8c56d8ee2f3",
+          "line_number": 39,
+          "row_selection": {
+            "code": "LEEE",
+            "evaluator": "icl"
+          },
+          "fields": [
+            "pair_acc",
+            "full_acc",
+            "count"
+          ]
+        }
+      },
+      {
+        "code": "LEEL",
+        "parameter_sources": {
+          "example_embed": "L",
+          "label_embed": "E",
+          "pos_embed": "E",
+          "layer1": "L"
+        },
+        "n": 5000,
+        "pair_acc": {
+          "mean": 0.6086,
+          "unit": "proportion",
+          "ci95_lower": null,
+          "ci95_upper": null,
+          "interval_type": null,
+          "missing_interval_reason": "No absolute-condition accuracy interval is stored in the selected summary; stored paired-contrast intervals are not substituted."
+        },
+        "full_acc": {
+          "mean": 0.3862,
+          "unit": "proportion",
+          "ci95_lower": null,
+          "ci95_upper": null,
+          "interval_type": null,
+          "missing_interval_reason": "No absolute-condition accuracy interval is stored in the selected summary; stored paired-contrast intervals are not substituted."
+        },
+        "provenance": {
+          "source_id": "exp016_summary",
+          "source_file": "experiments/exp_016_embedding_layer1_refinement/outputs/summary.tsv",
+          "sha256": "d1ace0c8a58a25ddc8578c6d3f507a5340f0defcc36f463ff671a8c56d8ee2f3",
+          "line_number": 43,
+          "row_selection": {
+            "code": "LEEL",
+            "evaluator": "icl"
+          },
+          "fields": [
+            "pair_acc",
+            "full_acc",
+            "count"
+          ]
+        }
+      },
+      {
+        "code": "LELE",
+        "parameter_sources": {
+          "example_embed": "L",
+          "label_embed": "E",
+          "pos_embed": "L",
+          "layer1": "E"
+        },
+        "n": 5000,
+        "pair_acc": {
+          "mean": 0.6728,
+          "unit": "proportion",
+          "ci95_lower": null,
+          "ci95_upper": null,
+          "interval_type": null,
+          "missing_interval_reason": "No absolute-condition accuracy interval is stored in the selected summary; stored paired-contrast intervals are not substituted."
+        },
+        "full_acc": {
+          "mean": 0.324,
+          "unit": "proportion",
+          "ci95_lower": null,
+          "ci95_upper": null,
+          "interval_type": null,
+          "missing_interval_reason": "No absolute-condition accuracy interval is stored in the selected summary; stored paired-contrast intervals are not substituted."
+        },
+        "provenance": {
+          "source_id": "exp016_summary",
+          "source_file": "experiments/exp_016_embedding_layer1_refinement/outputs/summary.tsv",
+          "sha256": "d1ace0c8a58a25ddc8578c6d3f507a5340f0defcc36f463ff671a8c56d8ee2f3",
+          "line_number": 47,
+          "row_selection": {
+            "code": "LELE",
+            "evaluator": "icl"
+          },
+          "fields": [
+            "pair_acc",
+            "full_acc",
+            "count"
+          ]
+        }
+      },
+      {
+        "code": "LELL",
+        "parameter_sources": {
+          "example_embed": "L",
+          "label_embed": "E",
+          "pos_embed": "L",
+          "layer1": "L"
+        },
+        "n": 5000,
+        "pair_acc": {
+          "mean": 0.6182,
+          "unit": "proportion",
+          "ci95_lower": null,
+          "ci95_upper": null,
+          "interval_type": null,
+          "missing_interval_reason": "No absolute-condition accuracy interval is stored in the selected summary; stored paired-contrast intervals are not substituted."
+        },
+        "full_acc": {
+          "mean": 0.4656,
+          "unit": "proportion",
+          "ci95_lower": null,
+          "ci95_upper": null,
+          "interval_type": null,
+          "missing_interval_reason": "No absolute-condition accuracy interval is stored in the selected summary; stored paired-contrast intervals are not substituted."
+        },
+        "provenance": {
+          "source_id": "exp016_summary",
+          "source_file": "experiments/exp_016_embedding_layer1_refinement/outputs/summary.tsv",
+          "sha256": "d1ace0c8a58a25ddc8578c6d3f507a5340f0defcc36f463ff671a8c56d8ee2f3",
+          "line_number": 51,
+          "row_selection": {
+            "code": "LELL",
+            "evaluator": "icl"
+          },
+          "fields": [
+            "pair_acc",
+            "full_acc",
+            "count"
+          ]
+        }
+      },
+      {
+        "code": "LLEE",
+        "parameter_sources": {
+          "example_embed": "L",
+          "label_embed": "L",
+          "pos_embed": "E",
+          "layer1": "E"
+        },
+        "n": 5000,
+        "pair_acc": {
+          "mean": 0.5418,
+          "unit": "proportion",
+          "ci95_lower": null,
+          "ci95_upper": null,
+          "interval_type": null,
+          "missing_interval_reason": "No absolute-condition accuracy interval is stored in the selected summary; stored paired-contrast intervals are not substituted."
+        },
+        "full_acc": {
+          "mean": 0.1806,
+          "unit": "proportion",
+          "ci95_lower": null,
+          "ci95_upper": null,
+          "interval_type": null,
+          "missing_interval_reason": "No absolute-condition accuracy interval is stored in the selected summary; stored paired-contrast intervals are not substituted."
+        },
+        "provenance": {
+          "source_id": "exp016_summary",
+          "source_file": "experiments/exp_016_embedding_layer1_refinement/outputs/summary.tsv",
+          "sha256": "d1ace0c8a58a25ddc8578c6d3f507a5340f0defcc36f463ff671a8c56d8ee2f3",
+          "line_number": 55,
+          "row_selection": {
+            "code": "LLEE",
+            "evaluator": "icl"
+          },
+          "fields": [
+            "pair_acc",
+            "full_acc",
+            "count"
+          ]
+        }
+      },
+      {
+        "code": "LLEL",
+        "parameter_sources": {
+          "example_embed": "L",
+          "label_embed": "L",
+          "pos_embed": "E",
+          "layer1": "L"
+        },
+        "n": 5000,
+        "pair_acc": {
+          "mean": 0.5354,
+          "unit": "proportion",
+          "ci95_lower": null,
+          "ci95_upper": null,
+          "interval_type": null,
+          "missing_interval_reason": "No absolute-condition accuracy interval is stored in the selected summary; stored paired-contrast intervals are not substituted."
+        },
+        "full_acc": {
+          "mean": 0.384,
+          "unit": "proportion",
+          "ci95_lower": null,
+          "ci95_upper": null,
+          "interval_type": null,
+          "missing_interval_reason": "No absolute-condition accuracy interval is stored in the selected summary; stored paired-contrast intervals are not substituted."
+        },
+        "provenance": {
+          "source_id": "exp016_summary",
+          "source_file": "experiments/exp_016_embedding_layer1_refinement/outputs/summary.tsv",
+          "sha256": "d1ace0c8a58a25ddc8578c6d3f507a5340f0defcc36f463ff671a8c56d8ee2f3",
+          "line_number": 59,
+          "row_selection": {
+            "code": "LLEL",
+            "evaluator": "icl"
+          },
+          "fields": [
+            "pair_acc",
+            "full_acc",
+            "count"
+          ]
+        }
+      },
+      {
+        "code": "LLLE",
+        "parameter_sources": {
+          "example_embed": "L",
+          "label_embed": "L",
+          "pos_embed": "L",
+          "layer1": "E"
+        },
+        "n": 5000,
+        "pair_acc": {
+          "mean": 0.545,
+          "unit": "proportion",
+          "ci95_lower": null,
+          "ci95_upper": null,
+          "interval_type": null,
+          "missing_interval_reason": "No absolute-condition accuracy interval is stored in the selected summary; stored paired-contrast intervals are not substituted."
+        },
+        "full_acc": {
+          "mean": 0.1974,
+          "unit": "proportion",
+          "ci95_lower": null,
+          "ci95_upper": null,
+          "interval_type": null,
+          "missing_interval_reason": "No absolute-condition accuracy interval is stored in the selected summary; stored paired-contrast intervals are not substituted."
+        },
+        "provenance": {
+          "source_id": "exp016_summary",
+          "source_file": "experiments/exp_016_embedding_layer1_refinement/outputs/summary.tsv",
+          "sha256": "d1ace0c8a58a25ddc8578c6d3f507a5340f0defcc36f463ff671a8c56d8ee2f3",
+          "line_number": 63,
+          "row_selection": {
+            "code": "LLLE",
+            "evaluator": "icl"
+          },
+          "fields": [
+            "pair_acc",
+            "full_acc",
+            "count"
+          ]
+        }
+      },
+      {
+        "code": "LLLL",
+        "parameter_sources": {
+          "example_embed": "L",
+          "label_embed": "L",
+          "pos_embed": "L",
+          "layer1": "L"
+        },
+        "n": 5000,
+        "pair_acc": {
+          "mean": 0.5406,
+          "unit": "proportion",
+          "ci95_lower": null,
+          "ci95_upper": null,
+          "interval_type": null,
+          "missing_interval_reason": "No absolute-condition accuracy interval is stored in the selected summary; stored paired-contrast intervals are not substituted."
+        },
+        "full_acc": {
+          "mean": 0.4058,
+          "unit": "proportion",
+          "ci95_lower": null,
+          "ci95_upper": null,
+          "interval_type": null,
+          "missing_interval_reason": "No absolute-condition accuracy interval is stored in the selected summary; stored paired-contrast intervals are not substituted."
+        },
+        "provenance": {
+          "source_id": "exp016_summary",
+          "source_file": "experiments/exp_016_embedding_layer1_refinement/outputs/summary.tsv",
+          "sha256": "d1ace0c8a58a25ddc8578c6d3f507a5340f0defcc36f463ff671a8c56d8ee2f3",
+          "line_number": 7,
+          "row_selection": {
+            "code": "LLLL",
+            "evaluator": "icl"
+          },
+          "fields": [
+            "pair_acc",
+            "full_acc",
+            "count"
+          ]
+        }
+      }
+    ],
+    "metadata_source": {
+      "source_id": "exp016_analysis",
+      "source_file": "experiments/exp_016_embedding_layer1_refinement/outputs/analysis.json",
+      "sha256": "27e5c1bc06ab897048e668fa6c3df080f68f6554d0951982a6c8569d81f97bac",
+      "json_pointer": "/parts"
+    },
+    "scope": "Single training trajectory, frozen exploratory evaluation rows; conditions are parameter-source combinations, not training runs."
+  },
+  "norm_attention": {
+    "experiment": "exp017",
+    "task": "icl",
+    "seed": {
+      "init_seed": 5,
+      "train_seed": 2,
+      "n_training_seeds": 1
+    },
+    "evaluation_seed": 1,
+    "n_per_condition": 5000,
+    "parameter_checkpoints": {
+      "E": 4400000,
+      "L": 20000000
+    },
+    "code_parts": [
+      "l1_norm1",
+      "l1_attention"
+    ],
+    "code_order": [
+      "LL",
+      "EL",
+      "LE",
+      "EE"
+    ],
+    "fixed_background": {
+      "example_embed": "E",
+      "label_embed": "E",
+      "pos_embed": "L",
+      "layer2": "L",
+      "readout": "L"
+    },
+    "interval_note": "No absolute-condition accuracy interval is stored in the selected summary; stored paired-contrast intervals are not substituted.",
+    "conditions": [
+      {
+        "code": "LL",
+        "parameter_sources": {
+          "l1_norm1": "L",
+          "l1_attention": "L"
+        },
+        "n": 5000,
+        "pair_acc": {
+          "mean": 0.6364,
+          "unit": "proportion",
+          "ci95_lower": null,
+          "ci95_upper": null,
+          "interval_type": null,
+          "missing_interval_reason": "No absolute-condition accuracy interval is stored in the selected summary; stored paired-contrast intervals are not substituted."
+        },
+        "full_acc": {
+          "mean": 0.3016,
+          "unit": "proportion",
+          "ci95_lower": null,
+          "ci95_upper": null,
+          "interval_type": null,
+          "missing_interval_reason": "No absolute-condition accuracy interval is stored in the selected summary; stored paired-contrast intervals are not substituted."
+        },
+        "provenance": {
+          "source_id": "exp017_summary",
+          "source_file": "experiments/exp_017_l1_norm_attention_split/outputs/summary.tsv",
+          "sha256": "18a02a694386306748c514ba6ec39c6dc92d237adbbd80ebaa3f7047e406cf26",
+          "line_number": 3,
+          "row_selection": {
+            "code": "LL",
+            "evaluator": "icl"
+          },
+          "fields": [
+            "pair_acc",
+            "full_acc",
+            "count"
+          ]
+        }
+      },
+      {
+        "code": "EL",
+        "parameter_sources": {
+          "l1_norm1": "E",
+          "l1_attention": "L"
+        },
+        "n": 5000,
+        "pair_acc": {
+          "mean": 0.6342,
+          "unit": "proportion",
+          "ci95_lower": null,
+          "ci95_upper": null,
+          "interval_type": null,
+          "missing_interval_reason": "No absolute-condition accuracy interval is stored in the selected summary; stored paired-contrast intervals are not substituted."
+        },
+        "full_acc": {
+          "mean": 0.3066,
+          "unit": "proportion",
+          "ci95_lower": null,
+          "ci95_upper": null,
+          "interval_type": null,
+          "missing_interval_reason": "No absolute-condition accuracy interval is stored in the selected summary; stored paired-contrast intervals are not substituted."
+        },
+        "provenance": {
+          "source_id": "exp017_summary",
+          "source_file": "experiments/exp_017_l1_norm_attention_split/outputs/summary.tsv",
+          "sha256": "18a02a694386306748c514ba6ec39c6dc92d237adbbd80ebaa3f7047e406cf26",
+          "line_number": 11,
+          "row_selection": {
+            "code": "EL",
+            "evaluator": "icl"
+          },
+          "fields": [
+            "pair_acc",
+            "full_acc",
+            "count"
+          ]
+        }
+      },
+      {
+        "code": "LE",
+        "parameter_sources": {
+          "l1_norm1": "L",
+          "l1_attention": "E"
+        },
+        "n": 5000,
+        "pair_acc": {
+          "mean": 0.7472,
+          "unit": "proportion",
+          "ci95_lower": null,
+          "ci95_upper": null,
+          "interval_type": null,
+          "missing_interval_reason": "No absolute-condition accuracy interval is stored in the selected summary; stored paired-contrast intervals are not substituted."
+        },
+        "full_acc": {
+          "mean": 0.4312,
+          "unit": "proportion",
+          "ci95_lower": null,
+          "ci95_upper": null,
+          "interval_type": null,
+          "missing_interval_reason": "No absolute-condition accuracy interval is stored in the selected summary; stored paired-contrast intervals are not substituted."
+        },
+        "provenance": {
+          "source_id": "exp017_summary",
+          "source_file": "experiments/exp_017_l1_norm_attention_split/outputs/summary.tsv",
+          "sha256": "18a02a694386306748c514ba6ec39c6dc92d237adbbd80ebaa3f7047e406cf26",
+          "line_number": 15,
+          "row_selection": {
+            "code": "LE",
+            "evaluator": "icl"
+          },
+          "fields": [
+            "pair_acc",
+            "full_acc",
+            "count"
+          ]
+        }
+      },
+      {
+        "code": "EE",
+        "parameter_sources": {
+          "l1_norm1": "E",
+          "l1_attention": "E"
+        },
+        "n": 5000,
+        "pair_acc": {
+          "mean": 0.7482,
+          "unit": "proportion",
+          "ci95_lower": null,
+          "ci95_upper": null,
+          "interval_type": null,
+          "missing_interval_reason": "No absolute-condition accuracy interval is stored in the selected summary; stored paired-contrast intervals are not substituted."
+        },
+        "full_acc": {
+          "mean": 0.441,
+          "unit": "proportion",
+          "ci95_lower": null,
+          "ci95_upper": null,
+          "interval_type": null,
+          "missing_interval_reason": "No absolute-condition accuracy interval is stored in the selected summary; stored paired-contrast intervals are not substituted."
+        },
+        "provenance": {
+          "source_id": "exp017_summary",
+          "source_file": "experiments/exp_017_l1_norm_attention_split/outputs/summary.tsv",
+          "sha256": "18a02a694386306748c514ba6ec39c6dc92d237adbbd80ebaa3f7047e406cf26",
+          "line_number": 7,
+          "row_selection": {
+            "code": "EE",
+            "evaluator": "icl"
+          },
+          "fields": [
+            "pair_acc",
+            "full_acc",
+            "count"
+          ]
+        }
+      }
+    ],
+    "metadata_source": {
+      "source_id": "exp017_analysis",
+      "source_file": "experiments/exp_017_l1_norm_attention_split/outputs/analysis.json",
+      "sha256": "cceb53f5f0a3c19758e7088759602ba2fe62ed4d25bdeb0d8005ed19c94c87a3",
+      "json_pointer": "/fixed_background"
+    },
+    "scope": "Single trajectory, fixed mixed embedding background; LL is not the original complete late model."
+  },
+  "pairing": {
+    "experiment": "exp014",
+    "task": "icl",
+    "seed": {
+      "init_seed": 5,
+      "train_seed": 2,
+      "n_training_seeds": 1
+    },
+    "evaluation_seed": 1,
+    "n_per_condition": 5000,
+    "query_classes": 1534,
+    "stages": [
+      4400000,
+      8000000,
+      20000000
+    ],
+    "stage_results": [
+      {
+        "stage": 4400000,
+        "n": 5000,
+        "choice_rates": {
+          "R": {
+            "mean": 0.2294,
+            "unit": "proportion",
+            "ci95_lower": null,
+            "ci95_upper": null,
+            "interval_type": null,
+            "missing_interval_reason": "No absolute donor-choice-rate interval is stored in these saved native/intervention summaries; no interval was estimated.",
+            "provenance": {
+              "source_id": "exp014_summary_json",
+              "source_file": "experiments/exp_014_icl_ciwl_pair_patch/outputs/summary.json",
+              "sha256": "4b63e4a4013f8d2c6603cb797f44a86bd1230976f6cf3ae2cac83a9ec58f2a37",
+              "json_pointer": "/native_R/4400000/icl/alternative_choice"
+            }
+          },
+          "D": {
+            "mean": 0.7754,
+            "unit": "proportion",
+            "ci95_lower": null,
+            "ci95_upper": null,
+            "interval_type": null,
+            "missing_interval_reason": "No absolute donor-choice-rate interval is stored in these saved native/intervention summaries; no interval was estimated.",
+            "provenance": {
+              "source_id": "exp014_summary_json",
+              "source_file": "experiments/exp_014_icl_ciwl_pair_patch/outputs/summary.json",
+              "sha256": "4b63e4a4013f8d2c6603cb797f44a86bd1230976f6cf3ae2cac83a9ec58f2a37",
+              "json_pointer": "/native_D/4400000/icl/alternative_choice"
+            }
+          },
+          "K": {
+            "mean": 0.7644,
+            "unit": "proportion",
+            "ci95_lower": null,
+            "ci95_upper": null,
+            "interval_type": null,
+            "missing_interval_reason": "No absolute donor-choice-rate interval is stored in these saved native/intervention summaries; no interval was estimated.",
+            "condition": "K_hall_p13",
+            "provenance": {
+              "source_id": "exp014_summary_tsv",
+              "source_file": "experiments/exp_014_icl_ciwl_pair_patch/outputs/summary.tsv",
+              "sha256": "7e7234ec5e0bdbb6c4f7f822457f47c7c18910907ba318fcd61a76c96e76a91c",
+              "line_number": 4,
+              "row_selection": {
+                "stage": 4400000,
+                "evaluator": "icl",
+                "condition": "K_hall_p13"
+              },
+              "fields": [
+                "alternative_choice"
+              ]
+            }
+          }
+        },
+        "sender_effects": [
+          {
+            "sender": 0,
+            "receiver_heads": "all L2 heads",
+            "condition": "L1_0_to_K_hall",
+            "mean": 7.9569431143760685,
+            "ci95_lower": 7.644070437343502,
+            "ci95_upper": 8.269815791408636,
+            "unit": "logit",
+            "n": 5000,
+            "clusters": 1534,
+            "interval_type": "paired ordinary 95% normal approximation with true-query-class cluster robust standard error; exploratory, unadjusted",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp014_summary_tsv",
+              "source_file": "experiments/exp_014_icl_ciwl_pair_patch/outputs/summary.tsv",
+              "sha256": "7e7234ec5e0bdbb6c4f7f822457f47c7c18910907ba318fcd61a76c96e76a91c",
+              "line_number": 61,
+              "row_selection": {
+                "stage": 4400000,
+                "evaluator": "icl",
+                "condition": "L1_0_to_K_hall"
+              },
+              "fields": [
+                "delta_margin",
+                "delta_margin_ci95_low",
+                "delta_margin_ci95_high",
+                "count",
+                "query_classes"
+              ]
+            }
+          },
+          {
+            "sender": 1,
+            "receiver_heads": "all L2 heads",
+            "condition": "L1_1_to_K_hall",
+            "mean": 0.09380523104667664,
+            "ci95_lower": 0.08546232925464248,
+            "ci95_upper": 0.1021481328387108,
+            "unit": "logit",
+            "n": 5000,
+            "clusters": 1534,
+            "interval_type": "paired ordinary 95% normal approximation with true-query-class cluster robust standard error; exploratory, unadjusted",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp014_summary_tsv",
+              "source_file": "experiments/exp_014_icl_ciwl_pair_patch/outputs/summary.tsv",
+              "sha256": "7e7234ec5e0bdbb6c4f7f822457f47c7c18910907ba318fcd61a76c96e76a91c",
+              "line_number": 70,
+              "row_selection": {
+                "stage": 4400000,
+                "evaluator": "icl",
+                "condition": "L1_1_to_K_hall"
+              },
+              "fields": [
+                "delta_margin",
+                "delta_margin_ci95_low",
+                "delta_margin_ci95_high",
+                "count",
+                "query_classes"
+              ]
+            }
+          },
+          {
+            "sender": 2,
+            "receiver_heads": "all L2 heads",
+            "condition": "L1_2_to_K_hall",
+            "mean": 0.1569204634666443,
+            "ci95_lower": 0.14344783682810408,
+            "ci95_upper": 0.1703930901051845,
+            "unit": "logit",
+            "n": 5000,
+            "clusters": 1534,
+            "interval_type": "paired ordinary 95% normal approximation with true-query-class cluster robust standard error; exploratory, unadjusted",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp014_summary_tsv",
+              "source_file": "experiments/exp_014_icl_ciwl_pair_patch/outputs/summary.tsv",
+              "sha256": "7e7234ec5e0bdbb6c4f7f822457f47c7c18910907ba318fcd61a76c96e76a91c",
+              "line_number": 79,
+              "row_selection": {
+                "stage": 4400000,
+                "evaluator": "icl",
+                "condition": "L1_2_to_K_hall"
+              },
+              "fields": [
+                "delta_margin",
+                "delta_margin_ci95_low",
+                "delta_margin_ci95_high",
+                "count",
+                "query_classes"
+              ]
+            }
+          },
+          {
+            "sender": 3,
+            "receiver_heads": "all L2 heads",
+            "condition": "L1_3_to_K_hall",
+            "mean": 0.041983367967605593,
+            "ci95_lower": 0.038715852240632224,
+            "ci95_upper": 0.04525088369457896,
+            "unit": "logit",
+            "n": 5000,
+            "clusters": 1534,
+            "interval_type": "paired ordinary 95% normal approximation with true-query-class cluster robust standard error; exploratory, unadjusted",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp014_summary_tsv",
+              "source_file": "experiments/exp_014_icl_ciwl_pair_patch/outputs/summary.tsv",
+              "sha256": "7e7234ec5e0bdbb6c4f7f822457f47c7c18910907ba318fcd61a76c96e76a91c",
+              "line_number": 88,
+              "row_selection": {
+                "stage": 4400000,
+                "evaluator": "icl",
+                "condition": "L1_3_to_K_hall"
+              },
+              "fields": [
+                "delta_margin",
+                "delta_margin_ci95_low",
+                "delta_margin_ci95_high",
+                "count",
+                "query_classes"
+              ]
+            }
+          },
+          {
+            "sender": 4,
+            "receiver_heads": "all L2 heads",
+            "condition": "L1_4_to_K_hall",
+            "mean": 0.00677293291091919,
+            "ci95_lower": 0.004384617277474864,
+            "ci95_upper": 0.009161248544363516,
+            "unit": "logit",
+            "n": 5000,
+            "clusters": 1534,
+            "interval_type": "paired ordinary 95% normal approximation with true-query-class cluster robust standard error; exploratory, unadjusted",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp014_summary_tsv",
+              "source_file": "experiments/exp_014_icl_ciwl_pair_patch/outputs/summary.tsv",
+              "sha256": "7e7234ec5e0bdbb6c4f7f822457f47c7c18910907ba318fcd61a76c96e76a91c",
+              "line_number": 97,
+              "row_selection": {
+                "stage": 4400000,
+                "evaluator": "icl",
+                "condition": "L1_4_to_K_hall"
+              },
+              "fields": [
+                "delta_margin",
+                "delta_margin_ci95_low",
+                "delta_margin_ci95_high",
+                "count",
+                "query_classes"
+              ]
+            }
+          },
+          {
+            "sender": 5,
+            "receiver_heads": "all L2 heads",
+            "condition": "L1_5_to_K_hall",
+            "mean": 0.018436042499542237,
+            "ci95_lower": 0.015961439254567757,
+            "ci95_upper": 0.020910645744516718,
+            "unit": "logit",
+            "n": 5000,
+            "clusters": 1534,
+            "interval_type": "paired ordinary 95% normal approximation with true-query-class cluster robust standard error; exploratory, unadjusted",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp014_summary_tsv",
+              "source_file": "experiments/exp_014_icl_ciwl_pair_patch/outputs/summary.tsv",
+              "sha256": "7e7234ec5e0bdbb6c4f7f822457f47c7c18910907ba318fcd61a76c96e76a91c",
+              "line_number": 106,
+              "row_selection": {
+                "stage": 4400000,
+                "evaluator": "icl",
+                "condition": "L1_5_to_K_hall"
+              },
+              "fields": [
+                "delta_margin",
+                "delta_margin_ci95_low",
+                "delta_margin_ci95_high",
+                "count",
+                "query_classes"
+              ]
+            }
+          },
+          {
+            "sender": 6,
+            "receiver_heads": "all L2 heads",
+            "condition": "L1_6_to_K_hall",
+            "mean": 0.0038400576114654542,
+            "ci95_lower": 0.003112352791493305,
+            "ci95_upper": 0.004567762431437604,
+            "unit": "logit",
+            "n": 5000,
+            "clusters": 1534,
+            "interval_type": "paired ordinary 95% normal approximation with true-query-class cluster robust standard error; exploratory, unadjusted",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp014_summary_tsv",
+              "source_file": "experiments/exp_014_icl_ciwl_pair_patch/outputs/summary.tsv",
+              "sha256": "7e7234ec5e0bdbb6c4f7f822457f47c7c18910907ba318fcd61a76c96e76a91c",
+              "line_number": 115,
+              "row_selection": {
+                "stage": 4400000,
+                "evaluator": "icl",
+                "condition": "L1_6_to_K_hall"
+              },
+              "fields": [
+                "delta_margin",
+                "delta_margin_ci95_low",
+                "delta_margin_ci95_high",
+                "count",
+                "query_classes"
+              ]
+            }
+          },
+          {
+            "sender": 7,
+            "receiver_heads": "all L2 heads",
+            "condition": "L1_7_to_K_hall",
+            "mean": 0.004090620374679566,
+            "ci95_lower": 0.003123083326570662,
+            "ci95_upper": 0.00505815742278847,
+            "unit": "logit",
+            "n": 5000,
+            "clusters": 1534,
+            "interval_type": "paired ordinary 95% normal approximation with true-query-class cluster robust standard error; exploratory, unadjusted",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp014_summary_tsv",
+              "source_file": "experiments/exp_014_icl_ciwl_pair_patch/outputs/summary.tsv",
+              "sha256": "7e7234ec5e0bdbb6c4f7f822457f47c7c18910907ba318fcd61a76c96e76a91c",
+              "line_number": 124,
+              "row_selection": {
+                "stage": 4400000,
+                "evaluator": "icl",
+                "condition": "L1_7_to_K_hall"
+              },
+              "fields": [
+                "delta_margin",
+                "delta_margin_ci95_low",
+                "delta_margin_ci95_high",
+                "count",
+                "query_classes"
+              ]
+            }
+          }
+        ],
+        "complete_label_K_delta_margin": {
+          "mean": 8.29999400844574,
+          "unit": "logit",
+          "ci95_lower": 7.985113103149739,
+          "ci95_upper": 8.614874913741742,
+          "provenance": {
+            "source_id": "exp014_summary_tsv",
+            "source_file": "experiments/exp_014_icl_ciwl_pair_patch/outputs/summary.tsv",
+            "sha256": "7e7234ec5e0bdbb6c4f7f822457f47c7c18910907ba318fcd61a76c96e76a91c",
+            "line_number": 4,
+            "fields": [
+              "delta_margin",
+              "delta_margin_ci95_low",
+              "delta_margin_ci95_high"
+            ]
+          }
+        }
+      },
+      {
+        "stage": 8000000,
+        "n": 5000,
+        "choice_rates": {
+          "R": {
+            "mean": 0.4354,
+            "unit": "proportion",
+            "ci95_lower": null,
+            "ci95_upper": null,
+            "interval_type": null,
+            "missing_interval_reason": "No absolute donor-choice-rate interval is stored in these saved native/intervention summaries; no interval was estimated.",
+            "provenance": {
+              "source_id": "exp014_summary_json",
+              "source_file": "experiments/exp_014_icl_ciwl_pair_patch/outputs/summary.json",
+              "sha256": "4b63e4a4013f8d2c6603cb797f44a86bd1230976f6cf3ae2cac83a9ec58f2a37",
+              "json_pointer": "/native_R/8000000/icl/alternative_choice"
+            }
+          },
+          "D": {
+            "mean": 0.5688,
+            "unit": "proportion",
+            "ci95_lower": null,
+            "ci95_upper": null,
+            "interval_type": null,
+            "missing_interval_reason": "No absolute donor-choice-rate interval is stored in these saved native/intervention summaries; no interval was estimated.",
+            "provenance": {
+              "source_id": "exp014_summary_json",
+              "source_file": "experiments/exp_014_icl_ciwl_pair_patch/outputs/summary.json",
+              "sha256": "4b63e4a4013f8d2c6603cb797f44a86bd1230976f6cf3ae2cac83a9ec58f2a37",
+              "json_pointer": "/native_D/8000000/icl/alternative_choice"
+            }
+          },
+          "K": {
+            "mean": 0.568,
+            "unit": "proportion",
+            "ci95_lower": null,
+            "ci95_upper": null,
+            "interval_type": null,
+            "missing_interval_reason": "No absolute donor-choice-rate interval is stored in these saved native/intervention summaries; no interval was estimated.",
+            "condition": "K_hall_p13",
+            "provenance": {
+              "source_id": "exp014_summary_tsv",
+              "source_file": "experiments/exp_014_icl_ciwl_pair_patch/outputs/summary.tsv",
+              "sha256": "7e7234ec5e0bdbb6c4f7f822457f47c7c18910907ba318fcd61a76c96e76a91c",
+              "line_number": 268,
+              "row_selection": {
+                "stage": 8000000,
+                "evaluator": "icl",
+                "condition": "K_hall_p13"
+              },
+              "fields": [
+                "alternative_choice"
+              ]
+            }
+          }
+        },
+        "sender_effects": [
+          {
+            "sender": 0,
+            "receiver_heads": "all L2 heads",
+            "condition": "L1_0_to_K_hall",
+            "mean": 3.6462159469604494,
+            "ci95_lower": 3.3944005958313372,
+            "ci95_upper": 3.8980312980895615,
+            "unit": "logit",
+            "n": 5000,
+            "clusters": 1534,
+            "interval_type": "paired ordinary 95% normal approximation with true-query-class cluster robust standard error; exploratory, unadjusted",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp014_summary_tsv",
+              "source_file": "experiments/exp_014_icl_ciwl_pair_patch/outputs/summary.tsv",
+              "sha256": "7e7234ec5e0bdbb6c4f7f822457f47c7c18910907ba318fcd61a76c96e76a91c",
+              "line_number": 325,
+              "row_selection": {
+                "stage": 8000000,
+                "evaluator": "icl",
+                "condition": "L1_0_to_K_hall"
+              },
+              "fields": [
+                "delta_margin",
+                "delta_margin_ci95_low",
+                "delta_margin_ci95_high",
+                "count",
+                "query_classes"
+              ]
+            }
+          },
+          {
+            "sender": 1,
+            "receiver_heads": "all L2 heads",
+            "condition": "L1_1_to_K_hall",
+            "mean": 0.25132035512924195,
+            "ci95_lower": 0.22474799995006578,
+            "ci95_upper": 0.2778927103084181,
+            "unit": "logit",
+            "n": 5000,
+            "clusters": 1534,
+            "interval_type": "paired ordinary 95% normal approximation with true-query-class cluster robust standard error; exploratory, unadjusted",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp014_summary_tsv",
+              "source_file": "experiments/exp_014_icl_ciwl_pair_patch/outputs/summary.tsv",
+              "sha256": "7e7234ec5e0bdbb6c4f7f822457f47c7c18910907ba318fcd61a76c96e76a91c",
+              "line_number": 334,
+              "row_selection": {
+                "stage": 8000000,
+                "evaluator": "icl",
+                "condition": "L1_1_to_K_hall"
+              },
+              "fields": [
+                "delta_margin",
+                "delta_margin_ci95_low",
+                "delta_margin_ci95_high",
+                "count",
+                "query_classes"
+              ]
+            }
+          },
+          {
+            "sender": 2,
+            "receiver_heads": "all L2 heads",
+            "condition": "L1_2_to_K_hall",
+            "mean": 0.2713520770072937,
+            "ci95_lower": 0.24612446745297084,
+            "ci95_upper": 0.29657968656161654,
+            "unit": "logit",
+            "n": 5000,
+            "clusters": 1534,
+            "interval_type": "paired ordinary 95% normal approximation with true-query-class cluster robust standard error; exploratory, unadjusted",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp014_summary_tsv",
+              "source_file": "experiments/exp_014_icl_ciwl_pair_patch/outputs/summary.tsv",
+              "sha256": "7e7234ec5e0bdbb6c4f7f822457f47c7c18910907ba318fcd61a76c96e76a91c",
+              "line_number": 343,
+              "row_selection": {
+                "stage": 8000000,
+                "evaluator": "icl",
+                "condition": "L1_2_to_K_hall"
+              },
+              "fields": [
+                "delta_margin",
+                "delta_margin_ci95_low",
+                "delta_margin_ci95_high",
+                "count",
+                "query_classes"
+              ]
+            }
+          },
+          {
+            "sender": 3,
+            "receiver_heads": "all L2 heads",
+            "condition": "L1_3_to_K_hall",
+            "mean": 0.07161202144622802,
+            "ci95_lower": 0.0635395398998306,
+            "ci95_upper": 0.07968450299262544,
+            "unit": "logit",
+            "n": 5000,
+            "clusters": 1534,
+            "interval_type": "paired ordinary 95% normal approximation with true-query-class cluster robust standard error; exploratory, unadjusted",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp014_summary_tsv",
+              "source_file": "experiments/exp_014_icl_ciwl_pair_patch/outputs/summary.tsv",
+              "sha256": "7e7234ec5e0bdbb6c4f7f822457f47c7c18910907ba318fcd61a76c96e76a91c",
+              "line_number": 352,
+              "row_selection": {
+                "stage": 8000000,
+                "evaluator": "icl",
+                "condition": "L1_3_to_K_hall"
+              },
+              "fields": [
+                "delta_margin",
+                "delta_margin_ci95_low",
+                "delta_margin_ci95_high",
+                "count",
+                "query_classes"
+              ]
+            }
+          },
+          {
+            "sender": 4,
+            "receiver_heads": "all L2 heads",
+            "condition": "L1_4_to_K_hall",
+            "mean": 0.012165903186798097,
+            "ci95_lower": 0.010086360660998635,
+            "ci95_upper": 0.014245445712597558,
+            "unit": "logit",
+            "n": 5000,
+            "clusters": 1534,
+            "interval_type": "paired ordinary 95% normal approximation with true-query-class cluster robust standard error; exploratory, unadjusted",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp014_summary_tsv",
+              "source_file": "experiments/exp_014_icl_ciwl_pair_patch/outputs/summary.tsv",
+              "sha256": "7e7234ec5e0bdbb6c4f7f822457f47c7c18910907ba318fcd61a76c96e76a91c",
+              "line_number": 361,
+              "row_selection": {
+                "stage": 8000000,
+                "evaluator": "icl",
+                "condition": "L1_4_to_K_hall"
+              },
+              "fields": [
+                "delta_margin",
+                "delta_margin_ci95_low",
+                "delta_margin_ci95_high",
+                "count",
+                "query_classes"
+              ]
+            }
+          },
+          {
+            "sender": 5,
+            "receiver_heads": "all L2 heads",
+            "condition": "L1_5_to_K_hall",
+            "mean": 0.0033054227828979493,
+            "ci95_lower": 0.002842939345130303,
+            "ci95_upper": 0.0037679062206655957,
+            "unit": "logit",
+            "n": 5000,
+            "clusters": 1534,
+            "interval_type": "paired ordinary 95% normal approximation with true-query-class cluster robust standard error; exploratory, unadjusted",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp014_summary_tsv",
+              "source_file": "experiments/exp_014_icl_ciwl_pair_patch/outputs/summary.tsv",
+              "sha256": "7e7234ec5e0bdbb6c4f7f822457f47c7c18910907ba318fcd61a76c96e76a91c",
+              "line_number": 370,
+              "row_selection": {
+                "stage": 8000000,
+                "evaluator": "icl",
+                "condition": "L1_5_to_K_hall"
+              },
+              "fields": [
+                "delta_margin",
+                "delta_margin_ci95_low",
+                "delta_margin_ci95_high",
+                "count",
+                "query_classes"
+              ]
+            }
+          },
+          {
+            "sender": 6,
+            "receiver_heads": "all L2 heads",
+            "condition": "L1_6_to_K_hall",
+            "mean": 0.015273950576782226,
+            "ci95_lower": 0.012307071287653862,
+            "ci95_upper": 0.01824082986591059,
+            "unit": "logit",
+            "n": 5000,
+            "clusters": 1534,
+            "interval_type": "paired ordinary 95% normal approximation with true-query-class cluster robust standard error; exploratory, unadjusted",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp014_summary_tsv",
+              "source_file": "experiments/exp_014_icl_ciwl_pair_patch/outputs/summary.tsv",
+              "sha256": "7e7234ec5e0bdbb6c4f7f822457f47c7c18910907ba318fcd61a76c96e76a91c",
+              "line_number": 379,
+              "row_selection": {
+                "stage": 8000000,
+                "evaluator": "icl",
+                "condition": "L1_6_to_K_hall"
+              },
+              "fields": [
+                "delta_margin",
+                "delta_margin_ci95_low",
+                "delta_margin_ci95_high",
+                "count",
+                "query_classes"
+              ]
+            }
+          },
+          {
+            "sender": 7,
+            "receiver_heads": "all L2 heads",
+            "condition": "L1_7_to_K_hall",
+            "mean": 0.005935944652557373,
+            "ci95_lower": 0.0051520286537582154,
+            "ci95_upper": 0.006719860651356531,
+            "unit": "logit",
+            "n": 5000,
+            "clusters": 1534,
+            "interval_type": "paired ordinary 95% normal approximation with true-query-class cluster robust standard error; exploratory, unadjusted",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp014_summary_tsv",
+              "source_file": "experiments/exp_014_icl_ciwl_pair_patch/outputs/summary.tsv",
+              "sha256": "7e7234ec5e0bdbb6c4f7f822457f47c7c18910907ba318fcd61a76c96e76a91c",
+              "line_number": 388,
+              "row_selection": {
+                "stage": 8000000,
+                "evaluator": "icl",
+                "condition": "L1_7_to_K_hall"
+              },
+              "fields": [
+                "delta_margin",
+                "delta_margin_ci95_low",
+                "delta_margin_ci95_high",
+                "count",
+                "query_classes"
+              ]
+            }
+          }
+        ],
+        "complete_label_K_delta_margin": {
+          "mean": 4.302856704711914,
+          "unit": "logit",
+          "ci95_lower": 4.021399527286348,
+          "ci95_upper": 4.58431388213748,
+          "provenance": {
+            "source_id": "exp014_summary_tsv",
+            "source_file": "experiments/exp_014_icl_ciwl_pair_patch/outputs/summary.tsv",
+            "sha256": "7e7234ec5e0bdbb6c4f7f822457f47c7c18910907ba318fcd61a76c96e76a91c",
+            "line_number": 268,
+            "fields": [
+              "delta_margin",
+              "delta_margin_ci95_low",
+              "delta_margin_ci95_high"
+            ]
+          }
+        }
+      },
+      {
+        "stage": 20000000,
+        "n": 5000,
+        "choice_rates": {
+          "R": {
+            "mean": 0.4594,
+            "unit": "proportion",
+            "ci95_lower": null,
+            "ci95_upper": null,
+            "interval_type": null,
+            "missing_interval_reason": "No absolute donor-choice-rate interval is stored in these saved native/intervention summaries; no interval was estimated.",
+            "provenance": {
+              "source_id": "exp014_summary_json",
+              "source_file": "experiments/exp_014_icl_ciwl_pair_patch/outputs/summary.json",
+              "sha256": "4b63e4a4013f8d2c6603cb797f44a86bd1230976f6cf3ae2cac83a9ec58f2a37",
+              "json_pointer": "/native_R/20000000/icl/alternative_choice"
+            }
+          },
+          "D": {
+            "mean": 0.5558,
+            "unit": "proportion",
+            "ci95_lower": null,
+            "ci95_upper": null,
+            "interval_type": null,
+            "missing_interval_reason": "No absolute donor-choice-rate interval is stored in these saved native/intervention summaries; no interval was estimated.",
+            "provenance": {
+              "source_id": "exp014_summary_json",
+              "source_file": "experiments/exp_014_icl_ciwl_pair_patch/outputs/summary.json",
+              "sha256": "4b63e4a4013f8d2c6603cb797f44a86bd1230976f6cf3ae2cac83a9ec58f2a37",
+              "json_pointer": "/native_D/20000000/icl/alternative_choice"
+            }
+          },
+          "K": {
+            "mean": 0.5522,
+            "unit": "proportion",
+            "ci95_lower": null,
+            "ci95_upper": null,
+            "interval_type": null,
+            "missing_interval_reason": "No absolute donor-choice-rate interval is stored in these saved native/intervention summaries; no interval was estimated.",
+            "condition": "K_hall_p13",
+            "provenance": {
+              "source_id": "exp014_summary_tsv",
+              "source_file": "experiments/exp_014_icl_ciwl_pair_patch/outputs/summary.tsv",
+              "sha256": "7e7234ec5e0bdbb6c4f7f822457f47c7c18910907ba318fcd61a76c96e76a91c",
+              "line_number": 532,
+              "row_selection": {
+                "stage": 20000000,
+                "evaluator": "icl",
+                "condition": "K_hall_p13"
+              },
+              "fields": [
+                "alternative_choice"
+              ]
+            }
+          }
+        },
+        "sender_effects": [
+          {
+            "sender": 0,
+            "receiver_heads": "all L2 heads",
+            "condition": "L1_0_to_K_hall",
+            "mean": 2.653936798000336,
+            "ci95_lower": 2.5113347664970647,
+            "ci95_upper": 2.796538829503607,
+            "unit": "logit",
+            "n": 5000,
+            "clusters": 1534,
+            "interval_type": "paired ordinary 95% normal approximation with true-query-class cluster robust standard error; exploratory, unadjusted",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp014_summary_tsv",
+              "source_file": "experiments/exp_014_icl_ciwl_pair_patch/outputs/summary.tsv",
+              "sha256": "7e7234ec5e0bdbb6c4f7f822457f47c7c18910907ba318fcd61a76c96e76a91c",
+              "line_number": 589,
+              "row_selection": {
+                "stage": 20000000,
+                "evaluator": "icl",
+                "condition": "L1_0_to_K_hall"
+              },
+              "fields": [
+                "delta_margin",
+                "delta_margin_ci95_low",
+                "delta_margin_ci95_high",
+                "count",
+                "query_classes"
+              ]
+            }
+          },
+          {
+            "sender": 1,
+            "receiver_heads": "all L2 heads",
+            "condition": "L1_1_to_K_hall",
+            "mean": 0.1723265392780304,
+            "ci95_lower": 0.15317049534153332,
+            "ci95_upper": 0.1914825832145275,
+            "unit": "logit",
+            "n": 5000,
+            "clusters": 1534,
+            "interval_type": "paired ordinary 95% normal approximation with true-query-class cluster robust standard error; exploratory, unadjusted",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp014_summary_tsv",
+              "source_file": "experiments/exp_014_icl_ciwl_pair_patch/outputs/summary.tsv",
+              "sha256": "7e7234ec5e0bdbb6c4f7f822457f47c7c18910907ba318fcd61a76c96e76a91c",
+              "line_number": 598,
+              "row_selection": {
+                "stage": 20000000,
+                "evaluator": "icl",
+                "condition": "L1_1_to_K_hall"
+              },
+              "fields": [
+                "delta_margin",
+                "delta_margin_ci95_low",
+                "delta_margin_ci95_high",
+                "count",
+                "query_classes"
+              ]
+            }
+          },
+          {
+            "sender": 2,
+            "receiver_heads": "all L2 heads",
+            "condition": "L1_2_to_K_hall",
+            "mean": 0.045813452196121214,
+            "ci95_lower": 0.04056135599716527,
+            "ci95_upper": 0.05106554839507716,
+            "unit": "logit",
+            "n": 5000,
+            "clusters": 1534,
+            "interval_type": "paired ordinary 95% normal approximation with true-query-class cluster robust standard error; exploratory, unadjusted",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp014_summary_tsv",
+              "source_file": "experiments/exp_014_icl_ciwl_pair_patch/outputs/summary.tsv",
+              "sha256": "7e7234ec5e0bdbb6c4f7f822457f47c7c18910907ba318fcd61a76c96e76a91c",
+              "line_number": 607,
+              "row_selection": {
+                "stage": 20000000,
+                "evaluator": "icl",
+                "condition": "L1_2_to_K_hall"
+              },
+              "fields": [
+                "delta_margin",
+                "delta_margin_ci95_low",
+                "delta_margin_ci95_high",
+                "count",
+                "query_classes"
+              ]
+            }
+          },
+          {
+            "sender": 3,
+            "receiver_heads": "all L2 heads",
+            "condition": "L1_3_to_K_hall",
+            "mean": 0.054717191410064696,
+            "ci95_lower": 0.04717462282561781,
+            "ci95_upper": 0.06225975999451158,
+            "unit": "logit",
+            "n": 5000,
+            "clusters": 1534,
+            "interval_type": "paired ordinary 95% normal approximation with true-query-class cluster robust standard error; exploratory, unadjusted",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp014_summary_tsv",
+              "source_file": "experiments/exp_014_icl_ciwl_pair_patch/outputs/summary.tsv",
+              "sha256": "7e7234ec5e0bdbb6c4f7f822457f47c7c18910907ba318fcd61a76c96e76a91c",
+              "line_number": 616,
+              "row_selection": {
+                "stage": 20000000,
+                "evaluator": "icl",
+                "condition": "L1_3_to_K_hall"
+              },
+              "fields": [
+                "delta_margin",
+                "delta_margin_ci95_low",
+                "delta_margin_ci95_high",
+                "count",
+                "query_classes"
+              ]
+            }
+          },
+          {
+            "sender": 4,
+            "receiver_heads": "all L2 heads",
+            "condition": "L1_4_to_K_hall",
+            "mean": 0.013029043579101562,
+            "ci95_lower": 0.011451931247915537,
+            "ci95_upper": 0.014606155910287588,
+            "unit": "logit",
+            "n": 5000,
+            "clusters": 1534,
+            "interval_type": "paired ordinary 95% normal approximation with true-query-class cluster robust standard error; exploratory, unadjusted",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp014_summary_tsv",
+              "source_file": "experiments/exp_014_icl_ciwl_pair_patch/outputs/summary.tsv",
+              "sha256": "7e7234ec5e0bdbb6c4f7f822457f47c7c18910907ba318fcd61a76c96e76a91c",
+              "line_number": 625,
+              "row_selection": {
+                "stage": 20000000,
+                "evaluator": "icl",
+                "condition": "L1_4_to_K_hall"
+              },
+              "fields": [
+                "delta_margin",
+                "delta_margin_ci95_low",
+                "delta_margin_ci95_high",
+                "count",
+                "query_classes"
+              ]
+            }
+          },
+          {
+            "sender": 5,
+            "receiver_heads": "all L2 heads",
+            "condition": "L1_5_to_K_hall",
+            "mean": 0.001277296257019043,
+            "ci95_lower": 0.0010038811387915636,
+            "ci95_upper": 0.0015507113752465224,
+            "unit": "logit",
+            "n": 5000,
+            "clusters": 1534,
+            "interval_type": "paired ordinary 95% normal approximation with true-query-class cluster robust standard error; exploratory, unadjusted",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp014_summary_tsv",
+              "source_file": "experiments/exp_014_icl_ciwl_pair_patch/outputs/summary.tsv",
+              "sha256": "7e7234ec5e0bdbb6c4f7f822457f47c7c18910907ba318fcd61a76c96e76a91c",
+              "line_number": 634,
+              "row_selection": {
+                "stage": 20000000,
+                "evaluator": "icl",
+                "condition": "L1_5_to_K_hall"
+              },
+              "fields": [
+                "delta_margin",
+                "delta_margin_ci95_low",
+                "delta_margin_ci95_high",
+                "count",
+                "query_classes"
+              ]
+            }
+          },
+          {
+            "sender": 6,
+            "receiver_heads": "all L2 heads",
+            "condition": "L1_6_to_K_hall",
+            "mean": 0.0025269499778747557,
+            "ci95_lower": 0.0020370465520921964,
+            "ci95_upper": 0.003016853403657315,
+            "unit": "logit",
+            "n": 5000,
+            "clusters": 1534,
+            "interval_type": "paired ordinary 95% normal approximation with true-query-class cluster robust standard error; exploratory, unadjusted",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp014_summary_tsv",
+              "source_file": "experiments/exp_014_icl_ciwl_pair_patch/outputs/summary.tsv",
+              "sha256": "7e7234ec5e0bdbb6c4f7f822457f47c7c18910907ba318fcd61a76c96e76a91c",
+              "line_number": 643,
+              "row_selection": {
+                "stage": 20000000,
+                "evaluator": "icl",
+                "condition": "L1_6_to_K_hall"
+              },
+              "fields": [
+                "delta_margin",
+                "delta_margin_ci95_low",
+                "delta_margin_ci95_high",
+                "count",
+                "query_classes"
+              ]
+            }
+          },
+          {
+            "sender": 7,
+            "receiver_heads": "all L2 heads",
+            "condition": "L1_7_to_K_hall",
+            "mean": 0.003608943510055542,
+            "ci95_lower": 0.003195365600894346,
+            "ci95_upper": 0.004022521419216738,
+            "unit": "logit",
+            "n": 5000,
+            "clusters": 1534,
+            "interval_type": "paired ordinary 95% normal approximation with true-query-class cluster robust standard error; exploratory, unadjusted",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp014_summary_tsv",
+              "source_file": "experiments/exp_014_icl_ciwl_pair_patch/outputs/summary.tsv",
+              "sha256": "7e7234ec5e0bdbb6c4f7f822457f47c7c18910907ba318fcd61a76c96e76a91c",
+              "line_number": 652,
+              "row_selection": {
+                "stage": 20000000,
+                "evaluator": "icl",
+                "condition": "L1_7_to_K_hall"
+              },
+              "fields": [
+                "delta_margin",
+                "delta_margin_ci95_low",
+                "delta_margin_ci95_high",
+                "count",
+                "query_classes"
+              ]
+            }
+          }
+        ],
+        "complete_label_K_delta_margin": {
+          "mean": 2.946800211572647,
+          "unit": "logit",
+          "ci95_lower": 2.7952087881608043,
+          "ci95_upper": 3.0983916349844898,
+          "provenance": {
+            "source_id": "exp014_summary_tsv",
+            "source_file": "experiments/exp_014_icl_ciwl_pair_patch/outputs/summary.tsv",
+            "sha256": "7e7234ec5e0bdbb6c4f7f822457f47c7c18910907ba318fcd61a76c96e76a91c",
+            "line_number": 532,
+            "fields": [
+              "delta_margin",
+              "delta_margin_ci95_low",
+              "delta_margin_ci95_high"
+            ]
+          }
+        }
+      }
+    ],
+    "donor_choice_definition": "Two-candidate choice of the answer supported by the sample-swapped donor; for native R this is the alternative answer, not R accuracy.",
+    "full_label_K_condition_name": "K_hall_p13",
+    "sender_condition_template": "L1_{sender}_to_K_hall",
+    "margin_definition": "delta[(z_donor_answer - z_original_R_answer)] relative to native R",
+    "margin_unit": "logit",
+    "sender_interval_type": "paired ordinary 95% normal approximation with true-query-class cluster robust standard error; exploratory, unadjusted",
+    "largest_single_sender": 0,
+    "interpretation_notes": [
+      "K_hall_p13 replaces both label-position K vectors from the complete donor forward across every L2 receiver head.",
+      "L1_0_to_K_hall isolates L1 sender head 0; it is distinct from complete donor label-K replacement.",
+      "Head 0 is the largest single sender in the saved ICL comparisons at all three checkpoints; sender effects are not additive attribution shares.",
+      "Saved choice-rate CIs are absent; paired delta-accuracy CIs are not absolute-rate CIs."
+    ],
+    "evaluation_data_sha256": "634ee065b3183599a409c325960ad5fbe4388236a4fc60143794467da3c5efec",
+    "metadata_source": {
+      "source_id": "exp014_provenance",
+      "source_file": "experiments/exp_014_icl_ciwl_pair_patch/outputs/provenance.json",
+      "sha256": "8c9f4747a9c15aa0158f72438d93f1aa77fdf3d926e040639dd7341970905b10",
+      "json_pointer": "/stages"
+    }
+  },
+  "path_validation": {
+    "experiment": "exp024",
+    "task": "iwl_copy_avail",
+    "task_label": "CIWL",
+    "seed": {
+      "init_seed": 5,
+      "train_seed": 2,
+      "n_training_seeds": 1
+    },
+    "confirmation_input_seed": 20261013,
+    "forward_key": 0,
+    "n_per_task": 5000,
+    "window": [
+      4150000,
+      4650000
+    ],
+    "stages": [
+      4150000,
+      4200000,
+      4250000,
+      4300000,
+      4350000,
+      4400000,
+      4450000,
+      4500000,
+      4550000,
+      4600000,
+      4650000
+    ],
+    "n_checkpoints": 11,
+    "aggregation": "equal checkpoint weight within a window, then paired query-class clustered inference",
+    "intervention": "Same checkpoint/input: S reduces L1 head-0 label-to-previous-example pre-softmax scores by 1; N is native.",
+    "ce_effects": [
+      {
+        "mean": 0.3914111895561218,
+        "se": 0.0225506378831657,
+        "n": 5000,
+        "clusters": 1530,
+        "valid_normal_approximation": true,
+        "ci95_lower": 0.3472127514767125,
+        "ci95_upper": 0.4356096276355311,
+        "cluster_unit": "true query class",
+        "estimand": "evaluation-row mean",
+        "status": "normal_cluster_approximation",
+        "unit": "nat",
+        "interval_type": "two-sided ordinary 95% normal approximation, true-query-class clustered",
+        "interval_is_simultaneous": false,
+        "name": "K_transfer",
+        "contrast": "loss(N) - loss(K)",
+        "provenance": {
+          "source_id": "exp024_analysis",
+          "source_file": "experiments/exp_024_l2_label_k_path/outputs/analysis.json",
+          "sha256": "650d4ff6e95bf81689866c2ccdba5573eea9c6ad781f2b04f9afcb1d79d70e36",
+          "json_pointer": "/primary/K_transfer"
+        },
+        "threshold": 0.01,
+        "p_holm": 5.363230257951151e-64,
+        "pass_adjusted": true,
+        "primary_holm_test": true,
+        "family_size": 4,
+        "bonferroni_one_sided_lower": 0.3408661282955628
+      },
+      {
+        "mean": 0.3867564046859741,
+        "se": 0.023055149158425495,
+        "n": 5000,
+        "clusters": 1530,
+        "valid_normal_approximation": true,
+        "ci95_lower": 0.34156914267726124,
+        "ci95_upper": 0.431943666694687,
+        "cluster_unit": "true query class",
+        "estimand": "evaluation-row mean",
+        "status": "normal_cluster_approximation",
+        "unit": "nat",
+        "interval_type": "two-sided ordinary 95% normal approximation, true-query-class clustered",
+        "interval_is_simultaneous": false,
+        "name": "K_block",
+        "contrast": "loss(KB) - loss(S)",
+        "provenance": {
+          "source_id": "exp024_analysis",
+          "source_file": "experiments/exp_024_l2_label_k_path/outputs/analysis.json",
+          "sha256": "650d4ff6e95bf81689866c2ccdba5573eea9c6ad781f2b04f9afcb1d79d70e36",
+          "json_pointer": "/primary/K_block"
+        },
+        "threshold": 0.01,
+        "p_holm": 4.998299832906417e-60,
+        "pass_adjusted": true,
+        "primary_holm_test": true,
+        "family_size": 4,
+        "bonferroni_one_sided_lower": 0.33508053047694036
+      },
+      {
+        "mean": 0.3945979936252941,
+        "se": 0.022119555167624507,
+        "n": 5000,
+        "clusters": 1530,
+        "valid_normal_approximation": true,
+        "ci95_lower": 0.3512444621427032,
+        "ci95_upper": 0.43795152510788493,
+        "cluster_unit": "true query class",
+        "estimand": "evaluation-row mean",
+        "status": "normal_cluster_approximation",
+        "unit": "nat",
+        "interval_type": "two-sided ordinary 95% normal approximation, true-query-class clustered",
+        "interval_is_simultaneous": false,
+        "name": "K_vs_V",
+        "contrast": "loss(V) - loss(K)",
+        "provenance": {
+          "source_id": "exp024_analysis",
+          "source_file": "experiments/exp_024_l2_label_k_path/outputs/analysis.json",
+          "sha256": "650d4ff6e95bf81689866c2ccdba5573eea9c6ad781f2b04f9afcb1d79d70e36",
+          "json_pointer": "/primary/K_vs_V"
+        },
+        "threshold": 0.01,
+        "p_holm": 2.0616333266863372e-67,
+        "pass_adjusted": true,
+        "primary_holm_test": true,
+        "family_size": 4,
+        "bonferroni_one_sided_lower": 0.34501916233917246
+      },
+      {
+        "mean": -0.003186804069172259,
+        "se": 0.005309503825810294,
+        "n": 5000,
+        "clusters": 1530,
+        "valid_normal_approximation": true,
+        "ci95_lower": -0.01359324034353806,
+        "ci95_upper": 0.007219632205193541,
+        "cluster_unit": "true query class",
+        "estimand": "evaluation-row mean",
+        "status": "normal_cluster_approximation",
+        "unit": "nat",
+        "interval_type": "two-sided ordinary 95% normal approximation, true-query-class clustered",
+        "interval_is_simultaneous": false,
+        "name": "V_only_gain",
+        "contrast": "loss(N) - loss(V)",
+        "provenance": {
+          "source_id": "exp024_analysis",
+          "source_file": "experiments/exp_024_l2_label_k_path/outputs/analysis.json",
+          "sha256": "650d4ff6e95bf81689866c2ccdba5573eea9c6ad781f2b04f9afcb1d79d70e36",
+          "json_pointer": "/V_equivalence"
+        },
+        "secondary_equivalence": {
+          "ci90_lower": -0.011920160694369037,
+          "ci90_upper": 0.005546552556024518,
+          "interval_type": "two-sided ordinary 90% normal approximation used for TOST equivalence",
+          "equivalence_margin": 0.02,
+          "equivalent": true,
+          "p_tost": 0.0007711010523990601,
+          "unit": "nat"
+        },
+        "primary_holm_test": false,
+        "note": "Plot ci95_lower/ci95_upper; do not substitute the secondary 90% equivalence interval."
+      }
+    ],
+    "output_margin": {
+      "mean": 0.34516396303989666,
+      "se": 0.03973909932628792,
+      "n": 5000,
+      "clusters": 1530,
+      "valid_normal_approximation": true,
+      "ci95_lower": 0.26727675958231245,
+      "ci95_upper": 0.42305116649748087,
+      "cluster_unit": "true query class",
+      "estimand": "evaluation-row mean",
+      "status": "normal_cluster_approximation",
+      "unit": "logit",
+      "interval_type": "two-sided ordinary 95% normal approximation, true-query-class clustered",
+      "interval_is_simultaneous": false,
+      "name": "output_margin_K",
+      "contrast": "correct-minus-other logit margin(K) - margin(N)",
+      "threshold": 0.0,
+      "p_holm": 1.8812241281079098e-18,
+      "pass_adjusted": true,
+      "provenance": {
+        "source_id": "exp024_analysis",
+        "source_file": "experiments/exp_024_l2_label_k_path/outputs/analysis.json",
+        "sha256": "650d4ff6e95bf81689866c2ccdba5573eea9c6ad781f2b04f9afcb1d79d70e36",
+        "json_pointer": "/primary/output_margin_K"
+      },
+      "plotting_note": "Separate logit-unit quantity; do not place on a nat CE axis."
+    },
+    "scope": "Fixed-model forward effects in a frozen 4.15M-4.65M CIWL window; natural divot and time concentration were not confirmed.",
+    "natural_divot_confirmed": false,
+    "time_concentration_confirmed": false,
+    "metadata_source": {
+      "source_id": "exp024_analysis",
+      "source_file": "experiments/exp_024_l2_label_k_path/outputs/analysis.json",
+      "sha256": "650d4ff6e95bf81689866c2ccdba5573eea9c6ad781f2b04f9afcb1d79d70e36",
+      "json_pointer": "/metadata/time_selection/windows/divot"
+    }
+  },
+  "protection": {
+    "experiment": "exp031",
+    "seed": {
+      "init_seed": 5,
+      "train_seed": 2,
+      "n_training_seeds": 1
+    },
+    "confirm_input_seed": 20261029,
+    "window": [
+      9000000,
+      10000000
+    ],
+    "stages": [
+      9000000,
+      9100000,
+      9200000,
+      9300000,
+      9400000,
+      9500000,
+      9600000,
+      9700000,
+      9800000,
+      9900000,
+      10000000
+    ],
+    "n_checkpoints": 11,
+    "n_per_task": 5000,
+    "aggregation": "For each fixed evaluation row, first average across 11 checkpoints, then use true query-class clustered inference.",
+    "arm_order": [
+      "A",
+      "B",
+      "C25",
+      "P25"
+    ],
+    "arm_labels": {
+      "A": "正常训练",
+      "B": "冻结样本与标签嵌入",
+      "C25": "任务损失保护",
+      "P25": "路径功能保护"
+    },
+    "tasks": [
+      {
+        "id": "icl",
+        "label": "普通 ICL"
+      },
+      {
+        "id": "iwl_copy_avail",
+        "label": "CIWL"
+      },
+      {
+        "id": "train_eval",
+        "label": "原任务"
+      }
+    ],
+    "arms": {
+      "A": {
+        "icl": {
+          "acc": {
+            "mean": 0.5118909090909091,
+            "se": 0.007225176547916332,
+            "n": 5000,
+            "clusters": 1541,
+            "valid": true,
+            "ci95_lower": 0.4977298232750496,
+            "ci95_upper": 0.5260519949067685,
+            "lower_one_sided_95": 0.5000065512407041,
+            "upper_one_sided_95": 0.523775266941114,
+            "cluster_unit": "true_query_class",
+            "estimand": "evaluation_row_weighted_mean",
+            "status": "normal_query_class_cluster",
+            "unit": "proportion",
+            "interval_type": "two-sided ordinary 95% normal approximation, true-query-class clustered",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp031_analysis",
+              "source_file": "experiments/exp_031_path_only_protection/outputs/analysis.json",
+              "sha256": "3b585ddaf7ed53e469c380e0a76542b8222519047f297abb3d8405b56c4b4173",
+              "json_pointer": "/descriptive/A/icl/acc"
+            }
+          },
+          "loss": {
+            "mean": 6.342029082623175,
+            "se": 0.11038416336300705,
+            "n": 5000,
+            "clusters": 1541,
+            "valid": true,
+            "ci95_lower": 6.125680097968096,
+            "ci95_upper": 6.558378067278254,
+            "lower_one_sided_95": 6.160463291157529,
+            "upper_one_sided_95": 6.523594874088821,
+            "cluster_unit": "true_query_class",
+            "estimand": "evaluation_row_weighted_mean",
+            "status": "normal_query_class_cluster",
+            "unit": "nat",
+            "interval_type": "two-sided ordinary 95% normal approximation, true-query-class clustered",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp031_analysis",
+              "source_file": "experiments/exp_031_path_only_protection/outputs/analysis.json",
+              "sha256": "3b585ddaf7ed53e469c380e0a76542b8222519047f297abb3d8405b56c4b4173",
+              "json_pointer": "/descriptive/A/icl/loss"
+            }
+          }
+        },
+        "iwl_copy_avail": {
+          "acc": {
+            "mean": 0.8883090909090908,
+            "se": 0.004374543345850295,
+            "n": 5000,
+            "clusters": 1531,
+            "valid": true,
+            "ci95_lower": 0.8797351435024149,
+            "ci95_upper": 0.8968830383157668,
+            "lower_one_sided_95": 0.8811136074204126,
+            "upper_one_sided_95": 0.8955045743977691,
+            "cluster_unit": "true_query_class",
+            "estimand": "evaluation_row_weighted_mean",
+            "status": "normal_query_class_cluster",
+            "unit": "proportion",
+            "interval_type": "two-sided ordinary 95% normal approximation, true-query-class clustered",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp031_analysis",
+              "source_file": "experiments/exp_031_path_only_protection/outputs/analysis.json",
+              "sha256": "3b585ddaf7ed53e469c380e0a76542b8222519047f297abb3d8405b56c4b4173",
+              "json_pointer": "/descriptive/A/iwl_copy_avail/acc"
+            }
+          },
+          "loss": {
+            "mean": 0.7274282715816686,
+            "se": 0.031690517056153944,
+            "n": 5000,
+            "clusters": 1531,
+            "valid": true,
+            "ci95_lower": 0.6653159995001545,
+            "ci95_upper": 0.7895405436631826,
+            "lower_one_sided_95": 0.6753020096618862,
+            "upper_one_sided_95": 0.7795545335014509,
+            "cluster_unit": "true_query_class",
+            "estimand": "evaluation_row_weighted_mean",
+            "status": "normal_query_class_cluster",
+            "unit": "nat",
+            "interval_type": "two-sided ordinary 95% normal approximation, true-query-class clustered",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp031_analysis",
+              "source_file": "experiments/exp_031_path_only_protection/outputs/analysis.json",
+              "sha256": "3b585ddaf7ed53e469c380e0a76542b8222519047f297abb3d8405b56c4b4173",
+              "json_pointer": "/descriptive/A/iwl_copy_avail/loss"
+            }
+          }
+        },
+        "train_eval": {
+          "acc": {
+            "mean": 0.9636,
+            "se": 0.0024721056167465952,
+            "n": 5000,
+            "clusters": 1530,
+            "valid": true,
+            "ci95_lower": 0.9587547620251975,
+            "ci95_upper": 0.9684452379748025,
+            "lower_one_sided_95": 0.9595337481100873,
+            "upper_one_sided_95": 0.9676662518899127,
+            "cluster_unit": "true_query_class",
+            "estimand": "evaluation_row_weighted_mean",
+            "status": "normal_query_class_cluster",
+            "unit": "proportion",
+            "interval_type": "two-sided ordinary 95% normal approximation, true-query-class clustered",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp031_analysis",
+              "source_file": "experiments/exp_031_path_only_protection/outputs/analysis.json",
+              "sha256": "3b585ddaf7ed53e469c380e0a76542b8222519047f297abb3d8405b56c4b4173",
+              "json_pointer": "/descriptive/A/train_eval/acc"
+            }
+          },
+          "loss": {
+            "mean": 0.21001657309519464,
+            "se": 0.010803635977739845,
+            "n": 5000,
+            "clusters": 1530,
+            "valid": true,
+            "ci95_lower": 0.1888418356767434,
+            "ci95_upper": 0.2311913105136459,
+            "lower_one_sided_95": 0.19224617327294585,
+            "upper_one_sided_95": 0.22778697291744343,
+            "cluster_unit": "true_query_class",
+            "estimand": "evaluation_row_weighted_mean",
+            "status": "normal_query_class_cluster",
+            "unit": "nat",
+            "interval_type": "two-sided ordinary 95% normal approximation, true-query-class clustered",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp031_analysis",
+              "source_file": "experiments/exp_031_path_only_protection/outputs/analysis.json",
+              "sha256": "3b585ddaf7ed53e469c380e0a76542b8222519047f297abb3d8405b56c4b4173",
+              "json_pointer": "/descriptive/A/train_eval/loss"
+            }
+          }
+        }
+      },
+      "B": {
+        "icl": {
+          "acc": {
+            "mean": 0.7907272727272727,
+            "se": 0.006093447340561091,
+            "n": 5000,
+            "clusters": 1541,
+            "valid": true,
+            "ci95_lower": 0.7787843353980817,
+            "ci95_upper": 0.8026702100564638,
+            "lower_one_sided_95": 0.780704443768513,
+            "upper_one_sided_95": 0.8007501016860324,
+            "cluster_unit": "true_query_class",
+            "estimand": "evaluation_row_weighted_mean",
+            "status": "normal_query_class_cluster",
+            "unit": "proportion",
+            "interval_type": "two-sided ordinary 95% normal approximation, true-query-class clustered",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp031_analysis",
+              "source_file": "experiments/exp_031_path_only_protection/outputs/analysis.json",
+              "sha256": "3b585ddaf7ed53e469c380e0a76542b8222519047f297abb3d8405b56c4b4173",
+              "json_pointer": "/descriptive/B/icl/acc"
+            }
+          },
+          "loss": {
+            "mean": 1.4380088954181494,
+            "se": 0.02966354190635695,
+            "n": 5000,
+            "clusters": 1541,
+            "valid": true,
+            "ci95_lower": 1.3798694216277951,
+            "ci95_upper": 1.4961483692085036,
+            "lower_one_sided_95": 1.3892167109252511,
+            "upper_one_sided_95": 1.4868010799110476,
+            "cluster_unit": "true_query_class",
+            "estimand": "evaluation_row_weighted_mean",
+            "status": "normal_query_class_cluster",
+            "unit": "nat",
+            "interval_type": "two-sided ordinary 95% normal approximation, true-query-class clustered",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp031_analysis",
+              "source_file": "experiments/exp_031_path_only_protection/outputs/analysis.json",
+              "sha256": "3b585ddaf7ed53e469c380e0a76542b8222519047f297abb3d8405b56c4b4173",
+              "json_pointer": "/descriptive/B/icl/loss"
+            }
+          }
+        },
+        "iwl_copy_avail": {
+          "acc": {
+            "mean": 0.5855454545454546,
+            "se": 0.007284702839593267,
+            "n": 5000,
+            "clusters": 1531,
+            "valid": true,
+            "ci95_lower": 0.5712676993417751,
+            "ci95_upper": 0.5998232097491341,
+            "lower_one_sided_95": 0.5735631846584859,
+            "upper_one_sided_95": 0.5975277244324233,
+            "cluster_unit": "true_query_class",
+            "estimand": "evaluation_row_weighted_mean",
+            "status": "normal_query_class_cluster",
+            "unit": "proportion",
+            "interval_type": "two-sided ordinary 95% normal approximation, true-query-class clustered",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp031_analysis",
+              "source_file": "experiments/exp_031_path_only_protection/outputs/analysis.json",
+              "sha256": "3b585ddaf7ed53e469c380e0a76542b8222519047f297abb3d8405b56c4b4173",
+              "json_pointer": "/descriptive/B/iwl_copy_avail/acc"
+            }
+          },
+          "loss": {
+            "mean": 3.0996079674097374,
+            "se": 0.06631099299968848,
+            "n": 5000,
+            "clusters": 1531,
+            "valid": true,
+            "ci95_lower": 2.9696408093512603,
+            "ci95_upper": 3.2295751254682146,
+            "lower_one_sided_95": 2.990536090067446,
+            "upper_one_sided_95": 3.208679844752029,
+            "cluster_unit": "true_query_class",
+            "estimand": "evaluation_row_weighted_mean",
+            "status": "normal_query_class_cluster",
+            "unit": "nat",
+            "interval_type": "two-sided ordinary 95% normal approximation, true-query-class clustered",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp031_analysis",
+              "source_file": "experiments/exp_031_path_only_protection/outputs/analysis.json",
+              "sha256": "3b585ddaf7ed53e469c380e0a76542b8222519047f297abb3d8405b56c4b4173",
+              "json_pointer": "/descriptive/B/iwl_copy_avail/loss"
+            }
+          }
+        },
+        "train_eval": {
+          "acc": {
+            "mean": 0.8901272727272728,
+            "se": 0.004678762796985169,
+            "n": 5000,
+            "clusters": 1530,
+            "valid": true,
+            "ci95_lower": 0.880957066152976,
+            "ci95_upper": 0.8992974793015696,
+            "lower_one_sided_95": 0.8824313927710061,
+            "upper_one_sided_95": 0.8978231526835394,
+            "cluster_unit": "true_query_class",
+            "estimand": "evaluation_row_weighted_mean",
+            "status": "normal_query_class_cluster",
+            "unit": "proportion",
+            "interval_type": "two-sided ordinary 95% normal approximation, true-query-class clustered",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp031_analysis",
+              "source_file": "experiments/exp_031_path_only_protection/outputs/analysis.json",
+              "sha256": "3b585ddaf7ed53e469c380e0a76542b8222519047f297abb3d8405b56c4b4173",
+              "json_pointer": "/descriptive/B/train_eval/acc"
+            }
+          },
+          "loss": {
+            "mean": 0.6136767147612038,
+            "se": 0.0207792568432374,
+            "n": 5000,
+            "clusters": 1530,
+            "valid": true,
+            "ci95_lower": 0.5729501197229511,
+            "ci95_upper": 0.6544033097994565,
+            "lower_one_sided_95": 0.5794978787772486,
+            "upper_one_sided_95": 0.647855550745159,
+            "cluster_unit": "true_query_class",
+            "estimand": "evaluation_row_weighted_mean",
+            "status": "normal_query_class_cluster",
+            "unit": "nat",
+            "interval_type": "two-sided ordinary 95% normal approximation, true-query-class clustered",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp031_analysis",
+              "source_file": "experiments/exp_031_path_only_protection/outputs/analysis.json",
+              "sha256": "3b585ddaf7ed53e469c380e0a76542b8222519047f297abb3d8405b56c4b4173",
+              "json_pointer": "/descriptive/B/train_eval/loss"
+            }
+          }
+        }
+      },
+      "C25": {
+        "icl": {
+          "acc": {
+            "mean": 0.9065090909090908,
+            "se": 0.003990080162352605,
+            "n": 5000,
+            "clusters": 1541,
+            "valid": true,
+            "ci95_lower": 0.898688677495452,
+            "ci95_upper": 0.9143295043227296,
+            "lower_one_sided_95": 0.899945993082218,
+            "upper_one_sided_95": 0.9130721887359636,
+            "cluster_unit": "true_query_class",
+            "estimand": "evaluation_row_weighted_mean",
+            "status": "normal_query_class_cluster",
+            "unit": "proportion",
+            "interval_type": "two-sided ordinary 95% normal approximation, true-query-class clustered",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp031_analysis",
+              "source_file": "experiments/exp_031_path_only_protection/outputs/analysis.json",
+              "sha256": "3b585ddaf7ed53e469c380e0a76542b8222519047f297abb3d8405b56c4b4173",
+              "json_pointer": "/descriptive/C25/icl/acc"
+            }
+          },
+          "loss": {
+            "mean": 0.3727435751066141,
+            "se": 0.013085249118616213,
+            "n": 5000,
+            "clusters": 1541,
+            "valid": true,
+            "ci95_lower": 0.3470969581053919,
+            "ci95_upper": 0.3983901921078363,
+            "lower_one_sided_95": 0.35122025563429465,
+            "upper_one_sided_95": 0.39426689457893355,
+            "cluster_unit": "true_query_class",
+            "estimand": "evaluation_row_weighted_mean",
+            "status": "normal_query_class_cluster",
+            "unit": "nat",
+            "interval_type": "two-sided ordinary 95% normal approximation, true-query-class clustered",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp031_analysis",
+              "source_file": "experiments/exp_031_path_only_protection/outputs/analysis.json",
+              "sha256": "3b585ddaf7ed53e469c380e0a76542b8222519047f297abb3d8405b56c4b4173",
+              "json_pointer": "/descriptive/C25/icl/loss"
+            }
+          }
+        },
+        "iwl_copy_avail": {
+          "acc": {
+            "mean": 0.8573818181818182,
+            "se": 0.005013640080652671,
+            "n": 5000,
+            "clusters": 1531,
+            "valid": true,
+            "ci95_lower": 0.8475552641922925,
+            "ci95_upper": 0.8672083721713439,
+            "lower_one_sided_95": 0.8491351141109275,
+            "upper_one_sided_95": 0.865628522252709,
+            "cluster_unit": "true_query_class",
+            "estimand": "evaluation_row_weighted_mean",
+            "status": "normal_query_class_cluster",
+            "unit": "proportion",
+            "interval_type": "two-sided ordinary 95% normal approximation, true-query-class clustered",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp031_analysis",
+              "source_file": "experiments/exp_031_path_only_protection/outputs/analysis.json",
+              "sha256": "3b585ddaf7ed53e469c380e0a76542b8222519047f297abb3d8405b56c4b4173",
+              "json_pointer": "/descriptive/C25/iwl_copy_avail/acc"
+            }
+          },
+          "loss": {
+            "mean": 0.9491424355862534,
+            "se": 0.03699701803531301,
+            "n": 5000,
+            "clusters": 1531,
+            "valid": true,
+            "ci95_lower": 0.8766296127016612,
+            "ci95_upper": 1.0216552584708458,
+            "lower_one_sided_95": 0.8882877562844799,
+            "upper_one_sided_95": 1.0099971148880271,
+            "cluster_unit": "true_query_class",
+            "estimand": "evaluation_row_weighted_mean",
+            "status": "normal_query_class_cluster",
+            "unit": "nat",
+            "interval_type": "two-sided ordinary 95% normal approximation, true-query-class clustered",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp031_analysis",
+              "source_file": "experiments/exp_031_path_only_protection/outputs/analysis.json",
+              "sha256": "3b585ddaf7ed53e469c380e0a76542b8222519047f297abb3d8405b56c4b4173",
+              "json_pointer": "/descriptive/C25/iwl_copy_avail/loss"
+            }
+          }
+        },
+        "train_eval": {
+          "acc": {
+            "mean": 0.965218181818182,
+            "se": 0.002434805593533773,
+            "n": 5000,
+            "clusters": 1530,
+            "valid": true,
+            "ci95_lower": 0.9604460505454991,
+            "ci95_upper": 0.9699903130908648,
+            "lower_one_sided_95": 0.9612132830067363,
+            "upper_one_sided_95": 0.9692230806296277,
+            "cluster_unit": "true_query_class",
+            "estimand": "evaluation_row_weighted_mean",
+            "status": "normal_query_class_cluster",
+            "unit": "proportion",
+            "interval_type": "two-sided ordinary 95% normal approximation, true-query-class clustered",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp031_analysis",
+              "source_file": "experiments/exp_031_path_only_protection/outputs/analysis.json",
+              "sha256": "3b585ddaf7ed53e469c380e0a76542b8222519047f297abb3d8405b56c4b4173",
+              "json_pointer": "/descriptive/C25/train_eval/acc"
+            }
+          },
+          "loss": {
+            "mean": 0.20626303442227226,
+            "se": 0.010662897775304133,
+            "n": 5000,
+            "clusters": 1530,
+            "valid": true,
+            "ci95_lower": 0.1853641388118439,
+            "ci95_upper": 0.2271619300327006,
+            "lower_one_sided_95": 0.18872412834275049,
+            "upper_one_sided_95": 0.22380194050179403,
+            "cluster_unit": "true_query_class",
+            "estimand": "evaluation_row_weighted_mean",
+            "status": "normal_query_class_cluster",
+            "unit": "nat",
+            "interval_type": "two-sided ordinary 95% normal approximation, true-query-class clustered",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp031_analysis",
+              "source_file": "experiments/exp_031_path_only_protection/outputs/analysis.json",
+              "sha256": "3b585ddaf7ed53e469c380e0a76542b8222519047f297abb3d8405b56c4b4173",
+              "json_pointer": "/descriptive/C25/train_eval/loss"
+            }
+          }
+        }
+      },
+      "P25": {
+        "icl": {
+          "acc": {
+            "mean": 0.8756727272727272,
+            "se": 0.00467614683256742,
+            "n": 5000,
+            "clusters": 1541,
+            "valid": true,
+            "ci95_lower": 0.866507647894474,
+            "ci95_upper": 0.8848378066509803,
+            "lower_one_sided_95": 0.867981150195021,
+            "upper_one_sided_95": 0.8833643043504333,
+            "cluster_unit": "true_query_class",
+            "estimand": "evaluation_row_weighted_mean",
+            "status": "normal_query_class_cluster",
+            "unit": "proportion",
+            "interval_type": "two-sided ordinary 95% normal approximation, true-query-class clustered",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp031_analysis",
+              "source_file": "experiments/exp_031_path_only_protection/outputs/analysis.json",
+              "sha256": "3b585ddaf7ed53e469c380e0a76542b8222519047f297abb3d8405b56c4b4173",
+              "json_pointer": "/descriptive/P25/icl/acc"
+            }
+          },
+          "loss": {
+            "mean": 0.43103283044036733,
+            "se": 0.011067231555800312,
+            "n": 5000,
+            "clusters": 1541,
+            "valid": true,
+            "ci95_lower": 0.40934145518243353,
+            "ci95_upper": 0.45272420569830113,
+            "lower_one_sided_95": 0.4128288544754974,
+            "upper_one_sided_95": 0.4492368064052373,
+            "cluster_unit": "true_query_class",
+            "estimand": "evaluation_row_weighted_mean",
+            "status": "normal_query_class_cluster",
+            "unit": "nat",
+            "interval_type": "two-sided ordinary 95% normal approximation, true-query-class clustered",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp031_analysis",
+              "source_file": "experiments/exp_031_path_only_protection/outputs/analysis.json",
+              "sha256": "3b585ddaf7ed53e469c380e0a76542b8222519047f297abb3d8405b56c4b4173",
+              "json_pointer": "/descriptive/P25/icl/loss"
+            }
+          }
+        },
+        "iwl_copy_avail": {
+          "acc": {
+            "mean": 0.8862363636363636,
+            "se": 0.004449506246168651,
+            "n": 5000,
+            "clusters": 1531,
+            "valid": true,
+            "ci95_lower": 0.8775154916448871,
+            "ci95_upper": 0.8949572356278401,
+            "lower_one_sided_95": 0.8789175771492098,
+            "upper_one_sided_95": 0.8935551501235174,
+            "cluster_unit": "true_query_class",
+            "estimand": "evaluation_row_weighted_mean",
+            "status": "normal_query_class_cluster",
+            "unit": "proportion",
+            "interval_type": "two-sided ordinary 95% normal approximation, true-query-class clustered",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp031_analysis",
+              "source_file": "experiments/exp_031_path_only_protection/outputs/analysis.json",
+              "sha256": "3b585ddaf7ed53e469c380e0a76542b8222519047f297abb3d8405b56c4b4173",
+              "json_pointer": "/descriptive/P25/iwl_copy_avail/acc"
+            }
+          },
+          "loss": {
+            "mean": 0.736345802227956,
+            "se": 0.03202374859086879,
+            "n": 5000,
+            "clusters": 1531,
+            "valid": true,
+            "ci95_lower": 0.6735804083398879,
+            "ci95_upper": 0.7991111961160241,
+            "lower_one_sided_95": 0.6836714232096833,
+            "upper_one_sided_95": 0.7890201812462286,
+            "cluster_unit": "true_query_class",
+            "estimand": "evaluation_row_weighted_mean",
+            "status": "normal_query_class_cluster",
+            "unit": "nat",
+            "interval_type": "two-sided ordinary 95% normal approximation, true-query-class clustered",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp031_analysis",
+              "source_file": "experiments/exp_031_path_only_protection/outputs/analysis.json",
+              "sha256": "3b585ddaf7ed53e469c380e0a76542b8222519047f297abb3d8405b56c4b4173",
+              "json_pointer": "/descriptive/P25/iwl_copy_avail/loss"
+            }
+          }
+        },
+        "train_eval": {
+          "acc": {
+            "mean": 0.964309090909091,
+            "se": 0.002446185812846964,
+            "n": 5000,
+            "clusters": 1530,
+            "valid": true,
+            "ci95_lower": 0.9595146548164181,
+            "ci95_upper": 0.9691035270017639,
+            "lower_one_sided_95": 0.9602854733026325,
+            "upper_one_sided_95": 0.9683327085155495,
+            "cluster_unit": "true_query_class",
+            "estimand": "evaluation_row_weighted_mean",
+            "status": "normal_query_class_cluster",
+            "unit": "proportion",
+            "interval_type": "two-sided ordinary 95% normal approximation, true-query-class clustered",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp031_analysis",
+              "source_file": "experiments/exp_031_path_only_protection/outputs/analysis.json",
+              "sha256": "3b585ddaf7ed53e469c380e0a76542b8222519047f297abb3d8405b56c4b4173",
+              "json_pointer": "/descriptive/P25/train_eval/acc"
+            }
+          },
+          "loss": {
+            "mean": 0.20804016244346699,
+            "se": 0.010696763829484585,
+            "n": 5000,
+            "clusters": 1530,
+            "valid": true,
+            "ci95_lower": 0.18707489058654647,
+            "ci95_upper": 0.2290054343003875,
+            "lower_one_sided_95": 0.19044555166189595,
+            "upper_one_sided_95": 0.22563477322503803,
+            "cluster_unit": "true_query_class",
+            "estimand": "evaluation_row_weighted_mean",
+            "status": "normal_query_class_cluster",
+            "unit": "nat",
+            "interval_type": "two-sided ordinary 95% normal approximation, true-query-class clustered",
+            "interval_is_simultaneous": false,
+            "provenance": {
+              "source_id": "exp031_analysis",
+              "source_file": "experiments/exp_031_path_only_protection/outputs/analysis.json",
+              "sha256": "3b585ddaf7ed53e469c380e0a76542b8222519047f297abb3d8405b56c4b4173",
+              "json_pointer": "/descriptive/P25/train_eval/loss"
+            }
+          }
+        }
+      }
+    },
+    "paired_P25_minus_A": {
+      "icl": {
+        "acc": {
+          "mean": 0.3637818181818182,
+          "se": 0.008050748472928972,
+          "n": 5000,
+          "clusters": 1541,
+          "valid": true,
+          "ci95_lower": 0.3480026411262866,
+          "ci95_upper": 0.3795609952373498,
+          "lower_one_sided_95": 0.35053951535644695,
+          "upper_one_sided_95": 0.37702412100718946,
+          "cluster_unit": "true_query_class",
+          "estimand": "evaluation_row_weighted_mean",
+          "status": "normal_query_class_cluster",
+          "unit": "proportion",
+          "interval_type": "two-sided ordinary 95% normal approximation, true-query-class clustered",
+          "interval_is_simultaneous": false,
+          "provenance": {
+            "source_id": "exp031_analysis",
+            "source_file": "experiments/exp_031_path_only_protection/outputs/analysis.json",
+            "sha256": "3b585ddaf7ed53e469c380e0a76542b8222519047f297abb3d8405b56c4b4173",
+            "json_pointer": "/paired_comparisons/P25-A/icl/acc"
+          }
+        },
+        "loss": {
+          "mean": -5.910996252182807,
+          "se": 0.10955051473270562,
+          "n": 5000,
+          "clusters": 1541,
+          "valid": true,
+          "ci95_lower": -6.125711315546734,
+          "ci95_upper": -5.69628118881888,
+          "lower_one_sided_95": -6.091190813675299,
+          "upper_one_sided_95": -5.730801690690315,
+          "cluster_unit": "true_query_class",
+          "estimand": "evaluation_row_weighted_mean",
+          "status": "normal_query_class_cluster",
+          "unit": "nat",
+          "interval_type": "two-sided ordinary 95% normal approximation, true-query-class clustered",
+          "interval_is_simultaneous": false,
+          "provenance": {
+            "source_id": "exp031_analysis",
+            "source_file": "experiments/exp_031_path_only_protection/outputs/analysis.json",
+            "sha256": "3b585ddaf7ed53e469c380e0a76542b8222519047f297abb3d8405b56c4b4173",
+            "json_pointer": "/paired_comparisons/P25-A/icl/loss"
+          }
+        }
+      },
+      "iwl_copy_avail": {
+        "acc": {
+          "mean": -0.0020727272727272725,
+          "se": 0.000639698526092678,
+          "n": 5000,
+          "clusters": 1531,
+          "valid": true,
+          "ci95_lower": -0.003326513344832277,
+          "ci95_upper": -0.0008189412006222683,
+          "lower_one_sided_95": -0.0031249377135263243,
+          "upper_one_sided_95": -0.0010205168319282207,
+          "cluster_unit": "true_query_class",
+          "estimand": "evaluation_row_weighted_mean",
+          "status": "normal_query_class_cluster",
+          "unit": "proportion",
+          "interval_type": "two-sided ordinary 95% normal approximation, true-query-class clustered",
+          "interval_is_simultaneous": false,
+          "provenance": {
+            "source_id": "exp031_analysis",
+            "source_file": "experiments/exp_031_path_only_protection/outputs/analysis.json",
+            "sha256": "3b585ddaf7ed53e469c380e0a76542b8222519047f297abb3d8405b56c4b4173",
+            "json_pointer": "/paired_comparisons/P25-A/iwl_copy_avail/acc"
+          }
+        },
+        "loss": {
+          "mean": 0.008917530646287327,
+          "se": 0.0041492702019933604,
+          "n": 5000,
+          "clusters": 1531,
+          "valid": true,
+          "ci95_lower": 0.0007851104882551085,
+          "ci95_upper": 0.017049950804319546,
+          "lower_one_sided_95": 0.0020925885053368837,
+          "upper_one_sided_95": 0.015742472787237772,
+          "cluster_unit": "true_query_class",
+          "estimand": "evaluation_row_weighted_mean",
+          "status": "normal_query_class_cluster",
+          "unit": "nat",
+          "interval_type": "two-sided ordinary 95% normal approximation, true-query-class clustered",
+          "interval_is_simultaneous": false,
+          "provenance": {
+            "source_id": "exp031_analysis",
+            "source_file": "experiments/exp_031_path_only_protection/outputs/analysis.json",
+            "sha256": "3b585ddaf7ed53e469c380e0a76542b8222519047f297abb3d8405b56c4b4173",
+            "json_pointer": "/paired_comparisons/P25-A/iwl_copy_avail/loss"
+          }
+        }
+      },
+      "train_eval": {
+        "acc": {
+          "mean": 0.000709090909090909,
+          "se": 0.0003637965765293222,
+          "n": 5000,
+          "clusters": 1530,
+          "valid": true,
+          "ci95_lower": -3.937278605531738e-06,
+          "ci95_upper": 0.0014221190967873497,
+          "lower_one_sided_95": 0.00011069879071412482,
+          "upper_one_sided_95": 0.0013074830274676932,
+          "cluster_unit": "true_query_class",
+          "estimand": "evaluation_row_weighted_mean",
+          "status": "normal_query_class_cluster",
+          "unit": "proportion",
+          "interval_type": "two-sided ordinary 95% normal approximation, true-query-class clustered",
+          "interval_is_simultaneous": false,
+          "provenance": {
+            "source_id": "exp031_analysis",
+            "source_file": "experiments/exp_031_path_only_protection/outputs/analysis.json",
+            "sha256": "3b585ddaf7ed53e469c380e0a76542b8222519047f297abb3d8405b56c4b4173",
+            "json_pointer": "/paired_comparisons/P25-A/train_eval/acc"
+          }
+        },
+        "loss": {
+          "mean": -0.0019764106517276636,
+          "se": 0.0007058899022217535,
+          "n": 5000,
+          "clusters": 1530,
+          "valid": true,
+          "ci95_lower": -0.0033599294371328002,
+          "ci95_upper": -0.0005928918663225271,
+          "lower_one_sided_95": -0.0031374962176255344,
+          "upper_one_sided_95": -0.0008153250858297929,
+          "cluster_unit": "true_query_class",
+          "estimand": "evaluation_row_weighted_mean",
+          "status": "normal_query_class_cluster",
+          "unit": "nat",
+          "interval_type": "two-sided ordinary 95% normal approximation, true-query-class clustered",
+          "interval_is_simultaneous": false,
+          "provenance": {
+            "source_id": "exp031_analysis",
+            "source_file": "experiments/exp_031_path_only_protection/outputs/analysis.json",
+            "sha256": "3b585ddaf7ed53e469c380e0a76542b8222519047f297abb3d8405b56c4b4173",
+            "json_pointer": "/paired_comparisons/P25-A/train_eval/loss"
+          }
+        }
+      }
+    },
+    "metadata_source": {
+      "source_id": "exp031_analysis",
+      "source_file": "experiments/exp_031_path_only_protection/outputs/analysis.json",
+      "sha256": "3b585ddaf7ed53e469c380e0a76542b8222519047f297abb3d8405b56c4b4173",
+      "json_pointer": "/window"
+    }
+  },
+  "sources": {
+    "schema_version": 1,
+    "workspace_root": ".",
+    "export_policy": "Copy saved summary values/intervals and metadata only; no model execution, sampling, bootstrap, or new uncertainty estimation.",
+    "proportion_policy": "Accuracy and choice rates remain in [0,1]; plotting software may multiply by 100 for percent/percentage-point display.",
+    "missing_value_policy": "Missing absolute-condition intervals are null and explicitly explained; saved contrast CIs are not substituted.",
+    "files": {
+      "exp002_protocol": {
+        "source_file": "experiments/exp_002_main_reproduction/protocol.md",
+        "sha256": "4e27558178b7aece6c1c05772e795bbda4d47ae2d89d7e2bb3b96d4c2ae98e13",
+        "bytes": 3325,
+        "role": "Baseline seeds and sequence/update units"
+      },
+      "exp002_config": {
+        "source_file": "experiments/exp_002_main_reproduction/final_00020000000/original_config.json",
+        "sha256": "5c6cadc87ba1f0796681116f8c222e742200be51658481c579776e5e8b585223",
+        "bytes": 25570,
+        "role": "Frozen original model/training configuration"
+      },
+      "exp016_summary": {
+        "source_file": "experiments/exp_016_embedding_layer1_refinement/outputs/summary.tsv",
+        "sha256": "d1ace0c8a58a25ddc8578c6d3f507a5340f0defcc36f463ff671a8c56d8ee2f3",
+        "bytes": 8632,
+        "role": "All 16 fixed-background embedding/L1 condition means"
+      },
+      "exp016_analysis": {
+        "source_file": "experiments/exp_016_embedding_layer1_refinement/outputs/analysis.json",
+        "sha256": "27e5c1bc06ab897048e668fa6c3df080f68f6554d0951982a6c8569d81f97bac",
+        "bytes": 388181,
+        "role": "Code order, variable parts, and interval scope"
+      },
+      "exp016_protocol": {
+        "source_file": "experiments/exp_016_embedding_layer1_refinement/protocol.md",
+        "sha256": "3e786eb52b706e59c21be143f23da3ef416f5f4532c2e3a357afb2a9ad2d9d1a",
+        "bytes": 4860,
+        "role": "Fixed late L2/readout and condition identity"
+      },
+      "exp016_report": {
+        "source_file": "experiments/exp_016_embedding_layer1_refinement/report.md",
+        "sha256": "166721fff3bfe85e9c64e713fe1ea1423683928f5e904d7ab15ce7a75b37d555",
+        "bytes": 7991,
+        "role": "Interpretation of conditional embedding effects"
+      },
+      "exp017_summary": {
+        "source_file": "experiments/exp_017_l1_norm_attention_split/outputs/summary.tsv",
+        "sha256": "18a02a694386306748c514ba6ec39c6dc92d237adbbd80ebaa3f7047e406cf26",
+        "bytes": 2230,
+        "role": "Four Norm/Attention condition means"
+      },
+      "exp017_analysis": {
+        "source_file": "experiments/exp_017_l1_norm_attention_split/outputs/analysis.json",
+        "sha256": "cceb53f5f0a3c19758e7088759602ba2fe62ed4d25bdeb0d8005ed19c94c87a3",
+        "bytes": 63660,
+        "role": "Norm/Attention parts and fixed component background"
+      },
+      "exp017_report": {
+        "source_file": "experiments/exp_017_l1_norm_attention_split/report.md",
+        "sha256": "c05537a79abf84caf47a58bf73c028c734e7d8dbde896945d3414aeb2398720e",
+        "bytes": 6383,
+        "role": "Four-condition interpretation and baseline identities"
+      },
+      "exp014_summary_tsv": {
+        "source_file": "experiments/exp_014_icl_ciwl_pair_patch/outputs/summary.tsv",
+        "sha256": "7e7234ec5e0bdbb6c4f7f822457f47c7c18910907ba318fcd61a76c96e76a91c",
+        "bytes": 256323,
+        "role": "All saved intervention means and paired category-cluster CIs"
+      },
+      "exp014_summary_json": {
+        "source_file": "experiments/exp_014_icl_ciwl_pair_patch/outputs/summary.json",
+        "sha256": "4b63e4a4013f8d2c6603cb797f44a86bd1230976f6cf3ae2cac83a9ec58f2a37",
+        "bytes": 1285165,
+        "role": "Saved native R and complete donor D values"
+      },
+      "exp014_data_audit": {
+        "source_file": "experiments/exp_014_icl_ciwl_pair_patch/outputs/data_audit.json",
+        "sha256": "deb37375d49bcf01f536c409d28647d1bdb1c1e271f3f02d7351b2501f806a71",
+        "bytes": 1003,
+        "role": "Per-task sample count and true-query-class count"
+      },
+      "exp014_provenance": {
+        "source_file": "experiments/exp_014_icl_ciwl_pair_patch/outputs/provenance.json",
+        "sha256": "8c9f4747a9c15aa0158f72438d93f1aa77fdf3d926e040639dd7341970905b10",
+        "bytes": 3005,
+        "role": "Stage and original evaluation-data identity"
+      },
+      "exp014_report": {
+        "source_file": "experiments/exp_014_icl_ciwl_pair_patch/report.md",
+        "sha256": "4590a82811420dffc912b6afdd53003b658025314401d3fc74fb422a41471434",
+        "bytes": 9046,
+        "role": "Donor-choice meaning and head-0 sender interpretation"
+      },
+      "exp024_analysis": {
+        "source_file": "experiments/exp_024_l2_label_k_path/outputs/analysis.json",
+        "sha256": "650d4ff6e95bf81689866c2ccdba5573eea9c6ad781f2b04f9afcb1d79d70e36",
+        "bytes": 4571079,
+        "role": "Frozen-window causal path contrasts and precomputed uncertainty"
+      },
+      "exp024_protocol": {
+        "source_file": "experiments/exp_024_l2_label_k_path/protocol.md",
+        "sha256": "0d9023a6a3191067b904e887f829c2b7aabbbdb444b99542a18165de07d75fb0",
+        "bytes": 4813,
+        "role": "N/S/K/V/KB contrast definitions and family thresholds"
+      },
+      "exp024_report": {
+        "source_file": "experiments/exp_024_l2_label_k_path/report.md",
+        "sha256": "a61b7b7121eea0f5b8938edbb0bbc925006c875b8672394581a6417bd7ed0d3c",
+        "bytes": 13700,
+        "role": "Interpretation corrections and scope of path effects"
+      },
+      "exp031_analysis": {
+        "source_file": "experiments/exp_031_path_only_protection/outputs/analysis.json",
+        "sha256": "3b585ddaf7ed53e469c380e0a76542b8222519047f297abb3d8405b56c4b4173",
+        "bytes": 177540,
+        "role": "Matched arm summaries, paired differences, original gain and NI gates"
+      },
+      "exp031_verification": {
+        "source_file": "experiments/exp_031_path_only_protection/outputs/verification.json",
+        "sha256": "bbed1fa2d288462b51aa9b4df4e8724a5cb2db7a907187bef7a702a9c5f7f5ea",
+        "bytes": 39018,
+        "role": "Independent saved-row statistical readback and joint-support boundary"
+      },
+      "exp031_protocol": {
+        "source_file": "experiments/exp_031_path_only_protection/protocol.md",
+        "sha256": "0ee702e295d62d3259c578112917e8a94289fe9b3c6b4d864924d7e251ca016f",
+        "bytes": 4870,
+        "role": "Single-path extension scope and joint criteria"
+      },
+      "exp030_reference_analysis": {
+        "source_file": "experiments/exp_031_path_only_protection/references/analysis.json",
+        "sha256": "c6d1c30467414d891caf8a2e0aaa1b4c1afd4e63f1b68c4a686420d8703c202d",
+        "bytes": 208256,
+        "role": "Verified matching exp030 controls"
+      },
+      "exp030_reference_verification": {
+        "source_file": "experiments/exp_031_path_only_protection/references/verification.json",
+        "sha256": "b4592460877bdee17c242c529d5a4c21603a7fef89a7915ad489ea4e72324d78",
+        "bytes": 67564,
+        "role": "Verified exp030 reference receipt"
+      },
+      "exp030_original_analysis": {
+        "source_file": "experiments/exp_030_functional_update_constraints/outputs/analysis.json",
+        "sha256": "c6d1c30467414d891caf8a2e0aaa1b4c1afd4e63f1b68c4a686420d8703c202d",
+        "bytes": 208256,
+        "role": "Owning exp030 control analysis; byte identity checked"
+      },
+      "exp030_original_verification": {
+        "source_file": "experiments/exp_030_functional_update_constraints/outputs/verification_feature_slice_repair.json",
+        "sha256": "b4592460877bdee17c242c529d5a4c21603a7fef89a7915ad489ea4e72324d78",
+        "bytes": 67564,
+        "role": "Owning repaired exp030 independent verification; byte identity checked"
+      }
+    }
+  }
+}

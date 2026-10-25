@@ -1,0 +1,30 @@
+[
+  {
+    "id": "EE",
+    "sources": {
+      "l1_norm1": "E",
+      "l1_attention": "E"
+    }
+  },
+  {
+    "id": "EL",
+    "sources": {
+      "l1_norm1": "E",
+      "l1_attention": "L"
+    }
+  },
+  {
+    "id": "LE",
+    "sources": {
+      "l1_norm1": "L",
+      "l1_attention": "E"
+    }
+  },
+  {
+    "id": "LL",
+    "sources": {
+      "l1_norm1": "L",
+      "l1_attention": "L"
+    }
+  }
+]

@@ -1,0 +1,111 @@
+{
+  "experiment": "exp_044_cifar100_generalization_five_seed_10M",
+  "stage": 10000000,
+  "models": {
+    "A": {
+      "acc": {
+        "mean": 0.3045833333333333,
+        "se": 0.010337578551238694,
+        "lower95": 0.28407133473441293,
+        "upper95": 0.3250953319322537,
+        "clusters": 100,
+        "df": 99,
+        "status": "t_query_class"
+      },
+      "ce": {
+        "mean": 6.6815791280730625,
+        "se": 0.06658478914149368,
+        "lower95": 6.5494604607458795,
+        "upper95": 6.813697795400246,
+        "clusters": 100,
+        "df": 99,
+        "status": "t_query_class"
+      },
+      "pair_acc": {
+        "mean": 0.5029166666666667,
+        "se": 0.0061333102308890036,
+        "lower95": 0.4907468485376751,
+        "upper95": 0.5150864847956582,
+        "clusters": 100,
+        "df": 99,
+        "status": "t_query_class"
+      }
+    },
+    "P25": {
+      "acc": {
+        "mean": 0.30124999999999996,
+        "se": 0.013240615654797538,
+        "lower95": 0.27497774596933944,
+        "upper95": 0.3275222540306605,
+        "clusters": 100,
+        "df": 99,
+        "status": "t_query_class"
+      },
+      "ce": {
+        "mean": 3.6368137336398156,
+        "se": 0.0756838009842465,
+        "lower95": 3.486640652772264,
+        "upper95": 3.786986814507367,
+        "clusters": 100,
+        "df": 99,
+        "status": "t_query_class"
+      },
+      "pair_acc": {
+        "mean": 0.5295833333333334,
+        "se": 0.01163980493490157,
+        "lower95": 0.5064874350692473,
+        "upper95": 0.5526792315974195,
+        "clusters": 100,
+        "df": 99,
+        "status": "t_query_class"
+      }
+    }
+  },
+  "P25_minus_A": {
+    "acc": {
+      "mean": -0.003333333333333335,
+      "se": 0.011200398822464631,
+      "lower95": -0.025557354540525545,
+      "upper95": 0.018890687873858877,
+      "clusters": 100,
+      "df": 99,
+      "status": "t_query_class"
+    },
+    "ce": {
+      "mean": -3.044765394433246,
+      "se": 0.07108521939060196,
+      "lower95": -3.1858138917497922,
+      "upper95": -2.9037168971167,
+      "clusters": 100,
+      "df": 99,
+      "status": "t_query_class"
+    },
+    "pair_acc": {
+      "mean": 0.02666666666666667,
+      "se": 0.011150812907913716,
+      "lower95": 0.004541034671682445,
+      "upper95": 0.04879229866165089,
+      "clusters": 100,
+      "df": 99,
+      "status": "t_query_class"
+    }
+  },
+  "paired_full_accuracy_counts": {
+    "A_wrong_P25_correct": 489,
+    "A_correct_P25_wrong": 497,
+    "both_correct": 234,
+    "both_wrong": 1180
+  },
+  "primary_standing": "difference_not_resolved",
+  "n_queries": 2400,
+  "n_classes": 100,
+  "training_trajectories": 1,
+  "interval_scope": "Within-seed query-class interval is auxiliary; primary aggregate unit is the five fixed training seeds s18-s22. See parent protocol.",
+  "limitation": "Fixed support pools and contexts; cross-class distractor/support dependence is not fully modeled by one-way query-class clustering. External source is unseen to these Transformer training runs; original encoder pretraining is unchanged and no pretraining-disjointness claim is made.",
+  "critical_t95": 1.9842169515086827,
+  "class_directions": {
+    "positive": 43,
+    "equal": 12,
+    "negative": 45
+  }
+}

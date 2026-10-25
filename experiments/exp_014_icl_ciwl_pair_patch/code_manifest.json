@@ -1,0 +1,15 @@
+{
+  "summarize_results.py": "2b066d7b28dde6a14d3c902dc58e9fadef710e56a88a04da376558dac482ce62",
+  "run_eval.py": "384db00b96ee562b84e75019f1832aae0344edb59e8a61fe014314856bb53488",
+  "author_forward_metrics.py": "4d98d40d8d236a64293c10d55dfefec0352b9029269bafb5b656901bbf84e94e",
+  "run_task.ps1": "61b7bbb5e97b00faef402c87c0f3c9b130d14e6ead9d8a396f066f1806626b06",
+  "status.ps1": "42813d01a574afab09639e10cada79b8a1237a09916d7951d0e0ad9b629e14f9",
+  "conditions.json": "2a73c12f9c374d5b97e20124777ed266a9238af667fb6d77843c97a263b70f1b",
+  "reference_learning_curves.tsv": "6708535d3782265cb877fc7be02c101a16e9dfaf29b108ad9def094d42fc93ba",
+  "prepare_task.ps1": "23d172b257e90a952d064a4a92d0315d7f7d4e19db52e5ecdea5a232f51a3383",
+  "run_eval.sh": "8be703ee55e694007ab7e3466c6775e2b3dda1e388f809d93807a06091f73c37",
+  "expected_inputs.json": "7e11518a6300412ba1c9f1655ae2b81a2c9eed3a189be3357e1005ed821e9e31",
+  "review.md": "b000eebd8c0f00f8fae322d4b8efc6157e57d2320315d8e9c2b4b36c2c0898f5",
+  "register_task.ps1": "a45fda9de6b11607ff99b476804dab1d0d61a21179e54317f8fa06e23eb5594f",
+  "protocol.md": "5178bfe1787707ca5598dfb3e747387b0f2ea3a18ed3776af9a1c237ca2f78be"
+}

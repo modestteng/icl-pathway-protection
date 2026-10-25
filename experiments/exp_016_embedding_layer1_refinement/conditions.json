@@ -1,0 +1,146 @@
+[
+  {
+    "id": "EEEE",
+    "sources": {
+      "example_embed": "E",
+      "label_embed": "E",
+      "pos_embed": "E",
+      "layer1": "E"
+    }
+  },
+  {
+    "id": "EEEL",
+    "sources": {
+      "example_embed": "E",
+      "label_embed": "E",
+      "pos_embed": "E",
+      "layer1": "L"
+    }
+  },
+  {
+    "id": "EELE",
+    "sources": {
+      "example_embed": "E",
+      "label_embed": "E",
+      "pos_embed": "L",
+      "layer1": "E"
+    }
+  },
+  {
+    "id": "EELL",
+    "sources": {
+      "example_embed": "E",
+      "label_embed": "E",
+      "pos_embed": "L",
+      "layer1": "L"
+    }
+  },
+  {
+    "id": "ELEE",
+    "sources": {
+      "example_embed": "E",
+      "label_embed": "L",
+      "pos_embed": "E",
+      "layer1": "E"
+    }
+  },
+  {
+    "id": "ELEL",
+    "sources": {
+      "example_embed": "E",
+      "label_embed": "L",
+      "pos_embed": "E",
+      "layer1": "L"
+    }
+  },
+  {
+    "id": "ELLE",
+    "sources": {
+      "example_embed": "E",
+      "label_embed": "L",
+      "pos_embed": "L",
+      "layer1": "E"
+    }
+  },
+  {
+    "id": "ELLL",
+    "sources": {
+      "example_embed": "E",
+      "label_embed": "L",
+      "pos_embed": "L",
+      "layer1": "L"
+    }
+  },
+  {
+    "id": "LEEE",
+    "sources": {
+      "example_embed": "L",
+      "label_embed": "E",
+      "pos_embed": "E",
+      "layer1": "E"
+    }
+  },
+  {
+    "id": "LEEL",
+    "sources": {
+      "example_embed": "L",
+      "label_embed": "E",
+      "pos_embed": "E",
+      "layer1": "L"
+    }
+  },
+  {
+    "id": "LELE",
+    "sources": {
+      "example_embed": "L",
+      "label_embed": "E",
+      "pos_embed": "L",
+      "layer1": "E"
+    }
+  },
+  {
+    "id": "LELL",
+    "sources": {
+      "example_embed": "L",
+      "label_embed": "E",
+      "pos_embed": "L",
+      "layer1": "L"
+    }
+  },
+  {
+    "id": "LLEE",
+    "sources": {
+      "example_embed": "L",
+      "label_embed": "L",
+      "pos_embed": "E",
+      "layer1": "E"
+    }
+  },
+  {
+    "id": "LLEL",
+    "sources": {
+      "example_embed": "L",
+      "label_embed": "L",
+      "pos_embed": "E",
+      "layer1": "L"
+    }
+  },
+  {
+    "id": "LLLE",
+    "sources": {
+      "example_embed": "L",
+      "label_embed": "L",
+      "pos_embed": "L",
+      "layer1": "E"
+    }
+  },
+  {
+    "id": "LLLL",
+    "sources": {
+      "example_embed": "L",
+      "label_embed": "L",
+      "pos_embed": "L",
+      "layer1": "L"
+    }
+  }
+]

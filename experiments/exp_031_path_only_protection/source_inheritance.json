@@ -1,0 +1,44 @@
+{
+  "common.py": {
+    "parent_sha256": "08ec9497c15dee887cd4718f7069deb8c892b7ece4d8f53bd7ed5b73632a5623",
+    "new_sha256": "1764b6b48f7dd7e52a48d4d8dd1d647b1fb4e0b0ebb77878af3875ca7bfc2b9e",
+    "unchanged": false
+  },
+  "projection.py": {
+    "parent_sha256": "845ae3ad8d922e546d41589c55eaf3129b509184e04d6a91dd4d10a892c20b38",
+    "new_sha256": "845ae3ad8d922e546d41589c55eaf3129b509184e04d6a91dd4d10a892c20b38",
+    "unchanged": true
+  },
+  "mechanism.py": {
+    "parent_sha256": "777fd04b0645c246b3cda4959dd92f022816ebeb1ae1d12fd00ca7f024055530",
+    "new_sha256": "777fd04b0645c246b3cda4959dd92f022816ebeb1ae1d12fd00ca7f024055530",
+    "unchanged": true
+  },
+  "datasets.py": {
+    "parent_sha256": "9a3dc39f0f03c52eac0020128c675c1404154e51f885ac627dcb49bdaa128528",
+    "new_sha256": "9a3dc39f0f03c52eac0020128c675c1404154e51f885ac627dcb49bdaa128528",
+    "unchanged": true
+  },
+  "runtime.py": {
+    "parent_sha256": "fe0d28933c0cea933dff46d5ce0c94a3019760b39fa25cfe6001e4761d10ae02",
+    "new_sha256": "3deb4d27ee7b6072c471b7948acd448f51057f0bdf51c3e23c0f76e6fada64a1",
+    "unchanged": false
+  },
+  "input_spec.json": {
+    "parent_sha256": "36a972a1bc516d2775579dfe971e4bfc47bebcacf7560d95b993ea19f2498dc7",
+    "new_sha256": "36a972a1bc516d2775579dfe971e4bfc47bebcacf7560d95b993ea19f2498dc7",
+    "unchanged": true
+  },
+  "data_creation_manifest.json": {
+    "parent_sha256": "7706bd2fcfc0839215d4d2dec3c9cab5fe2e4bd88b0e6f96f0416a3bbbf118bc",
+    "new_sha256": "7706bd2fcfc0839215d4d2dec3c9cab5fe2e4bd88b0e6f96f0416a3bbbf118bc",
+    "unchanged": true
+  },
+  "reference_reader.py": {
+    "parent_path": "method_validation/attempt_003_feature_slice_reader/verify_results_feature_slice_repair.py",
+    "parent_sha256": "2ca97cefbd42343df4cd487e896cb7a3d98768e02fe645ae720e5fd2c2e27a05",
+    "new_sha256": "42218fffdf73302931f6cd8cdc6b8757def27c7b3cc2fff61a77c848d74b6206",
+    "unchanged": false,
+    "change_scope": "P-only preflight obligations and inherited replay pointer; raw row/cache/statistical routines unchanged"
+  }
+}

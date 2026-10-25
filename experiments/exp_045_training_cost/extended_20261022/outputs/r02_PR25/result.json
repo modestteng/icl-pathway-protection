@@ -1,0 +1,143 @@
+{
+  "passed": true,
+  "arm": "PR25",
+  "round": 1,
+  "tag": "r02_PR25",
+  "seed": {
+    "id": "s5",
+    "init": 5,
+    "train": 2
+  },
+  "start_stage": 4400000,
+  "final_checkpoint_sha256": "62426a575523d4094d40fc9e91b5f9c461826adeb6ecef8adfa007b3274f4c35",
+  "final_prng": {
+    "eval_model_seed": [
+      696308388,
+      313858239
+    ],
+    "train_data_seed": [
+      4037411077,
+      1034489067
+    ],
+    "train_model_seed": [
+      1800670764,
+      2737071413
+    ]
+  },
+  "memory_before_warmup": {
+    "num_allocs": 1038,
+    "bytes_in_use": 632202496,
+    "peak_bytes_in_use": 1118301696,
+    "largest_alloc_size": 536870912,
+    "bytes_limit": 6438912000,
+    "bytes_reserved": 0,
+    "peak_bytes_reserved": 0,
+    "largest_free_block_bytes": 0,
+    "pool_bytes": 1138753536,
+    "peak_pool_bytes": 1138753536
+  },
+  "end_stage": 4723200,
+  "versions": {
+    "jax": "0.4.26",
+    "jaxlib": "0.4.26+cuda12.cudnn89",
+    "equinox": "0.11.4",
+    "optax": "0.2.2",
+    "numpy": "1.26.4",
+    "h5py": "3.11.0"
+  },
+  "device": "cuda:0",
+  "setup_seconds": 6.903394925999919,
+  "warmup_seconds": 14.711915189000138,
+  "measured_seconds": 145.16019916200003,
+  "windows": [
+    {
+      "window": 0,
+      "steps": 1000,
+      "seconds": 15.371417049999991,
+      "ms_per_step": 15.371417049999991
+    },
+    {
+      "window": 1,
+      "steps": 1000,
+      "seconds": 15.116724819999945,
+      "ms_per_step": 15.116724819999945
+    },
+    {
+      "window": 2,
+      "steps": 1000,
+      "seconds": 16.04253942100013,
+      "ms_per_step": 16.04253942100013
+    },
+    {
+      "window": 3,
+      "steps": 1000,
+      "seconds": 15.90904875199999,
+      "ms_per_step": 15.90904875199999
+    },
+    {
+      "window": 4,
+      "steps": 1000,
+      "seconds": 14.331294120999928,
+      "ms_per_step": 14.331294120999928
+    },
+    {
+      "window": 5,
+      "steps": 1000,
+      "seconds": 13.598203716000171,
+      "ms_per_step": 13.598203716000171
+    },
+    {
+      "window": 6,
+      "steps": 1000,
+      "seconds": 14.022828048999827,
+      "ms_per_step": 14.022828048999827
+    },
+    {
+      "window": 7,
+      "steps": 1000,
+      "seconds": 13.229980518000048,
+      "ms_per_step": 13.229980518000048
+    },
+    {
+      "window": 8,
+      "steps": 1000,
+      "seconds": 13.61445341700005,
+      "ms_per_step": 13.61445341700005
+    },
+    {
+      "window": 9,
+      "steps": 1000,
+      "seconds": 13.923709297999949,
+      "ms_per_step": 13.923709297999949
+    }
+  ],
+  "ms_per_step": 14.516019916200003,
+  "memory_after_warmup": {
+    "num_allocs": 17353,
+    "bytes_in_use": 632215296,
+    "peak_bytes_in_use": 1118301696,
+    "largest_alloc_size": 536870912,
+    "bytes_limit": 6438912000,
+    "bytes_reserved": 0,
+    "peak_bytes_reserved": 0,
+    "largest_free_block_bytes": 0,
+    "pool_bytes": 1138753536,
+    "peak_pool_bytes": 1138753536
+  },
+  "memory_end": {
+    "num_allocs": 1617353,
+    "bytes_in_use": 632225280,
+    "peak_bytes_in_use": 1118301696,
+    "largest_alloc_size": 536870912,
+    "bytes_limit": 6438912000,
+    "bytes_reserved": 0,
+    "peak_bytes_reserved": 0,
+    "largest_free_block_bytes": 0,
+    "pool_bytes": 1138753536,
+    "peak_pool_bytes": 1138753536
+  },
+  "elapsed_seconds": 167.07661965499983,
+  "kernel_source": "unchanged exp033 runtime.modified_step and author main.train_step",
+  "timing_includes": "PRNG, real data sampler, method update, finite/projection checks and synchronization",
+  "timing_excludes": "setup, warmup/JIT, evaluation, checkpoints, path discovery and confirmation"
+}

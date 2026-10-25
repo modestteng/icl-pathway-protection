@@ -1,0 +1,11 @@
+{
+  "git_head": "b9a83986c565fab8363ffb303d76100a1652f711",
+  "author_input_spec_sha256": "36a972a1bc516d2775579dfe971e4bfc47bebcacf7560d95b993ea19f2498dc7",
+  "parent_experiment": "exp033_random_path_only_protection",
+  "unchanged_modules": {
+    "projection.py": "845ae3ad8d922e546d41589c55eaf3129b509184e04d6a91dd4d10a892c20b38",
+    "mechanism.py": "777fd04b0645c246b3cda4959dd92f022816ebeb1ae1d12fd00ca7f024055530"
+  },
+  "numeric_kernel_ast_check": "validate_package.py",
+  "other_worktree_changes_preserved": true
+}

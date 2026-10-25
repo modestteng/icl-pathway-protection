@@ -1,0 +1,80 @@
+{
+  "version": "exp046_mean_task_loss_single_constraint_v1",
+  "arm": "MEAN25",
+  "start_stage": 4400000,
+  "end_stage": 10000000,
+  "rho": 0.25,
+  "training_seeds": [
+    {
+      "id": "s5",
+      "init": 5,
+      "train": 2
+    }
+  ],
+  "train_bs": 32,
+  "protection_bs_per_task": 32,
+  "eval_tasks": [
+    "icl",
+    "iwl_copy_avail",
+    "train_eval"
+  ],
+  "eval_every": 100000,
+  "monitor_every": 500000,
+  "confirm_stages": [
+    9000000,
+    9100000,
+    9200000,
+    9300000,
+    9400000,
+    9500000,
+    9600000,
+    9700000,
+    9800000,
+    9900000,
+    10000000
+  ],
+  "remote_project": "experiments",
+  "max_compute_seconds": 10500,
+  "available_memory_min_MiB": 768,
+  "child_rss_max_MiB": 5632,
+  "kernel_experiment": "exp_036_multiseed_path_protection",
+  "kernel_files": {
+    "runtime.py": "daa5da47bc60dc75b6a083fffa38125a01edbdd476ee03f66f832676bdba8de5",
+    "common.py": "6935fa4c5ace4df98edb19c1459d34a510b73d70389d621268c86e8629545054",
+    "projection.py": "845ae3ad8d922e546d41589c55eaf3129b509184e04d6a91dd4d10a892c20b38",
+    "mechanism.py": "777fd04b0645c246b3cda4959dd92f022816ebeb1ae1d12fd00ca7f024055530",
+    "datasets.py": "df6de9ea42b5b6540ca21c3f33f49981e29f69eabc1dd4d9f213b81436776103",
+    "settings.json": "9dd0ecdb461f6f1e23c0bd923718a4cd07dae22186af284474a849cf76dcca46",
+    "input_spec.json": "36a972a1bc516d2775579dfe971e4bfc47bebcacf7560d95b993ea19f2498dc7"
+  },
+  "versions": {
+    "jax": "0.4.26",
+    "jaxlib": "0.4.26+cuda12.cudnn89",
+    "equinox": "0.11.4",
+    "optax": "0.2.2",
+    "numpy": "1.26.4",
+    "h5py": "3.11.0"
+  },
+  "asset_files": {
+    "config.json": "5c6cadc87ba1f0796681116f8c222e742200be51658481c579776e5e8b585223",
+    "data/eval_data.h5": "634ee065b3183599a409c325960ad5fbe4388236a4fc60143794467da3c5efec",
+    "data/omniglot_features_reordered.h5": "3df152d4ddddbb022036a01b1664e2118c7ad683eb1ea18148cfc1ea6dcbf41c",
+    "checkpoints/00004400000.eqx": "627972690994b53311e3ced2714afc316f4b64687706d8d37e1b7e47457da7b5",
+    "source/main.py": "85814cae9c85cadd498d7cb1376708c9f9f2bcac237127943ff4697268754815",
+    "source/main_utils.py": "07bfe1c34366643bc89d8b9a4194c195846e462be31ddf432734b0a817b8727d",
+    "source/models.py": "2509f2a436dd16336f496769bb3d43df89e579cefd178b394d409b46c8892f99",
+    "source/samplers.py": "d285d7d6796996162c0e445bd4d93cdd54c8e9d400bb69e81d054e1bc7a841da",
+    "source/opto.py": "46cbdcc2ef3c7a8688dfb365dcdc7fac753c05e96e8fee47373e2b1a2ad5d1b3"
+  },
+  "data_files": {
+    "confirm.h5": "2eb62aeea1a72ac9ed659a1cb503abf3437ce5f607bbd2ac46593dd532f7a03a",
+    "protection.h5": "ee58c0538518f373996e356f76c043a88cefba282505ca08b239f40fa27ceecd",
+    "monitor.h5": "b26055d0107dafb1413c2e6bd115f8f8808ef32c9e38bfa5066fe0c5755418f8"
+  },
+  "start_checkpoints": {
+    "s5": {
+      "path": "exp_030_functional_update_constraints/assets/checkpoints/00004400000.eqx",
+      "sha256": "627972690994b53311e3ced2714afc316f4b64687706d8d37e1b7e47457da7b5"
+    }
+  }
+}

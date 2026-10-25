@@ -1,0 +1,64 @@
+{
+  "schema": "exp030-assets-v1",
+  "windows_project_root": "assets/icl-dynamics",
+  "source_files": [
+    "main.py",
+    "main_utils.py",
+    "models.py",
+    "samplers.py",
+    "opto.py"
+  ],
+  "files": {
+    "config.json": {
+      "from": "exp_002_main_reproduction/runs/main/config.json",
+      "sha256": "5c6cadc87ba1f0796681116f8c222e742200be51658481c579776e5e8b585223"
+    },
+    "data/eval_data.h5": {
+      "from": "exp_002_main_reproduction/runs/default_eval/eval_data.h5",
+      "sha256": "634ee065b3183599a409c325960ad5fbe4388236a4fc60143794467da3c5efec"
+    },
+    "data/omniglot_features_norotate.h5": {
+      "from": "exp_002_main_reproduction/features/omniglot_features_norotate.h5",
+      "sha256": "d1dd111c34d3bf17829e3191f0c01c6821e3932c7f3ca6ef9c43b49f7f66af70"
+    },
+    "data/omniglot_features_reordered.h5": {
+      "from": "exp_002_main_reproduction/features/omniglot_features_reordered.h5",
+      "sha256": "3df152d4ddddbb022036a01b1664e2118c7ad683eb1ea18148cfc1ea6dcbf41c"
+    },
+    "checkpoints/00000000000.eqx": {
+      "from": "exp_002_main_reproduction/runs/main/checkpoints/00000000000.eqx",
+      "sha256": "cc5d646d6dd6f6e0ff5632921904d57577e19ef11df59d1150ca3fb2437646c0"
+    },
+    "checkpoints/00004400000.eqx": {
+      "from": "exp_002_main_reproduction/runs/main_resume_00002950016/checkpoints/00004400000.eqx",
+      "sha256": "627972690994b53311e3ced2714afc316f4b64687706d8d37e1b7e47457da7b5"
+    },
+    "source/main.py": {
+      "from": "exp_001_hardware_check/source/main.py",
+      "sha256": "85814cae9c85cadd498d7cb1376708c9f9f2bcac237127943ff4697268754815"
+    },
+    "source/main_utils.py": {
+      "from": "exp_001_hardware_check/source/main_utils.py",
+      "sha256": "07bfe1c34366643bc89d8b9a4194c195846e462be31ddf432734b0a817b8727d"
+    },
+    "source/models.py": {
+      "from": "exp_001_hardware_check/source/models.py",
+      "sha256": "2509f2a436dd16336f496769bb3d43df89e579cefd178b394d409b46c8892f99"
+    },
+    "source/samplers.py": {
+      "from": "exp_001_hardware_check/source/samplers.py",
+      "sha256": "d285d7d6796996162c0e445bd4d93cdd54c8e9d400bb69e81d054e1bc7a841da"
+    },
+    "source/opto.py": {
+      "from": "exp_001_hardware_check/source/opto.py",
+      "sha256": "46cbdcc2ef3c7a8688dfb365dcdc7fac753c05e96e8fee47373e2b1a2ad5d1b3"
+    }
+  },
+  "replay_checkpoint": {
+    "from": "exp_002_main_reproduction/runs/main_resume_00002950016/checkpoints/00004450016.eqx",
+    "to": "checkpoints/00004450016.eqx",
+    "sha256": "403d92a400570b60cd534c762136529b46fb9098284d4efc95384f6b77ecd7bf",
+    "policy": "Registered during this preparation before scientific execution; require this SHA and unchanged state/PRNG bridge."
+  },
+  "registered_asset_manifest_sha256": "bba69b3a9523290c5d754bf1416aa262b68566fd8a966ec10763440ee950e5c5"
+}

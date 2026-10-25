@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+.venv/
+venv/
+*.log
+*.partial
+*.part
+result_check.json
+assets/
+compile_cache/
+
+# Locally restored source from the separately obtained upstream repository.
+/main.py
+/main_utils.py
+/models.py
+/omni_features_extract.py
+/omniglot_dataset.py
+/opto.py
+/samplers.py
+/experiments/reproduction_support/source/

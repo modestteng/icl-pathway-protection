@@ -1,0 +1,14 @@
+{
+  "version": "exp036-discovery-v1-author-sampler-20261102",
+  "data_set": {
+    "seed": 20261102,
+    "n": 1000
+  },
+  "generator_files": {
+    "datasets.py": "df6de9ea42b5b6540ca21c3f33f49981e29f69eabc1dd4d9f213b81436776103",
+    "common.py": "6935fa4c5ace4df98edb19c1459d34a510b73d70389d621268c86e8629545054"
+  },
+  "author_sampler_sha256": "d285d7d6796996162c0e445bd4d93cdd54c8e9d400bb69e81d054e1bc7a841da",
+  "feature_sha256": "d1dd111c34d3bf17829e3191f0c01c6821e3932c7f3ca6ef9c43b49f7f66af70",
+  "resampling": false
+}

@@ -1,0 +1,23 @@
+{
+  "common.py": "c2deff81e0c5ae3e462bd57cdd29f93effdeeae2f2f13e02aa8f204a690ab161",
+  "datasets.py": "9a3dc39f0f03c52eac0020128c675c1404154e51f885ac627dcb49bdaa128528",
+  "objectives.py": "63e6652cf75d30266f27a05a8865033acb9c9254b42393958ec6f28d4a448d3a",
+  "runtime.py": "2d2e6c903ffc98ea30901b515b43d6ae4a3f1543f753f143c8a63aabe383e3cc",
+  "gpu_preflight.py": "7d3adf128aedd35ca2d418b5355eec2fc4c1292496e97a1db6b025f9d73bd899",
+  "arm_worker.py": "9052eb053840165ea248dfbb75ee652e4fb1719ade071d2196f489896f08ec30",
+  "supervise.py": "d04013075199c173298b0210d4a298346bcfdfaa1adb0264f3643c11777658a6",
+  "validate_package.py": "2632b2396f5fb428ae4980c454151d36488dccbbfa0b97eab4e438ebb85ee870",
+  "settings.json": "ea551d964dbbd2b2dbba4a8b071597c301a67e5951ebcafa05b947f5fa575496",
+  "input_spec.json": "36a972a1bc516d2775579dfe971e4bfc47bebcacf7560d95b993ea19f2498dc7",
+  "data_creation_manifest.json": "7706bd2fcfc0839215d4d2dec3c9cab5fe2e4bd88b0e6f96f0416a3bbbf118bc",
+  "references_manifest.json": "e34495b1f536f26be2afdc9a6dc983ecd91df90cf5ff564d2572afdda3f65944",
+  "protocol.md": "03129c5c9352d408c68388bc4eb5d21ac2c33d174d7f19a98ca912851400d10f",
+  "analysis_plan.md": "5e82f57c34283e4a766c6cfa12c13555ef859b1a17bec06c2b8c48401508d667",
+  "run_windows.sh": "bac74aa13271e440a7956debc58dd02328a8fb26385476b95b5013a9fa300118",
+  "run_windows.ps1": "5b9b9fd0f9a533a6411dada8749ca70a341e37e51130a251da84ca07e5216742",
+  "register_windows.ps1": "a0e10139c4e4591d8e9d2dbd07816a8ce4ddd0d0748dea94b2912fb527024427",
+  "../exp_035_l2_regularization/protocol.md": "3cd5e17654f27a674cc704c1ceeca36113a73fb136422ded3537e95bf69692a4",
+  "../exp_035_l2_regularization/source_alignment.md": "c24fca3970a8bd21875d441c94e37d507f9483c6ca93765ef269b9432484335d",
+  "math_preflight.py": "ddf8528f7d239c5913d6b276d50f58c919e0e2b36cb3c0a50204c9321d941e9f",
+  "numeric_validation_amendment.md": "cf0ab484a0039f3f7d05d50197512a35c62bc52805b1cea690e96fd0d8aef29e"
+}

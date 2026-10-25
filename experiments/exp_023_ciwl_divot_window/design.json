@@ -1,0 +1,12 @@
+{
+  "version": "exp023_exp024_ciwl_divot_v1",
+  "frozen_before_fresh_data": false,
+  "user_authorization": "Design and complete time-window interference and L2 label K path inference experiments",
+  "frozen_at_utc": "2026-10-11T06:56:40.630732+00:00",
+  "settings_sha256": "2f6699708d4cc8297eba975720b0404b8ea93928be4b723fa94917380b3a0e99",
+  "protocol_sha256": "ef2be52f5580770c3a19a5f38068ce5944c8810192610278afcfee6ba9f04d02",
+  "code_manifest_sha256": "4c3786dcc0da218155e4ba5a9f8648df6a211377cf5623bd738808b4a9f17146",
+  "scientific_design_frozen_before_fresh_data": true,
+  "execution_code_repaired_after_fresh_generation": true,
+  "formal_intervention_outputs_before_repair": false
+}

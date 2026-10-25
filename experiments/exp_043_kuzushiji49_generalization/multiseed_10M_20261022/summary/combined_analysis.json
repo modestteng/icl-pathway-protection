@@ -1,0 +1,964 @@
+{
+  "schema": "external_dataset_multiseed_10M_v1",
+  "passed": true,
+  "utc": "2026-10-22T07:40:54.537040+00:00",
+  "stage": 10000000,
+  "training_seed_ids": [
+    "s18",
+    "s19",
+    "s20",
+    "s21",
+    "s22"
+  ],
+  "n_training_seeds": 5,
+  "statistical_unit": "paired training seed",
+  "full_label_count": 12800,
+  "primary_metric": "full-label accuracy, P25 minus A",
+  "secondary_metrics": [
+    "full-label cross entropy",
+    "two-candidate accuracy (auxiliary)"
+  ],
+  "family_size": 2,
+  "family_scope": "two datasets, separately within each metric",
+  "p_values_computed": false,
+  "datasets": {
+    "k49": {
+      "dataset_name": "Kuzushiji-49",
+      "n_training_seeds": 5,
+      "seed_ids": [
+        "s18",
+        "s19",
+        "s20",
+        "s21",
+        "s22"
+      ],
+      "n_queries_per_seed": 2450,
+      "features_sha256": "5721c0076bc80d8aa9fab29e9bfa7055d60cc7b05d56b17087e07118de60b826",
+      "episodes_sha256": "c9685b8d15b4215ad44ffd46246beeda8e3af13d6c2ad281f73ea13e135f43b1",
+      "encoder_weights_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+      "models": {
+        "A": {
+          "acc": {
+            "mean": 0.46824489795918367,
+            "sample_sd": 0.04674351578798471,
+            "se": 0.02090433576185369,
+            "n_training_seeds": 5
+          },
+          "ce": {
+            "mean": 3.9317198642558058,
+            "sample_sd": 1.753954415350894,
+            "se": 0.7843922604320999,
+            "n_training_seeds": 5
+          },
+          "pair_acc": {
+            "mean": 0.5320816326530612,
+            "sample_sd": 0.033996104341095915,
+            "se": 0.015203520055373232,
+            "n_training_seeds": 5
+          }
+        },
+        "P25": {
+          "acc": {
+            "mean": 0.562530612244898,
+            "sample_sd": 0.05225557926526305,
+            "se": 0.023369405488151338,
+            "n_training_seeds": 5
+          },
+          "ce": {
+            "mean": 1.3961789166113856,
+            "sample_sd": 0.23538116924154281,
+            "se": 0.10526565900949446,
+            "n_training_seeds": 5
+          },
+          "pair_acc": {
+            "mean": 0.565061224489796,
+            "sample_sd": 0.053434791736564596,
+            "se": 0.023896765337300493,
+            "n_training_seeds": 5
+          }
+        }
+      },
+      "P25_minus_A": {
+        "acc": {
+          "mean": 0.09428571428571428,
+          "sample_sd": 0.07168757705981123,
+          "se": 0.03205965908959848,
+          "n_training_seeds": 5,
+          "ci95": {
+            "lower": 0.005273830732088466,
+            "upper": 0.18329759783934008,
+            "individual_confidence": 0.95,
+            "df": 4,
+            "critical_t": 2.7764451051977987
+          },
+          "bonferroni_two_datasets_ci97_5": {
+            "lower": -0.01777580829054007,
+            "upper": 0.20634723686196862,
+            "individual_confidence": 0.975,
+            "df": 4,
+            "critical_t": 3.495405932516977,
+            "family_confidence": 0.95,
+            "family_size": 2,
+            "family_scope": "the two datasets, separately within this metric"
+          }
+        },
+        "ce": {
+          "mean": -2.5355409476444204,
+          "sample_sd": 1.689874335561377,
+          "se": 0.7557347775495058,
+          "n_training_seeds": 5,
+          "ci95": {
+            "lower": -4.633797071599493,
+            "upper": -0.43728482368934785,
+            "individual_confidence": 0.95,
+            "df": 4,
+            "critical_t": 2.7764451051977987
+          },
+          "bonferroni_two_datasets_ci97_5": {
+            "lower": -5.17714077250036,
+            "upper": 0.10605887721151985,
+            "individual_confidence": 0.975,
+            "df": 4,
+            "critical_t": 3.495405932516977,
+            "family_confidence": 0.95,
+            "family_size": 2,
+            "family_scope": "the two datasets, separately within this metric"
+          }
+        },
+        "pair_acc": {
+          "mean": 0.03297959183673473,
+          "sample_sd": 0.02234372355958804,
+          "se": 0.009992416949940484,
+          "n_training_seeds": 5,
+          "ci95": {
+            "lower": 0.005236194706976956,
+            "upper": 0.06072298896649251,
+            "individual_confidence": 0.95,
+            "df": 4,
+            "critical_t": 2.7764451051977987
+          },
+          "bonferroni_two_datasets_ci97_5": {
+            "lower": -0.0019479616502704328,
+            "upper": 0.0679071453237399,
+            "individual_confidence": 0.975,
+            "df": 4,
+            "critical_t": 3.495405932516977,
+            "family_confidence": 0.95,
+            "family_size": 2,
+            "family_scope": "the two datasets, separately within this metric"
+          }
+        }
+      },
+      "per_seed": [
+        {
+          "seed": "s18",
+          "seed_identity": {
+            "init": 18,
+            "train": 15
+          },
+          "stage": 10000000,
+          "checkpoint_sha256": {
+            "A": "15bd62fee78388da39803f1c771086ef04dd600d7b9fece30a065910264fc1e2",
+            "P25": "a8eccea9f6a372a3725907b64083d4d0e4eec56eb58e51ff78a25a3b171afd9e"
+          },
+          "models": {
+            "A": {
+              "acc": 0.4840816326530612,
+              "ce": 6.840585108536998,
+              "pair_acc": 0.5175510204081633
+            },
+            "P25": {
+              "acc": 0.5575510204081633,
+              "ce": 1.5377363461088769,
+              "pair_acc": 0.5591836734693878
+            }
+          },
+          "P25_minus_A": {
+            "acc": 0.07346938775510209,
+            "ce": -5.3028487624281215,
+            "pair_acc": 0.041632653061224545
+          },
+          "n_queries": 2450,
+          "features_sha256": "5721c0076bc80d8aa9fab29e9bfa7055d60cc7b05d56b17087e07118de60b826",
+          "episodes_sha256": "c9685b8d15b4215ad44ffd46246beeda8e3af13d6c2ad281f73ea13e135f43b1",
+          "encoder_weights_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+          "evidence": {
+            "settings.json": {
+              "path": "experiments/exp_043_kuzushiji49_generalization/s18/settings.json",
+              "sha256": "c2db9a9814700530cdfeac8c7b0252fc9e397b19029c81c168c665821a96bebb"
+            },
+            "outputs/analysis.json": {
+              "path": "experiments/exp_043_kuzushiji49_generalization/s18/outputs/analysis.json",
+              "sha256": "b0cfc7ec97bfd9ee9d6aec77bb863881fd9d9f9c0dcf0fb061fc6ecae40dd520"
+            },
+            "outputs/verification.json": {
+              "path": "experiments/exp_043_kuzushiji49_generalization/s18/outputs/verification.json",
+              "sha256": "941ca005424f350472c89bcd6305a37b32bac776e9190c175eb79da039349e11"
+            },
+            "outputs/runtime_complete.json": {
+              "path": "experiments/exp_043_kuzushiji49_generalization/s18/outputs/runtime_complete.json",
+              "sha256": "c5fcb6da52da45994d007aa8c83b2ec0223a1f3bf6dbc89bafcc500ca6e32f56"
+            },
+            "outputs/data_manifest.json": {
+              "path": "experiments/exp_043_kuzushiji49_generalization/s18/outputs/data_manifest.json",
+              "sha256": "ff1256a843116979011fac7994be86fe8c250db689079f0ea44ce647c0187283"
+            },
+            "outputs/encoding_receipt.json": {
+              "path": "experiments/exp_043_kuzushiji49_generalization/s18/outputs/encoding_receipt.json",
+              "sha256": "009f6431b68d84b3869da532f4330043d1d6c6d81f3eca87415511558c13b82b"
+            },
+            "outputs/A_evaluation_receipt.json": {
+              "path": "experiments/exp_043_kuzushiji49_generalization/s18/outputs/A_evaluation_receipt.json",
+              "sha256": "1de34e06790eac558852b41ab9c27114320fac97eb2fce8fa750dfa49508dc8b"
+            },
+            "outputs/P25_evaluation_receipt.json": {
+              "path": "experiments/exp_043_kuzushiji49_generalization/s18/outputs/P25_evaluation_receipt.json",
+              "sha256": "2e8f5d8cc47773b5e982c56c5771824e4419e23ca57454156382910eb52beb7a"
+            }
+          }
+        },
+        {
+          "seed": "s19",
+          "seed_identity": {
+            "init": 19,
+            "train": 16
+          },
+          "stage": 10000000,
+          "checkpoint_sha256": {
+            "A": "7399d650d47082223b4be6aca52635d32ed6d489f9f881017023474eaeea2bb0",
+            "P25": "a923db73a9baa33b9e2535ec2a5e45cb0986db247ee1a6e1c6026c19f84228be"
+          },
+          "models": {
+            "A": {
+              "acc": 0.4326530612244899,
+              "ce": 3.8391936554828168,
+              "pair_acc": 0.5759183673469388
+            },
+            "P25": {
+              "acc": 0.6314285714285715,
+              "ce": 1.6646879782482071,
+              "pair_acc": 0.6334693877551021
+            }
+          },
+          "P25_minus_A": {
+            "acc": 0.19877551020408157,
+            "ce": -2.1745056772346096,
+            "pair_acc": 0.05755102040816329
+          },
+          "n_queries": 2450,
+          "features_sha256": "5721c0076bc80d8aa9fab29e9bfa7055d60cc7b05d56b17087e07118de60b826",
+          "episodes_sha256": "c9685b8d15b4215ad44ffd46246beeda8e3af13d6c2ad281f73ea13e135f43b1",
+          "encoder_weights_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+          "evidence": {
+            "settings.json": {
+              "path": "experiments/exp_043_kuzushiji49_generalization/s19/settings.json",
+              "sha256": "45b945f6c5a06421ed85b682d202a611988b771e8b35b5b93e4a9b2122e74cee"
+            },
+            "outputs/analysis.json": {
+              "path": "experiments/exp_043_kuzushiji49_generalization/s19/outputs/analysis.json",
+              "sha256": "f925f9ed2fa17086b0ac195674544d0a9aa23efdac8599291a92effd66df51da"
+            },
+            "outputs/verification.json": {
+              "path": "experiments/exp_043_kuzushiji49_generalization/s19/outputs/verification.json",
+              "sha256": "5a766a127233c99650d4be7abc0f12c7ba262d0c204ec2ca36d3eac60df7c90f"
+            },
+            "outputs/runtime_complete.json": {
+              "path": "experiments/exp_043_kuzushiji49_generalization/s19/outputs/runtime_complete.json",
+              "sha256": "827a6153269a291740105b87ec3d324f9a2f8cbf91d188445404ddf3d7d8d44f"
+            },
+            "outputs/data_manifest.json": {
+              "path": "experiments/exp_043_kuzushiji49_generalization/s18/outputs/data_manifest.json",
+              "sha256": "ff1256a843116979011fac7994be86fe8c250db689079f0ea44ce647c0187283"
+            },
+            "outputs/encoding_receipt.json": {
+              "path": "experiments/exp_043_kuzushiji49_generalization/s18/outputs/encoding_receipt.json",
+              "sha256": "009f6431b68d84b3869da532f4330043d1d6c6d81f3eca87415511558c13b82b"
+            },
+            "outputs/A_evaluation_receipt.json": {
+              "path": "experiments/exp_043_kuzushiji49_generalization/s19/outputs/A_evaluation_receipt.json",
+              "sha256": "c1dbdcee115dda96de7ab24f56755079fa43fc8355194931bc6bf5ffb205e257"
+            },
+            "outputs/P25_evaluation_receipt.json": {
+              "path": "experiments/exp_043_kuzushiji49_generalization/s19/outputs/P25_evaluation_receipt.json",
+              "sha256": "34a1ada6499a1e09e4167cd84469519b1bd58500ae384925e9b09cd320e01977"
+            }
+          }
+        },
+        {
+          "seed": "s20",
+          "seed_identity": {
+            "init": 20,
+            "train": 17
+          },
+          "stage": 10000000,
+          "checkpoint_sha256": {
+            "A": "c5b8c7deaff2d6c9658f0d095876cb26ddce5a0ea435c4bf9b59d6622d0bd8b9",
+            "P25": "e28e581576a999ac9afc102c387a18d90cc3356b99c5b37cbd981f72f8a00728"
+          },
+          "models": {
+            "A": {
+              "acc": 0.4906122448979592,
+              "ce": 2.159893985021175,
+              "pair_acc": 0.4995918367346939
+            },
+            "P25": {
+              "acc": 0.4971428571428571,
+              "ce": 1.3604717319511943,
+              "pair_acc": 0.4971428571428571
+            }
+          },
+          "P25_minus_A": {
+            "acc": 0.0065306122448979265,
+            "ce": -0.7994222530699808,
+            "pair_acc": -0.002448979591836764
+          },
+          "n_queries": 2450,
+          "features_sha256": "5721c0076bc80d8aa9fab29e9bfa7055d60cc7b05d56b17087e07118de60b826",
+          "episodes_sha256": "c9685b8d15b4215ad44ffd46246beeda8e3af13d6c2ad281f73ea13e135f43b1",
+          "encoder_weights_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+          "evidence": {
+            "settings.json": {
+              "path": "experiments/exp_043_kuzushiji49_generalization/s20/settings.json",
+              "sha256": "8b0f801e1a090aa5cb219a25b845eedbcacfd2c91e26eb1e0f5fe34d1639bb99"
+            },
+            "outputs/analysis.json": {
+              "path": "experiments/exp_043_kuzushiji49_generalization/s20/outputs/analysis.json",
+              "sha256": "eb0994e9d7c708c777741a7a56c6ab105931b2678ee1c2d5f3740cfc5ac42636"
+            },
+            "outputs/verification.json": {
+              "path": "experiments/exp_043_kuzushiji49_generalization/s20/outputs/verification.json",
+              "sha256": "027b8984d771a9d3cfe8dd88d5d627dc3456e1a703354836ef266a75581017dc"
+            },
+            "outputs/runtime_complete.json": {
+              "path": "experiments/exp_043_kuzushiji49_generalization/s20/outputs/runtime_complete.json",
+              "sha256": "e30130e38e3b053bf9bf5684c30a5660b2d7ce149050f7f99544d057186abb3b"
+            },
+            "outputs/data_manifest.json": {
+              "path": "experiments/exp_043_kuzushiji49_generalization/s18/outputs/data_manifest.json",
+              "sha256": "ff1256a843116979011fac7994be86fe8c250db689079f0ea44ce647c0187283"
+            },
+            "outputs/encoding_receipt.json": {
+              "path": "experiments/exp_043_kuzushiji49_generalization/s18/outputs/encoding_receipt.json",
+              "sha256": "009f6431b68d84b3869da532f4330043d1d6c6d81f3eca87415511558c13b82b"
+            },
+            "outputs/A_evaluation_receipt.json": {
+              "path": "experiments/exp_043_kuzushiji49_generalization/s20/outputs/A_evaluation_receipt.json",
+              "sha256": "c26439136f3505c8c51a79c28e1cbe5b2bb0be82c7f94a1cd2e8a798d81bc398"
+            },
+            "outputs/P25_evaluation_receipt.json": {
+              "path": "experiments/exp_043_kuzushiji49_generalization/s20/outputs/P25_evaluation_receipt.json",
+              "sha256": "4d7c05b08ebd42090b05727dabace5395e4471834cb5f79b0ed7f0fbf2d12db2"
+            }
+          }
+        },
+        {
+          "seed": "s21",
+          "seed_identity": {
+            "init": 21,
+            "train": 18
+          },
+          "stage": 10000000,
+          "checkpoint_sha256": {
+            "A": "a57674449714e8fcc06931cdf84228dd2612ccd9d7da64dc52090a7ff311ae5d",
+            "P25": "61bf66dab78a102ca77f6cf6465624ddad7a6d55b2a4a757e3341cf1d42450e3"
+          },
+          "models": {
+            "A": {
+              "acc": 0.40897959183673466,
+              "ce": 3.6837764672448445,
+              "pair_acc": 0.506938775510204
+            },
+            "P25": {
+              "acc": 0.5326530612244899,
+              "ce": 1.0385086344547416,
+              "pair_acc": 0.5355102040816327
+            }
+          },
+          "P25_minus_A": {
+            "acc": 0.1236734693877552,
+            "ce": -2.645267832790103,
+            "pair_acc": 0.028571428571428692
+          },
+          "n_queries": 2450,
+          "features_sha256": "5721c0076bc80d8aa9fab29e9bfa7055d60cc7b05d56b17087e07118de60b826",
+          "episodes_sha256": "c9685b8d15b4215ad44ffd46246beeda8e3af13d6c2ad281f73ea13e135f43b1",
+          "encoder_weights_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+          "evidence": {
+            "settings.json": {
+              "path": "experiments/exp_043_kuzushiji49_generalization/s21/settings.json",
+              "sha256": "073e2e0707ef43ac95f2163c4398cd389de7f7e4d39dca855754e011f732cb35"
+            },
+            "outputs/analysis.json": {
+              "path": "experiments/exp_043_kuzushiji49_generalization/s21/outputs/analysis.json",
+              "sha256": "8659bca519ae031a6219c9fe2cd21c61ece4c400669e774e38e43b7326fa9ed6"
+            },
+            "outputs/verification.json": {
+              "path": "experiments/exp_043_kuzushiji49_generalization/s21/outputs/verification.json",
+              "sha256": "df502a6d7d744e37d2f0d629ce0bf21c373f230d5417e4bfe9afbe882ef72e63"
+            },
+            "outputs/runtime_complete.json": {
+              "path": "experiments/exp_043_kuzushiji49_generalization/s21/outputs/runtime_complete.json",
+              "sha256": "5c14b533b005bbef97a37fd330a5e15ead824045262673c2e1db8cae1104c6a0"
+            },
+            "outputs/data_manifest.json": {
+              "path": "experiments/exp_043_kuzushiji49_generalization/s18/outputs/data_manifest.json",
+              "sha256": "ff1256a843116979011fac7994be86fe8c250db689079f0ea44ce647c0187283"
+            },
+            "outputs/encoding_receipt.json": {
+              "path": "experiments/exp_043_kuzushiji49_generalization/s18/outputs/encoding_receipt.json",
+              "sha256": "009f6431b68d84b3869da532f4330043d1d6c6d81f3eca87415511558c13b82b"
+            },
+            "outputs/A_evaluation_receipt.json": {
+              "path": "experiments/exp_043_kuzushiji49_generalization/s21/outputs/A_evaluation_receipt.json",
+              "sha256": "441eadb95d2429b5ac94acc6e473628976a2aee710e37d6c57fb4dba3d043c4f"
+            },
+            "outputs/P25_evaluation_receipt.json": {
+              "path": "experiments/exp_043_kuzushiji49_generalization/s21/outputs/P25_evaluation_receipt.json",
+              "sha256": "c558c40e694e6ae6728fcf00e094f841d300af9c95cbc9923f858e46593c6928"
+            }
+          }
+        },
+        {
+          "seed": "s22",
+          "seed_identity": {
+            "init": 22,
+            "train": 19
+          },
+          "stage": 10000000,
+          "checkpoint_sha256": {
+            "A": "04e1c392cdb605fb283b736b01a12566ec25aa169b64b4178d0adf2d673f1e98",
+            "P25": "dee7843cff34c0fc6e8f2fa39f1f1b43014f0c3657d20a87801f697fbc01f05c"
+          },
+          "models": {
+            "A": {
+              "acc": 0.5248979591836735,
+              "ce": 3.1351501049931945,
+              "pair_acc": 0.5604081632653062
+            },
+            "P25": {
+              "acc": 0.5938775510204082,
+              "ce": 1.379489892293908,
+              "pair_acc": 0.6000000000000001
+            }
+          },
+          "P25_minus_A": {
+            "acc": 0.06897959183673463,
+            "ce": -1.7556602126992864,
+            "pair_acc": 0.03959183673469391
+          },
+          "n_queries": 2450,
+          "features_sha256": "5721c0076bc80d8aa9fab29e9bfa7055d60cc7b05d56b17087e07118de60b826",
+          "episodes_sha256": "c9685b8d15b4215ad44ffd46246beeda8e3af13d6c2ad281f73ea13e135f43b1",
+          "encoder_weights_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+          "evidence": {
+            "settings.json": {
+              "path": "experiments/exp_043_kuzushiji49_generalization/s22/settings.json",
+              "sha256": "2a3b3f212a05e141a05c85515ac758e08051383d5954253a7d3bcc37d01f6a9b"
+            },
+            "outputs/analysis.json": {
+              "path": "experiments/exp_043_kuzushiji49_generalization/s22/outputs/analysis.json",
+              "sha256": "bdfd2a1c5f571e355e7174098c5b55d97a785e23f4f0704321b9312af7e53e13"
+            },
+            "outputs/verification.json": {
+              "path": "experiments/exp_043_kuzushiji49_generalization/s22/outputs/verification.json",
+              "sha256": "cc67ed4be2299a72c67323dde5d3aa954c4c86a77a2f086251910277d3747c35"
+            },
+            "outputs/runtime_complete.json": {
+              "path": "experiments/exp_043_kuzushiji49_generalization/s22/outputs/runtime_complete.json",
+              "sha256": "7fde5606bef016c49b033634c1e9cb80deebca0f0492808d1952a9654bc9d776"
+            },
+            "outputs/data_manifest.json": {
+              "path": "experiments/exp_043_kuzushiji49_generalization/s18/outputs/data_manifest.json",
+              "sha256": "ff1256a843116979011fac7994be86fe8c250db689079f0ea44ce647c0187283"
+            },
+            "outputs/encoding_receipt.json": {
+              "path": "experiments/exp_043_kuzushiji49_generalization/s18/outputs/encoding_receipt.json",
+              "sha256": "009f6431b68d84b3869da532f4330043d1d6c6d81f3eca87415511558c13b82b"
+            },
+            "outputs/A_evaluation_receipt.json": {
+              "path": "experiments/exp_043_kuzushiji49_generalization/s22/outputs/A_evaluation_receipt.json",
+              "sha256": "1cf797a3806df5caf6f6ec60ae190e8d6f73697f8e42664eeff45e8c7f024c9d"
+            },
+            "outputs/P25_evaluation_receipt.json": {
+              "path": "experiments/exp_043_kuzushiji49_generalization/s22/outputs/P25_evaluation_receipt.json",
+              "sha256": "0da7758a3b1ec6cb061d0ae06df8020bdf4bf157b2ae724b815968aab48585b3"
+            }
+          }
+        }
+      ]
+    },
+    "cifar100": {
+      "dataset_name": "CIFAR-100",
+      "n_training_seeds": 5,
+      "seed_ids": [
+        "s18",
+        "s19",
+        "s20",
+        "s21",
+        "s22"
+      ],
+      "n_queries_per_seed": 2400,
+      "features_sha256": "2bd873b136e432742b8b10582db753179df82effd9cc56722092cad15ae56c0b",
+      "episodes_sha256": "88781837c5b954da890d3cee854591540773a16e2028004e5a68d404f9e7ea06",
+      "encoder_weights_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+      "models": {
+        "A": {
+          "acc": {
+            "mean": 0.26891666666666664,
+            "sample_sd": 0.11048527742544603,
+            "se": 0.04941051816724405,
+            "n_training_seeds": 5
+          },
+          "ce": {
+            "mean": 5.088989762614171,
+            "sample_sd": 1.685362746392036,
+            "se": 0.7537171335356662,
+            "n_training_seeds": 5
+          },
+          "pair_acc": {
+            "mean": 0.5140833333333333,
+            "sample_sd": 0.020832083295831107,
+            "se": 0.009316390872483243,
+            "n_training_seeds": 5
+          }
+        },
+        "P25": {
+          "acc": {
+            "mean": 0.33816666666666667,
+            "sample_sd": 0.15490913555300015,
+            "se": 0.06927747148644756,
+            "n_training_seeds": 5
+          },
+          "ce": {
+            "mean": 3.349832057799911,
+            "sample_sd": 1.146342421550968,
+            "se": 0.5126599160159369,
+            "n_training_seeds": 5
+          },
+          "pair_acc": {
+            "mean": 0.5258333333333333,
+            "sample_sd": 0.024293846385910648,
+            "se": 0.01086453839076676,
+            "n_training_seeds": 5
+          }
+        }
+      },
+      "P25_minus_A": {
+        "acc": {
+          "mean": 0.06925000000000002,
+          "sample_sd": 0.06210947436225459,
+          "se": 0.027776201344156332,
+          "n_training_seeds": 5,
+          "ci95": {
+            "lower": -0.007869098262971344,
+            "upper": 0.1463690982629714,
+            "individual_confidence": 0.95,
+            "df": 4,
+            "critical_t": 2.7764451051977987
+          },
+          "bonferroni_two_datasets_ci97_5": {
+            "lower": -0.027839098961150055,
+            "upper": 0.1663390989611501,
+            "individual_confidence": 0.975,
+            "df": 4,
+            "critical_t": 3.495405932516977,
+            "family_confidence": 0.95,
+            "family_size": 2,
+            "family_scope": "the two datasets, separately within this metric"
+          }
+        },
+        "ce": {
+          "mean": -1.73915770481426,
+          "sample_sd": 0.8328400825858392,
+          "se": 0.37245740780969505,
+          "n_training_seeds": 5,
+          "ci95": {
+            "lower": -2.7732652516221483,
+            "upper": -0.7050501580063717,
+            "individual_confidence": 0.95,
+            "df": 4,
+            "critical_t": 2.7764451051977987
+          },
+          "bonferroni_two_datasets_ci97_5": {
+            "lower": -3.041047537682163,
+            "upper": -0.43726787194635675,
+            "individual_confidence": 0.975,
+            "df": 4,
+            "critical_t": 3.495405932516977,
+            "family_confidence": 0.95,
+            "family_size": 2,
+            "family_scope": "the two datasets, separately within this metric"
+          }
+        },
+        "pair_acc": {
+          "mean": 0.01174999999999996,
+          "sample_sd": 0.01316758963009814,
+          "se": 0.00588872510254415,
+          "n_training_seeds": 5,
+          "ci95": {
+            "lower": -0.0045997219868141506,
+            "upper": 0.02809972198681407,
+            "individual_confidence": 0.95,
+            "df": 4,
+            "critical_t": 2.7764451051977987
+          },
+          "bonferroni_two_datasets_ci97_5": {
+            "lower": -0.008833484658394506,
+            "upper": 0.032333484658394425,
+            "individual_confidence": 0.975,
+            "df": 4,
+            "critical_t": 3.495405932516977,
+            "family_confidence": 0.95,
+            "family_size": 2,
+            "family_scope": "the two datasets, separately within this metric"
+          }
+        }
+      },
+      "per_seed": [
+        {
+          "seed": "s18",
+          "seed_identity": {
+            "init": 18,
+            "train": 15
+          },
+          "stage": 10000000,
+          "checkpoint_sha256": {
+            "A": "15bd62fee78388da39803f1c771086ef04dd600d7b9fece30a065910264fc1e2",
+            "P25": "a8eccea9f6a372a3725907b64083d4d0e4eec56eb58e51ff78a25a3b171afd9e"
+          },
+          "models": {
+            "A": {
+              "acc": 0.3045833333333333,
+              "ce": 6.6815791280730625,
+              "pair_acc": 0.5029166666666667
+            },
+            "P25": {
+              "acc": 0.30124999999999996,
+              "ce": 3.6368137336398156,
+              "pair_acc": 0.5295833333333334
+            }
+          },
+          "P25_minus_A": {
+            "acc": -0.003333333333333355,
+            "ce": -3.044765394433247,
+            "pair_acc": 0.026666666666666727
+          },
+          "n_queries": 2400,
+          "features_sha256": "2bd873b136e432742b8b10582db753179df82effd9cc56722092cad15ae56c0b",
+          "episodes_sha256": "88781837c5b954da890d3cee854591540773a16e2028004e5a68d404f9e7ea06",
+          "encoder_weights_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+          "evidence": {
+            "settings.json": {
+              "path": "experiments/exp_044_cifar100_generalization/s18/settings.json",
+              "sha256": "c71d18ab7e98832989187e51266484e292e50230c4c9e49f02c5afcb08019e8c"
+            },
+            "outputs/analysis.json": {
+              "path": "experiments/exp_044_cifar100_generalization/s18/outputs/analysis.json",
+              "sha256": "da9a4f19d89fc9a783ea250e6c1eb9320c5dfdd679c7b1b9e781ab1e214adb8e"
+            },
+            "outputs/verification.json": {
+              "path": "experiments/exp_044_cifar100_generalization/s18/outputs/verification.json",
+              "sha256": "ddd607814379765e724b195a7a47241e6aac4f9fcf33740111b57af5f2682166"
+            },
+            "outputs/runtime_complete.json": {
+              "path": "experiments/exp_044_cifar100_generalization/s18/outputs/runtime_complete.json",
+              "sha256": "5537f202dd9e4bdfdab95433596eb879df5ca3a8f0705a636025cb4e934c90db"
+            },
+            "outputs/data_manifest.json": {
+              "path": "experiments/exp_044_cifar100_generalization/s18/outputs/data_manifest.json",
+              "sha256": "029cb3f78e064477c4ce70d1a8520e3dbae16c805684dbc04a480bf93cec3539"
+            },
+            "outputs/encoding_receipt.json": {
+              "path": "experiments/exp_044_cifar100_generalization/s18/outputs/encoding_receipt.json",
+              "sha256": "94364b63e2f0340e9282bf47b812dd2a9b6786b70ff5af02bdb0f91da0165f94"
+            },
+            "outputs/A_evaluation_receipt.json": {
+              "path": "experiments/exp_044_cifar100_generalization/s18/outputs/A_evaluation_receipt.json",
+              "sha256": "80a45c01e960adde5130133ff0f32acd8680785b2d17c3edfb8de439a17a4637"
+            },
+            "outputs/P25_evaluation_receipt.json": {
+              "path": "experiments/exp_044_cifar100_generalization/s18/outputs/P25_evaluation_receipt.json",
+              "sha256": "e138b630614c8fa6c0eeb809ff5793732ab9bc201df5bed9d172876fdaf0225c"
+            }
+          }
+        },
+        {
+          "seed": "s19",
+          "seed_identity": {
+            "init": 19,
+            "train": 16
+          },
+          "stage": 10000000,
+          "checkpoint_sha256": {
+            "A": "7399d650d47082223b4be6aca52635d32ed6d489f9f881017023474eaeea2bb0",
+            "P25": "a923db73a9baa33b9e2535ec2a5e45cb0986db247ee1a6e1c6026c19f84228be"
+          },
+          "models": {
+            "A": {
+              "acc": 0.34874999999999995,
+              "ce": 3.845899241145234,
+              "pair_acc": 0.5483333333333333
+            },
+            "P25": {
+              "acc": 0.48958333333333337,
+              "ce": 2.6381658346147736,
+              "pair_acc": 0.5533333333333332
+            }
+          },
+          "P25_minus_A": {
+            "acc": 0.14083333333333342,
+            "ce": -1.2077334065304606,
+            "pair_acc": 0.004999999999999893
+          },
+          "n_queries": 2400,
+          "features_sha256": "2bd873b136e432742b8b10582db753179df82effd9cc56722092cad15ae56c0b",
+          "episodes_sha256": "88781837c5b954da890d3cee854591540773a16e2028004e5a68d404f9e7ea06",
+          "encoder_weights_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+          "evidence": {
+            "settings.json": {
+              "path": "experiments/exp_044_cifar100_generalization/s19/settings.json",
+              "sha256": "03b0cf2946a1b6dfc7ac0dd647b4f944a9a22dfb3d1e671faed60cd2d8dfc252"
+            },
+            "outputs/analysis.json": {
+              "path": "experiments/exp_044_cifar100_generalization/s19/outputs/analysis.json",
+              "sha256": "7b6468c3b9c4da9c2e344e6723bba862a480877eba76a40aa039ed0ec137e13f"
+            },
+            "outputs/verification.json": {
+              "path": "experiments/exp_044_cifar100_generalization/s19/outputs/verification.json",
+              "sha256": "31fde4c5c61b81a4deef5ae5eb7d9ed2cd7df45c276161fc9f9036965bb91715"
+            },
+            "outputs/runtime_complete.json": {
+              "path": "experiments/exp_044_cifar100_generalization/s19/outputs/runtime_complete.json",
+              "sha256": "b0b42286e735e7dd8f6d9cf41c07d4d7d3a01295eab853a2ee1da7577fb1e468"
+            },
+            "outputs/data_manifest.json": {
+              "path": "experiments/exp_044_cifar100_generalization/s18/outputs/data_manifest.json",
+              "sha256": "029cb3f78e064477c4ce70d1a8520e3dbae16c805684dbc04a480bf93cec3539"
+            },
+            "outputs/encoding_receipt.json": {
+              "path": "experiments/exp_044_cifar100_generalization/s18/outputs/encoding_receipt.json",
+              "sha256": "94364b63e2f0340e9282bf47b812dd2a9b6786b70ff5af02bdb0f91da0165f94"
+            },
+            "outputs/A_evaluation_receipt.json": {
+              "path": "experiments/exp_044_cifar100_generalization/s19/outputs/A_evaluation_receipt.json",
+              "sha256": "cc8d4a7331efbc9e22f60edf6aa923fd257002743e6408cdd0f1331cf9a4274c"
+            },
+            "outputs/P25_evaluation_receipt.json": {
+              "path": "experiments/exp_044_cifar100_generalization/s19/outputs/P25_evaluation_receipt.json",
+              "sha256": "ce99350810efb111d3cfbb13042e7f73ebfe3eca056194936cce96fdf85e244e"
+            }
+          }
+        },
+        {
+          "seed": "s20",
+          "seed_identity": {
+            "init": 20,
+            "train": 17
+          },
+          "stage": 10000000,
+          "checkpoint_sha256": {
+            "A": "c5b8c7deaff2d6c9658f0d095876cb26ddce5a0ea435c4bf9b59d6622d0bd8b9",
+            "P25": "e28e581576a999ac9afc102c387a18d90cc3356b99c5b37cbd981f72f8a00728"
+          },
+          "models": {
+            "A": {
+              "acc": 0.34083333333333327,
+              "ce": 2.7831166090567905,
+              "pair_acc": 0.4962499999999999
+            },
+            "P25": {
+              "acc": 0.46291666666666664,
+              "ce": 1.82120517980773,
+              "pair_acc": 0.49749999999999994
+            }
+          },
+          "P25_minus_A": {
+            "acc": 0.12208333333333338,
+            "ce": -0.9619114292490605,
+            "pair_acc": 0.0012500000000000289
+          },
+          "n_queries": 2400,
+          "features_sha256": "2bd873b136e432742b8b10582db753179df82effd9cc56722092cad15ae56c0b",
+          "episodes_sha256": "88781837c5b954da890d3cee854591540773a16e2028004e5a68d404f9e7ea06",
+          "encoder_weights_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+          "evidence": {
+            "settings.json": {
+              "path": "experiments/exp_044_cifar100_generalization/s20/settings.json",
+              "sha256": "eb01d2e440a0804ed43d898cd58ced080f9687cdcec3509923bfc879fbbf1b11"
+            },
+            "outputs/analysis.json": {
+              "path": "experiments/exp_044_cifar100_generalization/s20/outputs/analysis.json",
+              "sha256": "8cbc2c4fe99b1f7afb144d4eac51a83829b5f792599e5c85c4ced7dc037ba86a"
+            },
+            "outputs/verification.json": {
+              "path": "experiments/exp_044_cifar100_generalization/s20/outputs/verification.json",
+              "sha256": "ca6feb632164867ec5d3e826a732615340b04f452a47bd98e4a2086a6c0adce5"
+            },
+            "outputs/runtime_complete.json": {
+              "path": "experiments/exp_044_cifar100_generalization/s20/outputs/runtime_complete.json",
+              "sha256": "23e0531eb8eb1efd23e6919ef24c5e7670fff8fabbe5a591867ce92eac847a87"
+            },
+            "outputs/data_manifest.json": {
+              "path": "experiments/exp_044_cifar100_generalization/s18/outputs/data_manifest.json",
+              "sha256": "029cb3f78e064477c4ce70d1a8520e3dbae16c805684dbc04a480bf93cec3539"
+            },
+            "outputs/encoding_receipt.json": {
+              "path": "experiments/exp_044_cifar100_generalization/s18/outputs/encoding_receipt.json",
+              "sha256": "94364b63e2f0340e9282bf47b812dd2a9b6786b70ff5af02bdb0f91da0165f94"
+            },
+            "outputs/A_evaluation_receipt.json": {
+              "path": "experiments/exp_044_cifar100_generalization/s20/outputs/A_evaluation_receipt.json",
+              "sha256": "497b4572ea5a3498193fc373bda347457648fe905d74a7e099404e6cedfbcd1c"
+            },
+            "outputs/P25_evaluation_receipt.json": {
+              "path": "experiments/exp_044_cifar100_generalization/s20/outputs/P25_evaluation_receipt.json",
+              "sha256": "d1a89f10f1a55ba5e442d3e0fbf9c16a58267b58efc3651e6703ff65fca37490"
+            }
+          }
+        },
+        {
+          "seed": "s21",
+          "seed_identity": {
+            "init": 21,
+            "train": 18
+          },
+          "stage": 10000000,
+          "checkpoint_sha256": {
+            "A": "a57674449714e8fcc06931cdf84228dd2612ccd9d7da64dc52090a7ff311ae5d",
+            "P25": "61bf66dab78a102ca77f6cf6465624ddad7a6d55b2a4a757e3341cf1d42450e3"
+          },
+          "models": {
+            "A": {
+              "acc": 0.07916666666666666,
+              "ce": 6.224377738485734,
+              "pair_acc": 0.5041666666666667
+            },
+            "P25": {
+              "acc": 0.10125,
+              "ce": 4.78646798743556,
+              "pair_acc": 0.5045833333333332
+            }
+          },
+          "P25_minus_A": {
+            "acc": 0.022083333333333344,
+            "ce": -1.4379097510501744,
+            "pair_acc": 0.00041666666666650976
+          },
+          "n_queries": 2400,
+          "features_sha256": "2bd873b136e432742b8b10582db753179df82effd9cc56722092cad15ae56c0b",
+          "episodes_sha256": "88781837c5b954da890d3cee854591540773a16e2028004e5a68d404f9e7ea06",
+          "encoder_weights_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+          "evidence": {
+            "settings.json": {
+              "path": "experiments/exp_044_cifar100_generalization/s21/settings.json",
+              "sha256": "730f3541b5a07f742435be3e85619efec5ac1c3a306e56aa352e5fcc0e0db942"
+            },
+            "outputs/analysis.json": {
+              "path": "experiments/exp_044_cifar100_generalization/s21/outputs/analysis.json",
+              "sha256": "d5a7b75a7ceefe469fa542ba39c71ec31e1180f38a4583736387f75b38df09ef"
+            },
+            "outputs/verification.json": {
+              "path": "experiments/exp_044_cifar100_generalization/s21/outputs/verification.json",
+              "sha256": "e9abfb047071308e9aa5e43cb66024211de2819c1ae51a6257f1f510da23aca8"
+            },
+            "outputs/runtime_complete.json": {
+              "path": "experiments/exp_044_cifar100_generalization/s21/outputs/runtime_complete.json",
+              "sha256": "3569a4c182be1dd94dfcb13b39809ee90cce8864a0e421b8c03e6b222520dbac"
+            },
+            "outputs/data_manifest.json": {
+              "path": "experiments/exp_044_cifar100_generalization/s18/outputs/data_manifest.json",
+              "sha256": "029cb3f78e064477c4ce70d1a8520e3dbae16c805684dbc04a480bf93cec3539"
+            },
+            "outputs/encoding_receipt.json": {
+              "path": "experiments/exp_044_cifar100_generalization/s18/outputs/encoding_receipt.json",
+              "sha256": "94364b63e2f0340e9282bf47b812dd2a9b6786b70ff5af02bdb0f91da0165f94"
+            },
+            "outputs/A_evaluation_receipt.json": {
+              "path": "experiments/exp_044_cifar100_generalization/s21/outputs/A_evaluation_receipt.json",
+              "sha256": "20a44c25c34febb9f33e30a43924c13ef55973b574a2349fd27166531a998fed"
+            },
+            "outputs/P25_evaluation_receipt.json": {
+              "path": "experiments/exp_044_cifar100_generalization/s21/outputs/P25_evaluation_receipt.json",
+              "sha256": "779f20e5aedc76c6e8ff92ee6e9fd9fc04d4ab5f4a2a7f9da77f72872a0bf65b"
+            }
+          }
+        },
+        {
+          "seed": "s22",
+          "seed_identity": {
+            "init": 22,
+            "train": 19
+          },
+          "stage": 10000000,
+          "checkpoint_sha256": {
+            "A": "04e1c392cdb605fb283b736b01a12566ec25aa169b64b4178d0adf2d673f1e98",
+            "P25": "dee7843cff34c0fc6e8f2fa39f1f1b43014f0c3657d20a87801f697fbc01f05c"
+          },
+          "models": {
+            "A": {
+              "acc": 0.27125000000000005,
+              "ce": 5.909976096310032,
+              "pair_acc": 0.51875
+            },
+            "P25": {
+              "acc": 0.3358333333333334,
+              "ce": 3.8665075535016755,
+              "pair_acc": 0.5441666666666667
+            }
+          },
+          "P25_minus_A": {
+            "acc": 0.06458333333333333,
+            "ce": -2.0434685428083568,
+            "pair_acc": 0.025416666666666643
+          },
+          "n_queries": 2400,
+          "features_sha256": "2bd873b136e432742b8b10582db753179df82effd9cc56722092cad15ae56c0b",
+          "episodes_sha256": "88781837c5b954da890d3cee854591540773a16e2028004e5a68d404f9e7ea06",
+          "encoder_weights_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+          "evidence": {
+            "settings.json": {
+              "path": "experiments/exp_044_cifar100_generalization/s22/settings.json",
+              "sha256": "f635455f4c912e273df9e573dfe650c1127b52ea5ffdc0e50e903cdff26e1d7e"
+            },
+            "outputs/analysis.json": {
+              "path": "experiments/exp_044_cifar100_generalization/s22/outputs/analysis.json",
+              "sha256": "b48d380811dad53a8c1c03ab78ffc7f4d13ec2f148c80a80edead587a1fda34b"
+            },
+            "outputs/verification.json": {
+              "path": "experiments/exp_044_cifar100_generalization/s22/outputs/verification.json",
+              "sha256": "61fe1108d1a555bd3775106d1d9214728a3f325921c4b35e9c47bbad75f7bda0"
+            },
+            "outputs/runtime_complete.json": {
+              "path": "experiments/exp_044_cifar100_generalization/s22/outputs/runtime_complete.json",
+              "sha256": "76fba726c25f2807e33deae15f47e443204dc9350463108001617dcefcb34d36"
+            },
+            "outputs/data_manifest.json": {
+              "path": "experiments/exp_044_cifar100_generalization/s18/outputs/data_manifest.json",
+              "sha256": "029cb3f78e064477c4ce70d1a8520e3dbae16c805684dbc04a480bf93cec3539"
+            },
+            "outputs/encoding_receipt.json": {
+              "path": "experiments/exp_044_cifar100_generalization/s18/outputs/encoding_receipt.json",
+              "sha256": "94364b63e2f0340e9282bf47b812dd2a9b6786b70ff5af02bdb0f91da0165f94"
+            },
+            "outputs/A_evaluation_receipt.json": {
+              "path": "experiments/exp_044_cifar100_generalization/s22/outputs/A_evaluation_receipt.json",
+              "sha256": "3a5cfd0cc19e3cc8c832f0c51bf2875a4b538f5370ace8c42cc0038330f1adda"
+            },
+            "outputs/P25_evaluation_receipt.json": {
+              "path": "experiments/exp_044_cifar100_generalization/s22/outputs/P25_evaluation_receipt.json",
+              "sha256": "a81a49ec5a1792b559e828e00cdaa2ed62c127628d82448f3e799448903caf42"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "limitations": [
+    "原 ResNet18 编码器和 A/P25 Transformer 全部冻结，没有在这两个目标数据集上更新参数；编码器参数前后身份及 Transformer 检查点身份由逐 seed 完成/核验收据绑定。",
+    "原编码器使用 ImageNet 预训练权重，未排除与外部图像数据的预训练内容或语义重叠；结果只检验这些冻结 Transformer 在指定新数据来源上的上下文使用能力。",
+    "五条训练轨迹是主统计单位；查询类别、题目和两个数据集均不充当额外训练 seed。固定支持池、查询和上下文的抽样变异未由跨训练seed区间全面覆盖。",
+    "t区间采用五个配对训练seed差值，df=4；小样本正态近似与固定评价集条件需要保留。同时区间仅针对每个指标内的两个数据集，不扩展为全部指标或所有分析的联合覆盖。",
+    "五组模型为 exp042 s18–s22 的10M端点。旧 EMNIST 单轨迹结果使用不同模型，不能并入本次五seed汇总，也不能作为本模型组的第三个配对数据集。",
+    "本脚本复核全部必要收据、指标恒等式和存在于本地的紧凑输入文件；完整原始图像/logits读取和模型文件哈希检查依赖已通过的独立CPU验证收据，本汇总本身不是第二次模型前向或编码器重跑。"
+  ]
+}

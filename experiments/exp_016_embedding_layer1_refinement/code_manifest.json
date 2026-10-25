@@ -1,0 +1,19 @@
+{
+  "analyze_results.py": "0b41e384d759f187ac1bb0ff4d297a9fd1ee401772c831fc96254d9a94f0f646",
+  "author_forward_metrics.py": "4d98d40d8d236a64293c10d55dfefec0352b9029269bafb5b656901bbf84e94e",
+  "collect_results.py": "7316f40fbf857e3e22c5ea6a5ce19f515abd402219852ead7a25223737206afc",
+  "commands.txt": "72b0cbb779e1149331b3871e40772e7e908967cab4ef44bd7400940e25c33e57",
+  "conditions.json": "741b8acfeef95de174d3e87bcd83687ac85c96f82f587f2d0e809f871f415d10",
+  "expected_inputs.json": "9ed43f615220e5233fd74bfd1a593da856a97d197430dbb5efd8bc321108871a",
+  "parent_expected.json": "893d9d589c864224d5f5a4f42a46ff42d118c7c9759572536ba4d3426d5af6a7",
+  "prepare_task.ps1": "2839e951da0cb430d73df1565924b8d943337c70e42b93a1d95c1eeab9ef1df6",
+  "protocol.md": "3e786eb52b706e59c21be143f23da3ef416f5f4532c2e3a357afb2a9ad2d9d1a",
+  "reference_learning_curves.tsv": "6708535d3782265cb877fc7be02c101a16e9dfaf29b108ad9def094d42fc93ba",
+  "register_task.ps1": "36d1709a50c5c39be83146debe88bc2f3c6cb49f5eca40d83ba8891a196d8e54",
+  "review.md": "f96911b55dd87388394579c1b41a7d0bbaa4bc973f7036627874ae12ec639918",
+  "run_eval.py": "917e680aff7ebc803a01a32c87bb45388aa5ba4e7ae61b5f7dfdeef78ca9a794",
+  "run_eval.sh": "59c3f4df228b1b9c8146b20ccf0ee35011ffd1cf246852ba5b21c01b57de9f12",
+  "run_task.ps1": "2b8499301f248782171491ba92098d45743c1610b0b8db0ebd3436ece794f93b",
+  "status.ps1": "812a0e528919dad20cbae6b386f5f5fc933dff7f1b3c94ad2874d50e7d3b5c47",
+  "workspace_head.txt": "529eaef0116e7396bef48aa02a143fb36c293b659627636c7ce05fd244f8ada5"
+}

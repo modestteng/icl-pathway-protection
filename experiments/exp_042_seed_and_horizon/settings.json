@@ -1,0 +1,194 @@
+{
+  "version": "exp042_seed_and_horizon_v1",
+  "start_stage": 4400000,
+  "training_seeds": [
+    {
+      "id": "s18",
+      "init": 18,
+      "train": 15
+    },
+    {
+      "id": "s19",
+      "init": 19,
+      "train": 16
+    },
+    {
+      "id": "s20",
+      "init": 20,
+      "train": 17
+    },
+    {
+      "id": "s21",
+      "init": 21,
+      "train": 18
+    },
+    {
+      "id": "s22",
+      "init": 22,
+      "train": 19
+    }
+  ],
+  "arms": [
+    "A",
+    "P25"
+  ],
+  "primary_relaxation": 0.25,
+  "train_bs": 32,
+  "train_microbs": 32,
+  "protection_bs_per_task": 32,
+  "protection_tasks": [
+    "icl",
+    "flip_icl"
+  ],
+  "fresh_tasks": [
+    "train_eval",
+    "iwl_copy_avail",
+    "icl"
+  ],
+  "eval_bs": 128,
+  "mechanism_bs": 32,
+  "n": 5000,
+  "data_sets": {
+    "mechanism_discovery": {
+      "seed": 20261102,
+      "n": 1000
+    },
+    "mechanism_confirm": {
+      "seed": 20261026,
+      "n": 5000
+    },
+    "protection": {
+      "seed": 20261027,
+      "n": 4096
+    },
+    "monitor": {
+      "seed": 20261028,
+      "n": 5000
+    },
+    "confirm": {
+      "seed": 20261029,
+      "n": 5000
+    }
+  },
+  "random_path_seed": 20261030,
+  "audit_update_seed": 20261031,
+  "forward_seed": 0,
+  "eval_every": 100000,
+  "monitor_every": 500000,
+  "resume_every": 100000,
+  "alpha": 0.05,
+  "min_icl_gain": 0.05,
+  "ni_acc_tolerance": 0.02,
+  "ni_ce_tolerance": 0.1,
+  "incremental_icl_gain": 0.03,
+  "frontier_icl_tolerances": [
+    0.02,
+    0.05,
+    0.1
+  ],
+  "mechanism_donor_ce_min": 0.1,
+  "mechanism_path_ce_min": 0.02,
+  "mechanism_retention_min": 0.5,
+  "mechanism_k_vs_v_min": 0.01,
+  "mechanism_pair_margin_min": 0.05,
+  "mechanism_pair_acc_floor": 0.55,
+  "mechanism_full_acc_floor": 0.1,
+  "numeric_model_adam_max_abs": 0.0001,
+  "numeric_eval_mean_ce_max_abs": 0.001,
+  "numeric_eval_acc_max_rows": 5,
+  "numeric_sham_logit_max_abs": 0.0001,
+  "numeric_projection_relative_violation_max": 2e-06,
+  "statistics_dtype": "float64",
+  "numeric_projection_reference_max_abs": 2e-05,
+  "numeric_projection_reference_max_relative": 2e-05,
+  "numeric_path_qk_max_abs": 1e-05,
+  "numeric_path_future_attention_max": 1e-07,
+  "numeric_path_rowsum_max_abs": 1e-06,
+  "audit_rows": [
+    0,
+    1,
+    127,
+    1024,
+    2499,
+    4095,
+    4998,
+    4999
+  ],
+  "diagnostic_update_offsets": [
+    0,
+    3125,
+    31250,
+    143750,
+    174999,
+    175000,
+    799999,
+    1112499
+  ],
+  "frontier_bootstrap_draws": 1999,
+  "frontier_bootstrap_seed": 20261032,
+  "numeric_functional_grad_relative_tolerance": 0.05,
+  "numeric_functional_grad_absolute_tolerance": 0.005,
+  "numeric_functional_grad_fd_step": 0.001,
+  "primary_d_r_update_ratio_tolerance": 0.05,
+  "primary_d_r_conflict_rate_tolerance": 0.1,
+  "analysis_scope": "five_new_seeds_and_three_preassigned_long_seeds",
+  "active_data_sets": [
+    "mechanism_discovery",
+    "mechanism_confirm",
+    "protection",
+    "monitor",
+    "confirm"
+  ],
+  "protection_mode": "single_path_only_original_exp036_function",
+  "schedule": "serial_single_cuda_context",
+  "automatic_retry": false,
+  "short_end_stage": 10000000,
+  "long_end_stage": 40000000,
+  "long_seeds": [
+    "s18",
+    "s19",
+    "s20"
+  ],
+  "reported_tasks": [
+    "icl",
+    "iwl_copy_avail",
+    "train_eval"
+  ],
+  "primary_budgets": [
+    10000000,
+    40000000
+  ],
+  "descriptive_budgets": [
+    20000000,
+    30000000
+  ],
+  "window_sequences": 1000000,
+  "queue_chunk": 32,
+  "checkpoint_every": 1000000,
+  "mechanism_gate_role": "record_only_all_seeds_run_A_and_P25_after_numerical_acceptance",
+  "execution": {
+    "workers_per_gpu": 1,
+    "min_free_disk_gib": 20,
+    "min_available_memory_mib": 768,
+    "max_worker_rss_mib": 5632,
+    "memory_poll_seconds": 2,
+    "memory_low_consecutive": 2,
+    "host": "Linux x86_64 CUDA12; RTX4090 target",
+    "gpu_memory_fraction": 0.9
+  },
+  "analysis": {
+    "gain_threshold": 0.05,
+    "gain_family": "10M and 40M P25-minus-A standard ICL >5pp; Holm2",
+    "ni_accuracy_margin": 0.02,
+    "ni_ce_margin": 0.1,
+    "persistence_accuracy_margin": 0.02,
+    "unit": "training seed; fixed 11-stage row averages before seed summaries",
+    "training_seed_policy": "all prespecified seeds; no efficacy-based replacement or long-run selection",
+    "missing_policy": "incomplete family cannot support confirmation; no available-case promotion"
+  },
+  "diagnostic_stages": [
+    4400000,
+    10000000,
+    40000000
+  ]
+}

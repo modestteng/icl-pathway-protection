@@ -1,0 +1,118 @@
+{
+  "whole_files": {
+    "mechanism.py": {
+      "from": "experiments/exp_036_multiseed_path_protection/mechanism.py",
+      "sha256": "777fd04b0645c246b3cda4959dd92f022816ebeb1ae1d12fd00ca7f024055530"
+    },
+    "projection.py": {
+      "from": "experiments/exp_036_multiseed_path_protection/projection.py",
+      "sha256": "845ae3ad8d922e546d41589c55eaf3129b509184e04d6a91dd4d10a892c20b38"
+    }
+  },
+  "functions": {
+    "audit_indices": {
+      "from": "experiments/exp_036_multiseed_path_protection/runtime.py",
+      "source_sha256": "7adf30b626c2b700b7f73f250a0a075f2bb9023bab9bdb6f84b56c16ce3e1181"
+    },
+    "eval_batch": {
+      "from": "experiments/exp_036_multiseed_path_protection/runtime.py",
+      "source_sha256": "5169dea464326741ad0e98fae4f27cdc1bfe30d5a406796ca2d1b46c44ec68ee"
+    },
+    "evaluate": {
+      "from": "experiments/exp_036_multiseed_path_protection/runtime.py",
+      "source_sha256": "f2222be6d0f76cbc75df7d177508f76333649f918ff14b3723fb83d8d8ffb1d8"
+    },
+    "functional_objective": {
+      "from": "experiments/exp_036_multiseed_path_protection/runtime.py",
+      "source_sha256": "4357243a21da5c1528581a776945a63a764fd21fce0179fcadc5a9979602ac1d"
+    },
+    "tree_norm": {
+      "from": "experiments/exp_036_multiseed_path_protection/runtime.py",
+      "source_sha256": "7e29a71f76b3a4dbc1aac6cba0a884238837b3a0e8de509d1877c219b5470d7c"
+    },
+    "finite_candidate": {
+      "from": "experiments/exp_036_multiseed_path_protection/runtime.py",
+      "source_sha256": "12ac4d7b0cf7e5e619fc49fba4c94069fe58fe5be420beeacaf545cedb8cd8d0"
+    },
+    "task_objective": {
+      "from": "experiments/exp_036_multiseed_path_protection/runtime.py",
+      "source_sha256": "d2f3322bedbacf97153b21d92ea0bc9b8b56e7bfc07dc5a002b54e7e5520b924"
+    },
+    "adam_update_from_state": {
+      "from": "experiments/exp_036_multiseed_path_protection/runtime.py",
+      "source_sha256": "64d81aa01e9b3afd7164a0774ef78037289bac033d545c0e995ee5424a8b6b69"
+    },
+    "official_optimizer_update": {
+      "from": "experiments/exp_036_multiseed_path_protection/runtime.py",
+      "source_sha256": "d611cff78e90888bd8e10c73332b2d56d8af6d0d4065ede6007c69c4e1e9973e"
+    },
+    "constrain_update": {
+      "from": "experiments/exp_036_multiseed_path_protection/runtime.py",
+      "source_sha256": "8831d4b6560a21c9e9dc3b2917f082340bb09e40b87007687d03325ea417e13b"
+    },
+    "modified_step": {
+      "from": "experiments/exp_036_multiseed_path_protection/runtime.py",
+      "source_sha256": "0c6aa73e8476d87b53acfb05fab8d89dcab11208f44a564d32053616c4996cad"
+    },
+    "protect_batch": {
+      "from": "experiments/exp_036_multiseed_path_protection/runtime.py",
+      "source_sha256": "4c08f2db1c1a3b4d99b2ae22f5c68e22aa16ba0838d1211320a51c9d30b6c286"
+    },
+    "packed_status": {
+      "from": "experiments/exp_036_multiseed_path_protection/runtime.py",
+      "source_sha256": "e93b07fa6f3668cd70b306404d7c459ea0f8aa899f84390d8e5f2fe7104a89fd"
+    },
+    "stage_on_gpu": {
+      "from": "experiments/exp_036_multiseed_path_protection/runtime.py",
+      "source_sha256": "2373a61374998932b8ebafbb3f23c01e9cdc41ecc2b2cfc2399bf53fa100b7ed"
+    },
+    "cache_protection": {
+      "from": "experiments/exp_036_multiseed_path_protection/runtime.py",
+      "source_sha256": "1b2d3a5134454e36fc2a7b8f53278a7c60b385d997c37db99c9356a4a1e607f3"
+    },
+    "flat": {
+      "from": "experiments/exp_036_multiseed_path_protection/runtime.py",
+      "source_sha256": "d9974509d23affa5d7dfc8cd74d9b94393fed07c73b99f393cd1c19e272fc48a"
+    },
+    "cluster_test": {
+      "from": "experiments/exp_036_multiseed_path_protection/runtime.py",
+      "source_sha256": "65fd29e0118bc0bb7af3907253e18d5e22c19be95ec54821b5d7deb80d95edcf"
+    },
+    "holm": {
+      "from": "experiments/exp_036_multiseed_path_protection/runtime.py",
+      "source_sha256": "239e1ea7824528d1696f3f17ce76bd16eab40b1192ec65a866f5b80017c8d44b"
+    },
+    "mechanism_batch": {
+      "from": "experiments/exp_036_multiseed_path_protection/runtime.py",
+      "source_sha256": "cf97d641250ffa098b5edf2c3f42dcb34f216acffd3cfb633a1cb740afa6d60b"
+    },
+    "mechanism_batch_inner": {
+      "from": "experiments/exp_036_multiseed_path_protection/runtime.py",
+      "source_sha256": "a6035d8c4b68d24a39b2269e194a9c1c40775f42307a3c896f7fca0e7fbe916e"
+    },
+    "mechanism_evaluate": {
+      "from": "experiments/exp_036_multiseed_path_protection/runtime.py",
+      "source_sha256": "2654e955cfa2e91c09db81bb97e68dfe20bfeaad164bf05374d64a2d1baafbbe"
+    },
+    "structure_passed": {
+      "from": "experiments/exp_036_multiseed_path_protection/runtime.py",
+      "source_sha256": "75daaf576e23a172437be0261ed2b1cae9edc2a0b956e83d4a3e37b5366c8f09"
+    },
+    "protection_gradients": {
+      "from": "experiments/exp_036_multiseed_path_protection/runtime.py",
+      "source_sha256": "c7bd8fd85098cad34c397788befa3ca7ca76309e59280e4d20ab10ce137b7a42"
+    },
+    "audit_update": {
+      "from": "experiments/exp_036_multiseed_path_protection/runtime.py",
+      "source_sha256": "549200f1337ab12fc0740fa5a58d34a025dfab0d51881184d36072636a0a092e"
+    }
+  },
+  "ast_functions": {
+    "make_sampler": {
+      "file": "common.py",
+      "from": "experiments/exp_036_multiseed_path_protection/common.py",
+      "ast_sha256": "cf4d0968102c04e5854bf1ee1a71c72897bd0c05d76a1d4273c3f5e9b74388a4"
+    }
+  },
+  "parent_code_manifest_sha256": "bb69ab538f7cd9f1a5b01237af15df27c542c2c2e57107bae48a52a5926a9df1"
+}

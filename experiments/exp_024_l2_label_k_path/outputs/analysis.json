@@ -1,0 +1,1516 @@
+{
+  "experiment": "exp024_l2_label_k_path",
+  "primary": {
+    "K_transfer": {
+      "mean": 0.3914111895561218,
+      "se": 0.0225506378831657,
+      "n": 5000,
+      "clusters": 1530,
+      "cluster_unit": "true query class",
+      "estimand": "evaluation-row mean",
+      "valid_normal_approximation": true,
+      "structural_identity": false,
+      "ci95_lower": 0.3472127514767125,
+      "ci95_upper": 0.4356096276355311,
+      "row_sd": 1.4694370225834705,
+      "row_positive_fraction": 0.519,
+      "row_negative_fraction": 0.481,
+      "class_mean_distribution": {
+        "minimum": -6.33011362769387,
+        "median": 0.23789012277281107,
+        "maximum": 6.778581272472035,
+        "positive_fraction": 0.6437908496732027,
+        "negative_fraction": 0.3562091503267974,
+        "note": "Unweighted class descriptions, not the inferential estimand"
+      },
+      "status": "normal_cluster_approximation",
+      "name": "K_transfer",
+      "threshold": 0.01,
+      "alternative": "mean > threshold",
+      "null": "mean <= threshold",
+      "z_vs_threshold": 16.913543267920126,
+      "p_one_sided": 1.7877434193170504e-64,
+      "p_underflow": false,
+      "unadjusted_one_sided_lower": 0.35431869104392744,
+      "pass_unadjusted": true,
+      "family_size": 4,
+      "correction": "holm",
+      "p_adjusted": 5.363230257951151e-64,
+      "p_holm": 5.363230257951151e-64,
+      "bonferroni_one_sided_lower": 0.3408661282955628,
+      "lower_bonferroni": 0.3408661282955628,
+      "bonferroni_lower_confidence": 0.9875,
+      "pass_adjusted": true,
+      "pass_bonferroni_lower": true,
+      "interpretation": "supports_prespecified_threshold",
+      "by_correct_label_position": {
+        "0": {
+          "mean": 0.36639304855677085,
+          "se": 0.03287049197473424,
+          "n": 2540,
+          "clusters": 1300,
+          "cluster_unit": "true query class",
+          "estimand": "evaluation-row mean",
+          "valid_normal_approximation": true,
+          "structural_identity": false,
+          "ci95_lower": 0.3019680681321789,
+          "ci95_upper": 0.4308180289813628,
+          "row_sd": 1.5127811143605356,
+          "row_positive_fraction": 0.5173228346456693,
+          "row_negative_fraction": 0.4826771653543307,
+          "class_mean_distribution": {
+            "minimum": -6.0469022230668505,
+            "median": 0.08406102296077841,
+            "maximum": 8.279861666939475,
+            "positive_fraction": 0.5607692307692308,
+            "negative_fraction": 0.43923076923076926,
+            "note": "Unweighted class descriptions, not the inferential estimand"
+          },
+          "status": "normal_cluster_approximation"
+        },
+        "1": {
+          "mean": 0.4172429286367525,
+          "se": 0.030091927778093015,
+          "n": 2460,
+          "clusters": 1249,
+          "cluster_unit": "true query class",
+          "estimand": "evaluation-row mean",
+          "valid_normal_approximation": true,
+          "structural_identity": false,
+          "ci95_lower": 0.3582638339663098,
+          "ci95_upper": 0.4762220233071952,
+          "row_sd": 1.423145218835361,
+          "row_positive_fraction": 0.5207317073170732,
+          "row_negative_fraction": 0.4792682926829268,
+          "class_mean_distribution": {
+            "minimum": -6.33011362769387,
+            "median": 0.13022404006033206,
+            "maximum": 9.85677008195357,
+            "positive_fraction": 0.5812650120096077,
+            "negative_fraction": 0.4187349879903923,
+            "note": "Unweighted class descriptions, not the inferential estimand"
+          },
+          "status": "normal_cluster_approximation"
+        }
+      }
+    },
+    "K_block": {
+      "mean": 0.3867564046859741,
+      "se": 0.023055149158425495,
+      "n": 5000,
+      "clusters": 1530,
+      "cluster_unit": "true query class",
+      "estimand": "evaluation-row mean",
+      "valid_normal_approximation": true,
+      "structural_identity": false,
+      "ci95_lower": 0.34156914267726124,
+      "ci95_upper": 0.431943666694687,
+      "row_sd": 1.4948986186526354,
+      "row_positive_fraction": 0.5214,
+      "row_negative_fraction": 0.4786,
+      "class_mean_distribution": {
+        "minimum": -6.149525035511364,
+        "median": 0.22896022146398362,
+        "maximum": 6.546939979900013,
+        "positive_fraction": 0.6385620915032679,
+        "negative_fraction": 0.361437908496732,
+        "note": "Unweighted class descriptions, not the inferential estimand"
+      },
+      "status": "normal_cluster_approximation",
+      "name": "K_block",
+      "threshold": 0.01,
+      "alternative": "mean > threshold",
+      "null": "mean <= threshold",
+      "z_vs_threshold": 16.341529698943138,
+      "p_one_sided": 2.4991499164532086e-60,
+      "p_underflow": false,
+      "unadjusted_one_sided_lower": 0.34883405897283076,
+      "pass_unadjusted": true,
+      "family_size": 4,
+      "correction": "holm",
+      "p_adjusted": 4.998299832906417e-60,
+      "p_holm": 4.998299832906417e-60,
+      "bonferroni_one_sided_lower": 0.33508053047694036,
+      "lower_bonferroni": 0.33508053047694036,
+      "bonferroni_lower_confidence": 0.9875,
+      "pass_adjusted": true,
+      "pass_bonferroni_lower": true,
+      "interpretation": "supports_prespecified_threshold",
+      "by_correct_label_position": {
+        "0": {
+          "mean": 0.38256223396309463,
+          "se": 0.03396182979845062,
+          "n": 2540,
+          "clusters": 1300,
+          "cluster_unit": "true query class",
+          "estimand": "evaluation-row mean",
+          "valid_normal_approximation": true,
+          "structural_identity": false,
+          "ci95_lower": 0.31599827070905223,
+          "ci95_upper": 0.44912619721713704,
+          "row_sd": 1.5599490937014353,
+          "row_positive_fraction": 0.521259842519685,
+          "row_negative_fraction": 0.47874015748031495,
+          "class_mean_distribution": {
+            "minimum": -5.129127935929732,
+            "median": 0.07140293988314556,
+            "maximum": 9.180263736031272,
+            "positive_fraction": 0.5592307692307692,
+            "negative_fraction": 0.44076923076923075,
+            "note": "Unweighted class descriptions, not the inferential estimand"
+          },
+          "status": "normal_cluster_approximation"
+        },
+        "1": {
+          "mean": 0.3910869712047196,
+          "se": 0.030058535846895565,
+          "n": 2460,
+          "clusters": 1249,
+          "cluster_unit": "true query class",
+          "estimand": "evaluation-row mean",
+          "valid_normal_approximation": true,
+          "structural_identity": false,
+          "ci95_lower": 0.3321733235167981,
+          "ci95_upper": 0.45000061889264104,
+          "row_sd": 1.424924349570985,
+          "row_positive_fraction": 0.5215447154471544,
+          "row_negative_fraction": 0.47845528455284553,
+          "class_mean_distribution": {
+            "minimum": -6.149525035511364,
+            "median": 0.12783111225474997,
+            "maximum": 10.183829654346813,
+            "positive_fraction": 0.5788630904723779,
+            "negative_fraction": 0.4211369095276221,
+            "note": "Unweighted class descriptions, not the inferential estimand"
+          },
+          "status": "normal_cluster_approximation"
+        }
+      }
+    },
+    "K_vs_V": {
+      "mean": 0.3945979936252941,
+      "se": 0.022119555167624507,
+      "n": 5000,
+      "clusters": 1530,
+      "cluster_unit": "true query class",
+      "estimand": "evaluation-row mean",
+      "valid_normal_approximation": true,
+      "structural_identity": false,
+      "ci95_lower": 0.3512444621427032,
+      "ci95_upper": 0.43795152510788493,
+      "row_sd": 1.4336064757090219,
+      "row_positive_fraction": 0.5294,
+      "row_negative_fraction": 0.4706,
+      "class_mean_distribution": {
+        "minimum": -6.4516734209927655,
+        "median": 0.22359833934090356,
+        "maximum": 6.790126540444113,
+        "positive_fraction": 0.657516339869281,
+        "negative_fraction": 0.34248366013071896,
+        "note": "Unweighted class descriptions, not the inferential estimand"
+      },
+      "status": "normal_cluster_approximation",
+      "name": "K_vs_V",
+      "threshold": 0.01,
+      "alternative": "mean > threshold",
+      "null": "mean <= threshold",
+      "z_vs_threshold": 17.38723906112789,
+      "p_one_sided": 5.154083316715843e-68,
+      "p_underflow": false,
+      "unadjusted_one_sided_lower": 0.35821456308127375,
+      "pass_unadjusted": true,
+      "family_size": 4,
+      "correction": "holm",
+      "p_adjusted": 2.0616333266863372e-67,
+      "p_holm": 2.0616333266863372e-67,
+      "bonferroni_one_sided_lower": 0.34501916233917246,
+      "lower_bonferroni": 0.34501916233917246,
+      "bonferroni_lower_confidence": 0.9875,
+      "pass_adjusted": true,
+      "pass_bonferroni_lower": true,
+      "interpretation": "supports_prespecified_threshold",
+      "by_correct_label_position": {
+        "0": {
+          "mean": 0.38066844516937104,
+          "se": 0.03158526470911696,
+          "n": 2540,
+          "clusters": 1300,
+          "cluster_unit": "true query class",
+          "estimand": "evaluation-row mean",
+          "valid_normal_approximation": true,
+          "structural_identity": false,
+          "ci95_lower": 0.31876246389733787,
+          "ci95_upper": 0.4425744264414042,
+          "row_sd": 1.454879894070196,
+          "row_positive_fraction": 0.5385826771653544,
+          "row_negative_fraction": 0.46141732283464565,
+          "class_mean_distribution": {
+            "minimum": -6.4516734209927655,
+            "median": 0.11673500321128172,
+            "maximum": 8.138916405764494,
+            "positive_fraction": 0.5853846153846154,
+            "negative_fraction": 0.4146153846153846,
+            "note": "Unweighted class descriptions, not the inferential estimand"
+          },
+          "status": "normal_cluster_approximation"
+        },
+        "1": {
+          "mean": 0.4089805355269382,
+          "se": 0.030329868347100733,
+          "n": 2460,
+          "clusters": 1249,
+          "cluster_unit": "true query class",
+          "estimand": "evaluation-row mean",
+          "valid_normal_approximation": true,
+          "structural_identity": false,
+          "ci95_lower": 0.3495350859107794,
+          "ci95_upper": 0.46842598514309697,
+          "row_sd": 1.4114562904985695,
+          "row_positive_fraction": 0.5199186991869919,
+          "row_negative_fraction": 0.48008130081300815,
+          "class_mean_distribution": {
+            "minimum": -5.9844749624078935,
+            "median": 0.11533238671042767,
+            "maximum": 10.246428749778055,
+            "positive_fraction": 0.5916733386709367,
+            "negative_fraction": 0.40832666132906326,
+            "note": "Unweighted class descriptions, not the inferential estimand"
+          },
+          "status": "normal_cluster_approximation"
+        }
+      }
+    }
+  },
+  "V_equivalence": {
+    "mean": -0.003186804069172259,
+    "se": 0.005309503825810294,
+    "n": 5000,
+    "clusters": 1530,
+    "cluster_unit": "true query class",
+    "estimand": "evaluation-row mean",
+    "valid_normal_approximation": true,
+    "structural_identity": false,
+    "ci95_lower": -0.01359324034353806,
+    "ci95_upper": 0.007219632205193541,
+    "row_sd": 0.32470048780617766,
+    "row_positive_fraction": 0.4408,
+    "row_negative_fraction": 0.5592,
+    "class_mean_distribution": {
+      "minimum": -1.1457456241954453,
+      "median": -0.005962935360995264,
+      "maximum": 1.3688254789872607,
+      "positive_fraction": 0.4849673202614379,
+      "negative_fraction": 0.515032679738562,
+      "note": "Unweighted class descriptions, not the inferential estimand"
+    },
+    "status": "normal_cluster_approximation",
+    "name": "V_only_gain",
+    "equivalence_margin": 0.02,
+    "ci90_lower": -0.011920160694369037,
+    "ci90_upper": 0.005546552556024518,
+    "p_tost_lower": 0.0007711010523990601,
+    "p_tost_upper": 6.297146013625295e-06,
+    "p_tost": 0.0007711010523990601,
+    "equivalent": true,
+    "multiplicity": "prespecified secondary diagnostic; no family correction",
+    "interpretation": "Failure to establish equivalence does not demonstrate a nonzero effect"
+  },
+  "uncertainty": "Single training seed; forward activation interventions do not identify incorrect-class content or unique training cause",
+  "window_metrics": {
+    "N": {
+      "full_loss": {
+        "native_mean": 4.20691866461147,
+        "condition_mean": 4.20691866461147,
+        "difference_direction": "N - condition",
+        "paired_difference": {
+          "mean": 0.0,
+          "se": 0.0,
+          "n": 5000,
+          "clusters": 1530,
+          "cluster_unit": "true query class",
+          "estimand": "evaluation-row mean",
+          "valid_normal_approximation": false,
+          "structural_identity": true,
+          "ci95_lower": 0.0,
+          "ci95_upper": 0.0,
+          "row_sd": 0.0,
+          "row_positive_fraction": 0.0,
+          "row_negative_fraction": 0.0,
+          "class_mean_distribution": {
+            "minimum": 0.0,
+            "median": 0.0,
+            "maximum": 0.0,
+            "positive_fraction": 0.0,
+            "negative_fraction": 0.0,
+            "note": "Unweighted class descriptions, not the inferential estimand"
+          },
+          "status": "structural_zero_no_population_test",
+          "by_correct_label_position": {
+            "0": {
+              "mean": 0.0,
+              "se": 0.0,
+              "n": 2540,
+              "clusters": 1300,
+              "cluster_unit": "true query class",
+              "estimand": "evaluation-row mean",
+              "valid_normal_approximation": false,
+              "structural_identity": true,
+              "ci95_lower": 0.0,
+              "ci95_upper": 0.0,
+              "row_sd": 0.0,
+              "row_positive_fraction": 0.0,
+              "row_negative_fraction": 0.0,
+              "class_mean_distribution": {
+                "minimum": 0.0,
+                "median": 0.0,
+                "maximum": 0.0,
+                "positive_fraction": 0.0,
+                "negative_fraction": 0.0,
+                "note": "Unweighted class descriptions, not the inferential estimand"
+              },
+              "status": "structural_zero_no_population_test"
+            },
+            "1": {
+              "mean": 0.0,
+              "se": 0.0,
+              "n": 2460,
+              "clusters": 1249,
+              "cluster_unit": "true query class",
+              "estimand": "evaluation-row mean",
+              "valid_normal_approximation": false,
+              "structural_identity": true,
+              "ci95_lower": 0.0,
+              "ci95_upper": 0.0,
+              "row_sd": 0.0,
+              "row_positive_fraction": 0.0,
+              "row_negative_fraction": 0.0,
+              "class_mean_distribution": {
+                "minimum": 0.0,
+                "median": 0.0,
+                "maximum": 0.0,
+                "positive_fraction": 0.0,
+                "negative_fraction": 0.0,
+                "note": "Unweighted class descriptions, not the inferential estimand"
+              },
+              "status": "structural_zero_no_population_test"
+            }
+          }
+        }
+      },
+      "full_acc": {
+        "native_mean": 0.5587454545454545,
+        "condition_mean": 0.5587454545454545,
+        "difference_direction": "condition - N",
+        "paired_difference": {
+          "mean": 0.0,
+          "se": 0.0,
+          "n": 5000,
+          "clusters": 1530,
+          "cluster_unit": "true query class",
+          "estimand": "evaluation-row mean",
+          "valid_normal_approximation": false,
+          "structural_identity": true,
+          "ci95_lower": 0.0,
+          "ci95_upper": 0.0,
+          "row_sd": 0.0,
+          "row_positive_fraction": 0.0,
+          "row_negative_fraction": 0.0,
+          "class_mean_distribution": {
+            "minimum": 0.0,
+            "median": 0.0,
+            "maximum": 0.0,
+            "positive_fraction": 0.0,
+            "negative_fraction": 0.0,
+            "note": "Unweighted class descriptions, not the inferential estimand"
+          },
+          "status": "structural_zero_no_population_test",
+          "by_correct_label_position": {
+            "0": {
+              "mean": 0.0,
+              "se": 0.0,
+              "n": 2540,
+              "clusters": 1300,
+              "cluster_unit": "true query class",
+              "estimand": "evaluation-row mean",
+              "valid_normal_approximation": false,
+              "structural_identity": true,
+              "ci95_lower": 0.0,
+              "ci95_upper": 0.0,
+              "row_sd": 0.0,
+              "row_positive_fraction": 0.0,
+              "row_negative_fraction": 0.0,
+              "class_mean_distribution": {
+                "minimum": 0.0,
+                "median": 0.0,
+                "maximum": 0.0,
+                "positive_fraction": 0.0,
+                "negative_fraction": 0.0,
+                "note": "Unweighted class descriptions, not the inferential estimand"
+              },
+              "status": "structural_zero_no_population_test"
+            },
+            "1": {
+              "mean": 0.0,
+              "se": 0.0,
+              "n": 2460,
+              "clusters": 1249,
+              "cluster_unit": "true query class",
+              "estimand": "evaluation-row mean",
+              "valid_normal_approximation": false,
+              "structural_identity": true,
+              "ci95_lower": 0.0,
+              "ci95_upper": 0.0,
+              "row_sd": 0.0,
+              "row_positive_fraction": 0.0,
+              "row_negative_fraction": 0.0,
+              "class_mean_distribution": {
+                "minimum": 0.0,
+                "median": 0.0,
+                "maximum": 0.0,
+                "positive_fraction": 0.0,
+                "negative_fraction": 0.0,
+                "note": "Unweighted class descriptions, not the inferential estimand"
+              },
+              "status": "structural_zero_no_population_test"
+            }
+          }
+        }
+      },
+      "pair_acc": {
+        "native_mean": 0.5988545454545454,
+        "condition_mean": 0.5988545454545454,
+        "difference_direction": "condition - N",
+        "paired_difference": {
+          "mean": 0.0,
+          "se": 0.0,
+          "n": 5000,
+          "clusters": 1530,
+          "cluster_unit": "true query class",
+          "estimand": "evaluation-row mean",
+          "valid_normal_approximation": false,
+          "structural_identity": true,
+          "ci95_lower": 0.0,
+          "ci95_upper": 0.0,
+          "row_sd": 0.0,
+          "row_positive_fraction": 0.0,
+          "row_negative_fraction": 0.0,
+          "class_mean_distribution": {
+            "minimum": 0.0,
+            "median": 0.0,
+            "maximum": 0.0,
+            "positive_fraction": 0.0,
+            "negative_fraction": 0.0,
+            "note": "Unweighted class descriptions, not the inferential estimand"
+          },
+          "status": "structural_zero_no_population_test",
+          "by_correct_label_position": {
+            "0": {
+              "mean": 0.0,
+              "se": 0.0,
+              "n": 2540,
+              "clusters": 1300,
+              "cluster_unit": "true query class",
+              "estimand": "evaluation-row mean",
+              "valid_normal_approximation": false,
+              "structural_identity": true,
+              "ci95_lower": 0.0,
+              "ci95_upper": 0.0,
+              "row_sd": 0.0,
+              "row_positive_fraction": 0.0,
+              "row_negative_fraction": 0.0,
+              "class_mean_distribution": {
+                "minimum": 0.0,
+                "median": 0.0,
+                "maximum": 0.0,
+                "positive_fraction": 0.0,
+                "negative_fraction": 0.0,
+                "note": "Unweighted class descriptions, not the inferential estimand"
+              },
+              "status": "structural_zero_no_population_test"
+            },
+            "1": {
+              "mean": 0.0,
+              "se": 0.0,
+              "n": 2460,
+              "clusters": 1249,
+              "cluster_unit": "true query class",
+              "estimand": "evaluation-row mean",
+              "valid_normal_approximation": false,
+              "structural_identity": true,
+              "ci95_lower": 0.0,
+              "ci95_upper": 0.0,
+              "row_sd": 0.0,
+              "row_positive_fraction": 0.0,
+              "row_negative_fraction": 0.0,
+              "class_mean_distribution": {
+                "minimum": 0.0,
+                "median": 0.0,
+                "maximum": 0.0,
+                "positive_fraction": 0.0,
+                "negative_fraction": 0.0,
+                "note": "Unweighted class descriptions, not the inferential estimand"
+              },
+              "status": "structural_zero_no_population_test"
+            }
+          }
+        }
+      }
+    },
+    "S": {
+      "full_loss": {
+        "native_mean": 4.20691866461147,
+        "condition_mean": 3.8233490639946677,
+        "difference_direction": "N - condition",
+        "paired_difference": {
+          "mean": 0.3835696006168019,
+          "se": 0.024672841460854383,
+          "n": 5000,
+          "clusters": 1530,
+          "cluster_unit": "true query class",
+          "estimand": "evaluation-row mean",
+          "valid_normal_approximation": true,
+          "structural_identity": false,
+          "ci95_lower": 0.33521171995726073,
+          "ci95_upper": 0.43192748127634306,
+          "row_sd": 1.5980403207861138,
+          "row_positive_fraction": 0.5164,
+          "row_negative_fraction": 0.4836,
+          "class_mean_distribution": {
+            "minimum": -6.495163700797341,
+            "median": 0.24172196063128348,
+            "maximum": 6.983178355477073,
+            "positive_fraction": 0.6359477124183006,
+            "negative_fraction": 0.36405228758169933,
+            "note": "Unweighted class descriptions, not the inferential estimand"
+          },
+          "status": "normal_cluster_approximation",
+          "by_correct_label_position": {
+            "0": {
+              "mean": 0.36828683735049444,
+              "se": 0.03651042190824406,
+              "n": 2540,
+              "clusters": 1300,
+              "cluster_unit": "true query class",
+              "estimand": "evaluation-row mean",
+              "valid_normal_approximation": true,
+              "structural_identity": false,
+              "ci95_lower": 0.29672772534997394,
+              "ci95_upper": 0.43984594935101495,
+              "row_sd": 1.6773084930648872,
+              "row_positive_fraction": 0.5015748031496063,
+              "row_negative_fraction": 0.4984251968503937,
+              "class_mean_distribution": {
+                "minimum": -4.887223980643533,
+                "median": 0.09316572276028728,
+                "maximum": 9.321208997206254,
+                "positive_fraction": 0.553076923076923,
+                "negative_fraction": 0.4469230769230769,
+                "note": "Unweighted class descriptions, not the inferential estimand"
+              },
+              "status": "normal_cluster_approximation"
+            },
+            "1": {
+              "mean": 0.39934936431453394,
+              "se": 0.03148864761724693,
+              "n": 2460,
+              "clusters": 1249,
+              "cluster_unit": "true query class",
+              "estimand": "evaluation-row mean",
+              "valid_normal_approximation": true,
+              "structural_identity": false,
+              "ci95_lower": 0.337632749062857,
+              "ci95_upper": 0.46106597956621087,
+              "row_sd": 1.5120196439579772,
+              "row_positive_fraction": 0.5317073170731708,
+              "row_negative_fraction": 0.4682926829268293,
+              "class_mean_distribution": {
+                "minimum": -6.495163700797341,
+                "median": 0.14265554601495922,
+                "maximum": 9.794170986522328,
+                "positive_fraction": 0.5916733386709367,
+                "negative_fraction": 0.40832666132906326,
+                "note": "Unweighted class descriptions, not the inferential estimand"
+              },
+              "status": "normal_cluster_approximation"
+            }
+          }
+        }
+      },
+      "full_acc": {
+        "native_mean": 0.5587454545454545,
+        "condition_mean": 0.5794,
+        "difference_direction": "condition - N",
+        "paired_difference": {
+          "mean": 0.02065454545454545,
+          "se": 0.004561395217044412,
+          "n": 5000,
+          "clusters": 1530,
+          "cluster_unit": "true query class",
+          "estimand": "evaluation-row mean",
+          "valid_normal_approximation": true,
+          "structural_identity": false,
+          "ci95_lower": 0.011714375109885143,
+          "ci95_upper": 0.029594715799205758,
+          "row_sd": 0.30111877389296315,
+          "row_positive_fraction": 0.1514,
+          "row_negative_fraction": 0.1156,
+          "class_mean_distribution": {
+            "minimum": -1.0,
+            "median": 0.0,
+            "maximum": 1.0,
+            "positive_fraction": 0.3366013071895425,
+            "negative_fraction": 0.2477124183006536,
+            "note": "Unweighted class descriptions, not the inferential estimand"
+          },
+          "status": "normal_cluster_approximation",
+          "by_correct_label_position": {
+            "0": {
+              "mean": 0.021653543307086614,
+              "se": 0.006697726464475279,
+              "n": 2540,
+              "clusters": 1300,
+              "cluster_unit": "true query class",
+              "estimand": "evaluation-row mean",
+              "valid_normal_approximation": true,
+              "structural_identity": false,
+              "ci95_lower": 0.008526240658414284,
+              "ci95_upper": 0.03478084595575894,
+              "row_sd": 0.315944552916668,
+              "row_positive_fraction": 0.14724409448818898,
+              "row_negative_fraction": 0.12952755905511812,
+              "class_mean_distribution": {
+                "minimum": -1.0,
+                "median": 0.0,
+                "maximum": 1.0,
+                "positive_fraction": 0.2323076923076923,
+                "negative_fraction": 0.20692307692307693,
+                "note": "Unweighted class descriptions, not the inferential estimand"
+              },
+              "status": "normal_cluster_approximation"
+            },
+            "1": {
+              "mean": 0.019623059866962306,
+              "se": 0.005990918164867593,
+              "n": 2460,
+              "clusters": 1249,
+              "cluster_unit": "true query class",
+              "estimand": "evaluation-row mean",
+              "valid_normal_approximation": true,
+              "structural_identity": false,
+              "ci95_lower": 0.007881076029495036,
+              "ci95_upper": 0.03136504370442958,
+              "row_sd": 0.28506353424092606,
+              "row_positive_fraction": 0.15569105691056911,
+              "row_negative_fraction": 0.10121951219512196,
+              "class_mean_distribution": {
+                "minimum": -1.0,
+                "median": 0.0,
+                "maximum": 1.0,
+                "positive_fraction": 0.2433947157726181,
+                "negative_fraction": 0.17053642914331466,
+                "note": "Unweighted class descriptions, not the inferential estimand"
+              },
+              "status": "normal_cluster_approximation"
+            }
+          }
+        }
+      },
+      "pair_acc": {
+        "native_mean": 0.5988545454545454,
+        "condition_mean": 0.632909090909091,
+        "difference_direction": "condition - N",
+        "paired_difference": {
+          "mean": 0.034054545454545455,
+          "se": 0.004116192560733699,
+          "n": 5000,
+          "clusters": 1530,
+          "cluster_unit": "true query class",
+          "estimand": "evaluation-row mean",
+          "valid_normal_approximation": true,
+          "structural_identity": false,
+          "ci95_lower": 0.02598695628207571,
+          "ci95_upper": 0.0421221346270152,
+          "row_sd": 0.2817154569244422,
+          "row_positive_fraction": 0.1516,
+          "row_negative_fraction": 0.0916,
+          "class_mean_distribution": {
+            "minimum": -1.0,
+            "median": 0.0,
+            "maximum": 1.0,
+            "positive_fraction": 0.3405228758169935,
+            "negative_fraction": 0.2,
+            "note": "Unweighted class descriptions, not the inferential estimand"
+          },
+          "status": "normal_cluster_approximation",
+          "by_correct_label_position": {
+            "0": {
+              "mean": 0.03969219756621331,
+              "se": 0.005926717368901282,
+              "n": 2540,
+              "clusters": 1300,
+              "cluster_unit": "true query class",
+              "estimand": "evaluation-row mean",
+              "valid_normal_approximation": true,
+              "structural_identity": false,
+              "ci95_lower": 0.028076044976618815,
+              "ci95_upper": 0.05130835015580781,
+              "row_sd": 0.28827576455077886,
+              "row_positive_fraction": 0.1515748031496063,
+              "row_negative_fraction": 0.09645669291338582,
+              "class_mean_distribution": {
+                "minimum": -1.0,
+                "median": 0.0,
+                "maximum": 1.0,
+                "positive_fraction": 0.24076923076923076,
+                "negative_fraction": 0.15923076923076923,
+                "note": "Unweighted class descriptions, not the inferential estimand"
+              },
+              "status": "normal_cluster_approximation"
+            },
+            "1": {
+              "mean": 0.028233555062823355,
+              "se": 0.005713572868496304,
+              "n": 2460,
+              "clusters": 1249,
+              "cluster_unit": "true query class",
+              "estimand": "evaluation-row mean",
+              "valid_normal_approximation": true,
+              "structural_identity": false,
+              "ci95_lower": 0.0170351580175254,
+              "ci95_upper": 0.03943195210812131,
+              "row_sd": 0.2747147149374567,
+              "row_positive_fraction": 0.1516260162601626,
+              "row_negative_fraction": 0.08658536585365853,
+              "class_mean_distribution": {
+                "minimum": -1.0,
+                "median": 0.0,
+                "maximum": 1.0,
+                "positive_fraction": 0.2409927942353883,
+                "negative_fraction": 0.1465172137710168,
+                "note": "Unweighted class descriptions, not the inferential estimand"
+              },
+              "status": "normal_cluster_approximation"
+            }
+          }
+        }
+      }
+    },
+    "K": {
+      "full_loss": {
+        "native_mean": 4.20691866461147,
+        "condition_mean": 3.815507475055348,
+        "difference_direction": "N - condition",
+        "paired_difference": {
+          "mean": 0.3914111895561218,
+          "se": 0.0225506378831657,
+          "n": 5000,
+          "clusters": 1530,
+          "cluster_unit": "true query class",
+          "estimand": "evaluation-row mean",
+          "valid_normal_approximation": true,
+          "structural_identity": false,
+          "ci95_lower": 0.3472127514767125,
+          "ci95_upper": 0.4356096276355311,
+          "row_sd": 1.4694370225834705,
+          "row_positive_fraction": 0.519,
+          "row_negative_fraction": 0.481,
+          "class_mean_distribution": {
+            "minimum": -6.33011362769387,
+            "median": 0.23789012277281107,
+            "maximum": 6.778581272472035,
+            "positive_fraction": 0.6437908496732027,
+            "negative_fraction": 0.3562091503267974,
+            "note": "Unweighted class descriptions, not the inferential estimand"
+          },
+          "status": "normal_cluster_approximation",
+          "by_correct_label_position": {
+            "0": {
+              "mean": 0.36639304855677085,
+              "se": 0.03287049197473424,
+              "n": 2540,
+              "clusters": 1300,
+              "cluster_unit": "true query class",
+              "estimand": "evaluation-row mean",
+              "valid_normal_approximation": true,
+              "structural_identity": false,
+              "ci95_lower": 0.3019680681321789,
+              "ci95_upper": 0.4308180289813628,
+              "row_sd": 1.5127811143605356,
+              "row_positive_fraction": 0.5173228346456693,
+              "row_negative_fraction": 0.4826771653543307,
+              "class_mean_distribution": {
+                "minimum": -6.0469022230668505,
+                "median": 0.08406102296077841,
+                "maximum": 8.279861666939475,
+                "positive_fraction": 0.5607692307692308,
+                "negative_fraction": 0.43923076923076926,
+                "note": "Unweighted class descriptions, not the inferential estimand"
+              },
+              "status": "normal_cluster_approximation"
+            },
+            "1": {
+              "mean": 0.4172429286367525,
+              "se": 0.030091927778093015,
+              "n": 2460,
+              "clusters": 1249,
+              "cluster_unit": "true query class",
+              "estimand": "evaluation-row mean",
+              "valid_normal_approximation": true,
+              "structural_identity": false,
+              "ci95_lower": 0.3582638339663098,
+              "ci95_upper": 0.4762220233071952,
+              "row_sd": 1.423145218835361,
+              "row_positive_fraction": 0.5207317073170732,
+              "row_negative_fraction": 0.4792682926829268,
+              "class_mean_distribution": {
+                "minimum": -6.33011362769387,
+                "median": 0.13022404006033206,
+                "maximum": 9.85677008195357,
+                "positive_fraction": 0.5812650120096077,
+                "negative_fraction": 0.4187349879903923,
+                "note": "Unweighted class descriptions, not the inferential estimand"
+              },
+              "status": "normal_cluster_approximation"
+            }
+          }
+        }
+      },
+      "full_acc": {
+        "native_mean": 0.5587454545454545,
+        "condition_mean": 0.5828545454545455,
+        "difference_direction": "condition - N",
+        "paired_difference": {
+          "mean": 0.02410909090909091,
+          "se": 0.0041623347867208345,
+          "n": 5000,
+          "clusters": 1530,
+          "cluster_unit": "true query class",
+          "estimand": "evaluation-row mean",
+          "valid_normal_approximation": true,
+          "structural_identity": false,
+          "ci95_lower": 0.01595106463551987,
+          "ci95_upper": 0.03226711718266195,
+          "row_sd": 0.2736390971805964,
+          "row_positive_fraction": 0.1456,
+          "row_negative_fraction": 0.105,
+          "class_mean_distribution": {
+            "minimum": -1.0,
+            "median": 0.0,
+            "maximum": 1.0,
+            "positive_fraction": 0.3326797385620915,
+            "negative_fraction": 0.23071895424836603,
+            "note": "Unweighted class descriptions, not the inferential estimand"
+          },
+          "status": "normal_cluster_approximation",
+          "by_correct_label_position": {
+            "0": {
+              "mean": 0.024946313528990693,
+              "se": 0.00606020498988995,
+              "n": 2540,
+              "clusters": 1300,
+              "cluster_unit": "true query class",
+              "estimand": "evaluation-row mean",
+              "valid_normal_approximation": true,
+              "structural_identity": false,
+              "ci95_lower": 0.013068530009876473,
+              "ci95_upper": 0.03682409704810491,
+              "row_sd": 0.28755754358851976,
+              "row_positive_fraction": 0.13858267716535433,
+              "row_negative_fraction": 0.1173228346456693,
+              "class_mean_distribution": {
+                "minimum": -1.0,
+                "median": 0.0,
+                "maximum": 1.0,
+                "positive_fraction": 0.22692307692307692,
+                "negative_fraction": 0.19,
+                "note": "Unweighted class descriptions, not the inferential estimand"
+              },
+              "status": "normal_cluster_approximation"
+            },
+            "1": {
+              "mean": 0.023244641537324463,
+              "se": 0.005510396536173523,
+              "n": 2460,
+              "clusters": 1249,
+              "cluster_unit": "true query class",
+              "estimand": "evaluation-row mean",
+              "valid_normal_approximation": true,
+              "structural_identity": false,
+              "ci95_lower": 0.012444462785890098,
+              "ci95_upper": 0.034044820288758826,
+              "row_sd": 0.25853864349244166,
+              "row_positive_fraction": 0.15284552845528454,
+              "row_negative_fraction": 0.09227642276422764,
+              "class_mean_distribution": {
+                "minimum": -1.0,
+                "median": 0.0,
+                "maximum": 1.0,
+                "positive_fraction": 0.2433947157726181,
+                "negative_fraction": 0.15692554043234588,
+                "note": "Unweighted class descriptions, not the inferential estimand"
+              },
+              "status": "normal_cluster_approximation"
+            }
+          }
+        }
+      },
+      "pair_acc": {
+        "native_mean": 0.5988545454545454,
+        "condition_mean": 0.635,
+        "difference_direction": "condition - N",
+        "paired_difference": {
+          "mean": 0.03614545454545454,
+          "se": 0.0038312470269941694,
+          "n": 5000,
+          "clusters": 1530,
+          "cluster_unit": "true query class",
+          "estimand": "evaluation-row mean",
+          "valid_normal_approximation": true,
+          "structural_identity": false,
+          "ci95_lower": 0.028636348356669818,
+          "ci95_upper": 0.04365456073423927,
+          "row_sd": 0.25862850198291804,
+          "row_positive_fraction": 0.145,
+          "row_negative_fraction": 0.0802,
+          "class_mean_distribution": {
+            "minimum": -1.0,
+            "median": 0.0,
+            "maximum": 1.0,
+            "positive_fraction": 0.33790849673202616,
+            "negative_fraction": 0.1830065359477124,
+            "note": "Unweighted class descriptions, not the inferential estimand"
+          },
+          "status": "normal_cluster_approximation",
+          "by_correct_label_position": {
+            "0": {
+              "mean": 0.04044380816034359,
+              "se": 0.0055003161560879706,
+              "n": 2540,
+              "clusters": 1300,
+              "cluster_unit": "true query class",
+              "estimand": "evaluation-row mean",
+              "valid_normal_approximation": true,
+              "structural_identity": false,
+              "ci95_lower": 0.02966338659082738,
+              "ci95_upper": 0.0512242297298598,
+              "row_sd": 0.266291664328627,
+              "row_positive_fraction": 0.14330708661417324,
+              "row_negative_fraction": 0.08307086614173229,
+              "class_mean_distribution": {
+                "minimum": -1.0,
+                "median": 0.0,
+                "maximum": 1.0,
+                "positive_fraction": 0.23615384615384616,
+                "negative_fraction": 0.1423076923076923,
+                "note": "Unweighted class descriptions, not the inferential estimand"
+              },
+              "status": "normal_cluster_approximation"
+            },
+            "1": {
+              "mean": 0.03170731707317073,
+              "se": 0.0053563621154939876,
+              "n": 2460,
+              "clusters": 1249,
+              "cluster_unit": "true query class",
+              "estimand": "evaluation-row mean",
+              "valid_normal_approximation": true,
+              "structural_identity": false,
+              "ci95_lower": 0.021209040238647746,
+              "ci95_upper": 0.04220559390769372,
+              "row_sd": 0.25044699613510446,
+              "row_positive_fraction": 0.1467479674796748,
+              "row_negative_fraction": 0.07723577235772358,
+              "class_mean_distribution": {
+                "minimum": -1.0,
+                "median": 0.0,
+                "maximum": 1.0,
+                "positive_fraction": 0.2353883106485188,
+                "negative_fraction": 0.1313050440352282,
+                "note": "Unweighted class descriptions, not the inferential estimand"
+              },
+              "status": "normal_cluster_approximation"
+            }
+          }
+        }
+      }
+    },
+    "V": {
+      "full_loss": {
+        "native_mean": 4.20691866461147,
+        "condition_mean": 4.210105468680642,
+        "difference_direction": "N - condition",
+        "paired_difference": {
+          "mean": -0.003186804069172259,
+          "se": 0.005309503825810294,
+          "n": 5000,
+          "clusters": 1530,
+          "cluster_unit": "true query class",
+          "estimand": "evaluation-row mean",
+          "valid_normal_approximation": true,
+          "structural_identity": false,
+          "ci95_lower": -0.01359324034353806,
+          "ci95_upper": 0.007219632205193541,
+          "row_sd": 0.32470048780617766,
+          "row_positive_fraction": 0.4408,
+          "row_negative_fraction": 0.5592,
+          "class_mean_distribution": {
+            "minimum": -1.1457456241954453,
+            "median": -0.005962935360995264,
+            "maximum": 1.3688254789872607,
+            "positive_fraction": 0.4849673202614379,
+            "negative_fraction": 0.515032679738562,
+            "note": "Unweighted class descriptions, not the inferential estimand"
+          },
+          "status": "normal_cluster_approximation",
+          "by_correct_label_position": {
+            "0": {
+              "mean": -0.01427539661260017,
+              "se": 0.006819280403349407,
+              "n": 2540,
+              "clusters": 1300,
+              "cluster_unit": "true query class",
+              "estimand": "evaluation-row mean",
+              "valid_normal_approximation": true,
+              "structural_identity": false,
+              "ci95_lower": -0.027640940603644776,
+              "ci95_upper": -0.0009098526215555649,
+              "row_sd": 0.315506348824565,
+              "row_positive_fraction": 0.3956692913385827,
+              "row_negative_fraction": 0.6043307086614174,
+              "class_mean_distribution": {
+                "minimum": -1.3377552899447362,
+                "median": -0.028879165649414285,
+                "maximum": 2.239152214743874,
+                "positive_fraction": 0.4084615384615385,
+                "negative_fraction": 0.5915384615384616,
+                "note": "Unweighted class descriptions, not the inferential estimand"
+              },
+              "status": "normal_cluster_approximation"
+            },
+            "1": {
+              "mean": 0.008262393109814284,
+              "se": 0.007089308473129737,
+              "n": 2460,
+              "clusters": 1249,
+              "cluster_unit": "true query class",
+              "estimand": "evaluation-row mean",
+              "valid_normal_approximation": true,
+              "structural_identity": false,
+              "ci95_lower": -0.0056323961728146354,
+              "ci95_upper": 0.022157182392443204,
+              "row_sd": 0.33360573372528546,
+              "row_positive_fraction": 0.48739837398373986,
+              "row_negative_fraction": 0.5126016260162601,
+              "class_mean_distribution": {
+                "minimum": -1.5805631550875576,
+                "median": 0.003042033224394706,
+                "maximum": 1.3688254789872607,
+                "positive_fraction": 0.510808646917534,
+                "negative_fraction": 0.489191353082466,
+                "note": "Unweighted class descriptions, not the inferential estimand"
+              },
+              "status": "normal_cluster_approximation"
+            }
+          }
+        }
+      },
+      "full_acc": {
+        "native_mean": 0.5587454545454545,
+        "condition_mean": 0.5576,
+        "difference_direction": "condition - N",
+        "paired_difference": {
+          "mean": -0.0011454545454545454,
+          "se": 0.0012915947288311166,
+          "n": 5000,
+          "clusters": 1530,
+          "cluster_unit": "true query class",
+          "estimand": "evaluation-row mean",
+          "valid_normal_approximation": true,
+          "structural_identity": false,
+          "ci95_lower": -0.00367693369658531,
+          "ci95_upper": 0.0013860246056762193,
+          "row_sd": 0.09175267550735873,
+          "row_positive_fraction": 0.0538,
+          "row_negative_fraction": 0.0614,
+          "class_mean_distribution": {
+            "minimum": -0.6363636363636364,
+            "median": 0.0,
+            "maximum": 0.3636363636363637,
+            "positive_fraction": 0.14183006535947712,
+            "negative_fraction": 0.16013071895424835,
+            "note": "Unweighted class descriptions, not the inferential estimand"
+          },
+          "status": "normal_cluster_approximation",
+          "by_correct_label_position": {
+            "0": {
+              "mean": -0.0031853972798854685,
+              "se": 0.001838062750362525,
+              "n": 2540,
+              "clusters": 1300,
+              "cluster_unit": "true query class",
+              "estimand": "evaluation-row mean",
+              "valid_normal_approximation": true,
+              "structural_identity": false,
+              "ci95_lower": -0.006787934071920652,
+              "ci95_upper": 0.00041713951214971496,
+              "row_sd": 0.08966315628377063,
+              "row_positive_fraction": 0.04055118110236221,
+              "row_negative_fraction": 0.06968503937007874,
+              "class_mean_distribution": {
+                "minimum": -0.6363636363636364,
+                "median": 0.0,
+                "maximum": 0.9090909090909091,
+                "positive_fraction": 0.06923076923076923,
+                "negative_fraction": 0.12461538461538461,
+                "note": "Unweighted class descriptions, not the inferential estimand"
+              },
+              "status": "normal_cluster_approximation"
+            },
+            "1": {
+              "mean": 0.0009608277900960832,
+              "se": 0.001850411975350621,
+              "n": 2460,
+              "clusters": 1249,
+              "cluster_unit": "true query class",
+              "estimand": "evaluation-row mean",
+              "valid_normal_approximation": true,
+              "structural_identity": false,
+              "ci95_lower": -0.0026659130381527503,
+              "ci95_upper": 0.004587568618344917,
+              "row_sd": 0.09383306869215623,
+              "row_positive_fraction": 0.06747967479674796,
+              "row_negative_fraction": 0.052845528455284556,
+              "class_mean_distribution": {
+                "minimum": -0.9090909090909091,
+                "median": 0.0,
+                "maximum": 0.6363636363636365,
+                "positive_fraction": 0.11849479583666933,
+                "negative_fraction": 0.09287429943955164,
+                "note": "Unweighted class descriptions, not the inferential estimand"
+              },
+              "status": "normal_cluster_approximation"
+            }
+          }
+        }
+      },
+      "pair_acc": {
+        "native_mean": 0.5988545454545454,
+        "condition_mean": 0.5981454545454546,
+        "difference_direction": "condition - N",
+        "paired_difference": {
+          "mean": -0.000709090909090909,
+          "se": 0.0012106950377853822,
+          "n": 5000,
+          "clusters": 1530,
+          "cluster_unit": "true query class",
+          "estimand": "evaluation-row mean",
+          "valid_normal_approximation": true,
+          "structural_identity": false,
+          "ci95_lower": -0.003082009579411617,
+          "ci95_upper": 0.0016638277612297987,
+          "row_sd": 0.08550849859751963,
+          "row_positive_fraction": 0.0492,
+          "row_negative_fraction": 0.0504,
+          "class_mean_distribution": {
+            "minimum": -0.6363636363636364,
+            "median": 0.0,
+            "maximum": 0.45454545454545453,
+            "positive_fraction": 0.13137254901960785,
+            "negative_fraction": 0.13398692810457516,
+            "note": "Unweighted class descriptions, not the inferential estimand"
+          },
+          "status": "normal_cluster_approximation",
+          "by_correct_label_position": {
+            "0": {
+              "mean": -0.0018969219756621333,
+              "se": 0.001680764092935093,
+              "n": 2540,
+              "clusters": 1300,
+              "cluster_unit": "true query class",
+              "estimand": "evaluation-row mean",
+              "valid_normal_approximation": true,
+              "structural_identity": false,
+              "ci95_lower": -0.005191159064323046,
+              "ci95_upper": 0.0013973151129987797,
+              "row_sd": 0.08326355876244196,
+              "row_positive_fraction": 0.03818897637795276,
+              "row_negative_fraction": 0.0578740157480315,
+              "class_mean_distribution": {
+                "minimum": -0.9090909090909091,
+                "median": 0.0,
+                "maximum": 0.8181818181818182,
+                "positive_fraction": 0.06923076923076923,
+                "negative_fraction": 0.10307692307692308,
+                "note": "Unweighted class descriptions, not the inferential estimand"
+              },
+              "status": "normal_cluster_approximation"
+            },
+            "1": {
+              "mean": 0.0005173688100517371,
+              "se": 0.0017548943811096774,
+              "n": 2460,
+              "clusters": 1249,
+              "cluster_unit": "true query class",
+              "estimand": "evaluation-row mean",
+              "valid_normal_approximation": true,
+              "structural_identity": false,
+              "ci95_lower": -0.0029221609735949365,
+              "ci95_upper": 0.003956898593698411,
+              "row_sd": 0.0877663037340704,
+              "row_positive_fraction": 0.06056910569105691,
+              "row_negative_fraction": 0.042682926829268296,
+              "class_mean_distribution": {
+                "minimum": -0.9090909090909091,
+                "median": 0.0,
+                "maximum": 0.6363636363636365,
+                "positive_fraction": 0.10728582866293035,
+                "negative_fraction": 0.07365892714171338,
+                "note": "Unweighted class descriptions, not the inferential estimand"
+              },
+              "status": "normal_cluster_approximation"
+            }
+          }
+        }
+      }
+    },
+    "KB": {
+      "full_loss": {
+        "native_mean": 4.20691866461147,
+        "condition_mean": 4.210105468680642,
+        "difference_direction": "N - condition",
+        "paired_difference": {
+          "mean": -0.003186804069172259,
+          "se": 0.005309503825810294,
+          "n": 5000,
+          "clusters": 1530,
+          "cluster_unit": "true query class",
+          "estimand": "evaluation-row mean",
+          "valid_normal_approximation": true,
+          "structural_identity": false,
+          "ci95_lower": -0.01359324034353806,
+          "ci95_upper": 0.007219632205193541,
+          "row_sd": 0.32470048780617766,
+          "row_positive_fraction": 0.4408,
+          "row_negative_fraction": 0.5592,
+          "class_mean_distribution": {
+            "minimum": -1.1457456241954453,
+            "median": -0.005962935360995264,
+            "maximum": 1.3688254789872607,
+            "positive_fraction": 0.4849673202614379,
+            "negative_fraction": 0.515032679738562,
+            "note": "Unweighted class descriptions, not the inferential estimand"
+          },
+          "status": "normal_cluster_approximation",
+          "by_correct_label_position": {
+            "0": {
+              "mean": -0.01427539661260017,
+              "se": 0.006819280403349407,
+              "n": 2540,
+              "clusters": 1300,
+              "cluster_unit": "true query class",
+              "estimand": "evaluation-row mean",
+              "valid_normal_approximation": true,
+              "structural_identity": false,
+              "ci95_lower": -0.027640940603644776,
+              "ci95_upper": -0.0009098526215555649,
+              "row_sd": 0.315506348824565,
+              "row_positive_fraction": 0.3956692913385827,
+              "row_negative_fraction": 0.6043307086614174,
+              "class_mean_distribution": {
+                "minimum": -1.3377552899447362,
+                "median": -0.028879165649414285,
+                "maximum": 2.239152214743874,
+                "positive_fraction": 0.4084615384615385,
+                "negative_fraction": 0.5915384615384616,
+                "note": "Unweighted class descriptions, not the inferential estimand"
+              },
+              "status": "normal_cluster_approximation"
+            },
+            "1": {
+              "mean": 0.008262393109814284,
+              "se": 0.007089308473129737,
+              "n": 2460,
+              "clusters": 1249,
+              "cluster_unit": "true query class",
+              "estimand": "evaluation-row mean",
+              "valid_normal_approximation": true,
+              "structural_identity": false,
+              "ci95_lower": -0.0056323961728146354,
+              "ci95_upper": 0.022157182392443204,
+              "row_sd": 0.33360573372528546,
+              "row_positive_fraction": 0.48739837398373986,
+              "row_negative_fraction": 0.5126016260162601,
+              "class_mean_distribution": {
+                "minimum": -1.5805631550875576,
+                "median": 0.003042033224394706,
+                "maximum": 1.3688254789872607,
+                "positive_fraction": 0.510808646917534,
+                "negative_fraction": 0.489191353082466,
+                "note": "Unweighted class descriptions, not the inferential estimand"
+              },
+              "status": "normal_cluster_approximation"
+            }
+          }
+        }
+      },
+      "full_acc": {
+        "native_mean": 0.5587454545454545,
+        "condition_mean": 0.5576,
+        "difference_direction": "condition - N",
+        "paired_difference": {
+          "mean": -0.0011454545454545454,
+          "se": 0.0012915947288311166,
+          "n": 5000,
+          "clusters": 1530,
+          "cluster_unit": "true query class",
+          "estimand": "evaluation-row mean",
+          "valid_normal_approximation": true,
+          "structural_identity": false,
+          "ci95_lower": -0.00367693369658531,
+          "ci95_upper": 0.0013860246056762193,
+          "row_sd": 0.09175267550735873,
+          "row_positive_fraction": 0.0538,
+          "row_negative_fraction": 0.0614,
+          "class_mean_distribution": {
+            "minimum": -0.6363636363636364,
+            "median": 0.0,
+            "maximum": 0.3636363636363637,
+            "positive_fraction": 0.14183006535947712,
+            "negative_fraction": 0.16013071895424835,
+            "note": "Unweighted class descriptions, not the inferential estimand"
+          },
+          "status": "normal_cluster_approximation",
+          "by_correct_label_position": {
+            "0": {
+              "mean": -0.0031853972798854685,
+              "se": 0.001838062750362525,
+              "n": 2540,
+              "clusters": 1300,
+              "cluster_unit": "true query class",
+              "estimand": "evaluation-row mean",
+              "valid_normal_approximation": true,
+              "structural_identity": false,
+              "ci95_lower": -0.006787934071920652,
+              "ci95_upper": 0.00041713951214971496,
+              "row_sd": 0.08966315628377063,
+              "row_positive_fraction": 0.04055118110236221,
+              "row_negative_fraction": 0.06968503937007874,
+              "class_mean_distribution": {
+                "minimum": -0.6363636363636364,
+                "median": 0.0,
+                "maximum": 0.9090909090909091,
+                "positive_fraction": 0.06923076923076923,
+                "negative_fraction": 0.12461538461538461,
+                "note": "Unweighted class descriptions, not the inferential estimand"
+              },
+              "status": "normal_cluster_approximation"
+            },
+            "1": {
+              "mean": 0.0009608277900960832,
+              "se": 0.001850411975350621,
+              "n": 2460,
+              "clusters": 1249,
+              "cluster_unit": "true query class",
+              "estimand": "evaluation-row mean",
+              "valid_normal_approximation": true,
+              "structural_identity": false,
+              "ci95_lower": -0.0026659130381527503,
+              "ci95_upper": 0.004587568618344917,
+              "row_sd": 0.09383306869215623,
+              "row_positive_fraction": 0.06747967479674796,
+              "row_negative_fraction": 0.052845528455284556,
+              "class_mean_distribution": {
+                "minimum": -0.9090909090909091,
+                "median": 0.0,
+                "maximum": 0.6363636363636365,
+                "positive_fraction": 0.11849479583666933,
+                "negative_fraction": 0.09287429943955164,
+                "note": "Unweighted class descriptions, not the inferential estimand"
+              },
+              "status": "normal_cluster_approximation"
+            }
+          }
+        }
+      },
+      "pair_acc": {
+        "native_mean": 0.5988545454545454,
+        "condition_mean": 0.5981454545454546,
+        "difference_direction": "condition - N",
+        "paired_difference": {
+          "mean": -0.000709090909090909,
+          "se": 0.0012106950377853822,
+          "n": 5000,
+          "clusters": 1530,
+          "cluster_unit": "true query class",
+          "estimand": "evaluation-row mean",
+          "valid_normal_approximation": true,
+          "structural_identity": false,
+          "ci95_lower": -0.003082009579411617,
+          "ci95_upper": 0.0016638277612297987,
+          "row_sd": 0.08550849859751963,
+          "row_positive_fraction": 0.0492,
+          "row_negative_fraction": 0.0504,
+          "class_mean_distribution": {
+            "minimum": -0.6363636363636364,
+            "median": 0.0,
+            "maximum": 0.45454545454545453,
+            "positive_fraction": 0.13137254901960785,
+            "negative_fraction": 0.13398692810457516,
+            "note": "Unweighted class descriptions, not the inferential estimand"
+          },
+          "status": "normal_cluster_approximation",
+          "by_correct_label_position": {
+            "0": {
+              "mean": -0.0018969219756621333,
+              "se": 0.001680764092935093,
+              "n": 2540,
+              "clusters": 1300,
+              "cluster_unit": "true query class",
+              "estimand": "evaluation-row mean",
+              "valid_normal_approximation": true,
+              "structural_identity": false,
+              "ci95_lower": -0.005191159064323046,
+              "ci95_upper": 0.0013973151129987797,
+              "row_sd": 0.08326355876244196,
+              "row_positive_fraction": 0.03818897637795276,
+              "row_negative_fraction": 0.0578740157480315,
+              "class_mean_distribution": {
+                "minimum": -0.9090909090909091,
+                "median": 0.0,
+                "maximum": 0.8181818181818182,
+                "positive_fraction": 0.06923076923076923,
+                "negative_fraction": 0.10307692307692308,
+                "note": "Unweighted class descriptions, not the inferential estimand"
+              },
+              "status": "normal_cluster_approximation"
+            },
+            "1": {
+              "mean": 0.0005173688100517371,
+              "se": 0.0017548943811096774,
+              "n": 2460,
+              "clusters": 1249,
+              "cluster_unit": "true query class",
+              "estimand": "evaluation-row mean",
+              "valid_normal_approximation": true,
+              "structural_identity": false,
+              "ci95_lower": -0.0029221609735949365,
+              "ci95_upper": 0.003956898593698411,
+              "row_sd": 0.0877663037340704,
+              "row_positive_fraction": 0.06056910569105691,
+              "row_negative_fraction": 0.042682926829268296,
+              "class_mean_distribution": {
+                "minimum": -0.9090909090909091,
+                "median": 0.0,
+                "maximum": 0.6363636363636365,
+                "positive_fraction": 0.10728582866293035,
+                "negative_fraction": 0.07365892714171338,
+                "note": "Unweighted class descriptions, not the inferential estimand"
+              },
+              "status": "normal_cluster_approximation"
+            }
+          }
+        }
+      }
+    }
+  }
+}

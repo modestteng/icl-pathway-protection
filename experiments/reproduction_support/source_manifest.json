@@ -1,0 +1,16 @@
+{
+  "git_commit": "d75a6ff76d124364ca4517ae869ec1b9920e79f7",
+  "files": {
+    "main.py": "85814cae9c85cadd498d7cb1376708c9f9f2bcac237127943ff4697268754815",
+    "main_utils.py": "07bfe1c34366643bc89d8b9a4194c195846e462be31ddf432734b0a817b8727d",
+    "models.py": "2509f2a436dd16336f496769bb3d43df89e579cefd178b394d409b46c8892f99",
+    "samplers.py": "d285d7d6796996162c0e445bd4d93cdd54c8e9d400bb69e81d054e1bc7a841da",
+    "opto.py": "46cbdcc2ef3c7a8688dfb365dcdc7fac753c05e96e8fee47373e2b1a2ad5d1b3",
+    "omniglot_dataset.py": "da47f3a0fb47d268376b946e13706ef9be368dfe1f6b7eff1eae4225892a30c9",
+    "omni_features_extract.py": "44c2cbfdb0fa8442efbcae2b02bf5a1253960c0c13656b147db015c5f52e0073",
+    "coopetition_paper_sweep.py": "1368d1f16c31f1ab25cd3d45cadec2c9fd8905c5f666d4074e2993b2dabc69f7",
+    "coopetition_paper_appendix_sweep.py": "b33eb7f168953bd6044080b927b1f34f6697d0a2ec6abe3678fd5b7bb8c1f4a3",
+    "README.md": "7447d21039ed074f7abbd3fdeb9fe02a3848e787c12d93deb705edca68374e5a",
+    "setup.md": "afc522c1ee3877e50456404943012e80a64d55ea38f7e689c972ff511da6f00d"
+  }
+}

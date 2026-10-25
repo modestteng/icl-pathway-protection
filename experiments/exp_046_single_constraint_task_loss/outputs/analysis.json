@@ -1,0 +1,343 @@
+{
+  "experiment": "exp_046_single_constraint_task_loss",
+  "window": [
+    9000000,
+    10000000
+  ],
+  "stages": [
+    9000000,
+    9100000,
+    9200000,
+    9300000,
+    9400000,
+    9500000,
+    9600000,
+    9700000,
+    9800000,
+    9900000,
+    10000000
+  ],
+  "n_per_task": 5000,
+  "seed": {
+    "id": "s5",
+    "init": 5,
+    "train": 2
+  },
+  "tasks": [
+    "icl",
+    "iwl_copy_avail",
+    "train_eval"
+  ],
+  "descriptive": {
+    "MEAN25": {
+      "icl": {
+        "acc": {
+          "mean": 0.8978181818181818
+        },
+        "loss": {
+          "mean": 0.5075772260090992
+        }
+      },
+      "iwl_copy_avail": {
+        "acc": {
+          "mean": 0.8618545454545455
+        },
+        "loss": {
+          "mean": 0.9134011173438259
+        }
+      },
+      "train_eval": {
+        "acc": {
+          "mean": 0.9647272727272727
+        },
+        "loss": {
+          "mean": 0.20693570362478703
+        }
+      }
+    },
+    "A": {
+      "icl": {
+        "acc": {
+          "mean": 0.5118909090909091
+        },
+        "loss": {
+          "mean": 6.342029082623175
+        }
+      },
+      "iwl_copy_avail": {
+        "acc": {
+          "mean": 0.8883090909090908
+        },
+        "loss": {
+          "mean": 0.7274282715816686
+        }
+      },
+      "train_eval": {
+        "acc": {
+          "mean": 0.9636
+        },
+        "loss": {
+          "mean": 0.21001657309519464
+        }
+      }
+    },
+    "C25": {
+      "icl": {
+        "acc": {
+          "mean": 0.9065090909090908
+        },
+        "loss": {
+          "mean": 0.3727435751066141
+        }
+      },
+      "iwl_copy_avail": {
+        "acc": {
+          "mean": 0.8573818181818182
+        },
+        "loss": {
+          "mean": 0.9491424355862534
+        }
+      },
+      "train_eval": {
+        "acc": {
+          "mean": 0.965218181818182
+        },
+        "loss": {
+          "mean": 0.20626303442227226
+        }
+      }
+    },
+    "P25": {
+      "icl": {
+        "acc": {
+          "mean": 0.8756727272727272
+        },
+        "loss": {
+          "mean": 0.43103283044036733
+        }
+      },
+      "iwl_copy_avail": {
+        "acc": {
+          "mean": 0.8862363636363636
+        },
+        "loss": {
+          "mean": 0.736345802227956
+        }
+      },
+      "train_eval": {
+        "acc": {
+          "mean": 0.964309090909091
+        },
+        "loss": {
+          "mean": 0.20804016244346699
+        }
+      }
+    }
+  },
+  "paired_MEAN25_minus": {
+    "A": {
+      "icl": {
+        "acc": {
+          "mean": 0.38592727272727273,
+          "cluster_se": 0.007921916012686785,
+          "ci95": [
+            0.3704006026538555,
+            0.40145394280068997
+          ],
+          "query_classes": 1541,
+          "scope": "conditional on this training trajectory, frozen inputs and 11-checkpoint window"
+        },
+        "loss": {
+          "mean": -5.834451856614075,
+          "cluster_se": 0.11009347750094998,
+          "ci95": [
+            -6.050231107448708,
+            -5.618672605779443
+          ],
+          "query_classes": 1541,
+          "scope": "conditional on this training trajectory, frozen inputs and 11-checkpoint window"
+        }
+      },
+      "iwl_copy_avail": {
+        "acc": {
+          "mean": -0.026454545454545456,
+          "cluster_se": 0.0018345879032532748,
+          "ci95": [
+            -0.030050271671394728,
+            -0.022858819237696185
+          ],
+          "query_classes": 1531,
+          "scope": "conditional on this training trajectory, frozen inputs and 11-checkpoint window"
+        },
+        "loss": {
+          "mean": 0.1859728457621574,
+          "cluster_se": 0.009387909187314549,
+          "ci95": [
+            0.1675728818648882,
+            0.20437280965942659
+          ],
+          "query_classes": 1531,
+          "scope": "conditional on this training trajectory, frozen inputs and 11-checkpoint window"
+        }
+      },
+      "train_eval": {
+        "acc": {
+          "mean": 0.0011272727272727274,
+          "cluster_se": 0.0006709203898216024,
+          "ci95": [
+            -0.0001877070732711867,
+            0.0024422525278166417
+          ],
+          "query_classes": 1530,
+          "scope": "conditional on this training trajectory, frozen inputs and 11-checkpoint window"
+        },
+        "loss": {
+          "mean": -0.003080869470407593,
+          "cluster_se": 0.0017961897953917745,
+          "ci95": [
+            -0.00660133677877384,
+            0.00043959783795865376
+          ],
+          "query_classes": 1530,
+          "scope": "conditional on this training trajectory, frozen inputs and 11-checkpoint window"
+        }
+      }
+    },
+    "C25": {
+      "icl": {
+        "acc": {
+          "mean": -0.008690909090909091,
+          "cluster_se": 0.0010137720933471352,
+          "ci95": [
+            -0.010677865882401254,
+            -0.006703952299416928
+          ],
+          "query_classes": 1541,
+          "scope": "conditional on this training trajectory, frozen inputs and 11-checkpoint window"
+        },
+        "loss": {
+          "mean": 0.1348336509024851,
+          "cluster_se": 0.0033426781429100145,
+          "ci95": [
+            0.12828212213047224,
+            0.14138517967449798
+          ],
+          "query_classes": 1541,
+          "scope": "conditional on this training trajectory, frozen inputs and 11-checkpoint window"
+        }
+      },
+      "iwl_copy_avail": {
+        "acc": {
+          "mean": 0.004472727272727272,
+          "cluster_se": 0.0005065536367772279,
+          "ci95": [
+            0.0034799003884061217,
+            0.005465554157048423
+          ],
+          "query_classes": 1531,
+          "scope": "conditional on this training trajectory, frozen inputs and 11-checkpoint window"
+        },
+        "loss": {
+          "mean": -0.03574131824242755,
+          "cluster_se": 0.0018807791685760487,
+          "ci95": [
+            -0.03942757767570979,
+            -0.03205505880914531
+          ],
+          "query_classes": 1531,
+          "scope": "conditional on this training trajectory, frozen inputs and 11-checkpoint window"
+        }
+      },
+      "train_eval": {
+        "acc": {
+          "mean": -0.000490909090909091,
+          "cluster_se": 0.0002361191262764539,
+          "ci95": [
+            -0.0009536940744720058,
+            -2.812410734617625e-05
+          ],
+          "query_classes": 1530,
+          "scope": "conditional on this training trajectory, frozen inputs and 11-checkpoint window"
+        },
+        "loss": {
+          "mean": 0.0006726692025147555,
+          "cluster_se": 0.00041373744167531634,
+          "ci95": [
+            -0.00013824128222460577,
+            0.0014835796872541167
+          ],
+          "query_classes": 1530,
+          "scope": "conditional on this training trajectory, frozen inputs and 11-checkpoint window"
+        }
+      }
+    },
+    "P25": {
+      "icl": {
+        "acc": {
+          "mean": 0.022145454545454545,
+          "cluster_se": 0.0020696739199590687,
+          "ci95": [
+            0.018088968202592936,
+            0.026201940888316153
+          ],
+          "query_classes": 1541,
+          "scope": "conditional on this training trajectory, frozen inputs and 11-checkpoint window"
+        },
+        "loss": {
+          "mean": 0.07654439556873192,
+          "cluster_se": 0.005917397393073395,
+          "ci95": [
+            0.06494650979609687,
+            0.08814228134136698
+          ],
+          "query_classes": 1541,
+          "scope": "conditional on this training trajectory, frozen inputs and 11-checkpoint window"
+        }
+      },
+      "iwl_copy_avail": {
+        "acc": {
+          "mean": -0.02438181818181818,
+          "cluster_se": 0.0017134854974536846,
+          "ci95": [
+            -0.0277401880448591,
+            -0.02102344831877726
+          ],
+          "query_classes": 1531,
+          "scope": "conditional on this training trajectory, frozen inputs and 11-checkpoint window"
+        },
+        "loss": {
+          "mean": 0.17705531511587005,
+          "cluster_se": 0.008430879463688526,
+          "ci95": [
+            0.16053109500904217,
+            0.19357953522269794
+          ],
+          "query_classes": 1531,
+          "scope": "conditional on this training trajectory, frozen inputs and 11-checkpoint window"
+        }
+      },
+      "train_eval": {
+        "acc": {
+          "mean": 0.00041818181818181825,
+          "cluster_se": 0.0005627976525239891,
+          "ci95": [
+            -0.0006848813113488883,
+            0.0015212449477125247
+          ],
+          "query_classes": 1530,
+          "scope": "conditional on this training trajectory, frozen inputs and 11-checkpoint window"
+        },
+        "loss": {
+          "mean": -0.0011044588186799292,
+          "cluster_se": 0.0016152963459390066,
+          "ci95": [
+            -0.004270381481079534,
+            0.002061463843719676
+          ],
+          "query_classes": 1530,
+          "scope": "conditional on this training trajectory, frozen inputs and 11-checkpoint window"
+        }
+      }
+    }
+  }
+}

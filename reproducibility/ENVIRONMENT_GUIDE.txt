@@ -1,0 +1,11 @@
+Environment entry points
+
+For training or model evaluation, first restore the pinned upstream source according to UPSTREAM_SETUP.md. The original implementation is an external dependency; saved-result checks work without it.
+
+Saved-result checks: Python 3.10 or newer; the integrity and baseline-curve checks use the standard library. The paper-result reader needs NumPy. The optional Section 5 numerical plotting entry needs ReportLab. Review dependencies are in requirements-review.txt.
+
+Original training target (manuscript Appendix E): JAX 0.4.26, Equinox 0.11.4, Optax 0.2.2, NumPy 1.26.4 and HDF5/h5py 3.11.0 on the recorded Windows/WSL CUDA environment. The existing pinned CUDA requirements remain in the architecture and long-term experiment directories. These are source-compatibility records, not evidence that a fresh environment or full model rerun has been tested.
+
+Frozen image encoding uses the registered torchvision ResNet18 ImageNet weights. Encoder pins are in experiments/exp_002_main_reproduction/requirements_encoder.txt. Encoding is separate from saved-result checking and was not rerun for this package.
+
+Large scientific assets are external and retain their original SHA-256 identities. Local usernames, private host paths, machine inventories, and operational connection settings are excluded.

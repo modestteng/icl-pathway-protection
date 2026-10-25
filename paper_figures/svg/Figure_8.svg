@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420pt" height="180pt" viewBox="0 0 420 180">
+<rect x="0" y="0" width="420" height="180" fill="#FFFFFF"/>
+<rect x="40" y="32" width="157" height="94" fill="#FFFFFF" stroke="none"/>
+<line x1="40" y1="126" x2="197" y2="126" stroke="#E3E5E8" stroke-width="0.45"/>
+<text xml:space="preserve" x="27.888" y="128.8" font-family="Helvetica" font-size="8" fill="#333333">-5</text>
+<line x1="40" y1="110.333333333" x2="197" y2="110.333333333" stroke="#E3E5E8" stroke-width="0.45"/>
+<text xml:space="preserve" x="30.552" y="113.133333333" font-family="Helvetica" font-size="8" fill="#333333">0</text>
+<line x1="40" y1="79" x2="197" y2="79" stroke="#E3E5E8" stroke-width="0.45"/>
+<text xml:space="preserve" x="26.104" y="81.8" font-family="Helvetica" font-size="8" fill="#333333">10</text>
+<line x1="40" y1="47.6666666667" x2="197" y2="47.6666666667" stroke="#E3E5E8" stroke-width="0.45"/>
+<text xml:space="preserve" x="26.104" y="50.4666666667" font-family="Helvetica" font-size="8" fill="#333333">20</text>
+<line x1="40" y1="126" x2="197" y2="126" stroke="#7F858B" stroke-width="0.6"/>
+<line x1="40" y1="126" x2="40" y2="32" stroke="#7F858B" stroke-width="0.6"/>
+<line x1="53.0833333333" y1="126" x2="53.0833333333" y2="128.5" stroke="#7F858B" stroke-width="0.55"/>
+<text xml:space="preserve" x="46.6353333333" y="139" font-family="Helvetica" font-size="8" fill="#333333">s18</text>
+<line x1="85.7916666667" y1="126" x2="85.7916666667" y2="128.5" stroke="#7F858B" stroke-width="0.55"/>
+<text xml:space="preserve" x="79.3436666667" y="139" font-family="Helvetica" font-size="8" fill="#333333">s19</text>
+<line x1="118.5" y1="126" x2="118.5" y2="128.5" stroke="#7F858B" stroke-width="0.55"/>
+<text xml:space="preserve" x="112.052" y="139" font-family="Helvetica" font-size="8" fill="#333333">s20</text>
+<line x1="151.208333333" y1="126" x2="151.208333333" y2="128.5" stroke="#7F858B" stroke-width="0.55"/>
+<text xml:space="preserve" x="144.760333333" y="139" font-family="Helvetica" font-size="8" fill="#333333">s21</text>
+<line x1="183.916666667" y1="126" x2="183.916666667" y2="128.5" stroke="#7F858B" stroke-width="0.55"/>
+<text xml:space="preserve" x="177.468666667" y="139" font-family="Helvetica" font-size="8" fill="#333333">s22</text>
+<text xml:space="preserve" x="102.6028" y="155" font-family="Helvetica" font-size="8.8" fill="#333333">Seed ID</text>
+<text xml:space="preserve" x="-33.2596" y="0" font-family="Helvetica" font-size="8.8" fill="#333333" transform="translate(8 79) rotate(-90)">P25 - A gain (pp)</text>
+<text xml:space="preserve" x="85.8538" y="21" font-family="Helvetica" font-size="9.4" fill="#333333">(a) Kuzushiji-49</text>
+<line x1="40" y1="110.333333333" x2="197" y2="110.333333333" stroke="#73737B" stroke-width="0.7" stroke-dasharray="3 2"/>
+<line x1="53.0833333333" y1="110.333333333" x2="53.0833333333" y2="87.3129251701" stroke="#D78039" stroke-width="1.2"/>
+<circle cx="53.0833333333" cy="87.3129251701" r="3.2" fill="#D78039" stroke="#D78039" stroke-width=".9"/>
+<line x1="85.7916666667" y1="110.333333333" x2="85.7916666667" y2="48.0503401361" stroke="#D78039" stroke-width="1.2"/>
+<circle cx="85.7916666667" cy="48.0503401361" r="3.2" fill="#D78039" stroke="#D78039" stroke-width=".9"/>
+<line x1="118.5" y1="110.333333333" x2="118.5" y2="108.28707483" stroke="#D78039" stroke-width="1.2"/>
+<circle cx="118.5" cy="108.28707483" r="3.2" fill="#D78039" stroke="#D78039" stroke-width=".9"/>
+<line x1="151.208333333" y1="110.333333333" x2="151.208333333" y2="71.5823129252" stroke="#D78039" stroke-width="1.2"/>
+<circle cx="151.208333333" cy="71.5823129252" r="3.2" fill="#D78039" stroke="#D78039" stroke-width=".9"/>
+<line x1="183.916666667" y1="110.333333333" x2="183.916666667" y2="88.7197278912" stroke="#D78039" stroke-width="1.2"/>
+<circle cx="183.916666667" cy="88.7197278912" r="3.2" fill="#D78039" stroke="#D78039" stroke-width=".9"/>
+<line x1="40" y1="80.7904761905" x2="197" y2="80.7904761905" stroke="#88624A" stroke-width="1" stroke-dasharray="5 2"/>
+<rect x="250" y="32" width="157" height="94" fill="#FFFFFF" stroke="none"/>
+<line x1="250" y1="126" x2="407" y2="126" stroke="#E3E5E8" stroke-width="0.45"/>
+<text xml:space="preserve" x="237.888" y="128.8" font-family="Helvetica" font-size="8" fill="#333333">-5</text>
+<line x1="250" y1="110.333333333" x2="407" y2="110.333333333" stroke="#E3E5E8" stroke-width="0.45"/>
+<text xml:space="preserve" x="240.552" y="113.133333333" font-family="Helvetica" font-size="8" fill="#333333">0</text>
+<line x1="250" y1="79" x2="407" y2="79" stroke="#E3E5E8" stroke-width="0.45"/>
+<text xml:space="preserve" x="236.104" y="81.8" font-family="Helvetica" font-size="8" fill="#333333">10</text>
+<line x1="250" y1="47.6666666667" x2="407" y2="47.6666666667" stroke="#E3E5E8" stroke-width="0.45"/>
+<text xml:space="preserve" x="236.104" y="50.4666666667" font-family="Helvetica" font-size="8" fill="#333333">20</text>
+<line x1="250" y1="126" x2="407" y2="126" stroke="#7F858B" stroke-width="0.6"/>
+<line x1="250" y1="126" x2="250" y2="32" stroke="#7F858B" stroke-width="0.6"/>
+<line x1="263.083333333" y1="126" x2="263.083333333" y2="128.5" stroke="#7F858B" stroke-width="0.55"/>
+<text xml:space="preserve" x="256.635333333" y="139" font-family="Helvetica" font-size="8" fill="#333333">s18</text>
+<line x1="295.791666667" y1="126" x2="295.791666667" y2="128.5" stroke="#7F858B" stroke-width="0.55"/>
+<text xml:space="preserve" x="289.343666667" y="139" font-family="Helvetica" font-size="8" fill="#333333">s19</text>
+<line x1="328.5" y1="126" x2="328.5" y2="128.5" stroke="#7F858B" stroke-width="0.55"/>
+<text xml:space="preserve" x="322.052" y="139" font-family="Helvetica" font-size="8" fill="#333333">s20</text>
+<line x1="361.208333333" y1="126" x2="361.208333333" y2="128.5" stroke="#7F858B" stroke-width="0.55"/>
+<text xml:space="preserve" x="354.760333333" y="139" font-family="Helvetica" font-size="8" fill="#333333">s21</text>
+<line x1="393.916666667" y1="126" x2="393.916666667" y2="128.5" stroke="#7F858B" stroke-width="0.55"/>
+<text xml:space="preserve" x="387.468666667" y="139" font-family="Helvetica" font-size="8" fill="#333333">s22</text>
+<text xml:space="preserve" x="312.6028" y="155" font-family="Helvetica" font-size="8.8" fill="#333333">Seed ID</text>
+<text xml:space="preserve" x="-33.2596" y="0" font-family="Helvetica" font-size="8.8" fill="#333333" transform="translate(218 79) rotate(-90)">P25 - A gain (pp)</text>
+<text xml:space="preserve" x="297.9453" y="21" font-family="Helvetica" font-size="9.4" fill="#333333">(b) CIFAR-100</text>
+<line x1="250" y1="110.333333333" x2="407" y2="110.333333333" stroke="#73737B" stroke-width="0.7" stroke-dasharray="3 2"/>
+<line x1="263.083333333" y1="110.333333333" x2="263.083333333" y2="111.377777778" stroke="#D78039" stroke-width="1.2"/>
+<circle cx="263.083333333" cy="111.377777778" r="3.2" fill="#D78039" stroke="#D78039" stroke-width=".9"/>
+<line x1="295.791666667" y1="110.333333333" x2="295.791666667" y2="66.2055555556" stroke="#D78039" stroke-width="1.2"/>
+<circle cx="295.791666667" cy="66.2055555556" r="3.2" fill="#D78039" stroke="#D78039" stroke-width=".9"/>
+<line x1="328.5" y1="110.333333333" x2="328.5" y2="72.0805555556" stroke="#D78039" stroke-width="1.2"/>
+<circle cx="328.5" cy="72.0805555556" r="3.2" fill="#D78039" stroke="#D78039" stroke-width=".9"/>
+<line x1="361.208333333" y1="110.333333333" x2="361.208333333" y2="103.413888889" stroke="#D78039" stroke-width="1.2"/>
+<circle cx="361.208333333" cy="103.413888889" r="3.2" fill="#D78039" stroke="#D78039" stroke-width=".9"/>
+<line x1="393.916666667" y1="110.333333333" x2="393.916666667" y2="90.0972222222" stroke="#D78039" stroke-width="1.2"/>
+<circle cx="393.916666667" cy="90.0972222222" r="3.2" fill="#D78039" stroke="#D78039" stroke-width=".9"/>
+<line x1="250" y1="88.635" x2="407" y2="88.635" stroke="#88624A" stroke-width="1" stroke-dasharray="5 2"/>
+<text xml:space="preserve" x="115.1974" y="171" font-family="Helvetica" font-size="8.3" fill="#333333">Points: paired seeds    Dashed line: five-seed mean</text>
+</svg>

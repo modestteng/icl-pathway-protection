@@ -1,0 +1,73 @@
+{
+  "schema": "exp042-assets-v1",
+  "note": "Registered author source/features plus all five immutable exp036 purpose datasets; no resampling.",
+  "source_files": [
+    "main.py",
+    "main_utils.py",
+    "models.py",
+    "samplers.py",
+    "opto.py"
+  ],
+  "files": {
+    "config.json": {
+      "from": "exp_002_main_reproduction/runs/main/config.json (local copy: experiments/exp_002_main_reproduction/final_00020000000/original_config.json)",
+      "sha256": "5c6cadc87ba1f0796681116f8c222e742200be51658481c579776e5e8b585223"
+    },
+    "data/omniglot_features_norotate.h5": {
+      "from": "Windows exp_002_main_reproduction/features/omniglot_features_norotate.h5",
+      "sha256": "d1dd111c34d3bf17829e3191f0c01c6821e3932c7f3ca6ef9c43b49f7f66af70"
+    },
+    "data/omniglot_features_reordered.h5": {
+      "from": "Windows exp_002_main_reproduction/features/omniglot_features_reordered.h5",
+      "sha256": "3df152d4ddddbb022036a01b1664e2118c7ad683eb1ea18148cfc1ea6dcbf41c"
+    },
+    "source/main.py": {
+      "from": "experiments/reproduction_support/source/main.py",
+      "sha256": "85814cae9c85cadd498d7cb1376708c9f9f2bcac237127943ff4697268754815"
+    },
+    "source/main_utils.py": {
+      "from": "experiments/reproduction_support/source/main_utils.py",
+      "sha256": "07bfe1c34366643bc89d8b9a4194c195846e462be31ddf432734b0a817b8727d"
+    },
+    "source/models.py": {
+      "from": "experiments/reproduction_support/source/models.py",
+      "sha256": "2509f2a436dd16336f496769bb3d43df89e579cefd178b394d409b46c8892f99"
+    },
+    "source/samplers.py": {
+      "from": "experiments/reproduction_support/source/samplers.py",
+      "sha256": "d285d7d6796996162c0e445bd4d93cdd54c8e9d400bb69e81d054e1bc7a841da"
+    },
+    "source/opto.py": {
+      "from": "experiments/reproduction_support/source/opto.py",
+      "sha256": "46cbdcc2ef3c7a8688dfb365dcdc7fac753c05e96e8fee47373e2b1a2ad5d1b3"
+    },
+    "frozen_data/confirm.h5": {
+      "from": "Windows exp_036_multiseed_path_protection/outputs/data/confirm.h5",
+      "sha256": "2eb62aeea1a72ac9ed659a1cb503abf3437ce5f607bbd2ac46593dd532f7a03a"
+    },
+    "frozen_data/mechanism_confirm.h5": {
+      "from": "Windows exp_036_multiseed_path_protection/outputs/data/mechanism_confirm.h5",
+      "sha256": "bb8a1f29b6cdf3a677cf90371e39b9e056037936ebf24c0441a82a1e28160a41"
+    },
+    "frozen_data/mechanism_discovery.h5": {
+      "from": "Windows exp_036_multiseed_path_protection/outputs/data/mechanism_discovery.h5",
+      "sha256": "ba72d693758f53a02a2d56d094175cbf9858e21d0cc4fe2c62086f98b5e746f9"
+    },
+    "frozen_data/monitor.h5": {
+      "from": "Windows exp_036_multiseed_path_protection/outputs/data/monitor.h5",
+      "sha256": "b26055d0107dafb1413c2e6bd115f8f8808ef32c9e38bfa5066fe0c5755418f8"
+    },
+    "frozen_data/protection.h5": {
+      "from": "Windows exp_036_multiseed_path_protection/outputs/data/protection.h5",
+      "sha256": "ee58c0538518f373996e356f76c043a88cefba282505ca08b239f40fa27ceecd"
+    }
+  },
+  "pinned_versions": {
+    "jax": "0.4.26",
+    "jaxlib_distribution": "0.4.26+cuda12.cudnn89",
+    "equinox": "0.11.4",
+    "optax": "0.2.2",
+    "numpy": "1.26.4",
+    "h5py": "3.11.0"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "selected_mode": "cached32",
+  "mathematical_objective_unchanged": true,
+  "protection_groups": [
+    32,
+    32
+  ],
+  "gradient_relative_gate": 2e-07,
+  "projected_update_relative_gate": 2e-05
+}

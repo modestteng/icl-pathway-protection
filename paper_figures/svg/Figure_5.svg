@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420pt" height="174pt" viewBox="0 0 420 174">
+<rect x="0" y="0" width="420" height="174" fill="#FFFFFF"/>
+<rect x="42" y="29" width="94" height="96" fill="#FFFFFF" stroke="none"/>
+<line x1="42" y1="125" x2="136" y2="125" stroke="#E3E5E8" stroke-width="0.45"/>
+<text xml:space="preserve" x="28.104" y="127.8" font-family="Helvetica" font-size="8" fill="#333333">40</text>
+<line x1="42" y1="93" x2="136" y2="93" stroke="#E3E5E8" stroke-width="0.45"/>
+<text xml:space="preserve" x="28.104" y="95.8" font-family="Helvetica" font-size="8" fill="#333333">60</text>
+<line x1="42" y1="61" x2="136" y2="61" stroke="#E3E5E8" stroke-width="0.45"/>
+<text xml:space="preserve" x="28.104" y="63.8" font-family="Helvetica" font-size="8" fill="#333333">80</text>
+<line x1="42" y1="29" x2="136" y2="29" stroke="#E3E5E8" stroke-width="0.45"/>
+<text xml:space="preserve" x="23.656" y="31.8" font-family="Helvetica" font-size="8" fill="#333333">100</text>
+<line x1="42" y1="125" x2="136" y2="125" stroke="#7F858B" stroke-width="0.6"/>
+<line x1="42" y1="125" x2="42" y2="29" stroke="#7F858B" stroke-width="0.6"/>
+<line x1="57.6666666667" y1="125" x2="57.6666666667" y2="127.5" stroke="#7F858B" stroke-width="0.55"/>
+<text xml:space="preserve" x="54.9986666667" y="138" font-family="Helvetica" font-size="8" fill="#333333">A</text>
+<line x1="120.333333333" y1="125" x2="120.333333333" y2="127.5" stroke="#7F858B" stroke-width="0.55"/>
+<text xml:space="preserve" x="113.217333333" y="138" font-family="Helvetica" font-size="8" fill="#333333">P25</text>
+<text xml:space="preserve" x="-33.7392" y="0" font-family="Helvetica" font-size="8.8" fill="#333333" transform="translate(10 77) rotate(-90)">ICL accuracy (%)</text>
+<text xml:space="preserve" x="70.1906" y="18" font-family="Helvetica" font-size="9.4" fill="#333333">(a) 2L/64</text>
+<line x1="54.1573333333" y1="86.7774545455" x2="116.824" y2="41.4567272727" stroke="#AFB3B8" stroke-width="0.65"/>
+<rect x="51.3573333333" y="83.9774545455" width="5.6" height="5.6" fill="#447DA6" stroke="#447DA6" stroke-width=".9"/>
+<circle cx="116.824" cy="41.4567272727" r="2.8" fill="#D78039" stroke="#D78039" stroke-width=".9"/>
+<line x1="55.912" y1="62.5709090909" x2="118.578666667" y2="38.2858181818" stroke="#AFB3B8" stroke-width="0.65"/>
+<rect x="53.112" y="59.7709090909" width="5.6" height="5.6" fill="#447DA6" stroke="#447DA6" stroke-width=".9"/>
+<circle cx="118.578666667" cy="38.2858181818" r="2.8" fill="#D78039" stroke="#D78039" stroke-width=".9"/>
+<line x1="57.6666666667" y1="101.497454545" x2="120.333333333" y2="52.1825454545" stroke="#AFB3B8" stroke-width="0.65"/>
+<rect x="54.8666666667" y="98.6974545455" width="5.6" height="5.6" fill="#447DA6" stroke="#447DA6" stroke-width=".9"/>
+<circle cx="120.333333333" cy="52.1825454545" r="2.8" fill="#D78039" stroke="#D78039" stroke-width=".9"/>
+<line x1="59.4213333333" y1="96.9650909091" x2="122.088" y2="42.0734545455" stroke="#AFB3B8" stroke-width="0.65"/>
+<rect x="56.6213333333" y="94.1650909091" width="5.6" height="5.6" fill="#447DA6" stroke="#447DA6" stroke-width=".9"/>
+<circle cx="122.088" cy="42.0734545455" r="2.8" fill="#D78039" stroke="#D78039" stroke-width=".9"/>
+<line x1="61.176" y1="60.1650909091" x2="123.842666667" y2="37.9745454545" stroke="#AFB3B8" stroke-width="0.65"/>
+<rect x="58.376" y="57.3650909091" width="5.6" height="5.6" fill="#447DA6" stroke="#447DA6" stroke-width=".9"/>
+<circle cx="123.842666667" cy="37.9745454545" r="2.8" fill="#D78039" stroke="#D78039" stroke-width=".9"/>
+<line x1="48.8933333333" y1="81.5952" x2="66.44" y2="81.5952" stroke="#333333" stroke-width="1.65"/>
+<line x1="111.56" y1="42.3946181818" x2="129.106666667" y2="42.3946181818" stroke="#333333" stroke-width="1.65"/>
+<rect x="179" y="29" width="94" height="96" fill="#FFFFFF" stroke="none"/>
+<line x1="179" y1="125" x2="273" y2="125" stroke="#E3E5E8" stroke-width="0.45"/>
+<text xml:space="preserve" x="165.104" y="127.8" font-family="Helvetica" font-size="8" fill="#333333">40</text>
+<line x1="179" y1="93" x2="273" y2="93" stroke="#E3E5E8" stroke-width="0.45"/>
+<text xml:space="preserve" x="165.104" y="95.8" font-family="Helvetica" font-size="8" fill="#333333">60</text>
+<line x1="179" y1="61" x2="273" y2="61" stroke="#E3E5E8" stroke-width="0.45"/>
+<text xml:space="preserve" x="165.104" y="63.8" font-family="Helvetica" font-size="8" fill="#333333">80</text>
+<line x1="179" y1="29" x2="273" y2="29" stroke="#E3E5E8" stroke-width="0.45"/>
+<text xml:space="preserve" x="160.656" y="31.8" font-family="Helvetica" font-size="8" fill="#333333">100</text>
+<line x1="179" y1="125" x2="273" y2="125" stroke="#7F858B" stroke-width="0.6"/>
+<line x1="179" y1="125" x2="179" y2="29" stroke="#7F858B" stroke-width="0.6"/>
+<line x1="194.666666667" y1="125" x2="194.666666667" y2="127.5" stroke="#7F858B" stroke-width="0.55"/>
+<text xml:space="preserve" x="191.998666667" y="138" font-family="Helvetica" font-size="8" fill="#333333">A</text>
+<line x1="257.333333333" y1="125" x2="257.333333333" y2="127.5" stroke="#7F858B" stroke-width="0.55"/>
+<text xml:space="preserve" x="250.217333333" y="138" font-family="Helvetica" font-size="8" fill="#333333">P25</text>
+<text xml:space="preserve" x="204.5774" y="18" font-family="Helvetica" font-size="9.4" fill="#333333">(b) 2L/128</text>
+<line x1="191.157333333" y1="82.4109090909" x2="253.824" y2="36.7730909091" stroke="#AFB3B8" stroke-width="0.65"/>
+<rect x="188.357333333" y="79.6109090909" width="5.6" height="5.6" fill="#447DA6" stroke="#447DA6" stroke-width=".9"/>
+<circle cx="253.824" cy="36.7730909091" r="2.8" fill="#D78039" stroke="#D78039" stroke-width=".9"/>
+<line x1="192.912" y1="62.76" x2="255.578666667" y2="36.8923636364" stroke="#AFB3B8" stroke-width="0.65"/>
+<rect x="190.112" y="59.96" width="5.6" height="5.6" fill="#447DA6" stroke="#447DA6" stroke-width=".9"/>
+<circle cx="255.578666667" cy="36.8923636364" r="2.8" fill="#D78039" stroke="#D78039" stroke-width=".9"/>
+<line x1="194.666666667" y1="63.8101818182" x2="257.333333333" y2="39.1381818182" stroke="#AFB3B8" stroke-width="0.65"/>
+<rect x="191.866666667" y="61.0101818182" width="5.6" height="5.6" fill="#447DA6" stroke="#447DA6" stroke-width=".9"/>
+<circle cx="257.333333333" cy="39.1381818182" r="2.8" fill="#D78039" stroke="#D78039" stroke-width=".9"/>
+<line x1="196.421333333" y1="51.4232727273" x2="259.088" y2="34.4138181818" stroke="#AFB3B8" stroke-width="0.65"/>
+<rect x="193.621333333" y="48.6232727273" width="5.6" height="5.6" fill="#447DA6" stroke="#447DA6" stroke-width=".9"/>
+<circle cx="259.088" cy="34.4138181818" r="2.8" fill="#D78039" stroke="#D78039" stroke-width=".9"/>
+<line x1="198.176" y1="76.6945454545" x2="260.842666667" y2="36.5316363636" stroke="#AFB3B8" stroke-width="0.65"/>
+<rect x="195.376" y="73.8945454545" width="5.6" height="5.6" fill="#447DA6" stroke="#447DA6" stroke-width=".9"/>
+<circle cx="260.842666667" cy="36.5316363636" r="2.8" fill="#D78039" stroke="#D78039" stroke-width=".9"/>
+<line x1="185.893333333" y1="67.4197818182" x2="203.44" y2="67.4197818182" stroke="#333333" stroke-width="1.65"/>
+<line x1="248.56" y1="36.7498181818" x2="266.106666667" y2="36.7498181818" stroke="#333333" stroke-width="1.65"/>
+<rect x="316" y="29" width="94" height="96" fill="#FFFFFF" stroke="none"/>
+<line x1="316" y1="125" x2="410" y2="125" stroke="#E3E5E8" stroke-width="0.45"/>
+<text xml:space="preserve" x="302.104" y="127.8" font-family="Helvetica" font-size="8" fill="#333333">40</text>
+<line x1="316" y1="93" x2="410" y2="93" stroke="#E3E5E8" stroke-width="0.45"/>
+<text xml:space="preserve" x="302.104" y="95.8" font-family="Helvetica" font-size="8" fill="#333333">60</text>
+<line x1="316" y1="61" x2="410" y2="61" stroke="#E3E5E8" stroke-width="0.45"/>
+<text xml:space="preserve" x="302.104" y="63.8" font-family="Helvetica" font-size="8" fill="#333333">80</text>
+<line x1="316" y1="29" x2="410" y2="29" stroke="#E3E5E8" stroke-width="0.45"/>
+<text xml:space="preserve" x="297.656" y="31.8" font-family="Helvetica" font-size="8" fill="#333333">100</text>
+<line x1="316" y1="125" x2="410" y2="125" stroke="#7F858B" stroke-width="0.6"/>
+<line x1="316" y1="125" x2="316" y2="29" stroke="#7F858B" stroke-width="0.6"/>
+<line x1="331.666666667" y1="125" x2="331.666666667" y2="127.5" stroke="#7F858B" stroke-width="0.55"/>
+<text xml:space="preserve" x="328.998666667" y="138" font-family="Helvetica" font-size="8" fill="#333333">A</text>
+<line x1="394.333333333" y1="125" x2="394.333333333" y2="127.5" stroke="#7F858B" stroke-width="0.55"/>
+<text xml:space="preserve" x="387.217333333" y="138" font-family="Helvetica" font-size="8" fill="#333333">P25</text>
+<text xml:space="preserve" x="341.8406" y="18" font-family="Helvetica" font-size="9.4" fill="#333333">(c) 4L/128</text>
+<line x1="328.157333333" y1="87.4145454545" x2="390.824" y2="42.6087272727" stroke="#AFB3B8" stroke-width="0.65"/>
+<rect x="325.357333333" y="84.6145454545" width="5.6" height="5.6" fill="#447DA6" stroke="#447DA6" stroke-width=".9"/>
+<circle cx="390.824" cy="42.6087272727" r="2.8" fill="#D78039" stroke="#D78039" stroke-width=".9"/>
+<line x1="329.912" y1="55.5047272727" x2="392.578666667" y2="103.417454545" stroke="#AFB3B8" stroke-width="0.65"/>
+<rect x="327.112" y="52.7047272727" width="5.6" height="5.6" fill="#447DA6" stroke="#447DA6" stroke-width=".9"/>
+<circle cx="392.578666667" cy="103.417454545" r="2.8" fill="#D78039" stroke="#D78039" stroke-width=".9"/>
+<line x1="331.666666667" y1="88.4414545455" x2="394.333333333" y2="42.8501818182" stroke="#AFB3B8" stroke-width="0.65"/>
+<rect x="328.866666667" y="85.6414545455" width="5.6" height="5.6" fill="#447DA6" stroke="#447DA6" stroke-width=".9"/>
+<circle cx="394.333333333" cy="42.8501818182" r="2.8" fill="#D78039" stroke="#D78039" stroke-width=".9"/>
+<line x1="333.421333333" y1="73.8930909091" x2="396.088" y2="87.9178181818" stroke="#AFB3B8" stroke-width="0.65"/>
+<rect x="330.621333333" y="71.0930909091" width="5.6" height="5.6" fill="#447DA6" stroke="#447DA6" stroke-width=".9"/>
+<circle cx="396.088" cy="87.9178181818" r="2.8" fill="#D78039" stroke="#D78039" stroke-width=".9"/>
+<line x1="335.176" y1="91.8974545455" x2="397.842666667" y2="44.2901818182" stroke="#AFB3B8" stroke-width="0.65"/>
+<rect x="332.376" y="89.0974545455" width="5.6" height="5.6" fill="#447DA6" stroke="#447DA6" stroke-width=".9"/>
+<circle cx="397.842666667" cy="44.2901818182" r="2.8" fill="#D78039" stroke="#D78039" stroke-width=".9"/>
+<line x1="322.893333333" y1="79.4302545455" x2="340.44" y2="79.4302545455" stroke="#333333" stroke-width="1.65"/>
+<line x1="385.56" y1="64.2168727273" x2="403.106666667" y2="64.2168727273" stroke="#333333" stroke-width="1.65"/>
+<line x1="65" y1="160" x2="80" y2="160" stroke="#447DA6" stroke-width="1.6"/>
+<rect x="70" y="157.5" width="5" height="5" fill="#447DA6" stroke="#447DA6" stroke-width=".9"/>
+<text xml:space="preserve" x="85" y="162.8" font-family="Helvetica" font-size="8.1" fill="#333333">Ordinary A</text>
+<line x1="287.2748" y1="160" x2="302.2748" y2="160" stroke="#D78039" stroke-width="1.6"/>
+<circle cx="294.7748" cy="160" r="2.5" fill="#D78039" stroke="#D78039" stroke-width=".9"/>
+<text xml:space="preserve" x="307.2748" y="162.8" font-family="Helvetica" font-size="8.1" fill="#333333">Pathway P25</text>
+</svg>
