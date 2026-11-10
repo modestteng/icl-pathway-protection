@@ -2,7 +2,7 @@
 
 Minimal code release for the paper. This repository contains the paper's experiment implementations, necessary configuration, seed definitions and upstream source references. It follows the original [icl-dynamics](https://github.com/aadityasingh/icl-dynamics) layout: Python experiment entry points, shared scientific code, explicit random seeds and separately prepared inputs.
 
-The **current tracked tree is limited to 5,000,000 bytes (5 MB)**, including its manifest. The Git source tree excludes experiment records, large scientific inputs/outputs, manuscripts, figures, logs and development backups. The retained research code and data for the manuscript are published separately in the [paper-data release](https://github.com/modestteng/icl-pathway-protection/releases/tag/paper-artifacts-2026-11-10).
+The **current tracked tree is limited to 5,000,000 bytes (5 MB)**, including its manifest. The two manuscript-cited JSON metadata files below are explicitly included. Other experiment-process records, verification reports, large scientific inputs/outputs, manuscripts, figures, logs and development backups are excluded from the Git source tree. The retained research code and data for the manuscript are published separately in the [paper-data release](https://github.com/modestteng/icl-pathway-protection/releases/tag/paper-artifacts-2026-11-10).
 
 ## Code and experiments
 
@@ -20,7 +20,14 @@ For the main method, start with `path_set.py` (`set_loss`, `choose_prefix`), `sc
 
 [Minimal reproduction guide](reproducibility/MINIMAL_REPRODUCTION.md) describes input preparation, released entry points and data download/assembly.
 
-The [paper-data release](https://github.com/modestteng/icl-pathway-protection/releases/tag/paper-artifacts-2026-11-10) contains the retained numerical outputs, available shared features and sequence pools, and four-layer checkpoints. Its manifest and SHA256SUMS identify every file. The paper source snapshot is preserved at the [release tag](https://github.com/modestteng/icl-pathway-protection/tree/paper-artifacts-2026-11-10); the current main branch also includes subsequent uncapped-selector updates. The two paper records are available as [selected pathway IDs](https://github.com/modestteng/icl-pathway-protection/blob/paper-artifacts-2026-11-10/reproducibility/selected_pathways.json) and the [historical Holm family](https://github.com/modestteng/icl-pathway-protection/blob/paper-artifacts-2026-11-10/reproducibility/holm_family_record.json), and in the data archive.
+The [paper-data release](https://github.com/modestteng/icl-pathway-protection/releases/tag/paper-artifacts-2026-11-10) contains the retained numerical outputs, available shared features and sequence pools, and four-layer checkpoints. Its manifest and SHA256SUMS identify every file. The paper source snapshot is preserved at the [release tag](https://github.com/modestteng/icl-pathway-protection/tree/paper-artifacts-2026-11-10); the current main branch also includes subsequent uncapped-selector updates.
+
+## Metadata cited by the manuscript
+
+- [Selected pathway IDs](reproducibility/selected_pathways.json) (Appendix A.4 and Table A.1): all 18 trajectories, with experiment group, architecture, initialization/training seeds, complete selected IDs and their indexing convention.
+- [Historical Holm family](reproducibility/holm_family_record.json) (Appendix C.2): all nine comparison definitions and the six retained raw/adjusted p-value pairs. The three historical 4L/128 comparisons H1--H3 have no retained sample-size or p-value records and are explicitly marked `unavailable_in_retained_archive` with `null` values. They are missing records, not nonsignificant results. The complete original nine-test Holm correction cannot be independently recalculated from this file. The current eight-pair four-layer test is separate.
+
+These two files are part of the default branch and its exact release allowlist. Paths in their `sources` and `source_file` fields identify the retained research archive; they do not promise that the underlying files are present in the compact Git checkout. Run `python3 tools/verify_selected_pathways.py` to check the 18 pathway/seed identities without scientific imports or model execution.
 
 ## Check this source release
 

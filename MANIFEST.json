@@ -1,13 +1,13 @@
 {
   "schema": "icl_paper_code_only_release_v1",
-  "manuscript_sha256": "65095d8705fb7b0140f142cd3e8ba9e84decb0ad09d9dcbacfdc1cde575d1093",
+  "manuscript_sha256": "f4bff56bdd0831f5f21637e03543801e7101c65ba9b566fc4e7943af7c5235df",
   "manifest_self_excluded": true,
   "scope": "Paper code, necessary configuration and cited pathway/statistical metadata; no raw scientific data or full experimental outputs.",
   "files": [
     {
       "path": ".gitignore",
-      "bytes": 806,
-      "sha256": "da7ab7f6a605a8e4c6d5328629bf856fb89ec0853058c6161fa4d5f06c74bd35"
+      "bytes": 876,
+      "sha256": "a23b7acd71d1a04ff99c54d7541e67114e313163162608965d586e29737752d3"
     },
     {
       "path": "DATA_SOURCES.md",
@@ -21,8 +21,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5010,
-      "sha256": "e936986b59f027b3538158b52a727fd7f61d30ba96ed35f5713aea1d053bdd3e"
+      "bytes": 5974,
+      "sha256": "8690a8b7b32d8da69acb1af64847407959c9506dbf19611182c71bdd75d98335"
     },
     {
       "path": "THIRD_PARTY_NOTICES.txt",
@@ -1631,8 +1631,8 @@
     },
     {
       "path": "reproducibility/MINIMAL_REPRODUCTION.md",
-      "bytes": 7189,
-      "sha256": "1dbfd61fd0b589b32158f4c26e0ec4239d8cd5520002823e55ac2e9653c05a14"
+      "bytes": 7761,
+      "sha256": "1d2043f0a94759bf492eef74f2aaca8ad832cfb33b26bb06711c8a84c68e8af6"
     },
     {
       "path": "reproducibility/SEEDS.md",
@@ -1640,9 +1640,14 @@
       "sha256": "3b7289b398a11e836de7abf91caee6b6cdea1e81911ea8c4f98994259753bfbc"
     },
     {
+      "path": "reproducibility/holm_family_record.json",
+      "bytes": 4626,
+      "sha256": "6d3428a0fbdd183970689e7273aa5f2502e2929bf6cb69040120e99c5b8638c8"
+    },
+    {
       "path": "reproducibility/manuscript_binding.json",
       "bytes": 318,
-      "sha256": "d1831ddfffa0632c13d98eb3f954ca1e55683b92f1e2d896acc8ca3925ffdc1d"
+      "sha256": "ce4fa5bcec10f0bf6c5cdf4046542d188f329e94318e713313b522792e7acddb"
     },
     {
       "path": "reproducibility/manuscript_seed_registry.json",
@@ -1652,7 +1657,7 @@
     {
       "path": "reproducibility/paper_inventory.json",
       "bytes": 7445,
-      "sha256": "f5f6851a64a155ebd90e121d2e6aa22eb3167fbd1b4bb459cc3faafd048c3595"
+      "sha256": "1202f79d322f4d469fe6ebc6b15dc9211c98bf20e6e1b825a66a29ca0bb5af71"
     },
     {
       "path": "reproducibility/path_selection_policy.json",
@@ -1661,13 +1666,18 @@
     },
     {
       "path": "reproducibility/release_policy.json",
-      "bytes": 24801,
-      "sha256": "be1c773ced5d783f7a8300501e212e3fa95ec9751b2bd955afd3240c11224a9e"
+      "bytes": 24989,
+      "sha256": "bb89f62a0fd2c695d6a77a58d83cb4a4c8108f0af7f0666bdf3e47fe51eaf030"
+    },
+    {
+      "path": "reproducibility/selected_pathways.json",
+      "bytes": 8490,
+      "sha256": "cdbf0c6a777928ab34d72661982adf916face8ca74f8f49b0fa94167d0fce239"
     },
     {
       "path": "reproducibility/source_provenance.json",
       "bytes": 31780,
-      "sha256": "33c16e061569832ddc54b243f708a176515e6ee42fc61babb8e365a01ce300cd"
+      "sha256": "e62ce8b07296a21afdc9b6ccb6a012cf7dc69c2123f3dee0e9aa9877a9afd7f7"
     },
     {
       "path": "reproducibility/upstream_dependency.json",
@@ -1681,13 +1691,13 @@
     },
     {
       "path": "tools/verify_package.py",
-      "bytes": 18527,
-      "sha256": "0756c9f4fcb39511863791cda68bef42842af0c56753b31fbeb5fe4412a3f162"
+      "bytes": 19023,
+      "sha256": "76c3aeb7dc98181ce8fba12c42cccec8bc877668849c54ded10f6bcc1421acf6"
     },
     {
       "path": "tools/verify_selected_pathways.py",
-      "bytes": 2873,
-      "sha256": "1f6c31330b9eb83885e0767d5c4016a196fb273f288163b3b450c8746c1fd733"
+      "bytes": 2984,
+      "sha256": "0f42a0dfea9bd3c37ab67fac48106f7b999b5a631b1b4e48b4281d52be7fe753"
     }
   ]
 }

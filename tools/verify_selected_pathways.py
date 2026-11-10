@@ -1,4 +1,4 @@
-"""Validate a local pathway file without publishing it or importing scientific code."""
+"""Validate the published pathway metadata without importing scientific code."""
 import argparse
 import json
 from pathlib import Path
@@ -8,7 +8,9 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--record', required=True, type=Path, help='Local selected-pathway JSON file.')
+    parser.add_argument('--record', type=Path,
+                        default=ROOT / 'reproducibility/selected_pathways.json',
+                        help='Selected-pathway JSON file; defaults to the published record.')
     parser.add_argument('--depth-results', type=Path, help='Optional local depth-results JSON file.')
     args = parser.parse_args()
     record = json.loads(args.record.read_text())

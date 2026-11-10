@@ -18,6 +18,8 @@ EXCLUDED_PARTS = {'assets', 'outputs', 'results', 'final_results', 'review_table
                   'backup', 'backups', '__pycache__', 'source', 'records', 'reports', 'history'}
 LOCAL_RECORD_NAMES = {'notes.md', 'UNCAPPED_SEARCH.md', 'uncapped_selection_validation.json',
                       'selected_pathways.json', 'holm_family_record.json'}
+PAPER_METADATA_PATHS = {'reproducibility/selected_pathways.json',
+                        'reproducibility/holm_family_record.json'}
 PRIVATE = {
     'private_path': re.compile(r'/(?:' + '|'.join(('Users', 'home', 'root')) + r')/|[A-Z]:[\\/]'),
     'email': re.compile(r'[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}'),
@@ -30,6 +32,8 @@ def digest(data):
 
 
 def is_local_record(name):
+    if name in PAPER_METADATA_PATHS:
+        return False
     path = Path(name)
     return (path.name in LOCAL_RECORD_NAMES or path.name.startswith('实验记录')
             or path.name.endswith(('_record.json', '_validation.json'))
@@ -294,7 +298,11 @@ def main():
     errors = []
     if policy.get('experiment_records_allowed') is not False:
         errors.append('Release policy must forbid experiment and verification records')
+    if set(policy.get('paper_metadata_paths', [])) != PAPER_METADATA_PATHS:
+        errors.append('Release policy must include exactly the two manuscript-cited metadata records')
     allowed = set(policy['allowed_paths'])
+    if not PAPER_METADATA_PATHS <= allowed:
+        errors.append('Manuscript-cited metadata missing from release allowlist')
     if len(allowed) != len(policy['allowed_paths']):
         errors.append('Duplicate allowlist path')
     for path in sorted(set(files) - allowed - {'MANIFEST.json'}):

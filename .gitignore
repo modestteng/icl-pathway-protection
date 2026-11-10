@@ -57,7 +57,9 @@ venv/
 /history/
 /reproducibility/UNCAPPED_SEARCH.md
 /reproducibility/uncapped_selection_validation.json
-/reproducibility/selected_pathways.json
-/reproducibility/holm_family_record.json
 **/*_record.json
 **/*_validation.json
+
+# The two manuscript-cited metadata records are explicitly public.
+!/reproducibility/selected_pathways.json
+!/reproducibility/holm_family_record.json

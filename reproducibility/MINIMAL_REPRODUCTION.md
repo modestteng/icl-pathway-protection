@@ -14,12 +14,16 @@ python3 tools/verify_package.py
 
 The audit checks the released file hashes, syntax, seed definitions and synthetic
 selection-rule cases. It imports no scientific modules and runs no model.
-The Git tree contains source/configuration only. Retained paper data and
-statistical/pathway records are available separately in the public data release.
+The Git tree contains source/configuration and the two explicitly public metadata
+records cited by the manuscript: [selected pathways](selected_pathways.json)
+(Appendix A.4 and Table A.1) and the [historical Holm family](holm_family_record.json)
+(Appendix C.2). Other experiment-process notes and verification reports remain
+outside this Git source release. Retained paper data are linked separately below.
 
-To validate an author-retained pathway file locally, pass its path explicitly:
+Validate the released pathway file, or pass a different local file explicitly:
 
 ```text
+python3 tools/verify_selected_pathways.py
 python3 tools/verify_selected_pathways.py --record <local-pathway-file.json>
 ```
 
@@ -39,8 +43,11 @@ cat paper-depth-exp054.tar.gz.part-* > paper-depth-exp054.tar.gz
 
 The file manifest and SHA256SUMS identify all included files. The selected-path
 and historical-statistical records are under `reproducibility/` after extraction.
-Three historical Holm-test records are explicitly unavailable; they were not
-reconstructed for this release.
+The statistical JSON defines nine comparisons and retains six raw/adjusted
+p-value pairs. The three historical 4L/128 H1--H3 records are explicitly
+unavailable (`null`), so this file cannot support a complete independent
+recalculation of the original nine-test Holm correction. The current eight-pair
+four-layer comparison is a separate analysis. Missing values were not reconstructed.
 
 ## Restore the scientific environment and prepare image features
 

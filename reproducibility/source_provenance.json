@@ -704,7 +704,7 @@
     },
     {
       "path": "tools/verify_selected_pathways.py",
-      "sha256": "1f6c31330b9eb83885e0767d5c4016a196fb273f288163b3b450c8746c1fd733"
+      "sha256": "0f42a0dfea9bd3c37ab67fac48106f7b999b5a631b1b4e48b4281d52be7fe753"
     }
   ]
 }
