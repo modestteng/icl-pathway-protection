@@ -1,4 +1,5 @@
-"""Validate the Table A.1 pathway record without scientific imports or model runs."""
+"""Validate a local pathway file without publishing it or importing scientific code."""
+import argparse
 import json
 from pathlib import Path
 
@@ -6,7 +7,11 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def main():
-    record = json.loads((ROOT / 'reproducibility/selected_pathways.json').read_text())
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--record', required=True, type=Path, help='Local selected-pathway JSON file.')
+    parser.add_argument('--depth-results', type=Path, help='Optional local depth-results JSON file.')
+    args = parser.parse_args()
+    record = json.loads(args.record.read_text())
     registry = json.loads((ROOT / 'reproducibility/manuscript_seed_registry.json').read_text())
     expected = {
         (group['id'], model, seed['id'], seed['init'], seed['train'])
@@ -38,8 +43,8 @@ def main():
             assert sorted(saved['selected']) == paths
             assert saved['candidate_count'] == n
     assert actual == expected and len(actual) == 18
-    depth_path = ROOT / 'reproducibility/paper_depth_results.json'
-    if depth_path.exists():
+    depth_path = args.depth_results
+    if depth_path is not None:
         depth = json.loads(depth_path.read_text())['seeds']
         for row in record['trajectories']:
             if row['experiment_group'] == 'four_layer_depth':

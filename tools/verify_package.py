@@ -15,7 +15,9 @@ POLICY = 'reproducibility/release_policy.json'
 ALLOWED_EXTENSIONS = {'.py', '.json', '.md', '.txt'}
 EXCLUDED_PARTS = {'assets', 'outputs', 'results', 'final_results', 'review_tables',
                   'summary', 'checkpoints', 'logs', 'work', 'manuscript', 'tmp',
-                  'backup', 'backups', '__pycache__', 'source'}
+                  'backup', 'backups', '__pycache__', 'source', 'records', 'reports', 'history'}
+LOCAL_RECORD_NAMES = {'notes.md', 'UNCAPPED_SEARCH.md', 'uncapped_selection_validation.json',
+                      'selected_pathways.json', 'holm_family_record.json'}
 PRIVATE = {
     'private_path': re.compile(r'/(?:' + '|'.join(('Users', 'home', 'root')) + r')/|[A-Z]:[\\/]'),
     'email': re.compile(r'[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}'),
@@ -27,10 +29,18 @@ def digest(data):
     return hashlib.sha256(data).hexdigest()
 
 
+def is_local_record(name):
+    path = Path(name)
+    return (path.name in LOCAL_RECORD_NAMES or path.name.startswith('实验记录')
+            or path.name.endswith(('_record.json', '_validation.json'))
+            or bool(set(path.parts) & {'records', 'reports', 'history'}))
+
+
 def disk_files():
     return {p.relative_to(ROOT).as_posix(): p.read_bytes()
             for p in ROOT.rglob('*') if p.is_file()
-            and p.relative_to(ROOT).parts[0] != '.git'}
+            and p.relative_to(ROOT).parts[0] != '.git'
+            and not is_local_record(p.relative_to(ROOT).as_posix())}
 
 
 def index_files():
@@ -50,6 +60,8 @@ def index_files():
 def check_paths(files, policy, errors):
     for name, data in files.items():
         p = Path(name)
+        if is_local_record(name):
+            errors.append('Local-only experiment or verification record: ' + name)
         if p.is_absolute() or '..' in p.parts or set(p.parts) & EXCLUDED_PARTS:
             errors.append('Excluded or unsafe path: ' + name)
         if p.suffix not in ALLOWED_EXTENSIONS and name != '.gitignore':
@@ -193,7 +205,7 @@ def check_selector(files):
     assert policy['candidate_count_limit'] is None and policy['selected_path_count_limit'] is None
     assert policy['coverage']['target'] == .5 and policy['confirmation_used_for_selection'] is False
     assert json.loads(files['experiments/exp_040_scale_generalization_v2/settings.json'])['path_set']['k_max'] is None
-    return len(cases) + check_discovery(files) + check_selection_evidence(files, choose)
+    return len(cases) + check_discovery(files)
 
 
 def check_discovery(files):
@@ -270,24 +282,6 @@ def check_discovery(files):
     return len(scenarios)
 
 
-def check_selection_evidence(files, choose):
-    record = json.loads(files['reproducibility/uncapped_selection_validation.json'])
-    selected = json.loads(files['reproducibility/selected_pathways.json'])
-    expected = {(r['model'], r['seed_id']): r['selected_path_ids']
-                for r in selected['trajectories'] if r['experiment_group'] == 'two_layer_scale'}
-    actual = {}
-    for row in record['two_layer_scale']:
-        key = (row['model'], row['seed_id'])
-        assert key not in actual
-        actual[key] = row['selected_path_ids']
-        k, reason = choose(row['saved_discovery_prefix_coverage'], .5)
-        assert reason == 'smallest_prefix_reaching_target' and k == len(actual[key])
-    assert actual == expected and len(actual) == 10
-    assert record['raw_discovery_recomputed'] is False
-    assert len(record['unverified_trajectories']) == 7
-    return len(actual)
-
-
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--git-index', action='store_true', help='Inspect exact staged blobs before commit.')
@@ -298,6 +292,8 @@ def main():
     files = index_files() if args.git_index else disk_files()
     policy = json.loads(files[POLICY])
     errors = []
+    if policy.get('experiment_records_allowed') is not False:
+        errors.append('Release policy must forbid experiment and verification records')
     allowed = set(policy['allowed_paths'])
     if len(allowed) != len(policy['allowed_paths']):
         errors.append('Duplicate allowlist path')

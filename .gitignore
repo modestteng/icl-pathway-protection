@@ -48,3 +48,16 @@ venv/
 /opto.py
 /samplers.py
 /experiments/reproduction_support/source/
+
+# Experiment, verification and result records stay local.
+/notes.md
+/实验记录*
+/reports/
+/records/
+/history/
+/reproducibility/UNCAPPED_SEARCH.md
+/reproducibility/uncapped_selection_validation.json
+/reproducibility/selected_pathways.json
+/reproducibility/holm_family_record.json
+**/*_record.json
+**/*_validation.json

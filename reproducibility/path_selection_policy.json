@@ -29,6 +29,5 @@
     "experiments/exp_040_scale_generalization_v2/worker.py",
     "experiments/exp_054_uncapped_five_seeds/driver.py",
     "experiments/exp_055_uncapped_four_seeds/driver.py"
-  ],
-  "historical_equivalence_record": "reproducibility/uncapped_selection_validation.json"
+  ]
 }

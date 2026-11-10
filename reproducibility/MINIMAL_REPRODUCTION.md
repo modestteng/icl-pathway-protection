@@ -6,30 +6,25 @@ interventions and training procedures. A full model rerun requires the registere
 external image features, fixed sequence pools, and CUDA environment. The commands
 below describe that route; this revision did not rerun encoding or training.
 
-## Check the released records
+## Check the source release
 
 ```bash
 python3 tools/verify_package.py
-python3 tools/verify_selected_pathways.py
 ```
 
-The package audit checks the released file hashes, syntax, seed identities, and
-selection-rule cases. The pathway checker validates all 18 Table A.1 trajectories against the seed
-registry, including group, architecture, ID, initialization seed, training seed, candidate count,
-and selected IDs. Where retained depth measurements are present, it also checks
-their selected sets. `selected_pathways.json` lists selected IDs in ascending
-order, not in discovery rank order.
+The audit checks the released file hashes, syntax, seed definitions and synthetic
+selection-rule cases. It imports no scientific modules and runs no model.
+Experiment notes, verification reports, selected-pathway results and statistical
+result records are local only and must not be published.
 
-These are source and metadata checks. They do not train a model, run inference,
-or recompute the reported experimental measurements. The public checkout does
-not include the author-retained query arrays, checkpoints, or full outputs
-needed for an independent saved-result reaggregation.
+To validate an author-retained pathway file locally, pass its path explicitly:
 
-`reproducibility/selected_pathways.json` provides the complete selected IDs.
-`reproducibility/holm_family_record.json` provides the nine historical contrast
-definitions and six retained raw/adjusted p-value pairs. Source paths inside
-those JSON files identify the author archive; they are provenance locators,
-and their raw files are not distributed in this checkout.
+```text
+python3 tools/verify_selected_pathways.py --record <local-pathway-file.json>
+```
+
+The source release does not include the query arrays, checkpoints or outputs
+required for saved-result reaggregation.
 
 ## Restore the scientific environment and prepare image features
 
@@ -106,29 +101,16 @@ in each run root; `--resume` is for an inspected interrupted source/arm stage.
 The seed-to-driver mapping is defined by the released protocol files:
 exp054 contains s18, s19, s23, s24, and s25; exp055 contains s20, s21, and s22.
 Initialization/training pairs are in `reproducibility/manuscript_seed_registry.json`.
-These are the current four-layer protocols. The reported two-layer architecture
-comparison originally evaluated four prefixes; the released exp040 worker now
-evaluates all eight. Its ten saved discovery summaries reach the 50% target
-within the first two prefixes, so evaluating later prefixes cannot change those
-shortest-prefix selections. This is a selection-invariance argument from saved
-summaries, not a new model run or an independent recalculation from raw discovery
-arrays. See `reproducibility/UNCAPPED_SEARCH.md` for evidence and remaining gaps
-for the earlier singleton protocols.
+These drivers and the exp040 worker evaluate every ranked prefix of the
+complete adjacent-layer candidate pool. Discovery data select paths at the 50%
+coverage target; confirmation data do not reselect paths. Use a fresh run root
+for each source/configuration identity.
 
 ## Produce the reported summaries
 
 The exp040 aggregation entry is
 `experiments/exp_040_scale_generalization_v2/analyze.py`. It reads `ICL040_OUTPUTS`
-and writes architecture, seed, contrast, and primary-test summaries when all
-expected inputs are present. Its historical analysis requires recorded outputs;
-the missing historical four-layer records are not supplied by this source release. The current depth drivers
-write batch summaries from their new run roots. Compare newly selected path
-sets with `reproducibility/selected_pathways.json` using the experiment group,
-architecture, and initialization/training seed pair. New-run outputs remain
-in the run roots; the paper's complete measurements are not packaged here.
-
-The historical nine-comparison Holm family is listed in
-`reproducibility/holm_family_record.json`. Only six pairs of raw/adjusted p values
-remain available; the missing three historical depth records prevent a complete
-independent recalculation of that family. The current eight-seed depth test is
-a separate analysis.
+and writes architecture, seed, contrast and primary-test summaries when all
+required inputs are present. The depth drivers write batch summaries in their
+run roots. Keep all generated summaries, validation reports, logs and other
+experiment records outside the published source tree.

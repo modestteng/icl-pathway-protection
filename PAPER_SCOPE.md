@@ -1,6 +1,6 @@
 # Paper experiment code scope
 
-This source-only selection is bound by SHA-256 to the current English manuscript. It preserves paper experiment code and necessary shared dependencies/configuration, together with the small pathway and historical p-value records cited by the paper, while raw experimental outputs remain excluded.
+This source-only selection is bound by SHA-256 to the current English manuscript. It preserves paper experiment code and necessary shared dependencies/configuration. Experiment notes, verification reports and result records remain local.
 
 | Directory | Code retained for |
 | --- | --- |
