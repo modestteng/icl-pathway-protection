@@ -208,5 +208,5 @@
       "description": "Three retained four-layer trajectories used by current paper labels s20,s21,s22; actual seed pairs are in manuscript_seed_registry.json."
     }
   },
-  "scope": "Paper experiment source and required shared code/configuration. Experiment notes, verification reports, scientific result records, measurements, data arrays, model weights, manuscript, figures and logs are local only."
+  "scope": "Git source/configuration only. The retained manuscript research code, numerical outputs, shared inputs and four-layer checkpoints are published separately in the paper-data release linked from README.md."
 }

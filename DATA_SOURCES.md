@@ -1,5 +1,7 @@
-# External scientific inputs
+# Research data and code availability
 
-No datasets, scores, feature matrices or trained weights are distributed in this code release. Configuration files retain only the input names, generation parameters, pinned revisions and hashes needed to identify the scientific setup.
+The retained research code and data supporting this study are publicly available in the [paper-data release](https://github.com/modestteng/icl-pathway-protection/releases/tag/paper-artifacts-2026-11-10). It contains the retained numerical outputs, available shared feature files and sequence pools, and retained four-layer checkpoints. The release manifest lists all included files and their SHA-256 hashes. The compact Git tree provides the implementation, configurations, seed mappings, and pathway/statistical records.
+
+All currently retained manuscript research artifacts are included. The three historical four-layer Holm-test records are no longer retained and are marked as unavailable in `reproducibility/holm_family_record.json`. External original datasets and the separately obtained upstream source are available from their original sources; their identities and preparation requirements remain in the configurations and pinned source records.
 
 The experiments use [Omniglot](https://github.com/brendenlake/omniglot), [EMNIST Balanced](https://huggingface.co/datasets/Royc30ne/emnist-balanced), [Kuzushiji-49](https://codh.rois.ac.jp/kmnist/) and [CIFAR-100](https://www.cs.toronto.edu/~kriz/cifar.html). Encoding uses the recorded torchvision ResNet18 ImageNet weights. Dataset and encoder terms continue to apply. Identical seeds alone do not establish identical encoded inputs.

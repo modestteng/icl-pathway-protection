@@ -14,8 +14,8 @@ python3 tools/verify_package.py
 
 The audit checks the released file hashes, syntax, seed definitions and synthetic
 selection-rule cases. It imports no scientific modules and runs no model.
-Experiment notes, verification reports, selected-pathway results and statistical
-result records are local only and must not be published.
+The Git tree contains source/configuration only. Retained paper data and
+statistical/pathway records are available separately in the public data release.
 
 To validate an author-retained pathway file locally, pass its path explicitly:
 
@@ -23,8 +23,24 @@ To validate an author-retained pathway file locally, pass its path explicitly:
 python3 tools/verify_selected_pathways.py --record <local-pathway-file.json>
 ```
 
-The source release does not include the query arrays, checkpoints or outputs
-required for saved-result reaggregation.
+The Git source tree does not contain the large query arrays, checkpoints or
+outputs. Download the [retained paper-data release](https://github.com/modestteng/icl-pathway-protection/releases/tag/paper-artifacts-2026-11-10) for those files.
+The source snapshot associated with the recorded paper results is preserved at
+the release tag and in the code/results archive; current main also contains
+subsequent selector changes.
+
+Download all release assets into one directory. The exp054 archive is split
+into ten transport parts. Reconstruct it before extracting the four tar archives
+into a fresh directory:
+
+```bash
+cat paper-depth-exp054.tar.gz.part-* > paper-depth-exp054.tar.gz
+```
+
+The file manifest and SHA256SUMS identify all included files. The selected-path
+and historical-statistical records are under `reproducibility/` after extraction.
+Three historical Holm-test records are explicitly unavailable; they were not
+reconstructed for this release.
 
 ## Restore the scientific environment and prepare image features
 

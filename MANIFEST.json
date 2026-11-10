@@ -11,18 +11,18 @@
     },
     {
       "path": "DATA_SOURCES.md",
-      "bytes": 703,
-      "sha256": "f73a4646262f693d72bdabb9b66e2f894c8457d920a9abda1ec6d8755b7850d9"
+      "bytes": 1431,
+      "sha256": "fb6e30a5e320fbb5148c7af2b8921656b76850f0aa2f5c762a38e1d3bc034d6e"
     },
     {
       "path": "PAPER_SCOPE.md",
-      "bytes": 3659,
-      "sha256": "0f3e44cba1e6b8d94bc189fbd31f481f8db620f5764614280a7dae759675975d"
+      "bytes": 3764,
+      "sha256": "b4b58d788c69e43146ad7074393efebc69bef51bc86c25ee8ddda8337f9c4293"
     },
     {
       "path": "README.md",
-      "bytes": 4115,
-      "sha256": "d71460a5caeeb01495ea46c143eb4e0cea9ebbd992fd4c2680b96a64661bba01"
+      "bytes": 5010,
+      "sha256": "e936986b59f027b3538158b52a727fd7f61d30ba96ed35f5713aea1d053bdd3e"
     },
     {
       "path": "THIRD_PARTY_NOTICES.txt",
@@ -1631,8 +1631,8 @@
     },
     {
       "path": "reproducibility/MINIMAL_REPRODUCTION.md",
-      "bytes": 6336,
-      "sha256": "f2ed55a88474460f1d56de28fa9bdc4636cfa2a0e21f14fab1f0b83e86ebf587"
+      "bytes": 7189,
+      "sha256": "1dbfd61fd0b589b32158f4c26e0ec4239d8cd5520002823e55ac2e9653c05a14"
     },
     {
       "path": "reproducibility/SEEDS.md",
@@ -1641,8 +1641,8 @@
     },
     {
       "path": "reproducibility/manuscript_binding.json",
-      "bytes": 380,
-      "sha256": "1190c1bcb8e8cc7bdc487a21517ed49b2aafbbd680b49a95e2e47b124182d0d3"
+      "bytes": 318,
+      "sha256": "d1831ddfffa0632c13d98eb3f954ca1e55683b92f1e2d896acc8ca3925ffdc1d"
     },
     {
       "path": "reproducibility/manuscript_seed_registry.json",
@@ -1651,8 +1651,8 @@
     },
     {
       "path": "reproducibility/paper_inventory.json",
-      "bytes": 7459,
-      "sha256": "de13a54e6f0d73d004c251fa6fff8d055a4490abac6f99c257064bb4b1baf53d"
+      "bytes": 7445,
+      "sha256": "f5f6851a64a155ebd90e121d2e6aa22eb3167fbd1b4bb459cc3faafd048c3595"
     },
     {
       "path": "reproducibility/path_selection_policy.json",
@@ -1661,8 +1661,8 @@
     },
     {
       "path": "reproducibility/release_policy.json",
-      "bytes": 24524,
-      "sha256": "7235e0c5ca01dc0eb8a83c82f757b7e8fb5daf6a7be908d9e2df667114009e2b"
+      "bytes": 24801,
+      "sha256": "be1c773ced5d783f7a8300501e212e3fa95ec9751b2bd955afd3240c11224a9e"
     },
     {
       "path": "reproducibility/source_provenance.json",

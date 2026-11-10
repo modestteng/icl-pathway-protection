@@ -4,5 +4,5 @@
   "figures": 8,
   "tables": 19,
   "algorithms": 1,
-  "scope": "Identity of the English manuscript associated with this code and its released pathway/statistical metadata. The manuscript and full experimental outputs are not distributed."
+  "scope": "English manuscript identity for this Git source tree and the retained research artifacts linked from README.md."
 }

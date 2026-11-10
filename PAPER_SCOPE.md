@@ -1,6 +1,6 @@
 # Paper experiment code scope
 
-This source-only selection is bound by SHA-256 to the current English manuscript. It preserves paper experiment code and necessary shared dependencies/configuration. Experiment notes, verification reports and result records remain local.
+This source-only selection is bound by SHA-256 to the current English manuscript. It preserves paper experiment code and necessary shared dependencies/configuration. Project-management and review notes remain local. Retained manuscript research data and result records are published separately in the paper-data release linked from README.md.
 
 | Directory | Code retained for |
 | --- | --- |

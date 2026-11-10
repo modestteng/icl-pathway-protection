@@ -344,5 +344,7 @@
     "tools/verify_selected_pathways.py"
   ],
   "paper_metadata_paths": [],
-  "experiment_records_allowed": false
+  "experiment_records_allowed": false,
+  "research_artifacts_release": "https://github.com/modestteng/icl-pathway-protection/releases/tag/paper-artifacts-2026-11-10",
+  "release_budget_scope": "The file and size limits apply to the Git source tree; retained research data are published as separate release assets."
 }

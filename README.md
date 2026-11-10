@@ -2,7 +2,7 @@
 
 Minimal code release for the paper. This repository contains the paper's experiment implementations, necessary configuration, seed definitions and upstream source references. It follows the original [icl-dynamics](https://github.com/aadityasingh/icl-dynamics) layout: Python experiment entry points, shared scientific code, explicit random seeds and separately prepared inputs.
 
-The **current tracked tree is limited to 5,000,000 bytes (5 MB)**, including its manifest. Experiment notes, verification reports, selected-pathway results, statistical result records, datasets, saved-result arrays/tables, feature files, checkpoints, manuscript files, figures, logs and development backups stay local and must not be published.
+The **current tracked tree is limited to 5,000,000 bytes (5 MB)**, including its manifest. The Git source tree excludes experiment records, large scientific inputs/outputs, manuscripts, figures, logs and development backups. The retained research code and data for the manuscript are published separately in the [paper-data release](https://github.com/modestteng/icl-pathway-protection/releases/tag/paper-artifacts-2026-11-10).
 
 ## Code and experiments
 
@@ -18,7 +18,9 @@ Formal IDs are `s5` (primary) and `s7` (independent replication). Identify seed 
 
 For the main method, start with `path_set.py` (`set_loss`, `choose_prefix`), `science.py` (`functional_objective`, `modified_step`, `constrain_update`) and `projection.py` under exp040. The exp040 and current four-layer selectors evaluate every ranked prefix of all adjacent-layer Head-to-label-K candidates. Discovery data select paths; held-out confirmation does not reselect them. The four-layer experiments use rho=0.25. The earlier four-prefix cap has also been removed from the exp047 utility driver. Its experimental non-adjacent operator is outside the manuscript's validated adjacent-layer scope.
 
-[Minimal reproduction guide](reproducibility/MINIMAL_REPRODUCTION.md) describes input preparation and the released entry points. Experiment and verification records are maintained locally.
+[Minimal reproduction guide](reproducibility/MINIMAL_REPRODUCTION.md) describes input preparation, released entry points and data download/assembly.
+
+The [paper-data release](https://github.com/modestteng/icl-pathway-protection/releases/tag/paper-artifacts-2026-11-10) contains the retained numerical outputs, available shared features and sequence pools, and four-layer checkpoints. Its manifest and SHA256SUMS identify every file. The paper source snapshot is preserved at the [release tag](https://github.com/modestteng/icl-pathway-protection/tree/paper-artifacts-2026-11-10); the current main branch also includes subsequent uncapped-selector updates. The two paper records are available as [selected pathway IDs](https://github.com/modestteng/icl-pathway-protection/blob/paper-artifacts-2026-11-10/reproducibility/selected_pathways.json) and the [historical Holm family](https://github.com/modestteng/icl-pathway-protection/blob/paper-artifacts-2026-11-10/reproducibility/holm_family_record.json), and in the data archive.
 
 ## Check this source release
 
@@ -30,4 +32,4 @@ This standard-library check enforces the exact file allowlist, 5 MB budget, per-
 
 [UPSTREAM_SETUP.md](UPSTREAM_SETUP.md) describes restoring the pinned external model code. CUDA compatibility pins remain in `experiments/reproduction_support/requirements_jax_cuda.txt`. These are the recorded scientific environment, not a newly tested environment.
 
-This is a **source release**, not a complete reproduction archive. Entry points require their separately prepared inputs and, in some cases, historical reference outputs or execution helpers. Historical validators/code manifests remain source records; their omitted inputs are not claimed to be available. Current four-layer adapter manifests enumerate only retained source/configuration. No full experiment rerun or numerical-result validation is claimed for this release.
+The Git tree is the compact source release; the linked data release contains all currently retained manuscript research artifacts identified by its manifest. The three historical four-layer Holm-test records are no longer retained and are marked as unavailable in the statistical record. Pinned upstream source and original benchmark datasets remain linked separately. Publishing these files does not constitute a new training or inference rerun.
