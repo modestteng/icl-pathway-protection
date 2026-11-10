@@ -1,0 +1,28 @@
+{
+  "schema": "icl_path_selection_policy_v1",
+  "status": "user_fixed_default_for_new_experiments",
+  "decision_date": "2026-11-09",
+  "user_instruction": "固定这个候选算法，即候选路径的数量无限制",
+  "candidate_definition": "Original adjacent-layer source Head to downstream label-K pathways",
+  "candidate_pool": "All pathways admitted by the original definition for the current model architecture",
+  "candidate_count_limit": null,
+  "selected_path_count_limit": null,
+  "ranking": {
+    "metric": "Mean singleton cross-entropy gain over the original two protection data settings",
+    "order": "descending",
+    "tie_break": "smaller_path_id",
+    "data": "mechanism_discovery_only"
+  },
+  "prefixes": "Every ranked prefix k=1..N, where N is the actual full candidate count",
+  "coverage": {
+    "target": 0.5,
+    "definition": "Minimum over protection data settings of mean set gain divided by mean full donor gain"
+  },
+  "selection_rule": "Smallest prefix reaching target; otherwise highest finite coverage, ties smaller k",
+  "no_finite_coverage_rule": "Retain existing choose_prefix fallback to the first ranked path and report the condition",
+  "confirmation_used_for_selection": false,
+  "rho": "specified_separately_for_each_experiment",
+  "implementation_reference": "experiments/exp_054_uncapped_five_seeds/driver.py",
+  "selection_function_reference": "experiments/exp_040_scale_generalization_v2/path_set.py:choose_prefix",
+  "artifact_scope": "Code-only release; scientific data and results are external."
+}

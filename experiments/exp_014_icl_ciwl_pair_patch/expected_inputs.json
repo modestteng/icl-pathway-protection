@@ -1,0 +1,44 @@
+{
+  "checkpoint": "experiments/exp_002_main_reproduction/runs/main_resume_00002950016/checkpoints/00020000000.eqx",
+  "checkpoint_sha256": "95b0609902e00b4de117ec05f21293ccfc490ff38843acac144a07033ebedd0d",
+  "checkpoint_bytes": 20641192,
+  "iter": 20000000,
+  "adam_updates": 625000,
+  "configuration_sha256": "5c6cadc87ba1f0796681116f8c222e742200be51658481c579776e5e8b585223",
+  "evaluation_data_sha256": "634ee065b3183599a409c325960ad5fbe4388236a4fc60143794467da3c5efec",
+  "source_sha256": {
+    "main.py": "85814cae9c85cadd498d7cb1376708c9f9f2bcac237127943ff4697268754815",
+    "main_utils.py": "07bfe1c34366643bc89d8b9a4194c195846e462be31ddf432734b0a817b8727d",
+    "models.py": "2509f2a436dd16336f496769bb3d43df89e579cefd178b394d409b46c8892f99",
+    "samplers.py": "d285d7d6796996162c0e445bd4d93cdd54c8e9d400bb69e81d054e1bc7a841da",
+    "opto.py": "46cbdcc2ef3c7a8688dfb365dcdc7fac753c05e96e8fee47373e2b1a2ad5d1b3"
+  },
+  "checkpoint_sha256_by_stage": {
+    "0": "cc5d646d6dd6f6e0ff5632921904d57577e19ef11df59d1150ca3fb2437646c0",
+    "2000000": "6cc17173f9f19c5a8c565d387b5d1429f4486a889c5e5fd523686107f8524c62",
+    "4400000": "627972690994b53311e3ced2714afc316f4b64687706d8d37e1b7e47457da7b5",
+    "8000000": "c6a1d4669004061b82a93d2bbcd37694c4a7ce77547d79cd6e2c2147d840dcac",
+    "20000000": "95b0609902e00b4de117ec05f21293ccfc490ff38843acac144a07033ebedd0d"
+  },
+  "baseline_curve_sha256": "6708535d3782265cb877fc7be02c101a16e9dfaf29b108ad9def094d42fc93ba",
+  "author_forward_sha256": "4d98d40d8d236a64293c10d55dfefec0352b9029269bafb5b656901bbf84e94e",
+  "stages": [
+    4400000,
+    8000000,
+    20000000
+  ],
+  "sequences_per_evaluator": 5000,
+  "batch_size": 128,
+  "evaluation_prng_key": [
+    0,
+    0
+  ],
+  "baseline_init_seed": 5,
+  "baseline_train_seed": 2,
+  "baseline_eval_seed": 1,
+  "feature_sha256": "d1dd111c34d3bf17829e3191f0c01c6821e3932c7f3ca6ef9c43b49f7f66af70",
+  "evaluators": [
+    "icl",
+    "iwl_copy_avail"
+  ]
+}

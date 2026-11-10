@@ -1,0 +1,71 @@
+{
+  "schema": "exp055_uncapped_four_seeds_v1",
+  "architecture": {
+    "depth": 4,
+    "d_model": 128,
+    "num_heads": 8
+  },
+  "seeds": {
+    "s20": {
+      "id": "s20",
+      "init": 31,
+      "train": 28
+    },
+    "s21": {
+      "id": "s21",
+      "init": 33,
+      "train": 30
+    },
+    "s22": {
+      "id": "s22",
+      "init": 34,
+      "train": 31
+    }
+  },
+  "rho": 0.25,
+  "arms": [
+    "A",
+    "P25_uncapped"
+  ],
+  "source_horizon": 20000000,
+  "source_grid": 100000,
+  "source_horizon_basis": "exp040 first_horizon=20M; fixed before inspecting the source curves",
+  "starting_time_rule": "Exact maximum full-label standard ICL correct count over each new source monitor grid 0..20M, earliest checkpoint on ties; current peak-start convention",
+  "continuation_sequences": 5600000,
+  "batch_size": 32,
+  "terminal_window_sequences": 1000000,
+  "terminal_window_points": 11,
+  "path_policy": {
+    "schema": "icl_path_selection_policy_v1",
+    "status": "user_fixed_default_for_new_experiments",
+    "decision_date": "2026-11-09",
+    "user_instruction": "固定这个候选算法，即候选路径的数量无限制",
+    "candidate_definition": "Original adjacent-layer source Head to downstream label-K pathways",
+    "candidate_pool": "All pathways admitted by the original definition for the current model architecture",
+    "candidate_count_limit": null,
+    "selected_path_count_limit": null,
+    "ranking": {
+      "metric": "Mean singleton cross-entropy gain over the original two protection data settings",
+      "order": "descending",
+      "tie_break": "smaller_path_id",
+      "data": "mechanism_discovery_only"
+    },
+    "prefixes": "Every ranked prefix k=1..N, where N is the actual full candidate count",
+    "coverage": {
+      "target": 0.5,
+      "definition": "Minimum over protection data settings of mean set gain divided by mean full donor gain"
+    },
+    "selection_rule": "Smallest prefix reaching target; otherwise highest finite coverage, ties smaller k",
+    "no_finite_coverage_rule": "Retain existing choose_prefix fallback to the first ranked path and report the condition",
+    "confirmation_used_for_selection": false,
+    "rho": "specified_separately_for_each_experiment",
+    "implementation_reference": "experiments/exp_054_uncapped_five_seeds/driver.py",
+    "selection_function_reference": "experiments/exp_040_scale_generalization_v2/path_set.py:choose_prefix"
+  },
+  "selection_data": "mechanism_discovery only",
+  "mechanism_confirmation": "Report only, never used to reselect; preserve structural and finite-state gates",
+  "data_policy": "Reuse identical exp047 rebuilt features and fixed discovery/confirm/protection/monitor/evaluation pools; no encoding or data regeneration",
+  "source_identity": "exp040 scientific kernels and exp047 shared utilities; seed IDs are the manuscript IDs",
+  "historical_bitwise_reproduction": false,
+  "scope": "Only current manuscript trajectories. Each protocol key, seed ID, output directory and saved-result ID uses the same manuscript ID."
+}

@@ -1,0 +1,196 @@
+{
+  "schema": "icl_manuscript_seed_registry_v2",
+  "scope": "Only seed groups used in the current English and Chinese manuscripts",
+  "groups": [
+    {
+      "id": "primary",
+      "architectures": [
+        "2L/64"
+      ],
+      "use": "Main experiments, main controls, EMNIST and training-cost measurements",
+      "seeds": [
+        {
+          "init": 5,
+          "train": 2,
+          "id": "s5",
+          "role": "Primary"
+        }
+      ]
+    },
+    {
+      "id": "independent_replication",
+      "architectures": [
+        "2L/64"
+      ],
+      "use": "Independent A/P25/PR25 replication",
+      "seeds": [
+        {
+          "init": 7,
+          "train": 4,
+          "id": "s7",
+          "role": "Replication"
+        }
+      ]
+    },
+    {
+      "id": "two_layer_scale",
+      "architectures": [
+        "2L/64",
+        "2L/128"
+      ],
+      "use": "Two-layer architecture comparison",
+      "seeds": [
+        {
+          "init": 13,
+          "train": 10,
+          "id": "s13"
+        },
+        {
+          "init": 14,
+          "train": 11,
+          "id": "s14"
+        },
+        {
+          "init": 15,
+          "train": 12,
+          "id": "s15"
+        },
+        {
+          "init": 16,
+          "train": 13,
+          "id": "s16"
+        },
+        {
+          "init": 17,
+          "train": 14,
+          "id": "s17"
+        }
+      ]
+    },
+    {
+      "id": "fixed_start_and_transfer",
+      "architectures": [
+        "2L/64"
+      ],
+      "use": "Fixed-start long-term training and Kuzushiji-49/CIFAR-100 evaluation",
+      "seeds": [
+        {
+          "init": 18,
+          "train": 15,
+          "id": "s18"
+        },
+        {
+          "init": 19,
+          "train": 16,
+          "id": "s19"
+        },
+        {
+          "init": 20,
+          "train": 17,
+          "id": "s20"
+        },
+        {
+          "init": 21,
+          "train": 18,
+          "id": "s21"
+        },
+        {
+          "init": 22,
+          "train": 19,
+          "id": "s22"
+        }
+      ]
+    },
+    {
+      "id": "four_layer_depth",
+      "architectures": [
+        "4L/128"
+      ],
+      "use": "Four-layer depth validation",
+      "seeds": [
+        {
+          "init": 23,
+          "train": 20,
+          "id": "s18"
+        },
+        {
+          "init": 26,
+          "train": 23,
+          "id": "s19"
+        },
+        {
+          "init": 31,
+          "train": 28,
+          "id": "s20"
+        },
+        {
+          "init": 33,
+          "train": 30,
+          "id": "s21"
+        },
+        {
+          "init": 34,
+          "train": 31,
+          "id": "s22"
+        },
+        {
+          "init": 24,
+          "train": 21,
+          "id": "s23"
+        },
+        {
+          "init": 25,
+          "train": 22,
+          "id": "s24"
+        },
+        {
+          "init": 27,
+          "train": 24,
+          "id": "s25"
+        }
+      ]
+    }
+  ],
+  "labels_are_local_to_experiment": true,
+  "seed_semantics": {
+    "init": "Model parameter initialization seed",
+    "train": "Root seed for the training random streams; split into data-sampling and model-computation streams",
+    "continuation": "Restore saved model, Adam state and already-advanced random streams; do not reset the training seed at continuation. Matched A/P25 arms use the same fork and primary data order."
+  },
+  "external_data_sampling_seeds": {
+    "EMNIST Balanced": {
+      "support": 2026104101,
+      "query": 2026104102,
+      "sequence_construction": 2026104103
+    },
+    "Kuzushiji-49": {
+      "support": 2026104301,
+      "query": 2026104302,
+      "sequence_construction": 2026104303
+    },
+    "CIFAR-100": {
+      "support": 2026104401,
+      "query": 2026104402,
+      "sequence_construction": 2026104403
+    }
+  },
+  "four_layer_algorithm": {
+    "candidate_definition": "All adjacent-layer Head-to-label-K candidates",
+    "candidate_and_selected_count_cap": null,
+    "prefixes": "Every ranked prefix k=1..N; N=24 for 4L/128 with eight heads per layer",
+    "ranking": "Mean singleton cross-entropy gain across the two discovery label settings; ties smaller path ID",
+    "coverage_target": 0.5,
+    "selection": "Shortest prefix reaching target; otherwise highest finite coverage, ties fewer paths; first ranked path if all coverages undefined",
+    "selection_data": "Mechanism discovery only; confirmation never reselects paths",
+    "start": "Exact full-label ICL correct-count maximum on 0..20M at 0.1M intervals, earliest tie",
+    "rho": 0.25
+  },
+  "id_policy": "Run IDs are local to an experiment group and architecture. Use (group, architecture, id) to identify a trajectory, and retain init/train as numerical reproducibility parameters. Registry and configuration IDs must agree. Role descriptions do not replace run IDs.",
+  "identity_fields": [
+    "group",
+    "architecture",
+    "id",
+    "init",
+    "train"
+  ]
+}

@@ -1,0 +1,100 @@
+[
+  {
+    "name": "K_hall_p13",
+    "kind": "K",
+    "head": -1,
+    "positions": [
+      1,
+      3
+    ],
+    "reverse": false
+  },
+  {
+    "name": "L1_0_to_K_hall",
+    "kind": "edge",
+    "sender": 0,
+    "head": -1,
+    "positions": [
+      1,
+      3
+    ],
+    "reverse": false
+  },
+  {
+    "name": "L1_1_to_K_hall",
+    "kind": "edge",
+    "sender": 1,
+    "head": -1,
+    "positions": [
+      1,
+      3
+    ],
+    "reverse": false
+  },
+  {
+    "name": "L1_2_to_K_hall",
+    "kind": "edge",
+    "sender": 2,
+    "head": -1,
+    "positions": [
+      1,
+      3
+    ],
+    "reverse": false
+  },
+  {
+    "name": "L1_3_to_K_hall",
+    "kind": "edge",
+    "sender": 3,
+    "head": -1,
+    "positions": [
+      1,
+      3
+    ],
+    "reverse": false
+  },
+  {
+    "name": "L1_4_to_K_hall",
+    "kind": "edge",
+    "sender": 4,
+    "head": -1,
+    "positions": [
+      1,
+      3
+    ],
+    "reverse": false
+  },
+  {
+    "name": "L1_5_to_K_hall",
+    "kind": "edge",
+    "sender": 5,
+    "head": -1,
+    "positions": [
+      1,
+      3
+    ],
+    "reverse": false
+  },
+  {
+    "name": "L1_6_to_K_hall",
+    "kind": "edge",
+    "sender": 6,
+    "head": -1,
+    "positions": [
+      1,
+      3
+    ],
+    "reverse": false
+  },
+  {
+    "name": "L1_7_to_K_hall",
+    "kind": "edge",
+    "sender": 7,
+    "head": -1,
+    "positions": [
+      1,
+      3
+    ],
+    "reverse": false
+  }
+]

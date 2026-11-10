@@ -1,0 +1,79 @@
+{
+  "version": "exp023_exp024_ciwl_divot_v1",
+  "n": 5000,
+  "batch_size": 128,
+  "discovery_seed": 20261012,
+  "confirmation_seed": 20261013,
+  "forward_key": 0,
+  "eval_sets": [
+    "iwl_copy_avail"
+  ],
+  "window_codes": [
+    "N",
+    "P1"
+  ],
+  "path_codes": [
+    "N",
+    "S",
+    "K",
+    "V",
+    "KB"
+  ],
+  "primary_delta": 1.0,
+  "sensitivity_delta": 2.0,
+  "hard_block_value": -1000000000.0,
+  "control_head": 6,
+  "locator": {
+    "search_peak_range": [
+      2000000,
+      10000000
+    ],
+    "smoothing_points": 3,
+    "left_lookback": 1000000,
+    "right_lookahead": 2000000,
+    "minimum_peak_gap": 200000,
+    "minimum_prominence_nats": 0.02,
+    "fallback_peak": 4400000,
+    "window_half_width": 250000,
+    "flank_near": 300000,
+    "flank_far": 800000,
+    "dense_step": 50000,
+    "broad_grid": [
+      2000000,
+      10000000,
+      250000
+    ],
+    "fixed_anchors": [
+      0,
+      1000000,
+      2000000,
+      4400000,
+      8000000,
+      12000000,
+      16000000,
+      20000000
+    ]
+  },
+  "statistics": {
+    "alpha": 0.05,
+    "minimum_window_benefit_nats": 0.02,
+    "minimum_concentration_nats": 0.01,
+    "late_equivalence_nats": 0.02,
+    "path_retention_fraction": 0.8,
+    "v_equivalence_nats": 0.02,
+    "cluster_unit": "true query class",
+    "time_aggregation": "equal checkpoint weight within a window, then paired query-class clustered inference"
+  },
+  "audit": {
+    "non_target_tolerance": 0.0,
+    "logit_equivalence_tolerance": 0.0001,
+    "historical_mean_loss_tolerance": 0.001,
+    "historical_mean_accuracy_tolerance": 0.002,
+    "attention_rowsum_tolerance": 1e-06
+  },
+  "execution": {
+    "no_training": true,
+    "safe_budget_seconds": 9000,
+    "hard_limit_seconds": 10500
+  }
+}

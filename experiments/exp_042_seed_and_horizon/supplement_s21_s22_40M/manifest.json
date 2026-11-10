@@ -1,0 +1,10 @@
+{
+  "analyze_supplement.py": "49dbb521f5f59364646f76e0968ef7149aff0f9869eb795298271e475d921bb6",
+  "controller.py": "fabf34ee205ad20f15ed80e092d7a64ac28648f6600fe10dee652d5520c42e40",
+  "protocol.md": "1cc7fc19b728e25525bb86fd8c216157261c067a6820f9cb91885b798b96aba5",
+  "run_worker.py": "264f7c02f8e8d3d9c48a15c188230faa7d6e1719e5c159563a0ca1a505635ac9",
+  "supervisor_adapter.py": "52234207dbd3903ffe0dadb4cbdeb67144d6b8da0a44cfe9dd485abcb09f6f8f",
+  "supplement.json": "1209c0e42a8a41b752e9e172d4bdcb6a72f4a1268b7c8b78a95b340e7b81702a",
+  "test_control.py": "1de2350a85c6a08335da3ccee8981d6bc1fb8c1704e96be51770fd6dc12e57c7",
+  "verify_supplement.py": "93c0d5cc3ce5ba586273cd01a5d4aa1df5e579aabc4fd35ef89c9bef03d51b18"
+}

@@ -1,0 +1,3 @@
+Source audit: Python 3.9 or later, standard library only.
+Scientific environment: recorded CUDA pins in experiments/reproduction_support/requirements_jax_cuda.txt. The original experiments used JAX 0.4.26, Equinox 0.11.4, Optax 0.2.2, NumPy 1.26.4 and h5py 3.11.0. Encoder pins remain in experiments/exp_002_main_reproduction/requirements_encoder.txt.
+Pinned versions are historical compatibility records; this release does not claim a fresh scientific environment or full experiment rerun. External inputs are required for scientific entry points.

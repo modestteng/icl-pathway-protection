@@ -1,0 +1,27 @@
+{
+  "status": "completed_behavior_baseline_at_20m",
+  "training_sequences": 20000000,
+  "optimizer_updates": 625000,
+  "original_author_main_sequences": 64000000,
+  "reason": "User judged the behavior sufficiently clear and requested a round integer endpoint; 20M matches the paper Figure 1b window",
+  "seeds": {
+    "init": 5,
+    "train": 2,
+    "eval": 1
+  },
+  "comparison_rule": "Use the same 20M model checkpoint and fixed evaluation sets for any later approved improvement",
+  "evaluation_data_sha256": "634ee065b3183599a409c325960ad5fbe4388236a4fc60143794467da3c5efec",
+  "feature_sha256": {
+    "omniglot_features_all.h5": "9402da114b108d9b55c1727ad5c7f1a9369ddd6751b00c1432945e4e94f1ac3f",
+    "omniglot_features_reordered.h5": "3df152d4ddddbb022036a01b1664e2118c7ad683eb1ea18148cfc1ea6dcbf41c",
+    "omniglot_features_norotate.h5": "d1dd111c34d3bf17829e3191f0c01c6821e3932c7f3ca6ef9c43b49f7f66af70"
+  },
+  "upstream_code": "unchanged",
+  "data_order_adapter": "user-approved paper class/exemplar indexing correction",
+  "claim_scope": "single-seed behavioral emergence/transience of ICL with CIWL increase; causal mechanisms not tested",
+  "stopped_utc": "2026-10-03T08:58:22.097303+00:00",
+  "checkpoint_sha256": "95b0609902e00b4de117ec05f21293ccfc490ff38843acac144a07033ebedd0d",
+  "checkpoint_bytes": 20641192,
+  "checkpoint_iteration": 20000000,
+  "checkpoint_adam_updates": 625000
+}

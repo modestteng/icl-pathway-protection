@@ -1,0 +1,242 @@
+{
+  "version": "exp040_scale_generalization_v2",
+  "architectures": {
+    "base": {
+      "depth": 2,
+      "d_model": 64,
+      "num_heads": 8
+    },
+    "width": {
+      "depth": 2,
+      "d_model": 128,
+      "num_heads": 8
+    },
+    "depth": {
+      "depth": 4,
+      "d_model": 128,
+      "num_heads": 8
+    }
+  },
+  "architecture_order": [
+    "base",
+    "width",
+    "depth"
+  ],
+  "training_seeds": [
+    {
+      "id": "s13",
+      "init": 13,
+      "train": 10
+    },
+    {
+      "id": "s14",
+      "init": 14,
+      "train": 11
+    },
+    {
+      "id": "s15",
+      "init": 15,
+      "train": 12
+    },
+    {
+      "id": "s16",
+      "init": 16,
+      "train": 13
+    },
+    {
+      "id": "s17",
+      "init": 17,
+      "train": 14
+    }
+  ],
+  "seed_policy": "same five fresh init/train pairs in every architecture; never replaced; identical ids across architectures are not extra independent replicates",
+  "arms": [
+    "P25",
+    "P75",
+    "PR25",
+    "C25",
+    "C75"
+  ],
+  "arm_definitions": {
+    "P25": {
+      "kind": "P",
+      "rho": 0.25,
+      "path_set": "selected"
+    },
+    "P75": {
+      "kind": "P",
+      "rho": 0.75,
+      "path_set": "selected"
+    },
+    "PR25": {
+      "kind": "P",
+      "rho": 0.25,
+      "path_set": "random"
+    },
+    "C25": {
+      "kind": "C",
+      "rho": 0.25,
+      "path_set": "none"
+    },
+    "C75": {
+      "kind": "C",
+      "rho": 0.75,
+      "path_set": "none"
+    }
+  },
+  "reference_arm": "A",
+  "reference_arm_definition": "the seed's own unprotected author run; protected arms fork from its locked t0 checkpoint with identical model, Adam and PRNG state",
+  "train_bs": 32,
+  "train_microbs": 32,
+  "protection_bs_per_task": 32,
+  "protection_tasks": [
+    "icl",
+    "flip_icl"
+  ],
+  "fresh_tasks": [
+    "train_eval",
+    "iwl_copy_avail",
+    "icl"
+  ],
+  "all_tasks": [
+    "train_eval",
+    "iwl_copy_avail",
+    "flip_icl",
+    "icl"
+  ],
+  "reported_tasks": {
+    "icl": "standard ICL",
+    "iwl_copy_avail": "CIWL",
+    "train_eval": "original classification task"
+  },
+  "eval_bs": 128,
+  "mechanism_bs": 32,
+  "n": 5000,
+  "data_sets": {
+    "mechanism_discovery": {
+      "seed": 2026104001,
+      "n": 1000
+    },
+    "mechanism_confirm": {
+      "seed": 2026104002,
+      "n": 5000
+    },
+    "protection": {
+      "seed": 2026104003,
+      "n": 4096
+    },
+    "monitor": {
+      "seed": 2026104004,
+      "n": 5000
+    },
+    "confirm": {
+      "seed": 2026104006,
+      "n": 5000
+    }
+  },
+  "random_path_seed": 2026104010,
+  "forward_seed": 0,
+  "eval_every": 100000,
+  "arm_monitor_every": 500000,
+  "timing": {
+    "metric": "monitor full-label standard ICL accuracy",
+    "smoothing": "centered three-point mean, defined only when both 100k neighbours exist",
+    "near_peak_tolerance": 0.01,
+    "decline_anchor": 0.1,
+    "continuation_sequences": 5600000,
+    "window_sequences": 1000000,
+    "min_window_decline": 0.05,
+    "min_peak": 0.3,
+    "first_horizon": 20000000,
+    "extended_horizon": 30000000,
+    "max_normal_end": 36000000,
+    "rule": "t0=max(t_near_peak, E_decline-5.6M); end=t0+5.6M; window=[end-1M,end]"
+  },
+  "path_set": {
+    "k_max": 4,
+    "coverage_target": 0.5,
+    "ranking": "exp039 discovery score: mean over protection tasks of mean(native donor CE - single-path donor CE); ties smaller path id",
+    "coverage": "minimum over protection tasks of mean(native-set donor CE gain)/mean(native-full donor CE gain) on discovery inputs",
+    "selection": "smallest ranked prefix reaching coverage_target; otherwise the prefix with maximum coverage, ties smaller k",
+    "random_control": "same size and same per-source-layer counts, uniformly drawn from non-selected heads by a hash-seeded RNG, fixed before any protected update"
+  },
+  "mechanism_gate_role": "recorded and analysed as a moderator; it never skips P/PR arms (all-applicable-seeds analysis)",
+  "diagnostic_update_offsets": [
+    0,
+    3125,
+    31250,
+    143750,
+    174999
+  ],
+  "alpha": 0.05,
+  "mechanism_donor_ce_min": 0.1,
+  "mechanism_path_ce_min": 0.02,
+  "mechanism_retention_min": 0.5,
+  "mechanism_k_vs_v_min": 0.01,
+  "mechanism_pair_margin_min": 0.05,
+  "mechanism_pair_acc_floor": 0.55,
+  "mechanism_full_acc_floor": 0.1,
+  "numeric_model_adam_max_abs": 0.0001,
+  "numeric_eval_mean_ce_max_abs": 0.001,
+  "numeric_eval_acc_max_rows": 5,
+  "numeric_sham_logit_max_abs": 0.0001,
+  "numeric_projection_relative_violation_max": 2e-06,
+  "numeric_projection_reference_max_abs": 2e-05,
+  "numeric_projection_reference_max_relative": 2e-05,
+  "numeric_path_qk_max_abs": 1e-05,
+  "numeric_path_future_attention_max": 1e-07,
+  "numeric_path_rowsum_max_abs": 1e-06,
+  "numeric_functional_grad_relative_tolerance": 0.05,
+  "numeric_functional_grad_absolute_tolerance": 0.005,
+  "numeric_functional_grad_fd_step": 0.001,
+  "numeric_set_jit_loss_max_abs": 1e-05,
+  "audit_rows": [
+    0,
+    1,
+    127,
+    1024,
+    2499,
+    4095,
+    4998,
+    4999
+  ],
+  "queue_chunk": 32,
+  "checkpoint_retention": {
+    "normal": "every 100k checkpoint kept (fork points and A window evaluations)",
+    "arms": "multiples of 500k, the 11 window stages and the final state kept; other 100k resume states are rolling"
+  },
+  "analysis": {
+    "primary_hypotheses": {
+      "H1_retention": [
+        "P25",
+        "A",
+        "icl",
+        "acc"
+      ],
+      "H2_specificity": [
+        "P25",
+        "PR25",
+        "icl",
+        "acc"
+      ],
+      "H3_selectivity": [
+        "P25",
+        "C25",
+        "iwl_copy_avail",
+        "acc"
+      ]
+    },
+    "primary_test": "one-sided paired Student t over applicable training seeds within each architecture, H0 mean difference <= 0",
+    "primary_family": "3 hypotheses x 3 architectures, Holm at alpha 0.05",
+    "unit": "training seed; rows are first averaged over the 11 window checkpoints",
+    "within_seed_uncertainty": "true query class cluster-robust standard error",
+    "secondary": "all other arm contrasts, cross-entropy, original task, marginal cost, correction size, label-K effect retention, coverage moderator; reported with intervals, not used as gates"
+  },
+  "execution": {
+    "default_workers_per_gpu": 3,
+    "gpu_memory_total_fraction": 0.9,
+    "min_free_disk_gib": 30,
+    "automatic_retry": false,
+    "jaxlib_supported_gpus": "compute capability 5.2-9.0 (Maxwell..Hopper); Blackwell sm_100/sm_120 unsupported by jaxlib 0.4.26"
+  }
+}

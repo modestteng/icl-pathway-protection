@@ -1,0 +1,89 @@
+{
+  "common.py": {
+    "parent": "experiments/exp_037_protection_ablations/common.py",
+    "parent_sha256": "916751f0c2d316c3e696b5466867a64d7841dcc824162b5bbaa60597171ed2f8",
+    "current_sha256": "71f821a3e5b155d33e78a4f62ac8f3ddde996f5955284a3e233f15d89be4d0dd",
+    "unchanged": false
+  },
+  "mechanism.py": {
+    "parent": "experiments/exp_037_protection_ablations/mechanism.py",
+    "parent_sha256": "777fd04b0645c246b3cda4959dd92f022816ebeb1ae1d12fd00ca7f024055530",
+    "current_sha256": "777fd04b0645c246b3cda4959dd92f022816ebeb1ae1d12fd00ca7f024055530",
+    "unchanged": true
+  },
+  "projection.py": {
+    "parent": "experiments/exp_037_protection_ablations/projection.py",
+    "parent_sha256": "845ae3ad8d922e546d41589c55eaf3129b509184e04d6a91dd4d10a892c20b38",
+    "current_sha256": "845ae3ad8d922e546d41589c55eaf3129b509184e04d6a91dd4d10a892c20b38",
+    "unchanged": true
+  },
+  "datasets.py": {
+    "parent": "experiments/exp_037_protection_ablations/datasets.py",
+    "parent_sha256": "9a3dc39f0f03c52eac0020128c675c1404154e51f885ac627dcb49bdaa128528",
+    "current_sha256": "9a3dc39f0f03c52eac0020128c675c1404154e51f885ac627dcb49bdaa128528",
+    "unchanged": true
+  },
+  "input_spec.json": {
+    "parent": "experiments/exp_037_protection_ablations/input_spec.json",
+    "parent_sha256": "36a972a1bc516d2775579dfe971e4bfc47bebcacf7560d95b993ea19f2498dc7",
+    "current_sha256": "36a972a1bc516d2775579dfe971e4bfc47bebcacf7560d95b993ea19f2498dc7",
+    "unchanged": true
+  },
+  "data_creation_manifest.json": {
+    "parent": "experiments/exp_037_protection_ablations/data_creation_manifest.json",
+    "parent_sha256": "7706bd2fcfc0839215d4d2dec3c9cab5fe2e4bd88b0e6f96f0416a3bbbf118bc",
+    "current_sha256": "7706bd2fcfc0839215d4d2dec3c9cab5fe2e4bd88b0e6f96f0416a3bbbf118bc",
+    "unchanged": true
+  },
+  "reference_analysis.py": {
+    "parent": "experiments/exp_037_protection_ablations/reference_analysis.py",
+    "parent_sha256": "e0fd70f5e6258d03d29e84bff78565a5934110fe386121196a6e555aff1a48af",
+    "current_sha256": "e0fd70f5e6258d03d29e84bff78565a5934110fe386121196a6e555aff1a48af",
+    "unchanged": true
+  },
+  "reference_reader.py": {
+    "parent": "experiments/exp_037_protection_ablations/reference_reader.py",
+    "parent_sha256": "42218fffdf73302931f6cd8cdc6b8757def27c7b3cc2fff61a77c848d74b6206",
+    "current_sha256": "42218fffdf73302931f6cd8cdc6b8757def27c7b3cc2fff61a77c848d74b6206",
+    "unchanged": true
+  },
+  "scientific_function_sha256": {
+    "request_stop": "3002df22b938a7cde61b55f93b6638d9426bd4ff57597f1a53370d561bd243e6",
+    "audit_indices": "7adf30b626c2b700b7f73f250a0a075f2bb9023bab9bdb6f84b56c16ce3e1181",
+    "eval_batch": "571f3a29898ab8d6cea8c8f041e076c68798fd9c0abf7241b8b09b0d996d80d0",
+    "evaluate": "320f793e9dc19ef756275669f68c6ceb1c1d1c25ee34f43a7c8bf8717f2ac45d",
+    "original_data": "fab769a1d8eeba5052bb5f1f400822293903d37f1dae4363a82a065be13294e3",
+    "functional_objective": "61d0bbbfa3df8d393bbebe5dc3b95549ef60faac6366dee2c4efc2a7c3d5d0d8",
+    "tree_norm": "7e29a71f76b3a4dbc1aac6cba0a884238837b3a0e8de509d1877c219b5470d7c",
+    "finite_candidate": "a0cee694fba6c398faac5800236067875f6f3656111ceb4f63c0b8611c662a57",
+    "task_objective": "34fa191c5196e6fec196d23db906fcd4e1cddecb06d1ee5efd09a92611645843",
+    "adam_update_from_state": "6878b38afd66c63328a7e833ba886c482ad5fbdb8c839632ed41f516268b9b8a",
+    "official_optimizer_update": "78ad9cf219afc3080dfa54fdb3db61b7a14ca5a1d1940c7f3ba331d316bc1c8f",
+    "constrain_update": "c8029e75ad44a56e4db4702ed94cc0c73f5eb31221d207eed20e74037def7df9",
+    "modified_step": "0c6aa73e8476d87b53acfb05fab8d89dcab11208f44a564d32053616c4996cad",
+    "protect_batch": "cad7316a2df0ce437d7adcb637634465d578c84769aff3d1a37e952eef8c3c13",
+    "flat": "d9974509d23affa5d7dfc8cd74d9b94393fed07c73b99f393cd1c19e272fc48a",
+    "cluster_test": "65fd29e0118bc0bb7af3907253e18d5e22c19be95ec54821b5d7deb80d95edcf",
+    "holm": "239e1ea7824528d1696f3f17ce76bd16eab40b1192ec65a866f5b80017c8d44b",
+    "mechanism_batch": "34fea269febc478c94740a8865cf794e0ff833a1e4db4b41535fe4a34c48f8ed",
+    "mechanism_batch_inner": "a6035d8c4b68d24a39b2269e194a9c1c40775f42307a3c896f7fca0e7fbe916e",
+    "mechanism_evaluate": "2654e955cfa2e91c09db81bb97e68dfe20bfeaad164bf05374d64a2d1baafbbe",
+    "structure_passed": "75daaf576e23a172437be0261ed2b1cae9edc2a0b956e83d4a3e37b5366c8f09",
+    "validate_mechanism": "3c57f255adf96fb0d8db35bc79ddad8ceec0a87a15f9359ee1bed116c73e2098",
+    "audit_update": "549200f1337ab12fc0740fa5a58d34a025dfab0d51881184d36072636a0a092e"
+  },
+  "dispatch_function_sha256": {
+    "split_keys": "6d4966dde095bc80cafadd283ff4249dbc9a766f357658b3e8ccf81658599521",
+    "packed_status": "893658671d86c0002bfd2a1e8c93a0d5ee3b383f799ab05707299fbb10dc50fb",
+    "cache_protection": "3e82f4eca80ec60521e72f6b4ea8b88773b9307b67102edd3692baf4950c1400",
+    "stage_on_gpu": "3424aa4997e30e5f49200fa5e44fd3828fd940f9173477d436e67b8341d977eb",
+    "queue_steps": "1f9a1ed085cc174278b4a5bf19a5388fd04ed0fed8da50e8ca1a174fc2cf753c",
+    "serial_steps": "7b7d55dd605332278e68723bc3a2be571729c576c4b4cdb2905bedd0d35aa803"
+  },
+  "adaptations": [
+    "common environment variable ICL038_ASSETS",
+    "science imports and removal of unused old runner/preflight",
+    "audit objective selection explicitly C/P/D",
+    "new fixed-grid runner and validators; no scientific kernel graph rewritten"
+  ]
+}

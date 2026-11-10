@@ -1,0 +1,34 @@
+{
+  "version": "exp042_s21_s22_40M_supplement_v1",
+  "authorized_date": "2026-10-20 America/Los_Angeles",
+  "original_manifest_sha256": "ef4b93930f1b65352a5619f248291f5cf68144afcda34826d8aff534db419f4f",
+  "seeds": [
+    "s21",
+    "s22"
+  ],
+  "arms": [
+    "A",
+    "P25"
+  ],
+  "start": 10000000,
+  "end": 40000000,
+  "additional_sequences": 120000000,
+  "effective_settings_override": {
+    "long_seeds": [
+      "s18",
+      "s19",
+      "s20",
+      "s21",
+      "s22"
+    ]
+  },
+  "reported_tasks": [
+    "icl",
+    "iwl_copy_avail",
+    "train_eval"
+  ],
+  "original_confirmatory_statistics_immutable": true,
+  "combined_five_seed_analysis": "supplementary_descriptive_only",
+  "maximum_training_workers": 4,
+  "automatic_retry": false
+}

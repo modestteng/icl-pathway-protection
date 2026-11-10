@@ -1,0 +1,154 @@
+{
+  "version": "exp030_functional_update_constraints_v2_single_seed_pilot_r2_active_purposes",
+  "start_stage": 4400000,
+  "end_stage": 10000000,
+  "training_seeds": [
+    {
+      "id": "s5",
+      "init": 5,
+      "train": 2
+    }
+  ],
+  "arms": [
+    "A",
+    "B",
+    "C25",
+    "D25",
+    "R25"
+  ],
+  "relaxation": {
+    "C25": 0.25,
+    "D25": 0.25,
+    "R25": 0.25
+  },
+  "primary_relaxation": 0.25,
+  "train_bs": 32,
+  "train_microbs": 32,
+  "protection_bs_per_task": 32,
+  "protection_tasks": [
+    "icl",
+    "flip_icl"
+  ],
+  "fresh_tasks": [
+    "train_eval",
+    "iwl_copy_avail",
+    "icl"
+  ],
+  "eval_bs": 128,
+  "mechanism_bs": 32,
+  "n": 5000,
+  "data_sets": {
+    "mechanism_discovery": {
+      "seed": 20261025,
+      "n": 1000
+    },
+    "mechanism_confirm": {
+      "seed": 20261026,
+      "n": 5000
+    },
+    "protection": {
+      "seed": 20261027,
+      "n": 4096
+    },
+    "monitor": {
+      "seed": 20261028,
+      "n": 5000
+    },
+    "confirm": {
+      "seed": 20261029,
+      "n": 5000
+    }
+  },
+  "random_path_seed": 20261030,
+  "audit_update_seed": 20261031,
+  "forward_seed": 0,
+  "eval_every": 100000,
+  "monitor_every": 500000,
+  "resume_every": 100000,
+  "confirm_stages": [
+    9000000,
+    9100000,
+    9200000,
+    9300000,
+    9400000,
+    9500000,
+    9600000,
+    9700000,
+    9800000,
+    9900000,
+    10000000
+  ],
+  "late_window": [
+    9000000,
+    10000000
+  ],
+  "alpha": 0.05,
+  "min_icl_gain": 0.05,
+  "ni_acc_tolerance": 0.02,
+  "ni_ce_tolerance": 0.1,
+  "incremental_icl_gain": 0.03,
+  "frontier_icl_tolerances": [
+    0.02,
+    0.05,
+    0.1
+  ],
+  "mechanism_donor_ce_min": 0.1,
+  "mechanism_path_ce_min": 0.02,
+  "mechanism_retention_min": 0.5,
+  "mechanism_k_vs_v_min": 0.01,
+  "mechanism_pair_margin_min": 0.05,
+  "mechanism_pair_acc_floor": 0.55,
+  "mechanism_full_acc_floor": 0.1,
+  "numeric_model_adam_max_abs": 0.0001,
+  "numeric_eval_mean_ce_max_abs": 0.001,
+  "numeric_eval_acc_max_rows": 5,
+  "numeric_sham_logit_max_abs": 0.0001,
+  "numeric_projection_relative_violation_max": 2e-06,
+  "statistics_dtype": "float64",
+  "numeric_projection_reference_max_abs": 2e-05,
+  "numeric_projection_reference_max_relative": 2e-05,
+  "numeric_path_qk_max_abs": 1e-05,
+  "numeric_path_future_attention_max": 1e-07,
+  "numeric_path_rowsum_max_abs": 1e-06,
+  "audit_rows": [
+    0,
+    1,
+    127,
+    1024,
+    2499,
+    4095,
+    4998,
+    4999
+  ],
+  "diagnostic_update_offsets": [
+    0,
+    3125,
+    31250,
+    143750,
+    174999
+  ],
+  "frontier_bootstrap_draws": 1999,
+  "frontier_bootstrap_seed": 20261032,
+  "require_seed_aggregate_holm": false,
+  "numeric_functional_grad_relative_tolerance": 0.05,
+  "numeric_functional_grad_absolute_tolerance": 0.005,
+  "numeric_functional_grad_fd_step": 0.001,
+  "primary_d_r_update_ratio_tolerance": 0.05,
+  "primary_d_r_conflict_rate_tolerance": 0.1,
+  "analysis_scope": "single_seed_pilot",
+  "max_compute_seconds": 86400,
+  "active_data_sets": [
+    "mechanism_confirm",
+    "protection",
+    "monitor",
+    "confirm"
+  ],
+  "data_generator_manifest_sha256": "7706bd2fcfc0839215d4d2dec3c9cab5fe2e4bd88b0e6f96f0416a3bbbf118bc",
+  "preserved_data_sha256": {
+    "confirm.h5": "2eb62aeea1a72ac9ed659a1cb503abf3437ce5f607bbd2ac46593dd532f7a03a",
+    "protection.h5": "ee58c0538518f373996e356f76c043a88cefba282505ca08b239f40fa27ceecd",
+    "mechanism_confirm.h5": "bb8a1f29b6cdf3a677cf90371e39b9e056037936ebf24c0441a82a1e28160a41",
+    "mechanism_discovery.h5": "33c1ced5c4ec759bea6e4b6c1a5d98785e1146441764a7e624846bb110dec032",
+    "monitor.h5": "b26055d0107dafb1413c2e6bd115f8f8808ef32c9e38bfa5066fe0c5755418f8"
+  }
+}
