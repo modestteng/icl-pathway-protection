@@ -16,7 +16,9 @@ Formal IDs are `s5` (primary) and `s7` (independent replication). Identify seed 
 
 [Experiment scope](PAPER_SCOPE.md) identifies each paper family. [Seed identities](reproducibility/SEEDS.md) distinguish initialization, training and experiment-local labels. The [source checksum inventory](reproducibility/source_provenance.json) records SHA-256 hashes for the experiment implementations and shared Python modules.
 
-For the main method, start with `path_set.py` (`set_loss`, `choose_prefix`), `science.py` (`functional_objective`, `modified_step`, `constrain_update`) and `projection.py` under exp040. The current four-layer selector evaluates every ranked prefix of all adjacent-layer Head-to-label-K candidates. Discovery data select paths; held-out confirmation does not reselect them. The four-layer experiments use rho=0.25. Historical two-layer settings retain their original prefix limits.
+For the main method, start with `path_set.py` (`set_loss`, `choose_prefix`), `science.py` (`functional_objective`, `modified_step`, `constrain_update`) and `projection.py` under exp040. The exp040 and current four-layer selectors evaluate every ranked prefix of all adjacent-layer Head-to-label-K candidates. Discovery data select paths; held-out confirmation does not reselect them. The four-layer experiments use rho=0.25. The earlier four-prefix cap has also been removed from the exp047 utility driver. Its experimental non-adjacent operator is outside the manuscript's validated adjacent-layer scope.
+
+The [search-change record](reproducibility/UNCAPPED_SEARCH.md) distinguishes this source change from historical execution. Saved discovery summaries support identical selections for the ten exp040 two-layer trajectories. Equivalence for the earlier s5, s7 and fixed-start s18--s22 singleton protocols is still unverified; those protocols remain identifiable historical implementations.
 
 ## Reproducibility records
 

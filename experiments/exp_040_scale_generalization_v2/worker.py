@@ -304,7 +304,8 @@ def discover(seed, model, sd):
     ranking = PS.rank_paths(scores)
     cfg = SETTINGS['path_set']
     prefixes, coverages, prefix_sha = [], [], {}
-    for k in range(1, min(cfg['k_max'], len(ranking)) + 1):
+    # Evaluate every ranked prefix, including those beyond the historical four.
+    for k in range(1, len(ranking) + 1):
         ids_k = tuple(sorted(ranking[:k]))
         path = sd / 'discovery' / f'prefix{k}.npz'
         if k == 1:
@@ -329,7 +330,8 @@ def discover(seed, model, sd):
     random_set = PS.random_control_set(seed['init'], seed['train'], selected, SETTINGS['random_path_seed'])
     return dict(seed=seed, candidate_domain=candidates, discovery_scores=scores, discovery_raw_sha256=raw_sha,
                 ranking=ranking, prefixes=prefixes, prefix_coverage=coverages, prefix_raw_sha256=prefix_sha,
-                k=k_star, selection_reason=reason, selected=list(selected),
+                k=k_star, candidate_count=len(candidates), artificial_cap=None,
+                selection_reason=reason, selected=list(selected),
                 selected_description=PS.describe(selected), random_set=list(random_set),
                 random_description=PS.describe(random_set), rules=cfg,
                 discovery_sha256=sha(DATA / 'mechanism_discovery.h5'))

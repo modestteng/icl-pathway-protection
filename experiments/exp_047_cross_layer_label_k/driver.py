@@ -144,8 +144,8 @@ def verify_inputs(require_gpu=True):
     for module in [B.main, B.main_utils, B.models, B.samplers, B.opto]:
         if Path(module.__file__).resolve().parent != ASSETS / "source":
             raise RuntimeError("Imported unintended upstream source: " + str(module.__file__))
-    if B.BS != 32 or B.SETTINGS["path_set"]["k_max"] != 4 or B.SETTINGS["path_set"]["coverage_target"] != .5:
-        raise RuntimeError("Original batch/source-selection rules changed")
+    if B.BS != 32 or B.SETTINGS["path_set"]["k_max"] is not None or B.SETTINGS["path_set"]["coverage_target"] != .5:
+        raise RuntimeError("Expected original batch size and uncapped 50% prefix selection")
     record = dict(schema="exp047_provenance_v1", historical_feature_hash_equality=False,
         asset_manifest_sha256=sha(manifest_path), inputs=digests, versions=versions,
         code_manifest_sha256=identity(), legacy_code_manifest_sha256=sha(LEGACY / "code_manifest.json"),
@@ -684,7 +684,7 @@ def discover_stage(seed_id):
             progress(phase="discovery_single", seed=seed_id, arm=arm, candidate=candidate, score=scores[candidate])
         ranking = sorted(candidates, key=lambda p: (-scores[p], p))
         coverages, prefixes = [], []
-        for k in range(1, 5):
+        for k in range(1, len(ranking) + 1):
             paths = tuple(sorted(ranking[:k]))
             if k == 1:
                 with np.load(singleton_files[ranking[0]], allow_pickle=False) as saved:
@@ -701,7 +701,8 @@ def discover_stage(seed_id):
         selected = prefixes[k - 1]
         write(directory / "selection.json", dict(seed=seed, arm=arm, selected=list(selected),
             candidates=list(candidates), ranking=list(ranking), scores=[dict(path=p, score=scores[p]) for p in ranking],
-            prefix_coverage=coverages, k=k, k_max=4, coverage_target=.5, selection_reason=reason,
+            prefix_coverage=coverages, k=k, k_max=len(candidates), artificial_cap=None,
+            coverage_target=.5, selection_reason=reason,
             selection_data="mechanism_discovery", fork_checkpoint_sha256=digest,
             code_manifest_sha256=identity()))
         record, audits = mechanism_evaluate(base["model"], confirmation, cids, selected)

@@ -6,6 +6,9 @@ import json
 from pathlib import Path
 import re
 import subprocess
+from collections import Counter
+from numbers import Integral
+from types import SimpleNamespace
 
 ROOT = Path(__file__).resolve().parents[1]
 POLICY = 'reproducibility/release_policy.json'
@@ -189,7 +192,100 @@ def check_selector(files):
     policy = json.loads(files['reproducibility/path_selection_policy.json'])
     assert policy['candidate_count_limit'] is None and policy['selected_path_count_limit'] is None
     assert policy['coverage']['target'] == .5 and policy['confirmation_used_for_selection'] is False
-    return len(cases)
+    assert json.loads(files['experiments/exp_040_scale_generalization_v2/settings.json'])['path_set']['k_max'] is None
+    return len(cases) + check_discovery(files) + check_selection_evidence(files, choose)
+
+
+def check_discovery(files):
+    """Execute the actual exp040 discovery orchestration with synthetic records.
+
+    No model, scientific import, disk writes or saved-result analysis. A target
+    first reached at prefix five catches the old loop even if choose_prefix
+    itself accepts arbitrarily long lists.
+    """
+    parent = 'experiments/exp_040_scale_generalization_v2/'
+
+    def functions(name, names, namespace):
+        tree = ast.parse(files[name].decode())
+        body = [n for n in tree.body if isinstance(n, ast.FunctionDef) and n.name in names]
+        assert len(body) == len(names)
+        exec(compile(ast.Module(body=body, type_ignores=[]), name, 'exec'), namespace)
+
+    pure = dict(Counter=Counter, Integral=Integral, HEADS=8)
+    functions(parent + 'path_set.py', {'rank_paths', 'choose_prefix', 'describe', 'random_control_set'}, pure)
+    paths = SimpleNamespace(**{name: pure[name] for name in
+                            ('rank_paths', 'choose_prefix', 'describe', 'random_control_set')})
+    ranking = [head + 8 * layer for head in range(8) for layer in range(3)]
+    scores = {p: float(len(ranking) - i) for i, p in enumerate(ranking)}
+    scenarios = [([.1] * 4 + [.6] * 20, 5),
+                 ([.6] * 24, 1),
+                 ([.1] * 4 + [.4, .4] + [.2] * 18, 5),
+                 ([None] * 24, 1)]
+    for coverages, expected_k in scenarios:
+        saved, evaluated = {}, []
+
+        class Archive:
+            def __init__(self, path, **kwargs):
+                self.record = saved[str(path)]
+                self.files = list(self.record)
+
+            def __enter__(self):
+                return self
+
+            def __exit__(self, *args):
+                pass
+
+            def __getitem__(self, key):
+                return self.record[key]
+
+        def evaluate(model, data, ids, selected, **kwargs):
+            evaluated.append(tuple(selected))
+            return dict(paths=tuple(selected)), True
+
+        runtime = SimpleNamespace(
+            mechanism_evaluate=evaluate, structure_passed=bool,
+            gain=lambda rec, task, kind: SimpleNamespace(mean=lambda: scores[rec['paths'][0]]),
+            coverage=lambda rec: (coverages[len(rec['paths']) - 1], {}))
+        namespace = dict(
+            PS=paths, R=runtime, np=SimpleNamespace(load=Archive, mean=lambda xs: sum(xs) / len(xs)),
+            SETTINGS=dict(path_set=dict(k_max=None, coverage_target=.5),
+                          protection_tasks=['icl', 'ciwl'], random_path_seed=123),
+            M_candidates=lambda model: range(24), load_dataset=lambda name: ({}, {}),
+            save_npz=lambda path, rec: saved.__setitem__(str(path), rec),
+            sha=lambda path: 'synthetic', heartbeat=lambda **kwargs: None, DATA=Path('synthetic'))
+        functions(parent + 'worker.py', {'discover'}, namespace)
+        result = namespace['discover'](dict(id='s13', init=13, train=10), object(), Path('synthetic'))
+        assert result['ranking'] == ranking
+        assert result['k'] == expected_k and result['selected'] == sorted(ranking[:expected_k])
+        assert result['candidate_count'] == 24 and result['artificial_cap'] is None
+        assert result['prefixes'] == [sorted(ranking[:k]) for k in range(1, 25)]
+        assert result['prefix_coverage'] == coverages
+        assert len(evaluated) == 24 + 23  # prefix one reuses its singleton
+    # The exp047 utility must also enumerate its actual candidate count.
+    tree = ast.parse(files['experiments/exp_047_cross_layer_label_k/driver.py'].decode())
+    discovery = next(n for n in tree.body if isinstance(n, ast.FunctionDef) and n.name == 'discover_stage')
+    loops = [ast.unparse(n.iter) for n in ast.walk(discovery)
+             if isinstance(n, ast.For) and isinstance(n.target, ast.Name) and n.target.id == 'k']
+    assert loops == ['range(1, len(ranking) + 1)']
+    return len(scenarios)
+
+
+def check_selection_evidence(files, choose):
+    record = json.loads(files['reproducibility/uncapped_selection_validation.json'])
+    selected = json.loads(files['reproducibility/selected_pathways.json'])
+    expected = {(r['model'], r['seed_id']): r['selected_path_ids']
+                for r in selected['trajectories'] if r['experiment_group'] == 'two_layer_scale'}
+    actual = {}
+    for row in record['two_layer_scale']:
+        key = (row['model'], row['seed_id'])
+        assert key not in actual
+        actual[key] = row['selected_path_ids']
+        k, reason = choose(row['saved_discovery_prefix_coverage'], .5)
+        assert reason == 'smallest_prefix_reaching_target' and k == len(actual[key])
+    assert actual == expected and len(actual) == 10
+    assert record['raw_discovery_recomputed'] is False
+    assert len(record['unverified_trajectories']) == 7
+    return len(actual)
 
 
 def main():

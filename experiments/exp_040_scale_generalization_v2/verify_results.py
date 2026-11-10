@@ -117,6 +117,9 @@ def main():
                 ok(abs(scores[p] - sel['discovery_scores'][str(p)]) < 1e-9, f'{arch}/{sid}: discovery score {p}')
             ranking = sorted(scores, key=lambda p: (-scores[p], p))
             ok(ranking == sel['ranking'], f'{arch}/{sid}: ranking')
+            if 'artificial_cap' in sel and sel['artificial_cap'] is None:
+                ok(len(sel['prefixes']) == len(ranking), f'{arch}/{sid}: all ranked prefixes evaluated')
+                ok(sel['candidate_count'] == len(ranking), f'{arch}/{sid}: candidate count')
             covs = []
             for k in range(1, len(sel['prefixes']) + 1):
                 f = root / 'discovery' / (f'single{ranking[0]}.npz' if k == 1 else f'prefix{k}.npz')

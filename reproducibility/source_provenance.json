@@ -364,11 +364,11 @@
     },
     {
       "path": "experiments/exp_040_scale_generalization_v2/verify_results.py",
-      "sha256": "7d020d6727eebd99f8ecc1b22adae281581d8c5fdb8f7ead4915d73382e2ca73"
+      "sha256": "e50667e3dec1913e9e87b1ca1195270bb456b4974c3b5655b997f488e5649292"
     },
     {
       "path": "experiments/exp_040_scale_generalization_v2/worker.py",
-      "sha256": "c1646ac8a472f9764ea49a712d2ec42d47657eec719fbc4e7ef594c21bd39460"
+      "sha256": "9455af4c474a680aaf0162103fc96ef918946068b0db6bcc5f7f767eee4dc039"
     },
     {
       "path": "experiments/exp_041_emnist_generalization/analyze_verify.py",
@@ -676,7 +676,7 @@
     },
     {
       "path": "experiments/exp_047_cross_layer_label_k/driver.py",
-      "sha256": "7d29bcfdb9edd644c0034f0ecdb80c7923ca87bf640fde78b5a6b7d4e4123c13"
+      "sha256": "9e1bd07916c50ddacb45020e40580bc45812c9a8f0f221c19575d3d16ee0b757"
     },
     {
       "path": "experiments/exp_047_cross_layer_label_k/test_cross_layer.py",

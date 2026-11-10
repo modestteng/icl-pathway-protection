@@ -24,5 +24,11 @@
   "rho": "specified_separately_for_each_experiment",
   "implementation_reference": "experiments/exp_054_uncapped_five_seeds/driver.py",
   "selection_function_reference": "experiments/exp_040_scale_generalization_v2/path_set.py:choose_prefix",
-  "artifact_scope": "Code-only release; scientific data and results are external."
+  "artifact_scope": "Code-only release; scientific data and results are external.",
+  "implementation_references": [
+    "experiments/exp_040_scale_generalization_v2/worker.py",
+    "experiments/exp_054_uncapped_five_seeds/driver.py",
+    "experiments/exp_055_uncapped_four_seeds/driver.py"
+  ],
+  "historical_equivalence_record": "reproducibility/uncapped_selection_validation.json"
 }

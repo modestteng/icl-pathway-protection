@@ -153,11 +153,11 @@
     "rule": "t0=max(t_near_peak, E_decline-5.6M); end=t0+5.6M; window=[end-1M,end]"
   },
   "path_set": {
-    "k_max": 4,
+    "k_max": null,
     "coverage_target": 0.5,
     "ranking": "exp039 discovery score: mean over protection tasks of mean(native donor CE - single-path donor CE); ties smaller path id",
     "coverage": "minimum over protection tasks of mean(native-set donor CE gain)/mean(native-full donor CE gain) on discovery inputs",
-    "selection": "smallest ranked prefix reaching coverage_target; otherwise the prefix with maximum coverage, ties smaller k",
+    "selection": "evaluate every ranked prefix k=1..N; smallest prefix reaching coverage_target; otherwise the prefix with maximum coverage, ties smaller k",
     "random_control": "same size and same per-source-layer counts, uniformly drawn from non-selected heads by a hash-seeded RNG, fixed before any protected update"
   },
   "mechanism_gate_role": "recorded and analysed as a moderator; it never skips P/PR arms (all-applicable-seeds analysis)",

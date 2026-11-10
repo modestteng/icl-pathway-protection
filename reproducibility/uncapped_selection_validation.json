@@ -1,0 +1,238 @@
+{
+  "schema": "icl_uncapped_selection_validation_v1",
+  "date": "2026-11-10",
+  "origin_skill": "experiment-agent",
+  "origin_mode": "validate",
+  "verification_status": "ANALYZED",
+  "scope": "Saved-summary selection invariance; no model run, raw discovery recomputation or training.",
+  "source_file": "experiments/exp_040_scale_generalization_v2/final_results/cloud4090_20261021/outputs/analysis.json",
+  "source_sha256": "79101f75ff14b4d84d2834097e0810c2d9a331b871155089b9d02ed764fe53b6",
+  "source_in_public_release": false,
+  "raw_discovery_recomputed": false,
+  "selection_rule": "Shortest ranked prefix reaching 0.5; otherwise highest finite coverage, ties smaller k",
+  "candidate_scope": "Adjacent-layer Head-to-label-K only",
+  "two_layer_scale": [
+    {
+      "model": "2L/64",
+      "seed_id": "s13",
+      "init_seed": 13,
+      "train_seed": 10,
+      "selected_path_ids": [
+        0
+      ],
+      "saved_discovery_prefix_coverage": [
+        0.8407010632720947,
+        0.9875639978617803,
+        0.9901393338538683,
+        0.9905140629991044
+      ]
+    },
+    {
+      "model": "2L/64",
+      "seed_id": "s14",
+      "init_seed": 14,
+      "train_seed": 11,
+      "selected_path_ids": [
+        3
+      ],
+      "saved_discovery_prefix_coverage": [
+        0.9787704872068022,
+        0.9787551964574542,
+        0.9791534527609442,
+        0.979242228943517
+      ]
+    },
+    {
+      "model": "2L/64",
+      "seed_id": "s15",
+      "init_seed": 15,
+      "train_seed": 12,
+      "selected_path_ids": [
+        1
+      ],
+      "saved_discovery_prefix_coverage": [
+        0.943975931197494,
+        0.9562886456136421,
+        0.9581160049459241,
+        0.9584960642883766
+      ]
+    },
+    {
+      "model": "2L/64",
+      "seed_id": "s16",
+      "init_seed": 16,
+      "train_seed": 13,
+      "selected_path_ids": [
+        1
+      ],
+      "saved_discovery_prefix_coverage": [
+        0.8270935181886119,
+        0.9390545676222037,
+        0.9661214397583268,
+        0.9763467581502786
+      ]
+    },
+    {
+      "model": "2L/64",
+      "seed_id": "s17",
+      "init_seed": 17,
+      "train_seed": 14,
+      "selected_path_ids": [
+        2
+      ],
+      "saved_discovery_prefix_coverage": [
+        0.9796960608769882,
+        0.9802422018514382,
+        0.980699127960038,
+        0.9806391093319521
+      ]
+    },
+    {
+      "model": "2L/128",
+      "seed_id": "s13",
+      "init_seed": 13,
+      "train_seed": 10,
+      "selected_path_ids": [
+        5
+      ],
+      "saved_discovery_prefix_coverage": [
+        0.7287691715083187,
+        0.8835979939113451,
+        0.9504824959368634,
+        0.9748213864855871
+      ]
+    },
+    {
+      "model": "2L/128",
+      "seed_id": "s14",
+      "init_seed": 14,
+      "train_seed": 11,
+      "selected_path_ids": [
+        6
+      ],
+      "saved_discovery_prefix_coverage": [
+        0.8618770218392173,
+        0.9425337957899081,
+        0.9669342081901403,
+        0.9777028571074668
+      ]
+    },
+    {
+      "model": "2L/128",
+      "seed_id": "s15",
+      "init_seed": 15,
+      "train_seed": 12,
+      "selected_path_ids": [
+        7
+      ],
+      "saved_discovery_prefix_coverage": [
+        0.6115168790091593,
+        0.8394670868389688,
+        0.9586907039164281,
+        0.9823720988894674
+      ]
+    },
+    {
+      "model": "2L/128",
+      "seed_id": "s16",
+      "init_seed": 16,
+      "train_seed": 13,
+      "selected_path_ids": [
+        4
+      ],
+      "saved_discovery_prefix_coverage": [
+        0.9086467794819613,
+        0.9735618145111001,
+        0.9788921313954109,
+        0.9822865821423159
+      ]
+    },
+    {
+      "model": "2L/128",
+      "seed_id": "s17",
+      "init_seed": 17,
+      "train_seed": 14,
+      "selected_path_ids": [
+        1,
+        6
+      ],
+      "saved_discovery_prefix_coverage": [
+        0.4682233093911822,
+        0.829414123330132,
+        0.9268152116841273,
+        0.9715311672220008
+      ]
+    }
+  ],
+  "unverified_trajectories": [
+    {
+      "experiment_group": "primary",
+      "model": "2L/64",
+      "seed_id": "s5",
+      "init_seed": 5,
+      "train_seed": 2,
+      "status": "unverified_missing_discovery_records",
+      "historical_singleton_path_ids": [
+        0
+      ]
+    },
+    {
+      "experiment_group": "independent_replication",
+      "model": "2L/64",
+      "seed_id": "s7",
+      "init_seed": 7,
+      "train_seed": 4,
+      "status": "unverified_missing_discovery_records",
+      "historical_singleton_path_ids": [
+        1
+      ]
+    },
+    {
+      "experiment_group": "fixed_start_and_transfer",
+      "model": "2L/64",
+      "seed_id": "s18",
+      "init_seed": 18,
+      "train_seed": 15,
+      "status": "unverified_missing_discovery_records"
+    },
+    {
+      "experiment_group": "fixed_start_and_transfer",
+      "model": "2L/64",
+      "seed_id": "s19",
+      "init_seed": 19,
+      "train_seed": 16,
+      "status": "unverified_missing_discovery_records"
+    },
+    {
+      "experiment_group": "fixed_start_and_transfer",
+      "model": "2L/64",
+      "seed_id": "s20",
+      "init_seed": 20,
+      "train_seed": 17,
+      "status": "unverified_missing_discovery_records"
+    },
+    {
+      "experiment_group": "fixed_start_and_transfer",
+      "model": "2L/64",
+      "seed_id": "s21",
+      "init_seed": 21,
+      "train_seed": 18,
+      "status": "unverified_missing_discovery_records"
+    },
+    {
+      "experiment_group": "fixed_start_and_transfer",
+      "model": "2L/64",
+      "seed_id": "s22",
+      "init_seed": 22,
+      "train_seed": 19,
+      "status": "unverified_missing_discovery_records"
+    }
+  ],
+  "original_source_revision": "2b30428",
+  "previous_source_sha256": {
+    "experiments/exp_040_scale_generalization_v2/worker.py": "c1646ac8a472f9764ea49a712d2ec42d47657eec719fbc4e7ef594c21bd39460",
+    "experiments/exp_040_scale_generalization_v2/settings.json": "2ff3d1c00456d2b4a70e4cc56e8bda4c8c4fb25fdb9c99be4b235d05d43c9ef9",
+    "experiments/exp_040_scale_generalization_v2/verify_results.py": "7d020d6727eebd99f8ecc1b22adae281581d8c5fdb8f7ead4915d73382e2ca73",
+    "experiments/exp_047_cross_layer_label_k/driver.py": "7d29bcfdb9edd644c0034f0ecdb80c7923ca87bf640fde78b5a6b7d4e4123c13"
+  }
+}

@@ -107,9 +107,13 @@ The seed-to-driver mapping is defined by the released protocol files:
 exp054 contains s18, s19, s23, s24, and s25; exp055 contains s20, s21, and s22.
 Initialization/training pairs are in `reproducibility/manuscript_seed_registry.json`.
 These are the current four-layer protocols. The reported two-layer architecture
-comparison in exp040 used its recorded limit of four prefixes. The current
-policy for new experiments is uncapped; re-running that historical comparison
-under the new policy is a different experiment.
+comparison originally evaluated four prefixes; the released exp040 worker now
+evaluates all eight. Its ten saved discovery summaries reach the 50% target
+within the first two prefixes, so evaluating later prefixes cannot change those
+shortest-prefix selections. This is a selection-invariance argument from saved
+summaries, not a new model run or an independent recalculation from raw discovery
+arrays. See `reproducibility/UNCAPPED_SEARCH.md` for evidence and remaining gaps
+for the earlier singleton protocols.
 
 ## Produce the reported summaries
 
