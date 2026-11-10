@@ -278,6 +278,6 @@
   ],
   "schema": "icl_selected_pathways_v2",
   "scope": "All 18 trajectories in manuscript Table A.1; IDs are local to experiment group and architecture.",
-  "manuscript_sha256": "f4bff56bdd0831f5f21637e03543801e7101c65ba9b566fc4e7943af7c5235df",
+  "manuscript_sha256": "b03619db564c176c11db56583fcc070d72c95460dd1b9891b528ea2242da986d",
   "provenance_scope": "Source and source_file paths identify the author-retained archive. Those raw outputs are not included in this public source release; the records in this file are self-contained."
 }

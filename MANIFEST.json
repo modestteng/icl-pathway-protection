@@ -1,6 +1,6 @@
 {
   "schema": "icl_paper_code_only_release_v1",
-  "manuscript_sha256": "f4bff56bdd0831f5f21637e03543801e7101c65ba9b566fc4e7943af7c5235df",
+  "manuscript_sha256": "b03619db564c176c11db56583fcc070d72c95460dd1b9891b528ea2242da986d",
   "manifest_self_excluded": true,
   "scope": "Paper code, necessary configuration and cited pathway/statistical metadata; no raw scientific data or full experimental outputs.",
   "files": [
@@ -1642,12 +1642,12 @@
     {
       "path": "reproducibility/holm_family_record.json",
       "bytes": 4626,
-      "sha256": "6d3428a0fbdd183970689e7273aa5f2502e2929bf6cb69040120e99c5b8638c8"
+      "sha256": "fde674553d84b21111dfce6c8106e481db2a464224a83f9c7a3abcc46f76c955"
     },
     {
       "path": "reproducibility/manuscript_binding.json",
       "bytes": 318,
-      "sha256": "ce4fa5bcec10f0bf6c5cdf4046542d188f329e94318e713313b522792e7acddb"
+      "sha256": "ba4ffa7875b60344f2b34fa21bb3066c0ae84ec59b8e8a68b84b01090ef4b78b"
     },
     {
       "path": "reproducibility/manuscript_seed_registry.json",
@@ -1657,7 +1657,7 @@
     {
       "path": "reproducibility/paper_inventory.json",
       "bytes": 7445,
-      "sha256": "1202f79d322f4d469fe6ebc6b15dc9211c98bf20e6e1b825a66a29ca0bb5af71"
+      "sha256": "2849c45b95e807d88c26d423f72030c9587b21288a5f5fde63be93becbef195a"
     },
     {
       "path": "reproducibility/path_selection_policy.json",
@@ -1672,7 +1672,7 @@
     {
       "path": "reproducibility/selected_pathways.json",
       "bytes": 8490,
-      "sha256": "cdbf0c6a777928ab34d72661982adf916face8ca74f8f49b0fa94167d0fce239"
+      "sha256": "12667ff281ed33d8e1df02b0067ed3c4b1bc1b788d392a8410cc9b449cc2a444"
     },
     {
       "path": "reproducibility/source_provenance.json",
