@@ -330,15 +330,23 @@
     "experiments/reproduction_support/requirements_jax_cuda.txt",
     "experiments/reproduction_support/source_manifest.json",
     "reproducibility/ENVIRONMENT_GUIDE.txt",
+    "reproducibility/MINIMAL_REPRODUCTION.md",
     "reproducibility/SEEDS.md",
+    "reproducibility/holm_family_record.json",
     "reproducibility/manuscript_binding.json",
     "reproducibility/manuscript_seed_registry.json",
     "reproducibility/paper_inventory.json",
     "reproducibility/path_selection_policy.json",
     "reproducibility/release_policy.json",
+    "reproducibility/selected_pathways.json",
     "reproducibility/source_provenance.json",
     "reproducibility/upstream_dependency.json",
     "tools/prepare_upstream.py",
-    "tools/verify_package.py"
+    "tools/verify_package.py",
+    "tools/verify_selected_pathways.py"
+  ],
+  "paper_metadata_paths": [
+    "reproducibility/selected_pathways.json",
+    "reproducibility/holm_family_record.json"
   ]
 }

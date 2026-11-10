@@ -1,8 +1,8 @@
 {
   "schema": "icl_code_only_manuscript_binding_v1",
-  "source_sha256": "306c5e57f932e869cf2a67526409452cdd6282ac0fb5ecbf03ce6f2c19856bf5",
+  "source_sha256": "65095d8705fb7b0140f142cd3e8ba9e84decb0ad09d9dcbacfdc1cde575d1093",
   "figures": 8,
   "tables": 19,
-  "algorithms": 0,
-  "scope": "Identity of the local English manuscript used to select the code; manuscript and results are not distributed."
+  "algorithms": 1,
+  "scope": "Identity of the English manuscript associated with this code and its released pathway/statistical metadata. The manuscript and full experimental outputs are not distributed."
 }

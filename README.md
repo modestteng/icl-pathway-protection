@@ -1,8 +1,8 @@
 # Selective Retention of In-Context Learning through Causal Pathway Protection
 
-Minimal code release for the paper. This repository contains the paper's experiment implementations, necessary configuration, seed identities and upstream source references. It follows the original [icl-dynamics](https://github.com/aadityasingh/icl-dynamics) layout: Python experiment entry points, shared scientific code, explicit random seeds and separately prepared inputs.
+Minimal code release for the paper. This repository contains the paper's experiment implementations, necessary configuration, seed identities, selected pathway IDs, historical statistical metadata and upstream source references. It follows the original [icl-dynamics](https://github.com/aadityasingh/icl-dynamics) layout: Python experiment entry points, shared scientific code, explicit random seeds and separately prepared inputs.
 
-The **current tracked tree is limited to 5,000,000 bytes (5 MB)**, including its manifest. Experimental datasets, saved-result arrays/tables, feature files, checkpoints, manuscript files, figures, full logs and development backups are excluded.
+The **current tracked tree is limited to 5,000,000 bytes (5 MB)**, including its manifest. Raw experimental datasets, saved-result arrays/tables, feature files, checkpoints, manuscript files, figures, full logs and development backups are excluded. The small pathway and historical p-value records cited by the paper are included as reproducibility metadata.
 
 ## Code and experiments
 
@@ -17,6 +17,14 @@ Formal IDs are `s5` (primary) and `s7` (independent replication). Identify seed 
 [Experiment scope](PAPER_SCOPE.md) identifies each paper family. [Seed identities](reproducibility/SEEDS.md) distinguish initialization, training and experiment-local labels. The [source checksum inventory](reproducibility/source_provenance.json) records SHA-256 hashes for the experiment implementations and shared Python modules.
 
 For the main method, start with `path_set.py` (`set_loss`, `choose_prefix`), `science.py` (`functional_objective`, `modified_step`, `constrain_update`) and `projection.py` under exp040. The current four-layer selector evaluates every ranked prefix of all adjacent-layer Head-to-label-K candidates. Discovery data select paths; held-out confirmation does not reselect them. The four-layer experiments use rho=0.25. Historical two-layer settings retain their original prefix limits.
+
+## Reproducibility records
+
+- [Minimal reproduction guide](reproducibility/MINIMAL_REPRODUCTION.md): input preparation, released entry points, and the scope of source checks versus model reruns.
+- [Selected pathways](reproducibility/selected_pathways.json): all 18 Table A.1 trajectories with complete pathway IDs and seed identities.
+- [Historical Holm family](reproducibility/holm_family_record.json): nine contrast definitions, six retained raw/adjusted p-value pairs, and three explicitly unavailable historical records.
+
+Run `python3 tools/verify_selected_pathways.py` to validate the pathway records against the released seed registry. Archive paths inside the records are provenance locators; the corresponding raw outputs are not included.
 
 ## Check this source release
 

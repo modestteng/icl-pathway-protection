@@ -223,7 +223,7 @@ def main():
         manifest = dict(schema='icl_paper_code_only_release_v1',
                         manuscript_sha256=binding['source_sha256'],
                         manifest_self_excluded=True,
-                        scope='Only paper code and necessary configuration; no scientific data or results.',
+                        scope='Paper code, necessary configuration and cited pathway/statistical metadata; no raw scientific data or full experimental outputs.',
                         files=[dict(path=name, bytes=len(files[name]), sha256=digest(files[name]))
                                for name in sorted(allowed)])
         data = (json.dumps(manifest, indent=2) + '\n').encode()

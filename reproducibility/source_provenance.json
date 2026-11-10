@@ -701,6 +701,10 @@
     {
       "path": "tools/prepare_upstream.py",
       "sha256": "53aa89a6f21ca68c595fc4843ed04cb8b98ab27010a81b0f0afbda6a2a470da5"
+    },
+    {
+      "path": "tools/verify_selected_pathways.py",
+      "sha256": "e991b62dee2b63b38a515cc17cb6ea27e15366f68994bcf451403dbfe600856d"
     }
   ]
 }

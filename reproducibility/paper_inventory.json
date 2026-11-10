@@ -1,6 +1,6 @@
 {
   "schema": "icl_paper_code_scope_v1",
-  "manuscript_sha256": "306c5e57f932e869cf2a67526409452cdd6282ac0fb5ecbf03ce6f2c19856bf5",
+  "manuscript_sha256": "65095d8705fb7b0140f142cd3e8ba9e84decb0ad09d9dcbacfdc1cde575d1093",
   "experimental_families": {
     "exp_002_main_reproduction": {
       "id": "baseline",
@@ -208,5 +208,5 @@
       "description": "Three retained four-layer trajectories used by current paper labels s20,s21,s22; actual seed pairs are in manuscript_seed_registry.json."
     }
   },
-  "scope": "Paper experiment source and required shared code/configuration only; no saved measurements, data arrays, model weights, manuscript, figures or operational logs."
+  "scope": "Paper experiment source, required shared code/configuration, and the selected-pathway/historical-p-value records cited by the manuscript; no raw measurements, data arrays, model weights, manuscript, figures or operational logs."
 }
